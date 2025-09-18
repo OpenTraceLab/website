@@ -16,31 +16,38 @@ This repo provides **end-user documentation, developer guides, and community inf
 
 ## 📖 Documentation
 
-To build and serve the documentation locally:
+### Local Development
+
+Start local server while writing:
 
 ```bash
-# Install mkdocs and theme
-pip install mkdocs mkdocs-material
-
-# Clone the repository
-git clone https://github.com/OpenTraceLab/website.git
-cd website
-
-# Start local server
+pip install -r requirements.txt
 mkdocs serve
 ```
 
 Open your browser at http://127.0.0.1:8000 to preview.
 
-To generate a static site:
+### Publishing Versions
+
+**First version publish (manual):**
 
 ```bash
-mkdocs build
-# Start local server
-mkdocs serve
+# Build and publish version 1.0, set 'latest' alias, make default:
+mike deploy 1.0 latest
+mike set-default latest
+git push origin gh-pages
 ```
 
-This will produce the site in the site/ directory, which can be deployed to GitHub Pages or any static host.
+**After adopting tag-based CI, just create a tag:**
+
+```bash
+git tag v1.1
+git push origin v1.1
+```
+
+The workflow will run and publish 1.1 as a new version + update latest.
+
+See [Material's versioning docs](https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/) and [mike documentation](https://github.com/jimporter/mike) for reference.
 
 ## 🌐 Live Website
 

@@ -1,0 +1,94 @@
+site_name: OpenTraceLab
+site_description: Open-source logic analysis — capture, view, and decode traces.
+site_url: https://opentracelab.github.io/website/   # updated by mike per version
+repo_name: OpenTraceLab/website
+repo_url: https://github.com/OpenTraceLab/website
+edit_uri: edit/main/docs/
+use_directory_urls: true
+
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.top
+    - navigation.tabs
+    - navigation.sections
+    - navigation.footer
+    - content.action.edit       # "Edit this page" button
+    - content.action.view       # "View source" button
+    - toc.integrate
+    - content.code.copy
+  icon:
+    edit: material/pencil
+    view: material/eye
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+  logo: docs-assets/logos/opentrace-mark.svg
+  favicon: docs-assets/logos/favicon.png
+
+nav:
+  - Home: index.md
+  - Get started:
+      - Install: get-started/install.md
+      - Capture your first trace: get-started/capture-first-trace.md
+      - FAQ: get-started/faq.md
+  - OpenTraceCapture:
+      - Overview: opentracecapture/overview.md
+  - OpenTraceView:
+      - Overview: opentraceview/overview.md
+      - Architecture: opentraceview/architecture.md
+  - OpenTraceDecode:
+      - Overview: opentracedecode/overview.md
+      - Decoder HOWTO: opentracedecode/decoder-howto.md
+      - Decoder API: opentracedecode/decoder-api.md
+  - Community:
+      - Contributing: community/contributing.md
+      - Code of Conduct: community/code-of-conduct.md
+      - Governance: community/governance.md
+      - Testing: community/testing.md
+  - About:
+      - Mission: about/mission.md
+      - Roadmap: about/roadmap.md
+  - Legal:
+      - License: legal/license.md
+      - Attribution: legal/attribution.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - mike:
+      alias_type: copy         # nice default, keeps old versions intact
+      version_selector: true   # show selector in header if theme supports it
+
+extra:
+  version:
+    provider: mike             # tell Material to use mike's versions
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/OpenTraceLab
+
+extra_javascript:
+  - overrides/assets/javascripts/report-issue.js
+  - https://unpkg.com/mermaid@10.6.1/dist/mermaid.min.js
+
+extra_css:
+  - overrides/assets/styles/extra.css
