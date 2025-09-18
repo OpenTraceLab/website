@@ -1,0 +1,18 @@
+# Tecpel Dmm 8061
+
+| | | |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------:| | [![\1](../../assets/hardware/general/\2)](./File:Tecpel_dmm8061.png.html) | | | Status | supported | | Source code | [serial-dmm](http://github.com/OpenTraceLab/?p=OpenTraceCapture.git;a=tree;f=src/hardware/serial-dmm) | | Counts | 4000 | | IEC 61010-1 | CAT IV (600V) | | Connectivity | [RS232](Device_cables.html#UNI-T_UT-D02 "Device cables") / [USB](Device_cables.html#UNI-T_UT-D04 "Device cables") | | Measurements | voltage, capacitance, continuity, diode, frequency, temperature, current, duty cycle | | Features | autorange, true-rms, hold, relative | | Website | [tecpel.net](http://www.tecpel.net/DMM-8061.html) | **Tecpel DMM-8061** The **Tecpel DMM-8061** is a 4000 counts, CAT IV (600V) handheld digital multimeter with RS232 or USB connectivity. It seems to be a rebadged [Voltcraft VC-840](Voltcraft_VC-840.html "Voltcraft VC-840") (or vice versa), which is also rebadged (very likely a UNI-T model). 
+## Contents 
+\- [1 Hardware](Tecpel_DMM-8061.html#Hardware) \- [2 Photos](Tecpel_DMM-8061.html#Photos) \- [3 Protocol](Tecpel_DMM-8061.html#Protocol) \- [4 Resources](Tecpel_DMM-8061.html#Resources) 
+## Hardware **Multimeter** (*the data below is not verified, just guessed from [Voltcraft VC-840](Voltcraft_VC-840.html "Voltcraft VC-840")*): \- **Multimeter IC**: [Fortune Semiconductor FS9721_LP3](http://www.ic-fortune.com/eng/new_product3_3.asp) ([datasheet](http://www.ic-fortune.com/upload/Download/FS9721_LP3-DS-20_EN.pdf)) \- **Low power, True RMS-to-DC converter**: [Analog Devices AD737J](http://www.analog.com/en/special-linear-functions/rms-to-dc-converters/ad737/products/product.html) ([datasheet](http://www.analog.com/static/imported-files/data_sheets/AD737.pdf)) \- **Unknown SO-8 chip**: ? \- **Crystal**: likely 4MHz (not verified, though) \- **Fuses**: 10A/250V and 500mA/250V (one glass fuse, one HRV fuse) **RS232 cable:** See [Device cables#UNI-T_UT-D02](Device_cables.html#UNI-T_UT-D02 "Device cables"). **USB cable:** See [Device cables#UNI-T_UT-D04](Device_cables.html#UNI-T_UT-D04 "Device cables"). ## Photos **Multimeter**: \- 
+[![\1](../../assets/hardware/general/\2)](./File:Tecpel_dmm8061_device_front.jpg.html)
+Device, front
+\- 
+[![\1](../../assets/hardware/general/\2)](./File:Tecpel_dmm8061_device_back.jpg.html)
+Device, back
+## Protocol See [Multimeter_ICs#Fortune_Semiconductor_FS9721_LP3](Multimeter_ICs.html#Fortune_Semiconductor_FS9721_LP3 "Multimeter ICs") for the DMM IC protocol. Depending on the cable, additional decoding is needed, though. ## Resources \- [Datasheet](http://www.tecpel.net/files/DMM8061_Spec_Data1.pdf)
+Retrieved from "[https://OpenTraceLab.org/w/index.php?title=Tecpel_DMM-8061&oldid=7697](https://OpenTraceLab.org/w/index.php?title=Tecpel_DMM-8061&oldid=7697)" 
+[Categories](specialcategories-specialcategories.md): \- [Device](./Category:Device.html "Category:Device") \- [Multimeter](./Category:Multimeter.html "Category:Multimeter") \- [Supported](./Category:Supported.html "Category:Supported")
+
+## See Also
+- [Supported Hardware Overview](../supported-hardware.md)
+- [OpenTraceCapture Documentation](../../opentracecapture/overview.md)

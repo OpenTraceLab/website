@@ -43,6 +43,37 @@ nav:
       - Overview: opentracedecode/overview.md
       - Decoder HOWTO: opentracedecode/decoder-howto.md
       - Decoder API: opentracedecode/decoder-api.md
+  - Hardware:
+      - Supported Devices: hardware/supported-hardware.md
+      - Logic Analyzers:
+          - FX2-based Devices: hardware/logic-analyzer/fx2lafw.md
+          - Saleae Logic Series: hardware/logic-analyzer/saleae-logic.md
+          - Saleae Logic16: hardware/logic-analyzer/saleae-logic16.md
+          - Kingst LA Series: hardware/logic-analyzer/kingst-la-series.md
+          - Kingst LA2016: hardware/logic-analyzer/kingst-la2016.md
+          - Hantek 4032L: hardware/logic-analyzer/hantek-4032l.md
+          - OpenBench LogicSniffer: hardware/logic-analyzer/openbench-logic-sniffer.md
+      - Multimeters:
+          - UNI-T Series: hardware/multimeter/uni-t.md
+          - UNI-T UT61E: hardware/multimeter/uni-t-ut61e.md
+          - Voltcraft Series: hardware/multimeter/voltcraft.md
+          - Voltcraft VC-820: hardware/multimeter/voltcraft-vc-820.md
+          - Brymen Series: hardware/multimeter/brymen.md
+      - Oscilloscopes:
+          - Rigol DS Series: hardware/oscilloscope/rigol-ds.md
+          - Rigol DS1000Z Series: hardware/oscilloscope/rigol-ds1000z-series.md
+          - Hantek DSO Series: hardware/oscilloscope/hantek-dso.md
+          - Siglent SDS Series: hardware/oscilloscope/siglent-sds.md
+      - Power Supplies:
+          - Korad Series: hardware/power-supply/korad.md
+          - Korad KA3005P: hardware/power-supply/korad-ka3005p.md
+          - Rigol DP Series: hardware/power-supply/rigol-dp.md
+      - Function Generators:
+          - Rigol DG Series: hardware/function-generator/rigol-dg1000z-series.md
+          - Siglent SDG Series: hardware/function-generator/siglent-sdg1010.md
+      - Thermometers:
+          - Voltcraft DL Series: hardware/thermometer/voltcraft-dl-161s.md
+          - RDing TEMPer Series: hardware/thermometer/rding-temper.md
   - Community:
       - Contributing: community/contributing.md
       - Code of Conduct: community/code-of-conduct.md

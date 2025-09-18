@@ -1,0 +1,12 @@
+# Siglent Sdm3055
+
+| | | |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------:| | [![\1](../../assets/hardware/general/\2)](./File:OpenTraceLab_logo_no_text_transparent_512.png.html) | | | Status | supported | | Source code | [scpi-dmm](http://github.com/OpenTraceLab/?p=OpenTraceCapture.git;a=tree;f=src/hardware/scpi-dmm) | | Counts | 240000 | | IEC 61010-1 | CAT I (1000V) / CAT II (600V) | | Connectivity | LAN / USB / GPIB (optional) | | Measurements | voltage, current, resistance, capacitance, frequency, diode, continuity, transistor | | Features | 150 Sa/s, autorange, true-rms, data hold, relative | | Website | [siglent.eu](https://www.siglent.eu/product/1141087/siglent-sdm3055-5-1-2-digits-dual-display-digital-multimeter) | **Siglent SDM3055** The **Siglent SDM3055** is a 5.5 digits benchtop digital multimeter with LAN/USB/GPIB connectivity with up to 150 Sa/s. 
+## Contents 
+\- [1 Hardware](Siglent_SDM3055.html#Hardware) \- [2 Photos](Siglent_SDM3055.html#Photos) \- [3 Protocol](Siglent_SDM3055.html#Protocol) \- [4 Resources](Siglent_SDM3055.html#Resources) 
+## Hardware TODO. ## Photos TODO. ## Protocol TODO. The user manual claims: Support standard SCPI [...], compatible with commands of main stream multimeters. ## Resources \- [Manual](https://www.siglent.eu/_downloads/671af4e4abb30ca1785fe5af7d37f80f) \- [Protocol](https://www.siglent.eu/_downloads/671af4e4abb30ca1785fe5af7d37f80f)
+Retrieved from "[https://OpenTraceLab.org/w/index.php?title=Siglent_SDM3055&oldid=16426](https://OpenTraceLab.org/w/index.php?title=Siglent_SDM3055&oldid=16426)" 
+[Categories](specialcategories-specialcategories.md): \- [Device](./Category:Device.html "Category:Device") \- [Multimeter](./Category:Multimeter.html "Category:Multimeter") \- [Supported](./Category:Supported.html "Category:Supported")
+
+## See Also
+- [Supported Hardware Overview](../supported-hardware.md)
+- [OpenTraceCapture Documentation](../../opentracecapture/overview.md)

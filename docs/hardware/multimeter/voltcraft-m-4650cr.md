@@ -1,0 +1,18 @@
+# Voltcraft M 4650Cr
+
+| | | |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------:| | [![\1](../../assets/hardware/general/\2)](./File:Voltcraft_m4650cr.png.html) | | | Status | supported | | Source code | [serial-dmm](http://github.com/OpenTraceLab/?p=OpenTraceCapture.git;a=tree;f=src/hardware/serial-dmm) | | Counts | 20000 | | IEC 61010-1 | — | | Connectivity | RS232 | | Measurements | voltage, current, hFE, logic, capacitance, frequency, resistance, continuity, diode | | Features | hold, relative, min/max, bargraph | | Website | [conrad.de](http://www.conrad.de) | **Voltcraft M-4650CR** The **Voltcraft M-4650CR** is a 20,000 counts, handheld digital multimeter with RS232 connectivity. It is a rebadged [Metex M-4650CR](Metex_M-4650CR.html "Metex M-4650CR"). 
+## Contents 
+\- [1 Hardware](Voltcraft_M-4650CR.html#Hardware) \- [2 Photos](Voltcraft_M-4650CR.html#Photos) \- [3 Protocol](Voltcraft_M-4650CR.html#Protocol) \- [4 Resources](Voltcraft_M-4650CR.html#Resources) 
+## Hardware **Multimeter**: \- **Main IC**: Metex 89CR (markings: "Metex 89CR 1146 1G1") \- **8-line to 3-line priority encoder**: 2x 74HC148A (markings: "T 91 16H 74HC148A") \- 2x CD4010BE \- T 91 05H 74HC08A \- M 14027B XXEW045 \- M 14512B XXGF111 \- TC 7129CKW 9129BCJ \- 2x B6 LTV817 \- **Fuse**: 2A/250V fast (5x20mm) (for the A jack; the 20A jack is unfused!) **RS232 cable**: \- See [Device_cables#Metex_5-pin_RS232_cable](Device_cables.html#Metex_5-pin_RS232_cable "Device cables"). ## Photos **Multimeter**: \- 
+[![\1](../../assets/hardware/general/\2)](./File:Voltcraft_m4650cr.png.html)
+Device, front
+\- 
+[![\1](../../assets/hardware/general/\2)](./File:METEX_M-4650CR_Display.jpg.html)
+Display 
+**Cable:** See [Device_cables#Metex_5-pin_RS232_cable](Device_cables.html#Metex_5-pin_RS232_cable "Device cables"). ## Protocol See [Multimeter ICs#Alternative_Protocol](Multimeter_ICs.html#Alternative_Protocol "Multimeter ICs"). | | | | | | | | | |------|----------|-----------|--------|--------------|--------------|--------|---------| | Baud | Databits | Stoppbits | Parity | Hard.-hands. | Soft.-hands. | DTR | RTS | | 1200 | 7 | 2 | no | no | no | enable | disable | ## Resources \- [Calibration instructions](http://www.produktinfo.conrad.com/datenblaetter/125000-149999/126110-an-01-de-DMM4650CR_Kalibrieranleitung.pdf) \- [Manual](http://www.produktinfo.conrad.com/datenblaetter/125000-149999/126110-an-01-ru-DMM4650CR.pdf) (Russian) \- [reinhardweiss.de: DMM info](http://www.reinhardweiss.de/german/metex.htm) \- [gerald-gradl.de: DMM info](http://web.archive.org/web/20061018045026/http://www.gerald-gradl.de/eprojects/multi/body_multi.html)
+Retrieved from "[https://OpenTraceLab.org/w/index.php?title=Voltcraft_M-4650CR&oldid=9525](https://OpenTraceLab.org/w/index.php?title=Voltcraft_M-4650CR&oldid=9525)" 
+[Categories](specialcategories-specialcategories.md): \- [Device](./Category:Device.html "Category:Device") \- [Multimeter](./Category:Multimeter.html "Category:Multimeter") \- [Supported](./Category:Supported.html "Category:Supported")
+
+## See Also
+- [Supported Hardware Overview](../supported-hardware.md)
+- [OpenTraceCapture Documentation](../../opentracecapture/overview.md)
