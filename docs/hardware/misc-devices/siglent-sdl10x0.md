@@ -1,15 +1,13 @@
 # Siglent Sdl10X0
-
-| | | |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------:| | [![\1](../../assets/hardware/general/\2)](./File:SIGLENT_SDL1020X-E_frontpanel.jpg.html) | | | Status | supported | | Source code | [siglent-sdl10x0](http://github.com/OpenTraceLab/?p=OpenTraceCapture.git;a=tree;f=src/hardware/siglent-sdl10x0) | | Channels | 1 | | Voltage/current (CH1) | 150V, 30A | | Connectivity | SCPI (USB, Ethernet) | | Features | DC electronic load only | | Website | [www.siglent.eu](https://www.siglent.eu/product/1140797/siglent-sdl1020x-e-150v-30a-200w-dc-load-1-mv-1-ma-readback) | **SIGLENT SDL10X0 Series** The **SIGLENT SDL10x0** series are 1 channel programmable DC electronic loads with serial SCPI (USB and Ethernet) connectivity. ## Devices SIGLENT | Max Current | Max Voltage | Max Power | Readback | State   
----|---|---|---|---|---  
-SDL1020X-E | 30 A | 150 V | 200 W | 1 mV, 1 mA | Tested  
-SDL1020X | 30 A | 150 V | 200 W | 0.1 mV, 0.1 mA | Untested  
-SDL1030X-E | 30 A | 150 V | 300 W | 1 mV, 1 mA | Untested  
-SDL1030X | 30 A | 150 V | 300 W | 0.1 mV, 0.1 mA | Untested  
+| | | |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------:| | [*Image: \1* | | | Status | supported | | Source code | [siglent-sdl10x0](http://github.com/OpenTraceLab/?p=OpenTraceCapture.git;a=tree;f=src/hardware/siglent-sdl10x0) | | Channels | 1 | | Voltage/current (CH1) | 150V, 30A | | Connectivity | SCPI (USB, Ethernet) | | Features | DC electronic load only | | Website | [www.siglent.eu](https://www.siglent.eu/product/1140797/siglent-sdl1020x-e-150v-30a-200w-dc-load-1-mv-1-ma-readback) | **SIGLENT SDL10X0 Series** The **SIGLENT SDL10x0** series are 1 channel programmable DC electronic loads with serial SCPI (USB and Ethernet) connectivity. ## Devices SIGLENT | Max Current | Max Voltage | Max Power | Readback | State
+---|---|---|---|---|---
+SDL1020X-E | 30 A | 150 V | 200 W | 1 mV, 1 mA | Tested
+SDL1020X | 30 A | 150 V | 200 W | 0.1 mV, 0.1 mA | Untested
+SDL1030X-E | 30 A | 150 V | 300 W | 1 mV, 1 mA | Untested
+SDL1030X | 30 A | 150 V | 300 W | 0.1 mV, 0.1 mA | Untested
 The devices marked above are tested. The other devices might work, but are untested. If you have one of the unsupported devices and can test it, please contact [User:Spida](https://OpenTraceLab.org/w/index.php?title=User:Spida&action=edit&redlink=1 "User:Spida \(page does not exist\)"). ## Resources \- [SIGLENT SDL10x0 Family Page](https://www.siglent.eu/dc-loads) \- [SIGLENT SDL10x0 User Manual](https://www.siglent.eu/_downloads/dcef37a5cf9022098bd0b060097a4755) \- [SIGLENT SDL10x0 Programming Guide](https://www.siglent.eu/_downloads/3057a753ab89ddc3e2554326da386cc3) \- [SIGLENT SDL10x0 Datasheet](https://www.siglent.eu/_downloads/85e8e87f1ff1fa5bdfe1fdb297b65f9b)
-Retrieved from "[https://OpenTraceLab.org/w/index.php?title=SIGLENT_SDL10X0&oldid=16704](https://OpenTraceLab.org/w/index.php?title=SIGLENT_SDL10X0&oldid=16704)" 
-[Categories](specialcategories-specialcategories.md): \- [Device](./Category:Device.html "Category:Device") \- [Digital load](./Category:Digital_load.html "Category:Digital load") \- [Supported](./Category:Supported.html "Category:Supported")
-
+Retrieved from "[https://OpenTraceLab.org/w/index.php?title=SIGLENT_SDL10X0&oldid=16704](https://OpenTraceLab.org/w/index.php?title=SIGLENT_SDL10X0&oldid=16704)"
+: \- *Device* \- *Digital load* \- *Supported*
 ## See Also
 - [Supported Hardware Overview](../supported-hardware.md)
 - [OpenTraceCapture Documentation](../../opentracecapture/overview.md)

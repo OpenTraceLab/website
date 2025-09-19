@@ -25,7 +25,7 @@ theme:
     - scheme: slate
       primary: indigo
       accent: indigo
-  logo: docs-assets/logos/opentrace-mark.svg
+  logo: logo.png
   favicon: docs-assets/logos/favicon.png
 
 nav:

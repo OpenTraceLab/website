@@ -1,29 +1,27 @@
 # Categoryoscilloscope
-
-[Oscilloscopes](https://en.wikipedia.org/wiki/Oscilloscope) with PC connectivity. 
-## Pages in category "Oscilloscope" The following 100 pages are in this category, out of 100 total. 
-### A \- [Agilent 54600 Series](Agilent_54600_Series.html "Agilent 54600 Series") \- [Agilent DSO1000 series](Agilent_DSO1000_series.html "Agilent DSO1000 series") \- [Agilent DSO1014A](Agilent_DSO1014A.html "Agilent DSO1014A") \- [Agilent DSO3000 series](Agilent_DSO3000_series.html "Agilent DSO3000 series") \- [Agilent MSO7104A](Agilent_MSO7104A.html "Agilent MSO7104A") \- [ARMFLY AX-Pro](ARMFLY_AX-Pro.html "ARMFLY AX-Pro") 
-### B \- [BitScope BS10](BitScope_BS10.html "BitScope BS10") 
-### D \- [Digilent Analog Discovery](Digilent_Analog_Discovery.html "Digilent Analog Discovery") \- [DreamSourceLab DScope C20P](DreamSourceLab_DScope_C20P.html "DreamSourceLab DScope C20P") 
-### E \- [EE Electronics ESLA201A](EE_Electronics_ESLA201A.html "EE Electronics ESLA201A") 
-### F \- [Fluke ScopeMeter 123](Fluke_ScopeMeter_123.html "Fluke ScopeMeter 123") \- [Fluke ScopeMeter 199B](Fluke_ScopeMeter_199B.html "Fluke ScopeMeter 199B") \- [Focussz Fosc21](Focussz_Fosc21.html "Focussz Fosc21") 
-### G \- [GW Instek GDS-2000 series](GW_Instek_GDS-2000_series.html "GW Instek GDS-2000 series") \- [GW Instek GDS-800 series](GW_Instek_GDS-800_series.html "GW Instek GDS-800 series") 
-### H \- [Hameg HMO compact series](Hameg_HMO_compact_series.html "Hameg HMO compact series") \- [Hameg HMO1524](Hameg_HMO1524.html "Hameg HMO1524") \- [Hameg HMO2024](Hameg_HMO2024.html "Hameg HMO2024") \- [Hameg HMO2524](Hameg_HMO2524.html "Hameg HMO2524") \- [Hantek 1008C](Hantek_1008C.html "Hantek 1008C") \- [Hantek 6022BE](Hantek_6022BE.html "Hantek 6022BE") \- [Hantek 6022BL](Hantek_6022BL.html "Hantek 6022BL") \- [Hantek 6052BE](Hantek_6052BE.html "Hantek 6052BE") \- [Hantek 6254BD](Hantek_6254BD.html "Hantek 6254BD") \- [Hantek DSO-1200](Hantek_DSO-1200.html "Hantek DSO-1200") \- [Hantek DSO-2090](Hantek_DSO-2090.html "Hantek DSO-2090") \- [Hantek DSO-2100](Hantek_DSO-2100.html "Hantek DSO-2100") \- [Hantek DSO-220](Hantek_DSO-220.html "Hantek DSO-220") \- [Hantek DSO-2250](Hantek_DSO-2250.html "Hantek DSO-2250") \- [Hantek DSO-5200A](Hantek_DSO-5200A.html "Hantek DSO-5200A") \- [Hantek DSO3254A](Hantek_DSO3254A.html "Hantek DSO3254A") \- [Hantek DSO4004C series](Hantek_DSO4004C_series.html "Hantek DSO4004C series") \- [Hantek iDSO1070](Hantek_iDSO1070.html "Hantek iDSO1070") \- [Hantek iDSO1070A](Hantek_iDSO1070A.html "Hantek iDSO1070A") \- [Hantek PSO2020](Hantek_PSO2020.html "Hantek PSO2020") \- [HT USBee-AxPro](HT_USBee-AxPro.html "HT USBee-AxPro") \- [HT USBee-DxPro](HT_USBee-DxPro.html "HT USBee-DxPro") \- [Hung-Chang DSO-2100](Hung-Chang_DSO-2100.html "Hung-Chang DSO-2100") 
-### I \- [Instrustar ISDS205A](Instrustar_ISDS205A.html "Instrustar ISDS205A") \- [Instrustar ISDS205X](Instrustar_ISDS205X.html "Instrustar ISDS205X") \- [Instrustar MDSO-LA](Instrustar_MDSO-LA.html "Instrustar MDSO-LA") 
-### L \- [LabNation SmartScope](LabNation_SmartScope.html "LabNation SmartScope") \- [LeCroy oscilloscope series](LeCroy_oscilloscope_series.html "LeCroy oscilloscope series") \- [Link Instruments MSO-19](Link_Instruments_MSO-19.html "Link Instruments MSO-19") \- [Loto OSC802](Loto_OSC802.html "Loto OSC802") \- [Loto OSCxxx series](Loto_OSCxxx_series.html "Loto OSCxxx series") 
-### M \- [Meilhaus MEphisto Scope1](Meilhaus_MEphisto_Scope1.html "Meilhaus MEphisto Scope1") 
-### N \- [Nexus-Computing OsciPrime](Nexus-Computing_OsciPrime.html "Nexus-Computing OsciPrime") \- [Noname LHT00SU1](Noname_LHT00SU1.html "Noname LHT00SU1") 
-### O \- [Oscilloscopes](Oscilloscopes.html "Oscilloscopes") \- [Owon SDS series](Owon_SDS_series.html "Owon SDS series") \- [Owon SDS7102](Owon_SDS7102.html "Owon SDS7102") 
-### P \- [Pico Technology PicoScope 2104](Pico_Technology_PicoScope_2104.html "Pico Technology PicoScope 2104") \- [Pico Technology PicoScope 2203](Pico_Technology_PicoScope_2203.html "Pico Technology PicoScope 2203") \- [Pico Technology PicoScope 2204A](Pico_Technology_PicoScope_2204A.html "Pico Technology PicoScope 2204A") \- [Pico Technology PicoScope 2205](Pico_Technology_PicoScope_2205.html "Pico Technology PicoScope 2205") \- [Pico Technology PicoScope 3000 series](Pico_Technology_PicoScope_3000_series.html "Pico Technology PicoScope 3000 series") \- [Pico Technology PicoScope 3205D MSO](Pico_Technology_PicoScope_3205D_MSO.html "Pico Technology PicoScope 3205D MSO") \- [Pico Technology PicoScope 3206](Pico_Technology_PicoScope_3206.html "Pico Technology PicoScope 3206") \- [Pico Technology PicoScope 5203](Pico_Technology_PicoScope_5203.html "Pico Technology PicoScope 5203") \- [PoLabs PoScope Basic2](PoLabs_PoScope_Basic2.html "PoLabs PoScope Basic2") 
-### Q \- [QuantAsylum QA100](QuantAsylum_QA100.html "QuantAsylum QA100") 
-### R \- [Rigol DS1000 series](Rigol_DS1000_series.html "Rigol DS1000 series") \- [Rigol DS1000Z series](Rigol_DS1000Z_series.html "Rigol DS1000Z series") \- [Rigol DS1052E](Rigol_DS1052E.html "Rigol DS1052E") \- [Rigol DS1054Z](Rigol_DS1054Z.html "Rigol DS1054Z") \- [Rigol DS1074Z](Rigol_DS1074Z.html "Rigol DS1074Z") \- [Rigol DS1102E](Rigol_DS1102E.html "Rigol DS1102E") \- [Rigol DS2000 series](Rigol_DS2000_series.html "Rigol DS2000 series") \- [Rigol DS2072](Rigol_DS2072.html "Rigol DS2072") \- [Rigol DS4000 series](Rigol_DS4000_series.html "Rigol DS4000 series") \- [Rigol MSO5000 Series](Rigol_MSO5000_Series.html "Rigol MSO5000 Series") \- [Rigol VS5000 series](Rigol_VS5000_series.html "Rigol VS5000 series") \- [Rigol VS5202D](Rigol_VS5202D.html "Rigol VS5202D") \- [Rocktech BM102](Rocktech_BM102.html "Rocktech BM102") \- [Rohde&Schwarz; HMO 1002 series](Rohde&Schwarz;_HMO_1002_series.html "Rohde&Schwarz; HMO 1002 series") \- [Rohde&Schwarz; HMO 3000 series](Rohde&Schwarz;_HMO_3000_series.html "Rohde&Schwarz; HMO 3000 series") \- [Rohde&Schwarz; RT series](Rohde&Schwarz;_RT_series.html "Rohde&Schwarz; RT series") 
-### S \- [SainSmart DDS120](SainSmart_DDS120.html "SainSmart DDS120") \- [SainSmart DDS140](SainSmart_DDS140.html "SainSmart DDS140") \- [Saleae Logic Pro 16](Saleae_Logic_Pro_16.html "Saleae Logic Pro 16") \- [Saleae Logic Pro 8](Saleae_Logic_Pro_8.html "Saleae Logic Pro 8") \- [Siglent SDS1000X series](Siglent_SDS1000X_series.html "Siglent SDS1000X series") \- [Siglent SDS2000X series](Siglent_SDS2000X_series.html "Siglent SDS2000X series") \- [Soundcard](Soundcard.html "Soundcard") \- [Sysclk AX-Pro](Sysclk_AX-Pro.html "Sysclk AX-Pro") 
-### T \- [Tektronix TDS2000B series](Tektronix_TDS2000B_series.html "Tektronix TDS2000B series") \- [Tektronix TDS2024B](Tektronix_TDS2024B.html "Tektronix TDS2024B") 
-### U \- [UNI-T UTD2042C](UNI-T_UTD2042C.html "UNI-T UTD2042C") \- [UNI-T UTD4204C](UNI-T_UTD4204C.html "UNI-T UTD4204C") 
-### V \- [Velleman PCS500](Velleman_PCS500.html "Velleman PCS500") \- [Velleman PCSGU250](Velleman_PCSGU250.html "Velleman PCSGU250") \- [Velleman PCSU1000](Velleman_PCSU1000.html "Velleman PCSU1000") \- [Velleman WFS210](Velleman_WFS210.html "Velleman WFS210") \- [Voltcraft DSO-3062C](Voltcraft_DSO-3062C.html "Voltcraft DSO-3062C") \- [Voltcraft DSO-6060C](Voltcraft_DSO-6060C.html "Voltcraft DSO-6060C") 
-### X \- [XZL Studio AX](XZL_Studio_AX.html "XZL Studio AX") \- [XZL Studio DX](XZL_Studio_DX.html "XZL Studio DX") 
-### Y \- [YiXingDianZi MDSO](YiXingDianZi_MDSO.html "YiXingDianZi MDSO") \- [Yokogawa DLM2000 series](Yokogawa_DLM2000_series.html "Yokogawa DLM2000 series")
-
+[Oscilloscopes](https://en.wikipedia.org/wiki/Oscilloscope) with PC connectivity.
+## Pages in category "Oscilloscope" The following 100 pages are in this category, out of 100 total.
+### A \- *Agilent 54600 Series* \- *Agilent DSO1000 series* \- *Agilent DSO1014A* \- *Agilent DSO3000 series* \- *Agilent MSO7104A* \- *ARMFLY AX-Pro*
+### B \- *BitScope BS10*
+### D \- *Digilent Analog Discovery* \- *DreamSourceLab DScope C20P*
+### E \- *EE Electronics ESLA201A*
+### F \- *Fluke ScopeMeter 123* \- *Fluke ScopeMeter 199B* \- *Focussz Fosc21*
+### G \- *GW Instek GDS-2000 series* \- *GW Instek GDS-800 series*
+### H \- *Hameg HMO compact series* \- *Hameg HMO1524* \- *Hameg HMO2024* \- *Hameg HMO2524* \- *Hantek 1008C* \- *Hantek 6022BE* \- *Hantek 6022BL* \- *Hantek 6052BE* \- *Hantek 6254BD* \- *Hantek DSO-1200* \- *Hantek DSO-2090* \- *Hantek DSO-2100* \- *Hantek DSO-220* \- *Hantek DSO-2250* \- *Hantek DSO-5200A* \- *Hantek DSO3254A* \- *Hantek DSO4004C series* \- *Hantek iDSO1070* \- *Hantek iDSO1070A* \- *Hantek PSO2020* \- *HT USBee-AxPro* \- *HT USBee-DxPro* \- *Hung-Chang DSO-2100*
+### I \- *Instrustar ISDS205A* \- *Instrustar ISDS205X* \- *Instrustar MDSO-LA*
+### L \- *LabNation SmartScope* \- *LeCroy oscilloscope series* \- *Link Instruments MSO-19* \- *Loto OSC802* \- *Loto OSCxxx series*
+### M \- *Meilhaus MEphisto Scope1*
+### N \- *Nexus-Computing OsciPrime* \- *Noname LHT00SU1*
+### O \- *Oscilloscopes* \- *Owon SDS series* \- *Owon SDS7102*
+### P \- *Pico Technology PicoScope 2104* \- *Pico Technology PicoScope 2203* \- *Pico Technology PicoScope 2204A* \- *Pico Technology PicoScope 2205* \- *Pico Technology PicoScope 3000 series* \- *Pico Technology PicoScope 3205D MSO* \- *Pico Technology PicoScope 3206* \- *Pico Technology PicoScope 5203* \- *PoLabs PoScope Basic2*
+### Q \- *QuantAsylum QA100*
+### R \- *Rigol DS1000 series* \- *Rigol DS1000Z series* \- *Rigol DS1052E* \- *Rigol DS1054Z* \- *Rigol DS1074Z* \- *Rigol DS1102E* \- *Rigol DS2000 series* \- *Rigol DS2072* \- *Rigol DS4000 series* \- *Rigol MSO5000 Series* \- *Rigol VS5000 series* \- *Rigol VS5202D* \- *Rocktech BM102* \- *Rohde&Schwarz; HMO 1002 series* \- *Rohde&Schwarz; HMO 3000 series* \- *Rohde&Schwarz; RT series*
+### S \- *SainSmart DDS120* \- *SainSmart DDS140* \- *Saleae Logic Pro 16* \- *Saleae Logic Pro 8* \- *Siglent SDS1000X series* \- *Siglent SDS2000X series* \- *Soundcard* \- *Sysclk AX-Pro*
+### T \- *Tektronix TDS2000B series* \- *Tektronix TDS2024B*
+### U \- *UNI-T UTD2042C* \- *UNI-T UTD4204C*
+### V \- *Velleman PCS500* \- *Velleman PCSGU250* \- *Velleman PCSU1000* \- *Velleman WFS210* \- *Voltcraft DSO-3062C* \- *Voltcraft DSO-6060C*
+### X \- *XZL Studio AX* \- *XZL Studio DX*
+### Y \- *YiXingDianZi MDSO* \- *Yokogawa DLM2000 series*
 ## See Also
 - [Supported Hardware Overview](../supported-hardware.md)
 - [OpenTraceCapture Documentation](../../opentracecapture/overview.md)

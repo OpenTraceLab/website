@@ -1,9 +1,6 @@
 # Thermometers
-
 This section contains documentation for thermometers supported by OpenTraceLab.
-
 ## Supported Devices
-
 - [Lascar Electronics El Usb 2](lascar-electronics-el-usb-2.md)
 - [Lascar Electronics El Usb Co](lascar-electronics-el-usb-co.md)
 - [Lascar Electronics El Usb Protocol](lascar-electronics-el-usb-protocol.md)
@@ -16,16 +13,12 @@ This section contains documentation for thermometers supported by OpenTraceLab.
 - [Voltcraft Dl 140Th](voltcraft-dl-140th.md)
 - [Voltcraft Dl 160S](voltcraft-dl-160s.md)
 - [Voltcraft Dl 161S](voltcraft-dl-161s.md)
-
 ## Getting Started
-
 1. **Install OpenTraceLab** - Follow the [installation guide](../../get-started/install.md)
 2. **Connect your device** - Use appropriate USB cable or interface
 3. **Test connection** - Use `sigrok-cli --scan` to detect your device
 4. **Start capturing** - Follow device-specific instructions
-
 ## See Also
-
 - [Supported Hardware Overview](../supported-hardware.md)
 - [OpenTraceCapture Documentation](../../opentracecapture/overview.md)
 - [Getting Started Guide](../../get-started/capture-first-trace.md)

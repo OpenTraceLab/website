@@ -1,9 +1,6 @@
 # Logic Analyzers
-
 This section contains documentation for logic analyzers supported by OpenTraceLab.
-
 ## Supported Devices
-
 - [Fx2Grok](fx2grok.md)
 - [Fx2Lafw](fx2lafw.md)
 - [Hantek 4032L](hantek-4032l.md)
@@ -46,16 +43,12 @@ This section contains documentation for logic analyzers supported by OpenTraceLa
 - [Zeroplus Logic Cube Lap C Series](zeroplus-logic-cube-lap-c-series.md)
 - [Zeroplus Logic Cube Lap C16032](zeroplus-logic-cube-lap-c16032.md)
 - [Zeroplus Logic Cube Lap C322000](zeroplus-logic-cube-lap-c322000.md)
-
 ## Getting Started
-
 1. **Install OpenTraceLab** - Follow the [installation guide](../../get-started/install.md)
 2. **Connect your device** - Use appropriate USB cable or interface
 3. **Test connection** - Use `sigrok-cli --scan` to detect your device
 4. **Start capturing** - Follow device-specific instructions
-
 ## See Also
-
 - [Supported Hardware Overview](../supported-hardware.md)
 - [OpenTraceCapture Documentation](../../opentracecapture/overview.md)
 - [Getting Started Guide](../../get-started/capture-first-trace.md)

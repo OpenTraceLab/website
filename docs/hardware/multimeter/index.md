@@ -1,9 +1,6 @@
 # Multimeters
-
 This section contains documentation for multimeters supported by OpenTraceLab.
-
 ## Supported Devices
-
 - [Agilent 34401A](agilent-34401a.md)
 - [Agilent 34405A](agilent-34405a.md)
 - [Agilent 34410A](agilent-34410a.md)
@@ -96,16 +93,12 @@ This section contains documentation for multimeters supported by OpenTraceLab.
 - [Voltcraft Vc 940](voltcraft-vc-940.md)
 - [Voltcraft Vc 950](voltcraft-vc-950.md)
 - [Voltcraft Vc 96](voltcraft-vc-96.md)
-
 ## Getting Started
-
 1. **Install OpenTraceLab** - Follow the [installation guide](../../get-started/install.md)
 2. **Connect your device** - Use appropriate USB cable or interface
 3. **Test connection** - Use `sigrok-cli --scan` to detect your device
 4. **Start capturing** - Follow device-specific instructions
-
 ## See Also
-
 - [Supported Hardware Overview](../supported-hardware.md)
 - [OpenTraceCapture Documentation](../../opentracecapture/overview.md)
 - [Getting Started Guide](../../get-started/capture-first-trace.md)

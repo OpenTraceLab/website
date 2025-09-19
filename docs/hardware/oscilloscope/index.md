@@ -1,9 +1,6 @@
 # Oscilloscopes
-
 This section contains documentation for oscilloscopes supported by OpenTraceLab.
-
 ## Supported Devices
-
 - [Gw Instek Gds 2000 Series](gw-instek-gds-2000-series.md)
 - [Gw Instek Gds 800 Series](gw-instek-gds-800-series.md)
 - [Hameg Hmo Compact Series](hameg-hmo-compact-series.md)
@@ -58,16 +55,12 @@ This section contains documentation for oscilloscopes supported by OpenTraceLab.
 - [Tektronix Tds2000B Series](tektronix-tds2000b-series.md)
 - [Tektronix Tds2024B](tektronix-tds2024b.md)
 - [Tektronix Tla520X](tektronix-tla520x.md)
-
 ## Getting Started
-
 1. **Install OpenTraceLab** - Follow the [installation guide](../../get-started/install.md)
 2. **Connect your device** - Use appropriate USB cable or interface
 3. **Test connection** - Use `sigrok-cli --scan` to detect your device
 4. **Start capturing** - Follow device-specific instructions
-
 ## See Also
-
 - [Supported Hardware Overview](../supported-hardware.md)
 - [OpenTraceCapture Documentation](../../opentracecapture/overview.md)
 - [Getting Started Guide](../../get-started/capture-first-trace.md)
