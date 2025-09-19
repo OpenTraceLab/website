@@ -43,6 +43,8 @@ nav:
       - Overview: opentracedecode/overview.md
       - Decoder HOWTO: opentracedecode/decoder-howto.md
       - Decoder API: opentracedecode/decoder-api.md
+  - OpenTraceBroadcaster:
+      - Overview: opentracebroadcaster/overview.md
   - Hardware:
       - Supported Devices: hardware/supported-hardware.md
       - Logic Analyzers:
