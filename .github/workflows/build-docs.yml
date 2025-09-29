@@ -92,7 +92,8 @@ jobs:
             --input build/doxygen/xml \
             --output "$OUT_DIR" \
             --index-includes \
-            --summary-images
+            --summary-images \
+            --base-url /website/
 
           EOS
           chmod +x /tmp/build_one.sh
