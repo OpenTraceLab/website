@@ -49,25 +49,25 @@ sudo usermod -a -G plugdev $USER
 ### Device Detection
 ```bash
 # Scan for UNI-T multimeters
-sigrok-cli --driver uni-t-ut61e --scan
-sigrok-cli --driver uni-t-ut32x --scan
+OpenTraceCLI --driver uni-t-ut61e --scan
+OpenTraceCLI --driver uni-t-ut32x --scan
 ```
 ### Basic Measurements
 ```bash
 # Single measurement
-sigrok-cli --driver uni-t-ut61e --samples 1
+OpenTraceCLI --driver uni-t-ut61e --samples 1
 # Continuous measurements for 60 seconds
-sigrok-cli --driver uni-t-ut61e --time 60 --output-file measurements.csv
+OpenTraceCLI --driver uni-t-ut61e --time 60 --output-file measurements.csv
 # Temperature logging with UT32x
-sigrok-cli --driver uni-t-ut32x --time 3600 --output-file temperature.csv
+OpenTraceCLI --driver uni-t-ut32x --time 3600 --output-file temperature.csv
 ```
 ### Data Logging
 ```bash
 # Log voltage measurements every second
-sigrok-cli --driver uni-t-ut61e --continuous \
+OpenTraceCLI --driver uni-t-ut61e --continuous \
   --output-format csv --output-file voltage_log.csv
 # Log with timestamps
-sigrok-cli --driver uni-t-ut61e --continuous \
+OpenTraceCLI --driver uni-t-ut61e --continuous \
   --output-format csv:time=true --output-file timestamped.csv
 ```
 ## Hardware Setup
@@ -114,7 +114,7 @@ Time,Channel,Value,Unit
 ### Real-time Monitoring
 ```bash
 # Monitor voltage in real-time
-sigrok-cli --driver uni-t-ut61e --continuous | \
+OpenTraceCLI --driver uni-t-ut61e --continuous | \
   while read line; do
     echo "$(date): $line"
   done
@@ -122,7 +122,7 @@ sigrok-cli --driver uni-t-ut61e --continuous | \
 ### Statistical Analysis
 ```bash
 # Calculate statistics from logged data
-sigrok-cli --driver uni-t-ut61e --samples 100 \
+OpenTraceCLI --driver uni-t-ut61e --samples 100 \
   --output-format csv | \
   awk -F, 'NR>1 {sum+=$3; count++} END {print "Average:", sum/count}'
 ```
@@ -154,7 +154,7 @@ UNI-T multimeters are factory calibrated and typically don't require user calibr
 ### Verification
 ```bash
 # Measure known reference voltage
-sigrok-cli --driver uni-t-ut61e --samples 10
+OpenTraceCLI --driver uni-t-ut61e --samples 10
 # Compare with reference standard
 ```
 ### Accuracy Specifications
@@ -175,14 +175,14 @@ sigrok-cli --driver uni-t-ut61e --samples 10
 for voltage in 1.0 2.0 3.0 5.0; do
     echo "Set voltage to ${voltage}V and press Enter"
     read
-    measurement=$(sigrok-cli --driver uni-t-ut61e --samples 5 | tail -1)
+    measurement=$(OpenTraceCLI --driver uni-t-ut61e --samples 5 | tail -1)
     echo "Measured: $measurement"
 done
 ```
 ### Data Logging
 ```bash
 # Long-term temperature monitoring
-sigrok-cli --driver uni-t-ut32x --continuous \
+OpenTraceCLI --driver uni-t-ut32x --continuous \
   --output-format csv:time=true \
   --output-file "temp_$(date +%Y%m%d).csv" &
 ```

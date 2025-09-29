@@ -64,25 +64,25 @@ sudo usermod -a -G plugdev $USER
 ### Device Detection
 ```bash
 # Scan for Rigol oscilloscopes
-sigrok-cli --driver rigol-ds --scan
+OpenTraceCLI --driver rigol-ds --scan
 # Scan specific connection
-sigrok-cli --driver rigol-ds --config conn=usbtmc --scan
-sigrok-cli --driver rigol-ds --config conn=tcp-raw/192.168.1.100/5555 --scan
+OpenTraceCLI --driver rigol-ds --config conn=usbtmc --scan
+OpenTraceCLI --driver rigol-ds --config conn=tcp-raw/192.168.1.100/5555 --scan
 ```
 ### Waveform Capture
 ```bash
 # Capture single waveform
-sigrok-cli --driver rigol-ds --config conn=usbtmc \
+OpenTraceCLI --driver rigol-ds --config conn=usbtmc \
   --samples 1000 --output-file waveform.sr
 # Capture all channels
-sigrok-cli --driver rigol-ds --config conn=usbtmc \
+OpenTraceCLI --driver rigol-ds --config conn=usbtmc \
   --channels CH1,CH2,CH3,CH4 --samples 2000 \
   --output-file all_channels.sr
 ```
 ### Automated Measurements
 ```bash
 # Configure and capture
-sigrok-cli --driver rigol-ds --config conn=usbtmc \
+OpenTraceCLI --driver rigol-ds --config conn=usbtmc \
   --config timebase=1e-3:vdiv=1.0 \
   --samples 1000 --output-format csv \
   --output-file measurements.csv
@@ -96,13 +96,13 @@ sigrok-cli --driver rigol-ds --config conn=usbtmc \
 ### Channel Configuration
 ```bash
 # Configure channel settings
-sigrok-cli --driver rigol-ds --config conn=usbtmc \
+OpenTraceCLI --driver rigol-ds --config conn=usbtmc \
   --config CH1:vdiv=0.1:coupling=DC:probe_attenuation=10
 ```
 ### Triggering Setup
 ```bash
 # Edge trigger on CH1 rising edge at 1V
-sigrok-cli --driver rigol-ds --config conn=usbtmc \
+OpenTraceCLI --driver rigol-ds --config conn=usbtmc \
   --config trigger_source=CH1:trigger_slope=POS:trigger_level=1.0
 ```
 ## Configuration Options
@@ -134,7 +134,7 @@ echo ":SING" | nc 192.168.1.100 5555
 ### Waveform Transfer
 ```bash
 # Transfer waveform data
-sigrok-cli --driver rigol-ds --config conn=tcp-raw/192.168.1.100/5555 \
+OpenTraceCLI --driver rigol-ds --config conn=tcp-raw/192.168.1.100/5555 \
   --samples 1000 --output-format binary \
   --output-file raw_waveform.bin
 ```
@@ -166,7 +166,7 @@ plt.show()
 ### FFT Analysis
 ```bash
 # Capture waveform and perform FFT
-sigrok-cli --driver rigol-ds --config conn=usbtmc \
+OpenTraceCLI --driver rigol-ds --config conn=usbtmc \
   --samples 4096 --output-format csv | \
   python3 -c "
 import numpy as np
@@ -217,7 +217,7 @@ for freq in 1000 10000 100000 1000000; do
     echo "Testing ${freq} Hz signal..."
     # Configure generator (external)
     # Configure oscilloscope
-    sigrok-cli --driver rigol-ds --config conn=usbtmc \
+    OpenTraceCLI --driver rigol-ds --config conn=usbtmc \
       --config timebase=$((1000000/freq/10)) \
       --samples 1000 --output-format csv > temp.csv
     # Analyze results

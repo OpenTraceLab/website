@@ -58,26 +58,26 @@ sudo udevadm control --reload-rules
 ### Device Detection
 ```bash
 # Scan for Voltcraft devices on serial ports
-sigrok-cli --driver voltcraft-vc820 --config conn=/dev/ttyUSB0 --scan
+OpenTraceCLI --driver voltcraft-vc820 --config conn=/dev/ttyUSB0 --scan
 # Auto-detect on all serial ports
-sigrok-cli --driver voltcraft-vc820 --scan
+OpenTraceCLI --driver voltcraft-vc820 --scan
 ```
 ### Basic Measurements
 ```bash
 # Single measurement
-sigrok-cli --driver voltcraft-vc820 --config conn=/dev/ttyUSB0 --samples 1
+OpenTraceCLI --driver voltcraft-vc820 --config conn=/dev/ttyUSB0 --samples 1
 # Continuous measurements
-sigrok-cli --driver voltcraft-vc820 --config conn=/dev/ttyUSB0 \
+OpenTraceCLI --driver voltcraft-vc820 --config conn=/dev/ttyUSB0 \
   --continuous --output-file measurements.csv
 ```
 ### Data Logging
 ```bash
 # Log measurements with timestamps
-sigrok-cli --driver voltcraft-vc820 --config conn=/dev/ttyUSB0 \
+OpenTraceCLI --driver voltcraft-vc820 --config conn=/dev/ttyUSB0 \
   --time 3600 --output-format csv:time=true \
   --output-file hourly_log.csv
 # High-speed logging
-sigrok-cli --driver voltcraft-vc820 --config conn=/dev/ttyUSB0 \
+OpenTraceCLI --driver voltcraft-vc820 --config conn=/dev/ttyUSB0 \
   --limit-samples 1000 --output-format csv
 ```
 ## Hardware Setup
@@ -154,7 +154,7 @@ Pin 5 (GND)→ Pin 5 (GND)
 ### CSV Output Processing
 ```bash
 # Extract voltage measurements
-sigrok-cli --driver voltcraft-vc820 --config conn=/dev/ttyUSB0 \
+OpenTraceCLI --driver voltcraft-vc820 --config conn=/dev/ttyUSB0 \
   --samples 100 --output-format csv | \
   awk -F, 'NR>1 && $4=="V" {print $3}' > voltages.txt
 # Calculate statistics
@@ -167,7 +167,7 @@ awk '{sum+=$1; count++} END {
 ### Real-time Monitoring
 ```bash
 # Monitor with timestamps
-sigrok-cli --driver voltcraft-vc820 --config conn=/dev/ttyUSB0 \
+OpenTraceCLI --driver voltcraft-vc820 --config conn=/dev/ttyUSB0 \
   --continuous | while read line; do
     echo "$(date '+%Y-%m-%d %H:%M:%S'): $line"
   done
@@ -181,7 +181,7 @@ echo "Testing resistor values..."
 for expected in 1000 2200 4700 10000; do
     echo "Insert ${expected}Ω resistor and press Enter"
     read
-    measured=$(sigrok-cli --driver voltcraft-vc820 \
+    measured=$(OpenTraceCLI --driver voltcraft-vc820 \
       --config conn=/dev/ttyUSB0 --samples 5 | tail -1)
     echo "Expected: ${expected}Ω, Measured: $measured"
 done
@@ -189,7 +189,7 @@ done
 ### Environmental Monitoring
 ```bash
 # Temperature logging (VC-840 with temperature probe)
-sigrok-cli --driver voltcraft-vc840 --config conn=/dev/ttyUSB0 \
+OpenTraceCLI --driver voltcraft-vc840 --config conn=/dev/ttyUSB0 \
   --continuous --output-format csv:time=true | \
   tee temperature_$(date +%Y%m%d).csv
 ```

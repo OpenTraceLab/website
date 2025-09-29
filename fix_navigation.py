@@ -1,174 +1,78 @@
 #!/usr/bin/env python3
 """
-Fix navigation and clean up migrated hardware documentation
+Fix navigation configuration and broken links.
 """
 
 import os
 import re
 from pathlib import Path
 
-def update_mkdocs_navigation():
-    """Update mkdocs.yml with proper navigation structure"""
+def update_mkdocs_nav():
+    """Update mkdocs.yml to include all hardware pages."""
+    mkdocs_path = Path('/home/epkcfsm/src/website/mkdocs.yml')
     
-    # Read current mkdocs.yml
-    with open('mkdocs.yml', 'r') as f:
+    with open(mkdocs_path, 'r') as f:
         content = f.read()
     
-    # Create new hardware navigation section
-    hardware_nav = """  - Hardware:
+    # Add comprehensive hardware navigation
+    hardware_nav = '''  - Hardware:
       - Supported Devices: hardware/supported-hardware.md
       - Logic Analyzers:
+          - Overview: hardware/logic-analyzer/index.md
           - FX2-based Devices: hardware/logic-analyzer/fx2lafw.md
           - Saleae Logic Series: hardware/logic-analyzer/saleae-logic.md
-          - Saleae Logic16: hardware/logic-analyzer/saleae-logic16.md
           - Kingst LA Series: hardware/logic-analyzer/kingst-la-series.md
-          - Kingst LA2016: hardware/logic-analyzer/kingst-la2016.md
-          - Hantek 4032L: hardware/logic-analyzer/hantek-4032l.md
           - OpenBench LogicSniffer: hardware/logic-analyzer/openbench-logic-sniffer.md
       - Multimeters:
+          - Overview: hardware/multimeter/index.md
           - UNI-T Series: hardware/multimeter/uni-t.md
-          - UNI-T UT61E: hardware/multimeter/uni-t-ut61e.md
           - Voltcraft Series: hardware/multimeter/voltcraft.md
-          - Voltcraft VC-820: hardware/multimeter/voltcraft-vc-820.md
           - Brymen Series: hardware/multimeter/brymen.md
       - Oscilloscopes:
+          - Overview: hardware/oscilloscope/index.md
           - Rigol DS Series: hardware/oscilloscope/rigol-ds.md
-          - Rigol DS1000Z Series: hardware/oscilloscope/rigol-ds1000z-series.md
           - Hantek DSO Series: hardware/oscilloscope/hantek-dso.md
           - Siglent SDS Series: hardware/oscilloscope/siglent-sds.md
       - Power Supplies:
+          - Overview: hardware/power-supply/index.md
           - Korad Series: hardware/power-supply/korad.md
-          - Korad KA3005P: hardware/power-supply/korad-ka3005p.md
           - Rigol DP Series: hardware/power-supply/rigol-dp.md
       - Function Generators:
-          - Rigol DG Series: hardware/function-generator/rigol-dg1000z-series.md
-          - Siglent SDG Series: hardware/function-generator/siglent-sdg1010.md
+          - Overview: hardware/function-generator/index.md
       - Thermometers:
-          - Voltcraft DL Series: hardware/thermometer/voltcraft-dl-161s.md
-          - RDing TEMPer Series: hardware/thermometer/rding-temper.md"""
+          - Overview: hardware/thermometer/index.md'''
     
     # Replace the hardware section
-    pattern = r'(  - Hardware:.*?)(\n  - [^:]+:|$)'
-    replacement = hardware_nav + r'\2'
+    pattern = r'  - Hardware:.*?(?=  - Community:)'
+    content = re.sub(pattern, hardware_nav + '\n', content, flags=re.DOTALL)
     
-    updated_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+    with open(mkdocs_path, 'w') as f:
+        f.write(content)
     
-    # Write updated mkdocs.yml
-    with open('mkdocs.yml', 'w') as f:
-        f.write(updated_content)
+    print("✓ Updated mkdocs.yml navigation")
+
+def fix_broken_links():
+    """Fix broken anchor links."""
+    overview_path = Path('/home/epkcfsm/src/website/docs/opentracecapture/overview.md')
     
-    print("Updated mkdocs.yml navigation")
-
-def clean_markdown_files():
-    """Clean up migrated markdown files"""
+    with open(overview_path, 'r') as f:
+        content = f.read()
     
-    hardware_dir = Path('docs/hardware')
-    
-    for md_file in hardware_dir.rglob('*.md'):
-        if md_file.name == 'supported-hardware.md':
-            continue
-            
-        print(f"Cleaning {md_file}")
+    # Add missing anchor
+    if '## Power Supplies' not in content:
+        content += '\n\n## Power Supplies\nOpenTraceCapture supports various programmable power supplies for automated testing and device characterization.\n'
         
-        with open(md_file, 'r', encoding='utf-8') as f:
-            content = f.read()
-        
-        # Fix image paths - convert old wiki-style links to proper markdown
-        content = re.sub(r'!\[([^\]]*)\]\(docs/media/([^)]+)\)', r'![\\1](../../assets/hardware/general/\\2)', content)
-        content = re.sub(r'!\[([^\]]*)\]\(\./File:([^)]+)\.html\)', r'![\\1](../../assets/hardware/general/\\2)', content)
-        
-        # Remove wiki-style table formatting
-        content = re.sub(r'\|\s*\n\s*\|---\|---\|\s*\n', '\n\n', content)
-        
-        # Clean up excessive whitespace
-        content = re.sub(r'\n\n\n+', '\n\n', content)
-        
-        # Fix OpenTraceLab references that might have been over-converted
-        content = re.sub(r'OpenTraceLab\.org/gitweb', 'github.com/OpenTraceLab', content)
-        
-        # Add proper frontmatter if missing
-        if not content.startswith('#'):
-            title = md_file.stem.replace('-', ' ').title()
-            content = f"# {title}\n\n{content}"
-        
-        with open(md_file, 'w', encoding='utf-8') as f:
-            f.write(content)
-
-def create_category_index_pages():
-    """Create index pages for each hardware category"""
-    
-    categories = {
-        'logic-analyzer': 'Logic Analyzers',
-        'multimeter': 'Multimeters', 
-        'oscilloscope': 'Oscilloscopes',
-        'power-supply': 'Power Supplies',
-        'function-generator': 'Function Generators',
-        'thermometer': 'Thermometers'
-    }
-    
-    for category, title in categories.items():
-        category_dir = Path(f'docs/hardware/{category}')
-        if not category_dir.exists():
-            continue
-            
-        index_file = category_dir / 'index.md'
-        
-        # Get list of devices in category
-        devices = []
-        for md_file in category_dir.glob('*.md'):
-            if md_file.name != 'index.md':
-                device_name = md_file.stem.replace('-', ' ').title()
-                devices.append((md_file.name, device_name))
-        
-        devices.sort(key=lambda x: x[1])
-        
-        # Create index content
-        content = f"""# {title}
-
-This section contains documentation for {title.lower()} supported by OpenTraceLab.
-
-## Supported Devices
-
-"""
-        
-        for filename, device_name in devices:
-            content += f"- [{device_name}]({filename})\n"
-        
-        content += f"""
-## Getting Started
-
-1. **Install OpenTraceLab** - Follow the [installation guide](../../get-started/install.md)
-2. **Connect your device** - Use appropriate USB cable or interface
-3. **Test connection** - Use `sigrok-cli --scan` to detect your device
-4. **Start capturing** - Follow device-specific instructions
-
-## See Also
-
-- [Supported Hardware Overview](../supported-hardware.md)
-- [OpenTraceCapture Documentation](../../opentracecapture/overview.md)
-- [Getting Started Guide](../../get-started/capture-first-trace.md)
-"""
-        
-        with open(index_file, 'w') as f:
+        with open(overview_path, 'w') as f:
             f.write(content)
         
-        print(f"Created index for {category}")
+        print("✓ Added missing power-supplies anchor")
 
 def main():
-    """Main function"""
-    print("Fixing navigation and cleaning up migrated content...")
-    
-    # Update navigation
-    update_mkdocs_navigation()
-    
-    # Clean markdown files
-    clean_markdown_files()
-    
-    # Create category index pages
-    create_category_index_pages()
-    
-    print("\nCleanup completed!")
-    print(f"Total migrated devices: {sum(len(list(Path(f'docs/hardware/{cat}').glob('*.md'))) for cat in ['logic-analyzer', 'multimeter', 'oscilloscope', 'power-supply', 'function-generator', 'thermometer', 'misc-devices'] if Path(f'docs/hardware/{cat}').exists())}")
+    """Main function."""
+    print("Fixing navigation and links...")
+    update_mkdocs_nav()
+    fix_broken_links()
+    print("✓ Navigation fixes complete!")
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

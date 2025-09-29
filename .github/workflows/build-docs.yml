@@ -1,0 +1,151 @@
+name: Build & Publish MkDocs (Doxygen from forks, no tokens)
+
+on:
+  push:
+    branches: [ main ]
+    tags: [ 'v*' ]
+  workflow_dispatch:
+
+permissions:
+  contents: write   # needed for gh-pages deploy action
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout docs site
+        uses: actions/checkout@v4
+        with:
+          path: site
+          fetch-depth: 0  # needed for mike
+
+      # --- Checkout public code repos (no tokens needed for public) ---
+      - name: Checkout OpenTraceCapture
+        uses: actions/checkout@v4
+        with:
+          repository: OpenTraceLab/OpenTraceCapture
+          path: otc
+
+      - name: Checkout OpenTraceDecode
+        uses: actions/checkout@v4
+        with:
+          repository: OpenTraceLab/OpenTraceDecode
+          path: otd
+
+      - name: Checkout OpenTraceView
+        uses: actions/checkout@v4
+        with:
+          repository: OpenTraceLab/OpenTraceView
+          path: otv
+
+      # --- Tooling ---
+      - name: Install system deps (doxygen, graphviz, jq, unzip)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y doxygen graphviz jq unzip
+
+      - name: Install MkDocs + Material + mike
+        run: |
+          python -m pip install --upgrade pip
+          pip install mkdocs mkdocs-material mike
+
+      - name: Install Doxybook2 (latest release)
+        run: |
+          # Discover latest linux x64 asset from GitHub API
+          API_JSON="$(curl -s https://api.github.com/repos/matusnovak/doxybook2/releases/latest)"
+          URL="$(echo "$API_JSON" | jq -r '.assets[] | select(.name|test("Linux.*x86_64|linux.*x86_64|linux.*amd64")) | .browser_download_url' | head -n1)"
+          echo "Downloading: $URL"
+          curl -L "$URL" -o /tmp/doxybook2.zip
+          sudo unzip -o /tmp/doxybook2.zip -d /usr/local/bin
+          sudo chmod +x /usr/local/bin/doxybook2
+
+      # --- Helper: function to enforce XML output in Doxyfile ---
+      - name: Prepare build script
+        run: |
+          cat > /tmp/build_one.sh << 'EOS'
+          set -euo pipefail
+          REPO_DIR="$1"
+          DOXYFILE="$2"
+          OUT_DIR="$3"
+
+          cd "$REPO_DIR"
+          # Ensure paths are absolute for safety
+          DOXY_PATH="$DOXYFILE"
+
+          # Force XML on, HTML off, and stable XML output path
+          sed -i 's/^[[:space:]]*GENERATE_XML[[:space:]]*=.*/GENERATE_XML = YES/g' "$DOXY_PATH" || true
+          sed -i 's/^[[:space:]]*GENERATE_HTML[[:space:]]*=.*/GENERATE_HTML = NO/g' "$DOXY_PATH" || true
+          # If XML_OUTPUT not present, append it
+          if ! grep -q '^[[:space:]]*XML_OUTPUT[[:space:]]*=' "$DOXY_PATH"; then
+            echo 'XML_OUTPUT = build/doxygen/xml' >> "$DOXY_PATH"
+          else
+            sed -i 's#^[[:space:]]*XML_OUTPUT[[:space:]]*=.*#XML_OUTPUT = build/doxygen/xml#g' "$DOXY_PATH"
+          fi
+
+          echo "Running doxygen in $(pwd) with $DOXY_PATH"
+          doxygen "$DOXY_PATH"
+
+          echo "Converting XML -> Markdown into $OUT_DIR"
+          mkdir -p "$OUT_DIR"
+          doxybook2 \
+            --input build/doxygen/xml \
+            --output "$OUT_DIR" \
+            --index-includes \
+            --summary-images
+
+          EOS
+          chmod +x /tmp/build_one.sh
+
+      # --- Build & convert each Doxyfile you listed ---
+      - name: Build OpenTraceCapture (core)
+        run: |
+          /tmp/build_one.sh "$GITHUB_WORKSPACE/otc" "Doxyfile" "$GITHUB_WORKSPACE/site/docs/api/opentracecapture"
+
+      - name: Build OpenTraceCapture (bindings/java)
+        run: |
+          /tmp/build_one.sh "$GITHUB_WORKSPACE/otc" "bindings/java/Doxyfile" "$GITHUB_WORKSPACE/site/docs/api/opentracecapture-java"
+
+      - name: Build OpenTraceCapture (bindings/cxx)
+        run: |
+          /tmp/build_one.sh "$GITHUB_WORKSPACE/otc" "bindings/cxx/Doxyfile" "$GITHUB_WORKSPACE/site/docs/api/opentracecapture-cxx"
+
+      - name: Build OpenTraceCapture (bindings/python)
+        run: |
+          /tmp/build_one.sh "$GITHUB_WORKSPACE/otc" "bindings/python/Doxyfile" "$GITHUB_WORKSPACE/site/docs/api/opentracecapture-python"
+
+      - name: Build OpenTraceDecode
+        run: |
+          /tmp/build_one.sh "$GITHUB_WORKSPACE/otd" "Doxyfile" "$GITHUB_WORKSPACE/site/docs/api/opentracedecode"
+
+      - name: Build OpenTraceView
+        run: |
+          /tmp/build_one.sh "$GITHUB_WORKSPACE/otv" "Doxyfile" "$GITHUB_WORKSPACE/site/docs/api/opentraceview"
+
+      # --- MkDocs build & deploy with mike ---
+      - name: Determine version
+        id: version
+        run: |
+          if [[ "${{ github.ref }}" == refs/tags/* ]]; then
+            VERSION="${{ github.ref_name }}"
+            echo "version=$VERSION" >> $GITHUB_OUTPUT
+            echo "alias=latest" >> $GITHUB_OUTPUT
+          else
+            echo "version=dev" >> $GITHUB_OUTPUT
+            echo "alias=dev" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Build and deploy with mike
+        working-directory: site
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          mike deploy --push --update-aliases \
+            ${{ steps.version.outputs.version }} \
+            ${{ steps.version.outputs.alias }}
+          
+          # Set default version on first tag
+          if [[ "${{ steps.version.outputs.version }}" != "dev" ]]; then
+            mike set-default --push ${{ steps.version.outputs.version }}
+          fi

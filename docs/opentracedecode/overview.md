@@ -48,7 +48,7 @@ Raw Logic → I²C Decoder → DS1307 RTC Decoder → Human-readable timestamps
 ```
 ### Python-based Implementation
 ```python
-import sigrokdecode as srd
+import OpenTraceDecode as srd
 class Decoder(srd.Decoder):
     api_version = 3
     id = 'my_protocol'
@@ -100,9 +100,9 @@ opentracelab-cli -i capture.sr -P uart:rx=0:baudrate=9600 -A uart=rx_data > outp
 ```
 ### Programmatic Access
 ```python
-import sigrok
+import OpenTraceLab
 # Create session and add decoder
-session = sigrok.Session()
+session = OpenTraceLab.Session()
 decoder = session.add_decoder('i2c', channels={'scl': 0, 'sda': 1})
 # Configure parameters
 decoder.options = {'address_format': 'shifted'}
@@ -141,9 +141,9 @@ class Decoder(srd.Decoder):
 ### From Package
 ```bash
 # Ubuntu/Debian
-sudo apt install libsigrokdecode-dev
+sudo apt install OpenTraceDecode-dev
 # Fedora
-sudo dnf install libsigrokdecode-devel
+sudo dnf install OpenTraceDecode-devel
 ```
 ### From Source
 ```bash

@@ -58,7 +58,7 @@ This section contains documentation for oscilloscopes supported by OpenTraceLab.
 ## Getting Started
 1. **Install OpenTraceLab** - Follow the [installation guide](../../get-started/install.md)
 2. **Connect your device** - Use appropriate USB cable or interface
-3. **Test connection** - Use `sigrok-cli --scan` to detect your device
+3. **Test connection** - Use `OpenTraceCLI --scan` to detect your device
 4. **Start capturing** - Follow device-specific instructions
 ## See Also
 - [Supported Hardware Overview](../supported-hardware.md)

@@ -42,7 +42,7 @@ OpenTraceView includes decoders for:
 ### Custom Decoders
 Write your own protocol decoders in Python:
 ```python
-import sigrokdecode as srd
+import OpenTraceDecode as srd
 class Decoder(srd.Decoder):
     api_version = 3
     id = 'my_protocol'

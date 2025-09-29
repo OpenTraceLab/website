@@ -89,7 +89,7 @@ See the [supported hardware](../hardware/supported-hardware.md) page for a compl
 
 **No measurement data:**
 - Ensure your device is connected and recognized by the system
-- Test device detection with `sigrok-cli --scan`
+- Test device detection with `OpenTraceCLI --scan`
 - Verify OpenTraceCapture can access the device
 
 **Measurements not updating:**

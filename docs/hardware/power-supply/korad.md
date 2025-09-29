@@ -59,20 +59,20 @@ sudo udevadm control --reload-rules
 ### Device Detection
 ```bash
 # Scan for Korad power supplies
-sigrok-cli --driver korad-kaxxxxp --scan
+OpenTraceCLI --driver korad-kaxxxxp --scan
 # Scan specific serial port
-sigrok-cli --driver korad-kaxxxxp --config conn=/dev/ttyUSB0 --scan
+OpenTraceCLI --driver korad-kaxxxxp --config conn=/dev/ttyUSB0 --scan
 ```
 ### Basic Control
 ```bash
 # Set voltage and current limits
-sigrok-cli --driver korad-kaxxxxp --config conn=/dev/ttyUSB0 \
+OpenTraceCLI --driver korad-kaxxxxp --config conn=/dev/ttyUSB0 \
   --config voltage_target=12.0:current_limit=2.0
 # Enable output
-sigrok-cli --driver korad-kaxxxxp --config conn=/dev/ttyUSB0 \
+OpenTraceCLI --driver korad-kaxxxxp --config conn=/dev/ttyUSB0 \
   --config output_enabled=true
 # Monitor voltage and current
-sigrok-cli --driver korad-kaxxxxp --config conn=/dev/ttyUSB0 \
+OpenTraceCLI --driver korad-kaxxxxp --config conn=/dev/ttyUSB0 \
   --continuous --output-format csv --output-file power_log.csv
 ```
 ### Automated Testing
@@ -80,11 +80,11 @@ sigrok-cli --driver korad-kaxxxxp --config conn=/dev/ttyUSB0 \
 # Voltage sweep test
 for voltage in 5.0 10.0 15.0 20.0; do
     echo "Setting voltage to ${voltage}V"
-    sigrok-cli --driver korad-kaxxxxp --config conn=/dev/ttyUSB0 \
+    OpenTraceCLI --driver korad-kaxxxxp --config conn=/dev/ttyUSB0 \
       --config voltage_target=$voltage:output_enabled=true
     sleep 2  # Allow settling time
     # Read back actual values
-    sigrok-cli --driver korad-kaxxxxp --config conn=/dev/ttyUSB0 \
+    OpenTraceCLI --driver korad-kaxxxxp --config conn=/dev/ttyUSB0 \
       --samples 1 --output-format csv
 done
 ```
@@ -156,7 +156,7 @@ Bit 2-7: Reserved
 ### Continuous Monitoring
 ```bash
 # Log voltage and current with timestamps
-sigrok-cli --driver korad-kaxxxxp --config conn=/dev/ttyUSB0 \
+OpenTraceCLI --driver korad-kaxxxxp --config conn=/dev/ttyUSB0 \
   --continuous --output-format csv:time=true | \
   tee power_monitor_$(date +%Y%m%d_%H%M%S).csv
 ```
@@ -168,11 +168,11 @@ import subprocess
 import csv
 def set_voltage(voltage):
     """Set power supply voltage"""
-    cmd = f"sigrok-cli --driver korad-kaxxxxp --config conn=/dev/ttyUSB0 --config voltage_target={voltage}:output_enabled=true"
+    cmd = f"OpenTraceCLI --driver korad-kaxxxxp --config conn=/dev/ttyUSB0 --config voltage_target={voltage}:output_enabled=true"
     subprocess.run(cmd, shell=True)
 def read_measurements():
     """Read voltage and current"""
-    cmd = "sigrok-cli --driver korad-kaxxxxp --config conn=/dev/ttyUSB0 --samples 1 --output-format csv"
+    cmd = "OpenTraceCLI --driver korad-kaxxxxp --config conn=/dev/ttyUSB0 --samples 1 --output-format csv"
     result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
     lines = result.stdout.strip().split('\n')
     if len(lines) >= 2:
@@ -217,7 +217,7 @@ print("Test completed")
 # Verify voltage accuracy with DMM
 echo "Voltage Calibration Check"
 for voltage in 1.000 5.000 10.000 15.000 20.000; do
-    sigrok-cli --driver korad-kaxxxxp --config conn=/dev/ttyUSB0 \
+    OpenTraceCLI --driver korad-kaxxxxp --config conn=/dev/ttyUSB0 \
       --config voltage_target=$voltage:output_enabled=true
     echo "Set to ${voltage}V - measure with DMM and record"
     read -p "Press Enter to continue..."
@@ -234,11 +234,11 @@ echo "Voltage,Current,Power" > power_test.csv
 for voltage in 3.3 5.0 9.0 12.0; do
     echo "Testing at ${voltage}V..."
     # Set voltage
-    sigrok-cli --driver korad-kaxxxxp --config conn=/dev/ttyUSB0 \
+    OpenTraceCLI --driver korad-kaxxxxp --config conn=/dev/ttyUSB0 \
       --config voltage_target=$voltage:current_limit=3.0:output_enabled=true
     sleep 2  # Settling time
     # Measure for 10 seconds
-    sigrok-cli --driver korad-kaxxxxp --config conn=/dev/ttyUSB0 \
+    OpenTraceCLI --driver korad-kaxxxxp --config conn=/dev/ttyUSB0 \
       --time 10 --output-format csv | \
       awk -F, 'NR>1 {print $3","$4","$3*$4}' >> power_test.csv
 done
@@ -251,7 +251,7 @@ echo "Test completed. Results in power_test.csv"
 import time
 import subprocess
 def get_measurements():
-    cmd = "sigrok-cli --driver korad-kaxxxxp --config conn=/dev/ttyUSB0 --samples 1 --output-format csv"
+    cmd = "OpenTraceCLI --driver korad-kaxxxxp --config conn=/dev/ttyUSB0 --samples 1 --output-format csv"
     result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
     lines = result.stdout.strip().split('\n')
     if len(lines) >= 2:
@@ -259,7 +259,7 @@ def get_measurements():
         return float(data[2]), float(data[3])
     return 0, 0
 def set_output(voltage, current, enabled=True):
-    cmd = f"sigrok-cli --driver korad-kaxxxxp --config conn=/dev/ttyUSB0 --config voltage_target={voltage}:current_limit={current}:output_enabled={enabled}"
+    cmd = f"OpenTraceCLI --driver korad-kaxxxxp --config conn=/dev/ttyUSB0 --config voltage_target={voltage}:current_limit={current}:output_enabled={enabled}"
     subprocess.run(cmd, shell=True)
 # Battery charging parameters
 charge_voltage = 14.4  # Lead acid battery

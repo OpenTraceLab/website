@@ -59,26 +59,26 @@ sudo usermod -a -G plugdev $USER
 ### Device Detection
 ```bash
 # Scan for Hantek oscilloscopes
-sigrok-cli --driver hantek-dso --scan
+OpenTraceCLI --driver hantek-dso --scan
 # Specific model detection
-sigrok-cli --driver hantek-dso-2xxx --scan
-sigrok-cli --driver hantek-dso-5xxx --scan
+OpenTraceCLI --driver hantek-dso-2xxx --scan
+OpenTraceCLI --driver hantek-dso-5xxx --scan
 ```
 ### Basic Waveform Capture
 ```bash
 # Capture single waveform
-sigrok-cli --driver hantek-dso-2xxx \
+OpenTraceCLI --driver hantek-dso-2xxx \
   --config samplerate=1000000:framesize=1024 \
   --samples 1024 --output-file waveform.sr
 # Capture both channels
-sigrok-cli --driver hantek-dso-2xxx \
+OpenTraceCLI --driver hantek-dso-2xxx \
   --channels CH1,CH2 --samples 2048 \
   --output-file dual_channel.sr
 ```
 ### Mixed Signal Capture (MSO)
 ```bash
 # Capture analog + digital channels
-sigrok-cli --driver hantek-dso-5xxx \
+OpenTraceCLI --driver hantek-dso-5xxx \
   --channels CH1,CH2,D0,D1,D2,D3 \
   --config samplerate=100000000 \
   --samples 4096 --output-file mso_capture.sr
@@ -198,7 +198,7 @@ plt.show()
 ### Protocol Decoding
 ```bash
 # Decode I2C protocol from digital channels
-sigrok-cli --driver hantek-dso-5xxx \
+OpenTraceCLI --driver hantek-dso-5xxx \
   --channels D0,D1 --samples 10000 \
   --protocol-decoders i2c:scl=D0:sda=D1 \
   --protocol-decoder-annotations i2c
@@ -223,7 +223,7 @@ for voltage in 1.0 2.0 3.0 5.0; do
     echo "Set signal generator to ${voltage}V and press Enter"
     read
     # Capture waveform
-    sigrok-cli --driver hantek-dso-2xxx \
+    OpenTraceCLI --driver hantek-dso-2xxx \
       --config samplerate=1000000 \
       --samples 1024 --output-format csv \
       --output-file "capture_${voltage}V.csv"

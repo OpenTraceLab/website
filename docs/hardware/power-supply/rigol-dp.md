@@ -64,25 +64,25 @@ sudo usermod -a -G plugdev $USER
 ### Device Detection
 ```bash
 # Scan for Rigol power supplies
-sigrok-cli --driver rigol-dp832 --scan
+OpenTraceCLI --driver rigol-dp832 --scan
 # Scan specific connections
-sigrok-cli --driver rigol-dp832 --config conn=usbtmc --scan
-sigrok-cli --driver rigol-dp832 --config conn=vxi11/192.168.1.100 --scan
+OpenTraceCLI --driver rigol-dp832 --config conn=usbtmc --scan
+OpenTraceCLI --driver rigol-dp832 --config conn=vxi11/192.168.1.100 --scan
 ```
 ### Basic Control
 ```bash
 # Set voltage and current for channel 1
-sigrok-cli --driver rigol-dp832 --config conn=usbtmc \
+OpenTraceCLI --driver rigol-dp832 --config conn=usbtmc \
   --config CH1:voltage_target=12.0:current_limit=2.0:output_enabled=true
 # Set multiple channels
-sigrok-cli --driver rigol-dp832 --config conn=usbtmc \
+OpenTraceCLI --driver rigol-dp832 --config conn=usbtmc \
   --config CH1:voltage_target=5.0:current_limit=1.0:output_enabled=true \
   --config CH2:voltage_target=3.3:current_limit=0.5:output_enabled=true
 ```
 ### Data Logging
 ```bash
 # Monitor all channels continuously
-sigrok-cli --driver rigol-dp832 --config conn=usbtmc \
+OpenTraceCLI --driver rigol-dp832 --config conn=usbtmc \
   --channels CH1,CH2,CH3 --continuous \
   --output-format csv:time=true --output-file power_log.csv
 ```
@@ -225,7 +225,7 @@ def set_load_current(channel, current):
     print(f"Set load current CH{channel}: {current}A")
 def measure_voltage(channel):
     """Measure actual output voltage"""
-    cmd = f"sigrok-cli --driver rigol-dp832 --config conn=usbtmc --samples 1 --channels CH{channel} --output-format csv"
+    cmd = f"OpenTraceCLI --driver rigol-dp832 --config conn=usbtmc --samples 1 --channels CH{channel} --output-format csv"
     result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
     lines = result.stdout.strip().split('\n')
     if len(lines) >= 2:
@@ -243,7 +243,7 @@ for channel in channels:
     print("Voltage\tLoad(A)\tMeasured(V)\tRegulation(%)")
     for voltage in test_voltages:
         # Set output voltage
-        cmd = f"sigrok-cli --driver rigol-dp832 --config conn=usbtmc --config CH{channel}:voltage_target={voltage}:current_limit=3.0:output_enabled=true"
+        cmd = f"OpenTraceCLI --driver rigol-dp832 --config conn=usbtmc --config CH{channel}:voltage_target={voltage}:current_limit=3.0:output_enabled=true"
         subprocess.run(cmd, shell=True)
         time.sleep(0.5)
         no_load_voltage = None
@@ -295,28 +295,28 @@ print("\nTest completed")
 echo "Multi-Rail Power Sequence Test"
 # Power-up sequence
 echo "Step 1: Enable 3.3V rail"
-sigrok-cli --driver rigol-dp832 --config conn=usbtmc \
+OpenTraceCLI --driver rigol-dp832 --config conn=usbtmc \
   --config CH3:voltage_target=3.3:current_limit=1.0:output_enabled=true
 sleep 0.1
 echo "Step 2: Enable 5V rail"
-sigrok-cli --driver rigol-dp832 --config conn=usbtmc \
+OpenTraceCLI --driver rigol-dp832 --config conn=usbtmc \
   --config CH1:voltage_target=5.0:current_limit=2.0:output_enabled=true
 sleep 0.1
 echo "Step 3: Enable 12V rail"
-sigrok-cli --driver rigol-dp832 --config conn=usbtmc \
+OpenTraceCLI --driver rigol-dp832 --config conn=usbtmc \
   --config CH2:voltage_target=12.0:current_limit=1.5:output_enabled=true
 echo "All rails enabled - monitoring for 60 seconds"
-sigrok-cli --driver rigol-dp832 --config conn=usbtmc \
+OpenTraceCLI --driver rigol-dp832 --config conn=usbtmc \
   --channels CH1,CH2,CH3 --time 60 \
   --output-format csv:time=true --output-file startup_test.csv
 echo "Power-down sequence"
-sigrok-cli --driver rigol-dp832 --config conn=usbtmc \
+OpenTraceCLI --driver rigol-dp832 --config conn=usbtmc \
   --config CH2:output_enabled=false
 sleep 0.1
-sigrok-cli --driver rigol-dp832 --config conn=usbtmc \
+OpenTraceCLI --driver rigol-dp832 --config conn=usbtmc \
   --config CH1:output_enabled=false
 sleep 0.1
-sigrok-cli --driver rigol-dp832 --config conn=usbtmc \
+OpenTraceCLI --driver rigol-dp832 --config conn=usbtmc \
   --config CH3:output_enabled=false
 echo "Test completed"
 ```
@@ -328,7 +328,7 @@ import time
 import subprocess
 import math
 def set_voltage(voltage):
-    cmd = f"sigrok-cli --driver rigol-dp832 --config conn=usbtmc --config CH1:voltage_target={voltage}:current_limit=5.0:output_enabled=true"
+    cmd = f"OpenTraceCLI --driver rigol-dp832 --config conn=usbtmc --config CH1:voltage_target={voltage}:current_limit=5.0:output_enabled=true"
     subprocess.run(cmd, shell=True)
 # Simulate Li-ion battery discharge curve
 print("Battery Discharge Simulation")

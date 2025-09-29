@@ -18,7 +18,7 @@ We believe that understanding digital systems should not be limited by expensive
 - **Extensible design** - Easy to add new protocols and devices
 - **Performance focus** - Handle large captures efficiently
 - **User experience** - Intuitive interfaces and workflows
-## Building on sigrok
+## Building on OpenTraceLab
 OpenTraceLab is built on the solid foundation of the sigrok project, which pioneered open-source signal analysis. We extend this legacy by:
 - **Modernizing the codebase** - Updated dependencies and architecture
 - **Focusing on logic analysis** - Specialized for digital signal analysis

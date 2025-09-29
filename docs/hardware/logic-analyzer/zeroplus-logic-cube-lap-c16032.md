@@ -1,7 +1,10 @@
 # Zeroplus Logic Cube Lap C16032
 | | | |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------:| | [*Image: \1* | | | Status | supported | | Source code | [zeroplus-logic-cube](http://github.com/OpenTraceLab/?p=OpenTraceCapture.git;a=tree;f=src/hardware/zeroplus-logic-cube) | | Channels | 16 | | Samplerate | 100MHz | | Samplerate (state) | 100MHz | | Triggers | pattern, edge | | Min/max voltage | -6V — +6V | | Memory | 32Kbits/channel | | Compression | yes ("max 8Mbits") | | Website | [zeroplus.com.tw](http://www.zeroplus.com.tw/logic-analyzer_en/products.php?pdn=1&product_id=253) | **ZEROPLUS Logic Cube LAP-C(16032)** The **ZEROPLUS Logic Cube LAP-C(16032)** is a USB-based, 16-channel logic analyzer with up to 100MHz samplerate. See *ZEROPLUS Logic Cube*/Info.html "ZEROPLUS Logic Cube LAP-C(16032)/Info") for some more details (such as **lsusb -v** output) on the device. See *ZEROPLUS Logic Cube LAP-C series* for information common to all devices in this series.
 ## Contents
-\- [1 Hardware](ZEROPLUS_Logic_Cube_LAP-C(16032).html#Hardware) \- [2 Photos](ZEROPLUS_Logic_Cube_LAP-C(16032).html#Photos) \- [3 Protocol](ZEROPLUS_Logic_Cube_LAP-C(16032).html#Protocol) \- [4 Resources](ZEROPLUS_Logic_Cube_LAP-C(16032).html#Resources)
+- Hardware
+- Photos  
+- Protocol
+- Resources
 ## Hardware \- Cypress CY7C1347G-250AXC (4Mbit pipelined sync SRAM, 250MHz) See *ZEROPLUS_Logic_Cube_LAP-C_series#Hardware* for the hardware parts that are common to all devices in this series. ## Photos \-
 [*Image: \1*
 Package, front

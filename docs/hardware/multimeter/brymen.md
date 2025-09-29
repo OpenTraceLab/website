@@ -55,25 +55,25 @@ sudo usermod -a -G plugdev $USER
 ### Device Detection
 ```bash
 # Scan for Brymen multimeters
-sigrok-cli --driver brymen-bm25x --scan
-sigrok-cli --driver brymen-bm86x --scan
+OpenTraceCLI --driver brymen-bm25x --scan
+OpenTraceCLI --driver brymen-bm86x --scan
 ```
 ### Basic Measurements
 ```bash
 # Single high-accuracy measurement
-sigrok-cli --driver brymen-bm25x --samples 1
+OpenTraceCLI --driver brymen-bm25x --samples 1
 # Average of multiple readings
-sigrok-cli --driver brymen-bm25x --samples 10 \
+OpenTraceCLI --driver brymen-bm25x --samples 10 \
   --output-format csv | awk -F, 'NR>1 {sum+=$3; count++} END {print sum/count}'
 ```
 ### Precision Data Logging
 ```bash
 # High-precision voltage logging
-sigrok-cli --driver brymen-bm25x --time 3600 \
+OpenTraceCLI --driver brymen-bm25x --time 3600 \
   --output-format csv:time=true:precision=6 \
   --output-file precision_log.csv
 # Dual-channel logging (if supported)
-sigrok-cli --driver brymen-bm25x --channels P1,P2 \
+OpenTraceCLI --driver brymen-bm25x --channels P1,P2 \
   --continuous --output-file dual_channel.csv
 ```
 ## Hardware Setup
@@ -91,7 +91,7 @@ For maximum accuracy:
 ### Calibration Verification
 ```bash
 # Measure precision voltage reference
-sigrok-cli --driver brymen-bm25x --samples 20 \
+OpenTraceCLI --driver brymen-bm25x --samples 20 \
   --output-format csv | awk -F, 'NR>1 {
     sum+=$3; sumsq+=$3*$3; count++
   } END {
@@ -116,7 +116,7 @@ sigrok-cli --driver brymen-bm25x --samples 20 \
 ### Statistical Analysis
 ```bash
 # Collect statistics over time
-sigrok-cli --driver brymen-bm25x --samples 1000 \
+OpenTraceCLI --driver brymen-bm25x --samples 1000 \
   --output-format csv | awk -F, 'NR>1 {
     values[NR-1] = $3
     sum += $3
@@ -139,7 +139,7 @@ sigrok-cli --driver brymen-bm25x --samples 1000 \
 ### Trend Monitoring
 ```bash
 # Monitor for drift over time
-sigrok-cli --driver brymen-bm25x --continuous \
+OpenTraceCLI --driver brymen-bm25x --continuous \
   --output-format csv:time=true | \
   awk -F, 'NR>1 {
     print $1, $3
@@ -200,7 +200,7 @@ for voltage in 1.0000 2.0000 5.0000 10.0000; do
     echo "Apply ${voltage}V reference"
     read -p "Press Enter when ready..."
     # Take multiple readings for statistics
-    sigrok-cli --driver brymen-bm25x --samples 20 \
+    OpenTraceCLI --driver brymen-bm25x --samples 20 \
       --output-format csv | awk -F, -v ref=$voltage 'NR>1 {
         sum+=$3; count++
       } END {
@@ -214,7 +214,7 @@ done
 ### Research Measurements
 ```bash
 # Long-term stability study
-sigrok-cli --driver brymen-bm25x --continuous \
+OpenTraceCLI --driver brymen-bm25x --continuous \
   --output-format csv:time=true:precision=8 | \
   tee stability_$(date +%Y%m%d_%H%M%S).csv
 ```

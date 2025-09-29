@@ -7,7 +7,7 @@ OpenTraceLab is an open-source ecosystem for logic analysis, based on a fork of 
 It consists of:
 
 - **OpenTraceCapture** – the capture engine and device backends (fork of sigrok)  
-- **OpenTraceView** – the graphical user interface for visualizing signals (fork of PulseView)  
+- **OpenTraceView** – the graphical user interface for visualizing signals (fork of OpenTraceView)  
 - **OpenTraceDecode** – protocol decoders (fork of sigrok-decode)  
 
 This repo provides **end-user documentation, developer guides, and community information** for the whole OpenTraceLab ecosystem.

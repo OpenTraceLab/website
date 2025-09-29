@@ -65,25 +65,25 @@ sudo usermod -a -G plugdev $USER
 ### Device Detection
 ```bash
 # Scan for Siglent oscilloscopes
-sigrok-cli --driver siglent-sds --scan
+OpenTraceCLI --driver siglent-sds --scan
 # Scan specific connections
-sigrok-cli --driver siglent-sds --config conn=usbtmc --scan
-sigrok-cli --driver siglent-sds --config conn=vxi11/192.168.1.100 --scan
+OpenTraceCLI --driver siglent-sds --config conn=usbtmc --scan
+OpenTraceCLI --driver siglent-sds --config conn=vxi11/192.168.1.100 --scan
 ```
 ### Basic Waveform Capture
 ```bash
 # Capture single waveform
-sigrok-cli --driver siglent-sds --config conn=usbtmc \
+OpenTraceCLI --driver siglent-sds --config conn=usbtmc \
   --samples 1000 --output-file waveform.sr
 # Capture all 4 channels
-sigrok-cli --driver siglent-sds --config conn=usbtmc \
+OpenTraceCLI --driver siglent-sds --config conn=usbtmc \
   --channels C1,C2,C3,C4 --samples 5000 \
   --output-file all_channels.sr
 ```
 ### Deep Memory Capture
 ```bash
 # Capture with maximum memory depth
-sigrok-cli --driver siglent-sds --config conn=usbtmc \
+OpenTraceCLI --driver siglent-sds --config conn=usbtmc \
   --config memory_depth=14000000 \
   --samples 14000000 --output-file deep_capture.sr
 ```
@@ -96,13 +96,13 @@ sigrok-cli --driver siglent-sds --config conn=usbtmc \
 ### Channel Setup
 ```bash
 # Configure channel parameters
-sigrok-cli --driver siglent-sds --config conn=usbtmc \
+OpenTraceCLI --driver siglent-sds --config conn=usbtmc \
   --config C1:vdiv=0.5:coupling=DC:bwlimit=off:probe_ratio=10
 ```
 ### Trigger Configuration
 ```bash
 # Configure edge trigger
-sigrok-cli --driver siglent-sds --config conn=usbtmc \
+OpenTraceCLI --driver siglent-sds --config conn=usbtmc \
   --config trigger_source=C1:trigger_slope=RISE:trigger_level=1.5
 ```
 ## Configuration Options
@@ -124,21 +124,21 @@ sigrok-cli --driver siglent-sds --config conn=usbtmc \
 ### Segmented Memory
 ```bash
 # Configure segmented memory capture
-sigrok-cli --driver siglent-sds --config conn=usbtmc \
+OpenTraceCLI --driver siglent-sds --config conn=usbtmc \
   --config acquire_mode=SEGMENTED:segment_count=1000 \
   --samples 10000 --output-file segmented.sr
 ```
 ### Serial Protocol Decoding
 ```bash
 # Hardware-based I2C decoding
-sigrok-cli --driver siglent-sds --config conn=usbtmc \
+OpenTraceCLI --driver siglent-sds --config conn=usbtmc \
   --config serial_decode=I2C:i2c_scl=C1:i2c_sda=C2 \
   --samples 5000 --output-file i2c_decode.sr
 ```
 ### Math Functions
 ```bash
 # Enable math channel (C1 + C2)
-sigrok-cli --driver siglent-sds --config conn=usbtmc \
+OpenTraceCLI --driver siglent-sds --config conn=usbtmc \
   --config math_enable=on:math_function=ADD:math_source1=C1:math_source2=C2 \
   --channels C1,C2,MATH --samples 2000
 ```
@@ -269,7 +269,7 @@ print(f"THD: {thd:.2f} %")
 ### Power Electronics
 ```bash
 # Capture switching waveforms with deep memory
-sigrok-cli --driver siglent-sds --config conn=usbtmc \
+OpenTraceCLI --driver siglent-sds --config conn=usbtmc \
   --config timebase=1e-6:memory_depth=14000000 \
   --channels C1,C2,C3,C4 --samples 14000000 \
   --output-file power_switching.sr
@@ -277,7 +277,7 @@ sigrok-cli --driver siglent-sds --config conn=usbtmc \
 ### Signal Integrity Analysis
 ```bash
 # High-speed digital signal analysis
-sigrok-cli --driver siglent-sds --config conn=usbtmc \
+OpenTraceCLI --driver siglent-sds --config conn=usbtmc \
   --config timebase=1e-9:sample_rate=5000000000 \
   --channels C1,C2 --samples 10000 \
   --output-file signal_integrity.sr

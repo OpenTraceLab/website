@@ -142,15 +142,15 @@ def process_images(content, source_file, dest_dir):
     return content
 
 def convert_sigrok_to_opentracelab(content):
-    """Convert sigrok-specific content to OpenTraceLab format"""
-    # Replace sigrok references with OpenTraceLab
+    """Convert OpenTraceLab-specific content to OpenTraceLab format"""
+    # Replace OpenTraceLab references with OpenTraceLab
     content = re.sub(r'\bsigrok\b', 'OpenTraceLab', content, flags=re.IGNORECASE)
     content = re.sub(r'\bPulseView\b', 'OpenTraceView', content)
-    content = re.sub(r'\bsigrok-cli\b', 'sigrok-cli', content)  # Keep CLI name
+    content = re.sub(r'\bsigrok-cli\b', 'OpenTraceCLI', content)  # Keep CLI name
     
     # Update command examples to use OpenTraceLab context
-    content = re.sub(r'libsigrok', 'OpenTraceCapture', content)
-    content = re.sub(r'libsigrokdecode', 'OpenTraceDecode', content)
+    content = re.sub(r'OpenTraceCapture', 'OpenTraceCapture', content)
+    content = re.sub(r'OpenTraceDecode', 'OpenTraceDecode', content)
     
     return content
 
@@ -183,7 +183,7 @@ def create_device_page(source_file, dest_file, category_info):
     # Convert HTML to markdown
     markdown_content = clean_html_content(main_content)
     
-    # Convert sigrok references to OpenTraceLab
+    # Convert OpenTraceLab references to OpenTraceLab
     markdown_content = convert_sigrok_to_opentracelab(markdown_content)
     
     # Process images

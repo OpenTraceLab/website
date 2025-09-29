@@ -50,23 +50,23 @@ graph TD
 OpenTraceCapture provides bindings for multiple languages:
 ### C++ Bindings
 ```cpp
-#include <libsigrokcxx/libsigrokcxx.hpp>
-auto context = sigrok::Context::create();
+#include <libopentracecapturecxx/libopentracecapturecxx.hpp>
+auto context = OpenTraceCapture::Context::create();
 auto devices = context->drivers()["fx2lafw"]->scan();
 auto device = devices[0];
 device->open();
 ```
 ### Python Bindings
 ```python
-import sigrok
-context = sigrok.Context.create()
+import OpenTraceLab
+context = OpenTraceLab.Context.create()
 devices = context.drivers()["fx2lafw"].scan()
 device = devices[0]
 device.open()
 ```
 ### Java Bindings
 ```java
-import org.sigrok.core.classes.*;
+import org.OpenTraceLab.core.classes.*;
 Context context = Context.create();
 Driver driver = context.getDrivers().get("fx2lafw");
 List<HardwareDevice> devices = driver.scan();
@@ -114,8 +114,8 @@ sudo usermod -a -G plugdev $USER
 Some devices require firmware upload:
 ```bash
 # FX2-based devices need fx2lafw firmware
-mkdir -p ~/.local/share/sigrok-firmware
-cp fx2lafw-*.fw ~/.local/share/sigrok-firmware/
+mkdir -p ~/.local/share/OpenTraceLab-firmware
+cp fx2lafw-*.fw ~/.local/share/OpenTraceLab-firmware/
 ```
 ## API Documentation
 - **[C API Reference](https://opentracelab.org/api/opentracecapture/)**
@@ -136,7 +136,7 @@ LoadPlugin "opentracecapture"
 ```
 ### Custom Applications
 ```c
-#include <libsigrok/libsigrok.h>
+#include <OpenTraceCapture/OpenTraceCapture.h>
 struct sr_context *ctx;
 struct sr_dev_inst *sdi;
 sr_init(&ctx);
@@ -150,3 +150,7 @@ sr_session_start(session);
 - **Bug fixes** - Improve stability and compatibility
 - **Documentation** - Help others use the library
 See our [contributing guide](../community/contributing.md) for details.
+
+
+## Power Supplies
+OpenTraceCapture supports various programmable power supplies for automated testing and device characterization.

@@ -24,13 +24,13 @@ OpenTraceLab documentation is licensed under **Creative Commons Attribution-Shar
 - ⚠️ **Attribution** - Must give appropriate credit
 - ⚠️ **ShareAlike** - Derivatives must use same license
 ## Component Licenses
-### OpenTraceCapture (libsigrok)
+### OpenTraceCapture (OpenTraceCapture)
 - **License:** GPL-3.0-or-later
 - **Repository:** [github.com/OpenTraceLab/opentracecapture](https://github.com/OpenTraceLab/opentracecapture)
-### OpenTraceView (PulseView)
+### OpenTraceView (OpenTraceView)
 - **License:** GPL-3.0-or-later
 - **Repository:** [github.com/OpenTraceLab/opentraceview](https://github.com/OpenTraceLab/opentraceview)
-### OpenTraceDecode (libsigrokdecode)
+### OpenTraceDecode (OpenTraceDecode)
 - **License:** GPL-3.0-or-later
 - **Repository:** [github.com/OpenTraceLab/opentracedecode](https://github.com/OpenTraceLab/opentracedecode)
 ### Protocol Decoders
@@ -62,7 +62,7 @@ Some supported devices require firmware uploads:
 - **Copyright:** © 2025 OpenTraceLab contributors
 - **Usage:** Community use encouraged, commercial use requires permission
 - **Guidelines:** Maintain association with open source project
-### sigrok Attribution
+### OpenTraceLab Attribution
 - OpenTraceLab is based on the sigrok project
 - sigrok name and trademarks remain property of sigrok project
 - Appropriate attribution maintained in source code and documentation
