@@ -1,0 +1,3561 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Open-source logic analysis — capture, view, and decode traces.">
+      
+      
+      
+        <link rel="canonical" href="https://opentracelab.github.io/website/dev/hardware/multimeter/voltcraft/">
+      
+      
+        <link rel="prev" href="../uni-t/">
+      
+      
+        <link rel="next" href="../brymen/">
+      
+      
+      <link rel="icon" href="../../../docs-assets/logos/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
+    
+    
+      
+        <title>Voltcraft Series - OpenTraceLab</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.e53b48f4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../overrides/assets/styles/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#voltcraft-multimeter-series" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="OpenTraceLab" class="md-header__button md-logo" aria-label="OpenTraceLab" data-md-component="logo">
+      
+  <img src="../../../logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            OpenTraceLab
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Voltcraft Series
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/OpenTraceLab/website" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    OpenTraceLab/website
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../get-started/install/" class="md-tabs__link">
+          
+  
+  
+  Get started
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../opentracecapture/overview/" class="md-tabs__link">
+          
+  
+  
+  OpenTraceCapture
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../opentraceview/overview/" class="md-tabs__link">
+          
+  
+  
+  OpenTraceView
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../opentracedecode/overview/" class="md-tabs__link">
+          
+  
+  
+  OpenTraceDecode
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../opentracebroadcaster/overview/" class="md-tabs__link">
+          
+  
+  
+  OpenTraceBroadcaster
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../supported-hardware/" class="md-tabs__link">
+          
+  
+  
+  Hardware
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../community/contributing/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../about/mission/" class="md-tabs__link">
+          
+  
+  
+  About
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../legal/license/" class="md-tabs__link">
+          
+  
+  
+  Legal
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="OpenTraceLab" class="md-nav__button md-logo" aria-label="OpenTraceLab" data-md-component="logo">
+      
+  <img src="../../../logo.png" alt="logo">
+
+    </a>
+    OpenTraceLab
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/OpenTraceLab/website" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    OpenTraceLab/website
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Get started
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Get started
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../get-started/install/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Install
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../get-started/capture-first-trace/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Capture your first trace
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../get-started/faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    OpenTraceCapture
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            OpenTraceCapture
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../opentracecapture/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    API
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            API
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_1" id="__nav_3_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    C (core)
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            C (core)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../api/opentracecapture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../api/opentracecapture/namespaces.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Namespaces
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../api/opentracecapture/classes.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Classes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_2" id="__nav_3_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    C++ bindings
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            C++ bindings
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../api/opentracecapture-cxx/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../api/opentracecapture-cxx/namespaces.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Namespaces
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../api/opentracecapture-cxx/classes.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Classes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../api/opentracecapture-java/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Java bindings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../api/opentracecapture-python/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Python bindings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    OpenTraceView
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            OpenTraceView
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../opentraceview/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../opentraceview/architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Architecture
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    API
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            API
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../api/opentraceview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../api/opentraceview/namespaces.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Namespaces
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../api/opentraceview/classes.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Classes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    OpenTraceDecode
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            OpenTraceDecode
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../opentracedecode/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../opentracedecode/decoder-howto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Decoder HOWTO
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../opentracedecode/decoder-api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Decoder API
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_4" id="__nav_5_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    API
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_4">
+            <span class="md-nav__icon md-icon"></span>
+            API
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../api/opentracedecode/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../api/opentracedecode/namespaces.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Namespaces
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../api/opentracedecode/classes.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Classes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    OpenTraceBroadcaster
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            OpenTraceBroadcaster
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../opentracebroadcaster/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Hardware
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Hardware
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../supported-hardware/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Supported Devices
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Logic Analyzers
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            Logic Analyzers
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../logic-analyzer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../logic-analyzer/fx2lafw/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FX2-based Devices
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../logic-analyzer/saleae-logic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Saleae Logic Series
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../logic-analyzer/kingst-la-series/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Kingst LA Series
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../logic-analyzer/openbench-logic-sniffer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    OpenBench LogicSniffer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7_3" id="__nav_7_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Multimeters
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7_3">
+            <span class="md-nav__icon md-icon"></span>
+            Multimeters
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../uni-t/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    UNI-T Series
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Voltcraft Series
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Voltcraft Series
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#supported-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      Supported Models
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Supported Models">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#voltcraft-vc-820" class="md-nav__link">
+    <span class="md-ellipsis">
+      Voltcraft VC-820
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#voltcraft-vc-840" class="md-nav__link">
+    <span class="md-ellipsis">
+      Voltcraft VC-840
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#voltcraft-m-3860d" class="md-nav__link">
+    <span class="md-ellipsis">
+      Voltcraft M-3860D
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Features
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#measurement-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Measurement Functions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pc-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      PC Interface
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#driver-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      Driver Support
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#serial-connection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Serial Connection
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#device-permissions-linux" class="md-nav__link">
+    <span class="md-ellipsis">
+      Device Permissions (Linux)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Usage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#device-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Device Detection
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#basic-measurements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic Measurements
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-logging" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Logging
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hardware-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hardware Setup
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Hardware Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#serial-connection-vc-820vc-840" class="md-nav__link">
+    <span class="md-ellipsis">
+      Serial Connection (VC-820/VC-840)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usb-connection-m-3860d" class="md-nav__link">
+    <span class="md-ellipsis">
+      USB Connection (M-3860D)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#measurement-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Measurement Setup
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration Options
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configuration Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#connection-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Connection Settings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#measurement-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Measurement Settings
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#protocol-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      Protocol Details
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Protocol Details">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#command-set-vc-820vc-840" class="md-nav__link">
+    <span class="md-ellipsis">
+      Command Set (VC-820/VC-840)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-format" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Format
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-codes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Error Codes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Troubleshooting
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Troubleshooting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#common-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      Common Issues
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#serial-cable-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Serial Cable Requirements
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Analysis
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Data Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#csv-output-processing" class="md-nav__link">
+    <span class="md-ellipsis">
+      CSV Output Processing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#real-time-monitoring" class="md-nav__link">
+    <span class="md-ellipsis">
+      Real-time Monitoring
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#applications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Applications
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Applications">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#production-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Production Testing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#environmental-monitoring" class="md-nav__link">
+    <span class="md-ellipsis">
+      Environmental Monitoring
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quality-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quality Control
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accuracy-specifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accuracy Specifications
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Accuracy Specifications">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vc-820-accuracy" class="md-nav__link">
+    <span class="md-ellipsis">
+      VC-820 Accuracy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vc-840-accuracy" class="md-nav__link">
+    <span class="md-ellipsis">
+      VC-840 Accuracy
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comparison" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comparison
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../brymen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Brymen Series
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_4" id="__nav_7_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Oscilloscopes
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_4">
+            <span class="md-nav__icon md-icon"></span>
+            Oscilloscopes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oscilloscope/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oscilloscope/rigol-ds/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rigol DS Series
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oscilloscope/hantek-dso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hantek DSO Series
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oscilloscope/siglent-sds/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Siglent SDS Series
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_5" id="__nav_7_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Power Supplies
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_5">
+            <span class="md-nav__icon md-icon"></span>
+            Power Supplies
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../power-supply/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../power-supply/korad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Korad Series
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../power-supply/rigol-dp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rigol DP Series
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_6" id="__nav_7_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Function Generators
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_6">
+            <span class="md-nav__icon md-icon"></span>
+            Function Generators
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../function-generator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_7" id="__nav_7_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Thermometers
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_7">
+            <span class="md-nav__icon md-icon"></span>
+            Thermometers
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../thermometer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../community/contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../community/code-of-conduct/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Code of Conduct
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../community/governance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Governance
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../community/testing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Testing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    About
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            About
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/mission/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mission
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/roadmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Roadmap
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Legal
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Legal
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../legal/license/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    License
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../legal/attribution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Attribution
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+  
+                  
+
+
+  
+    <a href="https://github.com/OpenTraceLab/website/edit/main/docs/hardware/multimeter/voltcraft.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/OpenTraceLab/website/raw/main/docs/hardware/multimeter/voltcraft.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5 5 5 0 0 1 5-5 5 5 0 0 1 5 5 5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"/></svg>
+    </a>
+  
+
+
+<h1 id="voltcraft-multimeter-series">Voltcraft Multimeter Series<a class="headerlink" href="#voltcraft-multimeter-series" title="Permanent link">&para;</a></h1>
+<p>Digital multimeters from Voltcraft with serial/USB connectivity for PC-based measurements and logging.</p>
+<h2 id="supported-models">Supported Models<a class="headerlink" href="#supported-models" title="Permanent link">&para;</a></h2>
+<h3 id="voltcraft-vc-820">Voltcraft VC-820<a class="headerlink" href="#voltcraft-vc-820" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Display</strong>: 4000 count LCD</li>
+<li><strong>DC Voltage</strong>: 400mV to 1000V</li>
+<li><strong>AC Voltage</strong>: 400mV to 750V</li>
+<li><strong>DC Current</strong>: 400µA to 10A</li>
+<li><strong>AC Current</strong>: 400µA to 10A</li>
+<li><strong>Resistance</strong>: 400Ω to 40MΩ</li>
+<li><strong>Connectivity</strong>: Serial (RS232)</li>
+</ul>
+<h3 id="voltcraft-vc-840">Voltcraft VC-840<a class="headerlink" href="#voltcraft-vc-840" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Display</strong>: 4000 count LCD with bargraph</li>
+<li><strong>DC Voltage</strong>: 400mV to 1000V</li>
+<li><strong>AC Voltage</strong>: 400mV to 750V</li>
+<li><strong>DC Current</strong>: 400µA to 10A</li>
+<li><strong>AC Current</strong>: 400µA to 10A</li>
+<li><strong>Resistance</strong>: 400Ω to 40MΩ</li>
+<li><strong>Additional</strong>: Frequency, capacitance, temperature</li>
+<li><strong>Connectivity</strong>: Serial (RS232)</li>
+</ul>
+<h3 id="voltcraft-m-3860d">Voltcraft M-3860D<a class="headerlink" href="#voltcraft-m-3860d" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Display</strong>: 6000 count LCD</li>
+<li><strong>DC Voltage</strong>: 600mV to 1000V</li>
+<li><strong>AC Voltage</strong>: 600mV to 750V</li>
+<li><strong>DC Current</strong>: 600µA to 10A</li>
+<li><strong>Resistance</strong>: 600Ω to 60MΩ</li>
+<li><strong>Connectivity</strong>: USB</li>
+</ul>
+<h2 id="features">Features<a class="headerlink" href="#features" title="Permanent link">&para;</a></h2>
+<h3 id="measurement-functions">Measurement Functions<a class="headerlink" href="#measurement-functions" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>True RMS</strong>: Accurate AC measurements</li>
+<li><strong>Auto-ranging</strong>: Automatic range selection</li>
+<li><strong>Data hold</strong>: Freeze current reading</li>
+<li><strong>Min/Max</strong>: Record minimum and maximum values</li>
+<li><strong>Relative mode</strong>: Zero reference measurements</li>
+</ul>
+<h3 id="pc-interface">PC Interface<a class="headerlink" href="#pc-interface" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Real-time data</strong>: Live measurement streaming</li>
+<li><strong>Command control</strong>: Remote function selection</li>
+<li><strong>Data logging</strong>: Continuous measurement recording</li>
+<li><strong>Protocol</strong>: Standard SCPI-like commands</li>
+</ul>
+<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h2>
+<h3 id="driver-support">Driver Support<a class="headerlink" href="#driver-support" title="Permanent link">&para;</a></h3>
+<p>Voltcraft multimeters are supported through the <code>voltcraft-vc820</code> driver family.</p>
+<h3 id="serial-connection">Serial Connection<a class="headerlink" href="#serial-connection" title="Permanent link">&para;</a></h3>
+<p>Most Voltcraft meters use RS232 serial interface:
+<div class="highlight"><pre><span></span><code><span class="c1"># Check available serial ports</span>
+ls<span class="w"> </span>/dev/ttyUSB*<span class="w"> </span>/dev/ttyACM*
+<span class="c1"># Set proper permissions</span>
+sudo<span class="w"> </span>usermod<span class="w"> </span>-a<span class="w"> </span>-G<span class="w"> </span>dialout<span class="w"> </span><span class="nv">$USER</span>
+</code></pre></div></p>
+<h3 id="device-permissions-linux">Device Permissions (Linux)<a class="headerlink" href="#device-permissions-linux" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="c1"># Install udev rules</span>
+sudo<span class="w"> </span>cp<span class="w"> </span>contrib/60-opentracelab.rules<span class="w"> </span>/etc/udev/rules.d/
+sudo<span class="w"> </span>udevadm<span class="w"> </span>control<span class="w"> </span>--reload-rules
+</code></pre></div>
+<h2 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link">&para;</a></h2>
+<h3 id="device-detection">Device Detection<a class="headerlink" href="#device-detection" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="c1"># Scan for Voltcraft devices on serial ports</span>
+OpenTraceCLI<span class="w"> </span>--driver<span class="w"> </span>voltcraft-vc820<span class="w"> </span>--config<span class="w"> </span><span class="nv">conn</span><span class="o">=</span>/dev/ttyUSB0<span class="w"> </span>--scan
+<span class="c1"># Auto-detect on all serial ports</span>
+OpenTraceCLI<span class="w"> </span>--driver<span class="w"> </span>voltcraft-vc820<span class="w"> </span>--scan
+</code></pre></div>
+<h3 id="basic-measurements">Basic Measurements<a class="headerlink" href="#basic-measurements" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="c1"># Single measurement</span>
+OpenTraceCLI<span class="w"> </span>--driver<span class="w"> </span>voltcraft-vc820<span class="w"> </span>--config<span class="w"> </span><span class="nv">conn</span><span class="o">=</span>/dev/ttyUSB0<span class="w"> </span>--samples<span class="w"> </span><span class="m">1</span>
+<span class="c1"># Continuous measurements</span>
+OpenTraceCLI<span class="w"> </span>--driver<span class="w"> </span>voltcraft-vc820<span class="w"> </span>--config<span class="w"> </span><span class="nv">conn</span><span class="o">=</span>/dev/ttyUSB0<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--continuous<span class="w"> </span>--output-file<span class="w"> </span>measurements.csv
+</code></pre></div>
+<h3 id="data-logging">Data Logging<a class="headerlink" href="#data-logging" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="c1"># Log measurements with timestamps</span>
+OpenTraceCLI<span class="w"> </span>--driver<span class="w"> </span>voltcraft-vc820<span class="w"> </span>--config<span class="w"> </span><span class="nv">conn</span><span class="o">=</span>/dev/ttyUSB0<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--time<span class="w"> </span><span class="m">3600</span><span class="w"> </span>--output-format<span class="w"> </span>csv:time<span class="o">=</span><span class="nb">true</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--output-file<span class="w"> </span>hourly_log.csv
+<span class="c1"># High-speed logging</span>
+OpenTraceCLI<span class="w"> </span>--driver<span class="w"> </span>voltcraft-vc820<span class="w"> </span>--config<span class="w"> </span><span class="nv">conn</span><span class="o">=</span>/dev/ttyUSB0<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--limit-samples<span class="w"> </span><span class="m">1000</span><span class="w"> </span>--output-format<span class="w"> </span>csv
+</code></pre></div>
+<h2 id="hardware-setup">Hardware Setup<a class="headerlink" href="#hardware-setup" title="Permanent link">&para;</a></h2>
+<h3 id="serial-connection-vc-820vc-840">Serial Connection (VC-820/VC-840)<a class="headerlink" href="#serial-connection-vc-820vc-840" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Connect RS232 cable to multimeter</li>
+<li>Connect USB-to-serial adapter if needed</li>
+<li>Configure serial parameters:</li>
+<li><strong>Baud rate</strong>: 2400 bps</li>
+<li><strong>Data bits</strong>: 8</li>
+<li><strong>Parity</strong>: None</li>
+<li><strong>Stop bits</strong>: 1</li>
+</ol>
+<h3 id="usb-connection-m-3860d">USB Connection (M-3860D)<a class="headerlink" href="#usb-connection-m-3860d" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Connect USB cable directly to multimeter</li>
+<li>Device appears as USB HID device</li>
+<li>No additional drivers required</li>
+</ol>
+<h3 id="measurement-setup">Measurement Setup<a class="headerlink" href="#measurement-setup" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Select measurement function on multimeter</li>
+<li>Connect test leads to appropriate inputs</li>
+<li>Set range (manual or auto)</li>
+<li>Start PC communication</li>
+</ol>
+<h2 id="configuration-options">Configuration Options<a class="headerlink" href="#configuration-options" title="Permanent link">&para;</a></h2>
+<h3 id="connection-settings">Connection Settings<a class="headerlink" href="#connection-settings" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>conn</code>: Serial port or USB device path</li>
+<li><code>serialcomm</code>: Serial parameters (2400/8n1)</li>
+</ul>
+<h3 id="measurement-settings">Measurement Settings<a class="headerlink" href="#measurement-settings" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>data_source</code>: Measurement channel selection</li>
+<li><code>range</code>: Manual range override</li>
+<li><code>rate</code>: Measurement update rate</li>
+</ul>
+<h2 id="protocol-details">Protocol Details<a class="headerlink" href="#protocol-details" title="Permanent link">&para;</a></h2>
+<h3 id="command-set-vc-820vc-840">Command Set (VC-820/VC-840)<a class="headerlink" href="#command-set-vc-820vc-840" title="Permanent link">&para;</a></h3>
+<p>The Voltcraft meters use a simple ASCII protocol:
+<div class="highlight"><pre><span></span><code><span class="c1"># Request measurement</span>
+<span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;D&quot;</span><span class="w"> </span>&gt;<span class="w"> </span>/dev/ttyUSB0
+<span class="c1"># Response format: +1.2345E+00</span>
+<span class="c1"># Sign + 5 digits + exponent</span>
+</code></pre></div></p>
+<h3 id="data-format">Data Format<a class="headerlink" href="#data-format" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>+1.2345E+00  # +1.2345 V
+-2.3456E-03  # -2.3456 mV
++1.0000E+06  # 1.000 MΩ
+</code></pre></div>
+<h3 id="error-codes">Error Codes<a class="headerlink" href="#error-codes" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>+9.9999E+99</code>: Overload condition</li>
+<li><code>-9.9999E+99</code>: Underflow condition</li>
+<li><code>+0.0000E+00</code>: Zero or no signal</li>
+</ul>
+<h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">&para;</a></h2>
+<h3 id="common-issues">Common Issues<a class="headerlink" href="#common-issues" title="Permanent link">&para;</a></h3>
+<p><strong>Device not detected:</strong>
+- Check serial cable connection
+- Verify correct COM port
+- Check cable wiring (null modem may be needed)
+- Ensure multimeter is powered on
+<strong>Communication errors:</strong>
+- Verify serial parameters (2400,8,N,1)
+- Check for conflicting software using port
+- Try different USB-to-serial adapter
+- Test cable with loopback
+<strong>Measurement issues:</strong>
+- Ensure correct measurement function selected
+- Check probe connections
+- Verify measurement range
+- Check for overload conditions</p>
+<h3 id="serial-cable-requirements">Serial Cable Requirements<a class="headerlink" href="#serial-cable-requirements" title="Permanent link">&para;</a></h3>
+<p>Some Voltcraft meters require specific cable wiring:
+<div class="highlight"><pre><span></span><code>PC (DB9)     Meter (DB9)
+Pin 2 (RX) → Pin 3 (TX)
+Pin 3 (TX) → Pin 2 (RX)
+Pin 5 (GND)→ Pin 5 (GND)
+</code></pre></div></p>
+<h2 id="data-analysis">Data Analysis<a class="headerlink" href="#data-analysis" title="Permanent link">&para;</a></h2>
+<h3 id="csv-output-processing">CSV Output Processing<a class="headerlink" href="#csv-output-processing" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="c1"># Extract voltage measurements</span>
+OpenTraceCLI<span class="w"> </span>--driver<span class="w"> </span>voltcraft-vc820<span class="w"> </span>--config<span class="w"> </span><span class="nv">conn</span><span class="o">=</span>/dev/ttyUSB0<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--samples<span class="w"> </span><span class="m">100</span><span class="w"> </span>--output-format<span class="w"> </span>csv<span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>awk<span class="w"> </span>-F,<span class="w"> </span><span class="s1">&#39;NR&gt;1 &amp;&amp; $4==&quot;V&quot; {print $3}&#39;</span><span class="w"> </span>&gt;<span class="w"> </span>voltages.txt
+<span class="c1"># Calculate statistics</span>
+awk<span class="w"> </span><span class="s1">&#39;{sum+=$1; count++} END {</span>
+<span class="s1">  print &quot;Count:&quot;, count</span>
+<span class="s1">  print &quot;Average:&quot;, sum/count</span>
+<span class="s1">  print &quot;Total:&quot;, sum</span>
+<span class="s1">}&#39;</span><span class="w"> </span>voltages.txt
+</code></pre></div>
+<h3 id="real-time-monitoring">Real-time Monitoring<a class="headerlink" href="#real-time-monitoring" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="c1"># Monitor with timestamps</span>
+OpenTraceCLI<span class="w"> </span>--driver<span class="w"> </span>voltcraft-vc820<span class="w"> </span>--config<span class="w"> </span><span class="nv">conn</span><span class="o">=</span>/dev/ttyUSB0<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--continuous<span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="k">while</span><span class="w"> </span><span class="nb">read</span><span class="w"> </span>line<span class="p">;</span><span class="w"> </span><span class="k">do</span>
+<span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span>date<span class="w"> </span><span class="s1">&#39;+%Y-%m-%d %H:%M:%S&#39;</span><span class="k">)</span><span class="s2">: </span><span class="nv">$line</span><span class="s2">&quot;</span>
+<span class="w">  </span><span class="k">done</span>
+</code></pre></div>
+<h2 id="applications">Applications<a class="headerlink" href="#applications" title="Permanent link">&para;</a></h2>
+<h3 id="production-testing">Production Testing<a class="headerlink" href="#production-testing" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="ch">#!/bin/bash</span>
+<span class="c1"># Automated component testing</span>
+<span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;Testing resistor values...&quot;</span>
+<span class="k">for</span><span class="w"> </span>expected<span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="m">1000</span><span class="w"> </span><span class="m">2200</span><span class="w"> </span><span class="m">4700</span><span class="w"> </span><span class="m">10000</span><span class="p">;</span><span class="w"> </span><span class="k">do</span>
+<span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;Insert </span><span class="si">${</span><span class="nv">expected</span><span class="si">}</span><span class="s2">Ω resistor and press Enter&quot;</span>
+<span class="w">    </span><span class="nb">read</span>
+<span class="w">    </span><span class="nv">measured</span><span class="o">=</span><span class="k">$(</span>OpenTraceCLI<span class="w"> </span>--driver<span class="w"> </span>voltcraft-vc820<span class="w"> </span><span class="se">\</span>
+<span class="w">      </span>--config<span class="w"> </span><span class="nv">conn</span><span class="o">=</span>/dev/ttyUSB0<span class="w"> </span>--samples<span class="w"> </span><span class="m">5</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>tail<span class="w"> </span>-1<span class="k">)</span>
+<span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;Expected: </span><span class="si">${</span><span class="nv">expected</span><span class="si">}</span><span class="s2">Ω, Measured: </span><span class="nv">$measured</span><span class="s2">&quot;</span>
+<span class="k">done</span>
+</code></pre></div>
+<h3 id="environmental-monitoring">Environmental Monitoring<a class="headerlink" href="#environmental-monitoring" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="c1"># Temperature logging (VC-840 with temperature probe)</span>
+OpenTraceCLI<span class="w"> </span>--driver<span class="w"> </span>voltcraft-vc840<span class="w"> </span>--config<span class="w"> </span><span class="nv">conn</span><span class="o">=</span>/dev/ttyUSB0<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--continuous<span class="w"> </span>--output-format<span class="w"> </span>csv:time<span class="o">=</span><span class="nb">true</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>tee<span class="w"> </span>temperature_<span class="k">$(</span>date<span class="w"> </span>+%Y%m%d<span class="k">)</span>.csv
+</code></pre></div>
+<h3 id="quality-control">Quality Control<a class="headerlink" href="#quality-control" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Incoming inspection</strong>: Verify component values</li>
+<li><strong>Calibration verification</strong>: Check reference standards</li>
+<li><strong>Process monitoring</strong>: Track voltage/current over time</li>
+</ul>
+<h2 id="accuracy-specifications">Accuracy Specifications<a class="headerlink" href="#accuracy-specifications" title="Permanent link">&para;</a></h2>
+<h3 id="vc-820-accuracy">VC-820 Accuracy<a class="headerlink" href="#vc-820-accuracy" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>DC Voltage</strong>: ±(0.5% + 1 digit)</li>
+<li><strong>AC Voltage</strong>: ±(1.2% + 3 digits)</li>
+<li><strong>DC Current</strong>: ±(1.0% + 1 digit)</li>
+<li><strong>Resistance</strong>: ±(0.8% + 1 digit)</li>
+</ul>
+<h3 id="vc-840-accuracy">VC-840 Accuracy<a class="headerlink" href="#vc-840-accuracy" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>DC Voltage</strong>: ±(0.5% + 1 digit)</li>
+<li><strong>AC Voltage</strong>: ±(1.0% + 3 digits)</li>
+<li><strong>Frequency</strong>: ±(0.1% + 1 digit)</li>
+<li><strong>Capacitance</strong>: ±(3.0% + 5 digits)</li>
+</ul>
+<h2 id="comparison">Comparison<a class="headerlink" href="#comparison" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Model</th>
+<th>Display</th>
+<th>Functions</th>
+<th>Accuracy</th>
+<th>Interface</th>
+<th>Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VC-820</td>
+<td>4000 count</td>
+<td>Basic DMM</td>
+<td>±0.5%</td>
+<td>RS232</td>
+<td>$</td>
+</tr>
+<tr>
+<td>VC-840</td>
+<td>4000 count</td>
+<td>Extended</td>
+<td>±0.5%</td>
+<td>RS232</td>
+<td>$$</td>
+</tr>
+<tr>
+<td>M-3860D</td>
+<td>6000 count</td>
+<td>Basic DMM</td>
+<td>±0.3%</td>
+<td>USB</td>
+<td>$$</td>
+</tr>
+<tr>
+<td>UNI-T UT61E</td>
+<td>22000 count</td>
+<td>Basic DMM</td>
+<td>±0.5%</td>
+<td>USB</td>
+<td>$$</td>
+</tr>
+<tr>
+<td>## See Also</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- <a href="../uni-t/">UNI-T Series</a> - USB-based alternatives</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- <a href="../brymen/">Brymen Series</a> - Higher accuracy options</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- <a href="../../../opentracecapture/overview/#multimeters">Multimeter Comparison</a> - Feature comparison</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+  <button id="otl-report-issue"
+        title="Report issue (includes your selection)"
+        class="md-button md-button--primary"
+        style="position: fixed; right: 1rem; bottom: 1.2rem; z-index: 999;">
+  Report issue
+</button>
+
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+
+        <small>
+          Portions of this documentation are adapted from the sigrok project (CC-BY-SA 3.0).
+          OpenTraceLab documentation is licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA 4.0).
+        </small>
+      </div>
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.top", "navigation.tabs", "navigation.sections", "navigation.footer", "content.action.edit", "content.action.view", "toc.integrate", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+        <script src="../../../overrides/assets/javascripts/report-issue.js"></script>
+      
+        <script src="https://unpkg.com/mermaid@10.6.1/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>
