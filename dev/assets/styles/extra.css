@@ -1,7 +1,0 @@
-#otl-report-issue {
-  border-radius: 9999px;
-  padding: 0.6rem 1rem;
-  box-shadow: 0 6px 18px rgba(0,0,0,.25);
-  opacity: .9;
-}
-#otl-report-issue:hover { opacity: 1; }
