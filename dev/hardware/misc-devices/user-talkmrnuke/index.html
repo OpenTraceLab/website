@@ -1,0 +1,2325 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Open-source logic analysis — capture, view, and decode traces.">
+      
+      
+      
+        <link rel="canonical" href="https://opentracelab.github.io/website/dev/hardware/misc-devices/user-talkmrnuke/">
+      
+      
+      
+      
+      <link rel="icon" href="../../../docs-assets/logos/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
+    
+    
+      
+        <title>User Talkmrnuke - OpenTraceLab</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.e53b48f4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../overrides/assets/styles/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#user-talkmrnuke" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="OpenTraceLab" class="md-header__button md-logo" aria-label="OpenTraceLab" data-md-component="logo">
+      
+  <img src="../../../logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            OpenTraceLab
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              User Talkmrnuke
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/OpenTraceLab/website" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    OpenTraceLab/website
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../get-started/install/" class="md-tabs__link">
+          
+  
+  
+  Get started
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../opentracecapture/overview/" class="md-tabs__link">
+          
+  
+  
+  OpenTraceCapture
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../opentraceview/overview/" class="md-tabs__link">
+          
+  
+  
+  OpenTraceView
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../opentracedecode/overview/" class="md-tabs__link">
+          
+  
+  
+  OpenTraceDecode
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../opentracebroadcaster/overview/" class="md-tabs__link">
+          
+  
+  
+  OpenTraceBroadcaster
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../supported-hardware/" class="md-tabs__link">
+          
+  
+  
+  Hardware
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../community/contributing/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../about/mission/" class="md-tabs__link">
+          
+  
+  
+  About
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../legal/license/" class="md-tabs__link">
+          
+  
+  
+  Legal
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="OpenTraceLab" class="md-nav__button md-logo" aria-label="OpenTraceLab" data-md-component="logo">
+      
+  <img src="../../../logo.png" alt="logo">
+
+    </a>
+    OpenTraceLab
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/OpenTraceLab/website" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    OpenTraceLab/website
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Get started
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Get started
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../get-started/install/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Install
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../get-started/capture-first-trace/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Capture your first trace
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../get-started/faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    OpenTraceCapture
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            OpenTraceCapture
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../opentracecapture/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../api/opentracecapture-cxx/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    C++ API
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    OpenTraceView
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            OpenTraceView
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../opentraceview/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../opentraceview/architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Architecture
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../api/opentraceview/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    API
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    OpenTraceDecode
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            OpenTraceDecode
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../opentracedecode/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../opentracedecode/decoder-howto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Decoder HOWTO
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../opentracedecode/decoder-api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Decoder API
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../api/opentracedecode/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    API
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    OpenTraceBroadcaster
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            OpenTraceBroadcaster
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../opentracebroadcaster/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Hardware
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Hardware
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../supported-hardware/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Supported Devices
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Logic Analyzers
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            Logic Analyzers
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../logic-analyzer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../logic-analyzer/fx2lafw/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FX2-based Devices
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../logic-analyzer/saleae-logic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Saleae Logic Series
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../logic-analyzer/kingst-la-series/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Kingst LA Series
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../logic-analyzer/openbench-logic-sniffer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    OpenBench LogicSniffer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_3" id="__nav_7_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Multimeters
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_3">
+            <span class="md-nav__icon md-icon"></span>
+            Multimeters
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../multimeter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../multimeter/uni-t/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    UNI-T Series
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../multimeter/voltcraft/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Voltcraft Series
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../multimeter/brymen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Brymen Series
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_4" id="__nav_7_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Oscilloscopes
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_4">
+            <span class="md-nav__icon md-icon"></span>
+            Oscilloscopes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oscilloscope/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oscilloscope/rigol-ds/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rigol DS Series
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oscilloscope/hantek-dso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hantek DSO Series
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../oscilloscope/siglent-sds/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Siglent SDS Series
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_5" id="__nav_7_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Power Supplies
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_5">
+            <span class="md-nav__icon md-icon"></span>
+            Power Supplies
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../power-supply/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../power-supply/korad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Korad Series
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../power-supply/rigol-dp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rigol DP Series
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_6" id="__nav_7_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Function Generators
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_6">
+            <span class="md-nav__icon md-icon"></span>
+            Function Generators
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../function-generator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_7" id="__nav_7_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Thermometers
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_7">
+            <span class="md-nav__icon md-icon"></span>
+            Thermometers
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../thermometer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../community/contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../community/code-of-conduct/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Code of Conduct
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../community/governance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Governance
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../community/testing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Testing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    About
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            About
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/mission/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mission
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/roadmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Roadmap
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Legal
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Legal
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../legal/license/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    License
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../legal/attribution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Attribution
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+  
+                  
+
+
+  
+    <a href="https://github.com/OpenTraceLab/website/edit/main/docs/hardware/misc-devices/user-talkmrnuke.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/OpenTraceLab/website/raw/main/docs/hardware/misc-devices/user-talkmrnuke.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5 5 5 0 0 1 5-5 5 5 0 0 1 5 5 5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"/></svg>
+    </a>
+  
+
+
+<h1 id="user-talkmrnuke">User Talkmrnuke<a class="headerlink" href="#user-talkmrnuke" title="Permanent link">&para;</a></h1>
+<h2 id="contents">Contents<a class="headerlink" href="#contents" title="Permanent link">&para;</a></h2>
+<p>- <em>1 Focussz Fosc21 Protocol</em> - <em>1.1 ID packet</em> - <em>1.2 A few more captures</em> - <em>1.2.1 Ch1-high Ch2-low</em> - <em>1.2.2 Ch1-low Ch2-high</em> - <em>1.3 Understanding the protocol</em> - <em>1.3.1 High-level overview</em> - <em>1.3.2 Packet structure</em> - <em>1.3.3 Data packet structure</em> - <em>2 BM857 PC interface cable</em> - <em>2.1 Info</em> - <em>2.1.1 Schematic</em> - <em>2.1.2 Photos</em> - <em>3 Brymen BC-85Xa interface cable</em> - <em>3.1 Reverse engineering the cable</em> - <em>3.1.1 Connector pinout</em> - <em>3.1.2 Infrared Signal</em> - <em>3.2 Photos</em></p>
+<h2 id="focussz-fosc21-protocol-im-working-on-reverse-engineering-the-protocol-of-the-focussz_fosc21-basic-oscilloscope-the-device-is-an-8-bit-microcontroller-hooked-up-to-usb-serial-chip-the-communication-is-1152008n1-since-the-communication-is-done-via-usb-wireshark-is-the-best-friend-with-a-bit-of-filtering-we-can-get-just-the-serial-communication-once-the-bytes-are-put-into-packets-a-communication-session-looks-like-send-packets-1-ff-05-7f-7d-06-73-2-ff-05-7f-7d-06-73-3-blablabla-get-bored-we-were-sending-at-the-wrong-baud-anyway-switch-baud-115200-bytenum-0-1-2-3-4-5-6-7-8-9-10-11-out-ff-05-61-7d-06-73-in-ff-0b-9b-e6-80-1a-11-20-64-32-03-04-out-ff-09-60-64-40-97-64-7d-c0-03-out-ff-09-60-64-40-97-64-7d-d1-03-out-ff-09-60-64-40-97-64-7d-01-03-out-ff-09-60-64-40-97-64-7d-00-03-in-ff-07-40-36-40-26-ff-03-out-ff-09-60-64-40-97-64-7d-c0-03-in-ff-07-40-36-40-26-ff-03-in-ff-07-40-36-40-26-ff-03-out-ff-09-60-64-40-97-64-7d-c0-03-in-ff-07-40-36-40-26-ff-03-out-ff-09-60-64-40-97-64-7d-c0-03-in-ff-07-40-36-40-26-ff-03-in-ff-07-40-36-40-26-ff-03-in-ff-05-00-12-01-00-32-28-61-01-this-looks-like-an-actual-reading-in-ff-05-00-02-01-00-1e-79-1e-01-this-looks-like-an-actual-reading-from-now-on-only-the-scope-is-sending-packets-all-subsequent-packets-have-this-format-id-packet-the-first-packet-exchange-seems-to-be-an-identification-exchange-hence-the-name-id-packet-the-following-is-an-example-of-an-id-packet-exchage-out-ff-05-61-7d-06-73-in-ff-0b-9b-e6-80-1a-11-20-64-32-03-04-it-seems-that-the-first-packet-sent-by-the-host-varies-bytes-2-and-3-with-each-run-so-i-fed-it-all-possible-values-to-see-how-the-device-responds-the-trace-is-here-the-id-reply-seems-to-be-a-naive-xor-manipulation-of-the-id-request-plus-some-unidentified-bytes-it-appears-that-for-the-id-packet-out2-in2-xor-in4-xor-0xfc-out3-in3-xor-in5-xor-0xe8-out4-in2-xor-in4-xor-0xe7-out5-in2-xor-in3-xor-in5-xor-0x75-a-few-more-captures-ch1-high-ch2-low-focussz-fosc21-capture-channel-1-12v-1x-input-positive-saturation-channel-2-12v-10x-input-negative-saturation-just-switched-to-115200-baud-out-ff-05-b9-58-06-73-in-ff-0b-43-c3-58-e7-11-20-64-32-03-04-out-ff-09-60-64-40-97-64-7d-c0-03-out-ff-09-60-64-40-97-64-7d-d1-03-out-ff-09-60-64-40-97-64-7d-01-03-in-ff-07-40-36-40-26-ff-03-out-ff-09-60-64-40-97-64-7d-00-03-in-ff-07-40-36-40-26-ff-03-out-ff-09-60-64-40-97-64-7d-c0-03-in-ff-07-40-36-40-26-ff-03-in-ff-07-40-36-40-26-ff-03-out-ff-09-60-64-40-97-64-7d-c0-03-in-ff-07-40-36-40-26-ff-03-in-ff-07-40-36-40-26-ff-03-out-ff-09-60-64-40-97-64-7d-c0-03-in-ff-07-40-36-40-26-ff-03-in-ff-05-00-02-01-00-fe-02-07-02-in-ff-05-00-02-01-00-fe-02-07-02-all-other-in-packets-repeat-no-more-out-packets-ch1-low-ch2-high-focussz-fosc21-capture-channel-1-12v-10x-input-negative-saturation-channel-2-12v-1x-input-positive-saturation-just-switched-to-115200-baud-out-ff-05-92-45-06-73-in-ff-0b-68-de-73-d1-11-20-64-32-03-04-out-ff-09-60-64-40-97-64-7d-c0-03-out-ff-09-60-64-40-97-64-7d-d1-03-out-ff-09-60-64-40-97-64-7d-01-03-in-ff-07-40-36-40-26-ff-03-out-ff-09-60-64-40-97-64-7d-00-03-in-ff-07-40-36-40-26-ff-03-out-ff-09-60-64-40-97-64-7d-c0-03-in-ff-07-40-36-40-26-ff-03-in-ff-07-40-36-40-26-ff-03-out-ff-09-60-64-40-97-64-7d-c0-03-in-ff-07-40-36-40-26-ff-03-in-ff-07-40-36-40-26-ff-03-out-ff-09-60-64-40-97-64-7d-c0-03-in-ff-07-40-36-40-26-ff-03-in-ff-05-00-02-01-00-02-02-0b-01-in-ff-05-00-02-01-00-02-fe-07-02-in-ff-05-00-02-01-00-02-fe-07-02-in-ff-05-00-02-01-00-02-fe-07-02-all-other-in-packets-repeat-no-more-out-packets-understanding-the-protocol-high-level-overview-host-initiates-communication-with-5-byte-packet-todo-what-does-the-packet-mean-device-responds-with-11-byte-packet-todo-what-does-the-packet-mean-host-sends-configuration-packets-9-bytes-each-todo-what-do-the-packets-mean-device-responds-to-each-individual-packet-with-a-7-byte-packet-todo-what-do-the-packets-mean-device-starts-sending-reading-data-in-9-byte-packets-at-least-when-both-probes-are-enabled-packet-structure-signature-0xff-packet-length-n-not-valid-data-packets-payload-n-1-bytes-todo-does-payload-include-any-error-correcting-code-note-that-packets-are-actually-n1-bytes-long-as-n-does-not-include-the-packet-signature-data-packet-structure-this-structure-applies-only-to-packets-containing-readings-from-the-probes-a-packet-containing-data-from-2-probes-has-the-following-structure-signature-0xff-unknown-0x05-unknown-0x00-number-of-probes-0x02-probe-number-0x01-probe-reading-actual-value-from-the-adc-probe-number-0x02-probe-reading-actual-value-from-the-adc-2-byte-terminator-0x07-0x02-byte-meaning-example">Focussz Fosc21 Protocol I'm working on reverse engineering the protocol of the <em>Focussz_Fosc21</em> basic oscilloscope. The device is an 8-bit microcontroller hooked up to USB-serial chip. the communication is 115200,8n1. Since the communication is done via USB, Wireshark is the best friend. With a bit of filtering, we can get just the serial communication. Once the bytes are put into packets, a communication session looks like: Send Packets: 1. ff 05 7f 7d 06 73 2. ff 05 7f 7d 06 73 3. blablabla Get bored, we were sending at the wrong baud anyway switch baud 115200 Bytenum 0 1 2 3 4 5 6 7 8 9 10 11 OUT ==&gt; ff 05 61 7d 06 73 IN &lt;== ff 0b 9b e6 80 1a 11 20 64 32 03 04 OUT ==&gt; ff 09 60 64 40 97 64 7d c0 03 OUT ==&gt; ff 09 60 64 40 97 64 7d d1 03 OUT ==&gt; ff 09 60 64 40 97 64 7d 01 03 OUT ==&gt; ff 09 60 64 40 97 64 7d 00 03 IN &lt;== ff 07 40 36 40 26 ff 03 OUT ==&gt; ff 09 60 64 40 97 64 7d c0 03 IN &lt;== ff 07 40 36 40 26 ff 03 IN &lt;== ff 07 40 36 40 26 ff 03 OUT ==&gt; ff 09 60 64 40 97 64 7d c0 03 IN &lt;== ff 07 40 36 40 26 ff 03 OUT ==&gt; ff 09 60 64 40 97 64 7d c0 03 IN &lt;== ff 07 40 36 40 26 ff 03 IN &lt;== ff 07 40 36 40 26 ff 03 IN &lt;== ff 05 00 12 01 00 32 28 61 01 /<em> This looks like an actual reading </em>/ IN &lt;== ff 05 00 02 01 00 1e 79 1e 01 /<em> This looks like an actual reading </em>/ /<em> * From now on, only the scope is sending packets. * All subsequent packets have this format. </em>/ ### ID packet The first packet exchange seems to be an identification exchange, hence the name "ID packet". The following is an example of an ID packet exchage: OUT ==&gt; ff 05 61 7d 06 73 IN &lt;== ff 0b 9b e6 80 1a 11 20 64 32 03 04 It seems that the first packet sent by the host varies bytes \[2\] and \[3\] with each run. So I fed it all possible values to see how the device responds. The trace is <a href="http://g-tech.no-ip.org/~mrnuke/fosc21_re/fosc21_baby_plastic.txt">here</a>. The ID reply seems to be a naive XOR manipulation of the ID request plus some unidentified bytes. It appears that, for the ID packet: - OUT\[2\] = IN\[2\] xor IN\[4\] xor 0xfc - OUT\[3\] = IN\[3\] xor IN\[5\] xor 0xe8 - OUT\[4\] = IN\[2\] xor IN\[4\] xor 0xe7 - OUT\[5\] = IN\[2\] xor IN\[3\] xor IN\[5\] xor 0x75 ### A few more captures #### Ch1-high Ch2-low /<em> * Focussz Fosc21 capture * Channel 1: +12V 1X, input positive saturation * Channel 2: -12V 10X, input negative saturation </em>/ /<em> Just switched to 115200 baud </em>/ OUT ==&gt; ff 05 b9 58 06 73 IN &lt;== ff 0b 43 c3 58 e7 11 20 64 32 03 04 OUT ==&gt; ff 09 60 64 40 97 64 7d c0 03 OUT ==&gt; ff 09 60 64 40 97 64 7d d1 03 OUT ==&gt; ff 09 60 64 40 97 64 7d 01 03 IN &lt;== ff 07 40 36 40 26 ff 03 OUT ==&gt; ff 09 60 64 40 97 64 7d 00 03 IN &lt;== ff 07 40 36 40 26 ff 03 OUT ==&gt; ff 09 60 64 40 97 64 7d c0 03 IN &lt;== ff 07 40 36 40 26 ff 03 IN &lt;== ff 07 40 36 40 26 ff 03 OUT ==&gt; ff 09 60 64 40 97 64 7d c0 03 IN &lt;== ff 07 40 36 40 26 ff 03 IN &lt;== ff 07 40 36 40 26 ff 03 OUT ==&gt; ff 09 60 64 40 97 64 7d c0 03 IN &lt;== ff 07 40 36 40 26 ff 03 IN &lt;== ff 05 00 02 01 00 fe 02 07 02 IN &lt;== ff 05 00 02 01 00 fe 02 07 02 /<em> All other IN packets repeat. No more OUT packets </em>/ #### Ch1-low Ch2-high /<em> * Focussz Fosc21 capture * Channel 1: -12V 10X, input negative saturation * Channel 2: +12V 1X, input positive saturation </em>/ /<em> Just switched to 115200 baud </em>/ OUT ==&gt; ff 05 92 45 06 73 IN &lt;== ff 0b 68 de 73 d1 11 20 64 32 03 04 OUT ==&gt; ff 09 60 64 40 97 64 7d c0 03 OUT ==&gt; ff 09 60 64 40 97 64 7d d1 03 OUT ==&gt; ff 09 60 64 40 97 64 7d 01 03 IN &lt;== ff 07 40 36 40 26 ff 03 OUT ==&gt; ff 09 60 64 40 97 64 7d 00 03 IN &lt;== ff 07 40 36 40 26 ff 03 OUT ==&gt; ff 09 60 64 40 97 64 7d c0 03 IN &lt;== ff 07 40 36 40 26 ff 03 IN &lt;== ff 07 40 36 40 26 ff 03 OUT ==&gt; ff 09 60 64 40 97 64 7d c0 03 IN &lt;== ff 07 40 36 40 26 ff 03 IN &lt;== ff 07 40 36 40 26 ff 03 OUT ==&gt; ff 09 60 64 40 97 64 7d c0 03 IN &lt;== ff 07 40 36 40 26 ff 03 IN &lt;== ff 05 00 02 01 00 02 02 0b 01 IN &lt;== ff 05 00 02 01 00 02 fe 07 02 IN &lt;== ff 05 00 02 01 00 02 fe 07 02 IN &lt;== ff 05 00 02 01 00 02 fe 07 02 /<em> All other IN packets repeat. No more OUT packets </em>/ ### Understanding the protocol #### High-level overview - Host initiates communication with 5-byte packet (TODO: What does the packet mean?) - Device responds with 11-byte packet (TODO: What does the packet mean?) - Host sends configuration packets, 9-bytes each (TODO: What do the packets mean?) - Device responds to each individual packet with a 7-byte packet (TODO: What do the packets mean?) - Device starts sending reading data in 9-byte packets (At least when both probes are enabled) #### Packet structure - Signature (0xff) - Packet length (N) -- not valid data packets - Payload: N-1 bytes (TODO: Does payload include any error-correcting code?) Note that packets are actually N+1 bytes long, as N does not include the packet signature #### Data packet structure This structure applies only to packets containing readings from the probes. A packet containing data from 2 probes has the following structure: - Signature (0xff) - Unknown (0x05) - Unknown (0x00) - Number of probes (?) (0x02) - Probe number (?) (0x01) - Probe reading (?) (actual value from the ADC) - Probe number (?) (0x02) - Probe reading (?) (actual value from the ADC) - 2-byte terminator (?) (0x07 0x02)  Byte | Meaning | Example<a class="headerlink" href="#focussz-fosc21-protocol-im-working-on-reverse-engineering-the-protocol-of-the-focussz_fosc21-basic-oscilloscope-the-device-is-an-8-bit-microcontroller-hooked-up-to-usb-serial-chip-the-communication-is-1152008n1-since-the-communication-is-done-via-usb-wireshark-is-the-best-friend-with-a-bit-of-filtering-we-can-get-just-the-serial-communication-once-the-bytes-are-put-into-packets-a-communication-session-looks-like-send-packets-1-ff-05-7f-7d-06-73-2-ff-05-7f-7d-06-73-3-blablabla-get-bored-we-were-sending-at-the-wrong-baud-anyway-switch-baud-115200-bytenum-0-1-2-3-4-5-6-7-8-9-10-11-out-ff-05-61-7d-06-73-in-ff-0b-9b-e6-80-1a-11-20-64-32-03-04-out-ff-09-60-64-40-97-64-7d-c0-03-out-ff-09-60-64-40-97-64-7d-d1-03-out-ff-09-60-64-40-97-64-7d-01-03-out-ff-09-60-64-40-97-64-7d-00-03-in-ff-07-40-36-40-26-ff-03-out-ff-09-60-64-40-97-64-7d-c0-03-in-ff-07-40-36-40-26-ff-03-in-ff-07-40-36-40-26-ff-03-out-ff-09-60-64-40-97-64-7d-c0-03-in-ff-07-40-36-40-26-ff-03-out-ff-09-60-64-40-97-64-7d-c0-03-in-ff-07-40-36-40-26-ff-03-in-ff-07-40-36-40-26-ff-03-in-ff-05-00-12-01-00-32-28-61-01-this-looks-like-an-actual-reading-in-ff-05-00-02-01-00-1e-79-1e-01-this-looks-like-an-actual-reading-from-now-on-only-the-scope-is-sending-packets-all-subsequent-packets-have-this-format-id-packet-the-first-packet-exchange-seems-to-be-an-identification-exchange-hence-the-name-id-packet-the-following-is-an-example-of-an-id-packet-exchage-out-ff-05-61-7d-06-73-in-ff-0b-9b-e6-80-1a-11-20-64-32-03-04-it-seems-that-the-first-packet-sent-by-the-host-varies-bytes-2-and-3-with-each-run-so-i-fed-it-all-possible-values-to-see-how-the-device-responds-the-trace-is-here-the-id-reply-seems-to-be-a-naive-xor-manipulation-of-the-id-request-plus-some-unidentified-bytes-it-appears-that-for-the-id-packet-out2-in2-xor-in4-xor-0xfc-out3-in3-xor-in5-xor-0xe8-out4-in2-xor-in4-xor-0xe7-out5-in2-xor-in3-xor-in5-xor-0x75-a-few-more-captures-ch1-high-ch2-low-focussz-fosc21-capture-channel-1-12v-1x-input-positive-saturation-channel-2-12v-10x-input-negative-saturation-just-switched-to-115200-baud-out-ff-05-b9-58-06-73-in-ff-0b-43-c3-58-e7-11-20-64-32-03-04-out-ff-09-60-64-40-97-64-7d-c0-03-out-ff-09-60-64-40-97-64-7d-d1-03-out-ff-09-60-64-40-97-64-7d-01-03-in-ff-07-40-36-40-26-ff-03-out-ff-09-60-64-40-97-64-7d-00-03-in-ff-07-40-36-40-26-ff-03-out-ff-09-60-64-40-97-64-7d-c0-03-in-ff-07-40-36-40-26-ff-03-in-ff-07-40-36-40-26-ff-03-out-ff-09-60-64-40-97-64-7d-c0-03-in-ff-07-40-36-40-26-ff-03-in-ff-07-40-36-40-26-ff-03-out-ff-09-60-64-40-97-64-7d-c0-03-in-ff-07-40-36-40-26-ff-03-in-ff-05-00-02-01-00-fe-02-07-02-in-ff-05-00-02-01-00-fe-02-07-02-all-other-in-packets-repeat-no-more-out-packets-ch1-low-ch2-high-focussz-fosc21-capture-channel-1-12v-10x-input-negative-saturation-channel-2-12v-1x-input-positive-saturation-just-switched-to-115200-baud-out-ff-05-92-45-06-73-in-ff-0b-68-de-73-d1-11-20-64-32-03-04-out-ff-09-60-64-40-97-64-7d-c0-03-out-ff-09-60-64-40-97-64-7d-d1-03-out-ff-09-60-64-40-97-64-7d-01-03-in-ff-07-40-36-40-26-ff-03-out-ff-09-60-64-40-97-64-7d-00-03-in-ff-07-40-36-40-26-ff-03-out-ff-09-60-64-40-97-64-7d-c0-03-in-ff-07-40-36-40-26-ff-03-in-ff-07-40-36-40-26-ff-03-out-ff-09-60-64-40-97-64-7d-c0-03-in-ff-07-40-36-40-26-ff-03-in-ff-07-40-36-40-26-ff-03-out-ff-09-60-64-40-97-64-7d-c0-03-in-ff-07-40-36-40-26-ff-03-in-ff-05-00-02-01-00-02-02-0b-01-in-ff-05-00-02-01-00-02-fe-07-02-in-ff-05-00-02-01-00-02-fe-07-02-in-ff-05-00-02-01-00-02-fe-07-02-all-other-in-packets-repeat-no-more-out-packets-understanding-the-protocol-high-level-overview-host-initiates-communication-with-5-byte-packet-todo-what-does-the-packet-mean-device-responds-with-11-byte-packet-todo-what-does-the-packet-mean-host-sends-configuration-packets-9-bytes-each-todo-what-do-the-packets-mean-device-responds-to-each-individual-packet-with-a-7-byte-packet-todo-what-do-the-packets-mean-device-starts-sending-reading-data-in-9-byte-packets-at-least-when-both-probes-are-enabled-packet-structure-signature-0xff-packet-length-n-not-valid-data-packets-payload-n-1-bytes-todo-does-payload-include-any-error-correcting-code-note-that-packets-are-actually-n1-bytes-long-as-n-does-not-include-the-packet-signature-data-packet-structure-this-structure-applies-only-to-packets-containing-readings-from-the-probes-a-packet-containing-data-from-2-probes-has-the-following-structure-signature-0xff-unknown-0x05-unknown-0x00-number-of-probes-0x02-probe-number-0x01-probe-reading-actual-value-from-the-adc-probe-number-0x02-probe-reading-actual-value-from-the-adc-2-byte-terminator-0x07-0x02-byte-meaning-example" title="Permanent link">&para;</a></h2>
+<p>---|---|---
+0 | Packet signature | ff
+1 | (?) | 05
+2 | (?) | 00
+3 | Number of probes | 02
+4 | Probe number | 01
+5 | Reading | 00
+6 | Probe number | 02
+7 | Reading | fe
+8 | Packet termination (?) | 07
+9 | Packet termination (?) | 02</p>
+<h2 id="bm857-pc-interface-cable-im-trying-to-build-a-pc-interface-cable-for-my-brymen-bm857-i-have-used-radioshack-276-142-ir-diode-and-photo-transistor-set-and-a-pl2303-usb-to-serial-converter-if-you-have-a-real-cable-youd-like-to-donate-hop-on-to-opentracelab-and-contact-me-info-this-is-an-experimental-homebrew-design-it-does-not-work-the-manufacturers-cable-contains-a-pic-microcontroller-that-communicates-with-the-pc-and-multimeter-the-data-sent-through-the-serial-port-is-not-what-the-dmm-receivessends-any-straight-cable-will-not-work-it-is-unclear-if-the-ir-protocol-is-a-simple-uart-or-is-pulse-width-based-or-if-it-uses-any-other-encoding-schematic-image-1-photos-">BM857 PC interface cable I'm trying to build a PC interface cable for my Brymen BM857. I have used <a href="http://www.radioshack.com/product/index.jsp?productId=2049723%7C">Radioshack 276-142</a> IR diode and photo-transistor set, and a PL2303 USB to serial converter. If you have a real cable you'd like to donate, hop on to \#OpenTraceLab and contact me. ### Info This is an experimental homebrew design. It does NOT work. The manufacturer's cable contains a PIC microcontroller that communicates with the PC, and multimeter. The data sent through the serial port is not what the DMM receives/sends. Any straight cable will not work. It is unclear if the IR protocol is a simple UART, or is pulse-width based, or if it uses any other encoding. #### Schematic [<em>Image: \1</em> #### Photos -<a class="headerlink" href="#bm857-pc-interface-cable-im-trying-to-build-a-pc-interface-cable-for-my-brymen-bm857-i-have-used-radioshack-276-142-ir-diode-and-photo-transistor-set-and-a-pl2303-usb-to-serial-converter-if-you-have-a-real-cable-youd-like-to-donate-hop-on-to-opentracelab-and-contact-me-info-this-is-an-experimental-homebrew-design-it-does-not-work-the-manufacturers-cable-contains-a-pic-microcontroller-that-communicates-with-the-pc-and-multimeter-the-data-sent-through-the-serial-port-is-not-what-the-dmm-receivessends-any-straight-cable-will-not-work-it-is-unclear-if-the-ir-protocol-is-a-simple-uart-or-is-pulse-width-based-or-if-it-uses-any-other-encoding-schematic-image-1-photos-" title="Permanent link">&para;</a></h2>
+<p>[<em>Image: \1</em>
+The IR diode and phototransistor are prominent on the board
+-
+[<em>Image: \1</em>
+Board being held in place by the rubber holster</p>
+<h2 id="brymen-bc-85xa-interface-cable-this-is-the-official-interface-cable-sold-by-brymen-it-works-with-the-bm857a-and-bm859a-but-does-not-work-with-thw-non-a-models-reverse-engineering-the-cable-it-is-clear-at-this-point-that-the-protocol-on-the-rs-232-side-is-not-the-same-as-the-protocol-used-on-the-ir-side-this-raises-an-interesting-question-can-the-protocol-be-reversed-engineered-and-implemented-as-a-simple-uart-if-the-ir-encoding-is-a-simple-uart-then-it-is-feasible-a-brymen-dmm-raw-driver-could-provide-users-with-a-quick-way-to-put-together-a-circuit-and-communicate-with-their-brymen-connector-pinout-rs232-pin-conductor-pin">Brymen BC-85Xa interface cable This is the official interface cable sold by Brymen. It works with the BM857a and BM859a, but does not work with thw non-a models. ### Reverse engineering the cable It is clear at this point that the protocol on the RS-232 side is not the same as the protocol used on the IR side. This raises an interesting question: Can the protocol be reversed-engineered and implemented as a simple UART? If the IR encoding is a simple UART, then it is feasible. A "brymen-dmm-raw" driver could provide users with a quick way to put together a circuit and communicate with their Brymen. #### Connector pinout RS232 pin | Conductor pin<a class="headerlink" href="#brymen-bc-85xa-interface-cable-this-is-the-official-interface-cable-sold-by-brymen-it-works-with-the-bm857a-and-bm859a-but-does-not-work-with-thw-non-a-models-reverse-engineering-the-cable-it-is-clear-at-this-point-that-the-protocol-on-the-rs-232-side-is-not-the-same-as-the-protocol-used-on-the-ir-side-this-raises-an-interesting-question-can-the-protocol-be-reversed-engineered-and-implemented-as-a-simple-uart-if-the-ir-encoding-is-a-simple-uart-then-it-is-feasible-a-brymen-dmm-raw-driver-could-provide-users-with-a-quick-way-to-put-together-a-circuit-and-communicate-with-their-brymen-connector-pinout-rs232-pin-conductor-pin" title="Permanent link">&para;</a></h2>
+<p>---|---
+1 - DCD | NC
+2 - Rx | 7 - Red
+3 - Tx | 6 - Yellow
+4 - DTR | 5 - Green
+5 - GND | 1 - Blue
+6 - DSR | 4 - Gray
+7 - RTS | 3 - White
+8 - CTS | 2 - Black
+9 - RI | NC</p>
+<h4 id="infrared-signal-i-thought-it-would-be-interested-to-see-how-the-signal-at-the-ir-led-looks-like-since-i-didnt-have-an-oscilloscope-or-logic-analyzer-available-at-the-time-i-used-my-sound-card-to-record-the-signal-the-ac-coupling-of-the-sound-card-makes-the-signal-look-funny-but-the-edges-are-clearly-visible-the-first-pulse-is-about-9ms-long-while-the-second-pulse-is-10ms-long-the-two-pulses-are-spaced-265ms-apart-it-looks-as-if-the-communication-may-be-pulse-width-based-without-having-a-cablemultimeter-set-that-works-it-is-impossible-to-say-more-">Infrared Signal I thought it would be interested to see how the signal at the IR LED looks like. Since I didn't have an oscilloscope or logic analyzer available at the time, I used my sound card to record the signal. The AC coupling of the sound card makes the signal look funny, but the edges are clearly visible. The first pulse is about 9ms long, while the second pulse is 10ms long. The two pulses are spaced 265ms apart. It looks as if the communication may be pulse-width based. Without having a cable/multimeter set that works, it is impossible to say more. -<a class="headerlink" href="#infrared-signal-i-thought-it-would-be-interested-to-see-how-the-signal-at-the-ir-led-looks-like-since-i-didnt-have-an-oscilloscope-or-logic-analyzer-available-at-the-time-i-used-my-sound-card-to-record-the-signal-the-ac-coupling-of-the-sound-card-makes-the-signal-look-funny-but-the-edges-are-clearly-visible-the-first-pulse-is-about-9ms-long-while-the-second-pulse-is-10ms-long-the-two-pulses-are-spaced-265ms-apart-it-looks-as-if-the-communication-may-be-pulse-width-based-without-having-a-cablemultimeter-set-that-works-it-is-impossible-to-say-more-" title="Permanent link">&para;</a></h4>
+<p>[<em>Image: \1</em>
+Signal at IR LED with vendor software attempting to connect. (AC coupled)</p>
+<h3 id="photos-these-are-from-the-extech-sw810a-kit-the-components-are-all-manufactured-by-brymen-and-carry-the-brymen-part-numbers-">Photos These are from the Extech SW810a kit. The components are all manufactured by Brymen, and carry the Brymen part numbers. -<a class="headerlink" href="#photos-these-are-from-the-extech-sw810a-kit-the-components-are-all-manufactured-by-brymen-and-carry-the-brymen-part-numbers-" title="Permanent link">&para;</a></h3>
+<p>[<em>Image: \1</em>
+Kit contents (software disc not shown)
+-
+[<em>Image: \1</em>
+BC-85Xa DB9 connector
+-
+[<em>Image: \1</em>
+BC-85Xa DMM connector
+-
+[<em>Image: \1</em>
+BUA2303 USB-to-serial converter
+-
+[<em>Image: \1</em>
+BUA2303 USB-to-serial converter, back
+-
+[<em>Image: \1</em>
+BUA2303 USB-to-serial converter, bottom
+-
+[<em>Image: \1</em>
+IR side, opened
+-
+[<em>Image: \1</em>
+IR side casing
+-
+[<em>Image: \1</em>
+IR side PCB, top
+-
+[<em>Image: \1</em>
+IR side PCB, botoom
+-
+[<em>Image: \1</em>
+BUA2303 PCB, top
+-
+[<em>Image: \1</em>
+BUA2303 PCB, bottom</p>
+<h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../supported-hardware/">Supported Hardware Overview</a></li>
+<li><a href="../../../opentracecapture/overview/">OpenTraceCapture Documentation</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+  <button id="otl-report-issue"
+        title="Report issue (includes your selection)"
+        class="md-button md-button--primary"
+        style="position: fixed; right: 1rem; bottom: 1.2rem; z-index: 999;">
+  Report issue
+</button>
+
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+
+        <small>
+          Portions of this documentation are adapted from the sigrok project (CC-BY-SA 3.0).
+          OpenTraceLab documentation is licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA 4.0).
+        </small>
+      </div>
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.top", "navigation.tabs", "navigation.sections", "navigation.footer", "content.action.edit", "content.action.view", "toc.integrate", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+        <script src="../../../overrides/assets/javascripts/report-issue.js"></script>
+      
+        <script src="https://unpkg.com/mermaid@10.6.1/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>
