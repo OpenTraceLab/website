@@ -1,0 +1,12 @@
+.grid.cards.hardware > ul > li {
+  border-left: 4px solid var(--md-primary-fg-color);
+  box-shadow: var(--md-shadow-z2);
+}
+.grid.cards.hardware img {
+  max-width: 260px;
+  margin: .25rem 0 1rem 0;
+  border-radius: .5rem;
+}
+.grid.cards.hardware h3 {
+  margin-top: 0.25rem;
+}
