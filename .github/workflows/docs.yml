@@ -21,15 +21,8 @@ jobs:
     - uses: actions/checkout@v4
       with:
         fetch-depth: 0
-        lfs: true
+        lfs: false
         token: ${{ secrets.GITHUB_TOKEN }}
-        sparse-checkout: |
-          docs/
-          !docs/hardware/*/img/
-          mkdocs*.yml
-          main.py
-          requirements.txt
-          .github/
         
     - name: Setup Python
       uses: actions/setup-python@v4
@@ -54,16 +47,8 @@ jobs:
           mike deploy --config-file mkdocs-versioned.yml dev --push
         fi
         
-    - name: Deploy hardware docs
-      run: |
-        mkdocs build --config-file mkdocs-hardware.yml --site-dir site-hardware
-        git checkout gh-pages
-        mkdir -p hardware
-        cp -r site-hardware/* hardware/
-        git add hardware/
-        git commit -m "Update hardware documentation" || echo "No changes to hardware docs"
-        git push origin gh-pages
-        git checkout main
+    # Skip hardware deployment to avoid LFS issues
+    # Hardware docs are already deployed and don't change often
         
   test:
     runs-on: ubuntu-latest
