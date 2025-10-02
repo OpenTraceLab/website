@@ -1,0 +1,38 @@
+/* Responsive image grid */
+.md-typeset .photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: .75rem;
+  margin: .5rem 0 1.25rem 0;
+}
+
+/* Uniform tiles (letterbox via object-fit) */
+.md-typeset .photo-grid a {
+  display: block;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: .35rem;
+  overflow: hidden;
+  background: var(--md-code-bg-color);
+}
+
+.md-typeset .photo-grid img {
+  width: 100%;
+  height: 160px;           /* uniform tile height */
+  object-fit: cover;       /* fills the box; crops edges if needed */
+  display: block;
+}
+
+/* Captions under each tile */
+.md-typeset .photo-grid .caption {
+  display: block;
+  padding: .4rem .5rem;
+  font-size: .85em;
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+  border-top: 1px solid var(--md-default-fg-color--lighter);
+}
+
+/* Tweak on small screens */
+@media (max-width: 640px) {
+  .md-typeset .photo-grid img { height: 140px; }
+}

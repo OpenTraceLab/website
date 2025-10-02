@@ -1,0 +1,861 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Hardware support documentation for OpenTraceLab">
+      
+      
+      
+        <link rel="canonical" href="https://opentracelab.github.io/website/hardware/hardware/sound-level-meter/tondaj-sl-814/">
+      
+      
+      
+      
+      <link rel="icon" href="../../../assets/logo/opentracelab_icon_square.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.21">
+    
+    
+      
+        <title>Tondaj SL-814 - OpenTraceLab Hardware</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.2a3383ac.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../overrides/assets/styles/extra.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/logo-size.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/infobox.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/gallery.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/hw-table.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#tondaj-sl-814" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="OpenTraceLab Hardware" class="md-header__button md-logo" aria-label="OpenTraceLab Hardware" data-md-component="logo">
+      
+  <img src="../../../assets/logo/opentracelab_icon_square.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            OpenTraceLab Hardware
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Tondaj SL-814
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo" aria-label="Dark mode" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo" aria-label="Light mode" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/OpenTraceLab/website" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    OpenTraceLab/website
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../supported-hardware/" class="md-tabs__link">
+          
+  
+  
+  Hardware
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="OpenTraceLab Hardware" class="md-nav__button md-logo" aria-label="OpenTraceLab Hardware" data-md-component="logo">
+      
+  <img src="../../../assets/logo/opentracelab_icon_square.svg" alt="logo">
+
+    </a>
+    OpenTraceLab Hardware
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/OpenTraceLab/website" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    OpenTraceLab/website
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1">
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Hardware
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Hardware
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../supported-hardware/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Supported Devices
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tondaj-sl-814_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tondaj SL-814
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hardware" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hardware
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#photos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Photos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#protocol" class="md-nav__link">
+    <span class="md-ellipsis">
+      Protocol
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Protocol">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#commands-replies" class="md-nav__link">
+    <span class="md-ellipsis">
+      Commands / replies
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-reply" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data reply
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#python-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      Python script
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+  
+                  
+
+
+  
+    <a href="https://github.com/OpenTraceLab/website/edit/main/docs/hardware/sound-level-meter/tondaj-sl-814/index.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75z"></path></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/OpenTraceLab/website/raw/main/docs/hardware/sound-level-meter/tondaj-sl-814/index.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5 5 5 0 0 1 5-5 5 5 0 0 1 5 5 5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"></path></svg>
+    </a>
+  
+
+
+<h1 id="tondaj-sl-814">Tondaj SL-814<a class="headerlink" href="#tondaj-sl-814" title="Permanent link">¶</a></h1>
+<div class="infobox">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="./img/Tondaj_sl-814.png" data-title="Tondaj SL-814" data-desc-position="bottom"><img alt="Tondaj SL-814" class="infobox-image" src="./img/Tondaj_sl-814.png"></a></p>
+<h3 id="tondaj-sl-814_1">Tondaj SL-814<a class="headerlink" href="#tondaj-sl-814_1" title="Permanent link">¶</a></h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Status</strong></td>
+<td>supported</td>
+</tr>
+<tr>
+<td><strong>Source code</strong></td>
+<td><a href="https://github.com/OpenTraceLab/OpenTraceCapture/tree/main/src/hardware/tondaj-sl-814">tondaj-sl-814</a></td>
+</tr>
+<tr>
+<td><strong>Connectivity</strong></td>
+<td><a href="https://sigrok.org/wiki/Device_cables#Tondaj_SL-814_cable">USB/serial</a></td>
+</tr>
+<tr>
+<td><strong>Frequency range</strong></td>
+<td>31.5Hz - 8.5kHz</td>
+</tr>
+<tr>
+<td><strong>Measurement range (A)</strong></td>
+<td>40dB - 130dB</td>
+</tr>
+<tr>
+<td><strong>Resolution</strong></td>
+<td>0.1dB</td>
+</tr>
+<tr>
+<td><strong>Accuracy (94dB@1kHz)</strong></td>
+<td>2dB</td>
+</tr>
+<tr>
+<td><strong>Frequency weighting</strong></td>
+<td>A, C</td>
+</tr>
+<tr>
+<td><strong>Time weighting</strong></td>
+<td>F, S</td>
+</tr>
+<tr>
+<td><strong>Website</strong></td>
+<td><a href="http://www.tondaj.cn/ce040_Eng/productshow.asp?id=43&amp;mnid=1039&amp;classname=DIGITAL%20SOUND%20LEVEL%20METER&amp;uppage=/ce040_Eng/product.asp">tondaj.cn</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>The <strong>Tondaj SL-814</strong> (also referred to as <strong>TDJ SL814</strong> sometimes) is a sound level meter with USB connectivity.</p>
+<p>It is available from many different vendors, partly under different names or as noname "sound level meter", e.g. on <a href="http://www.aliexpress.com/wholesale?SearchText=sl-814&amp;catId=0">aliexpress.com</a>, <a href="http://www.amazon.com/s/ref=nb_sb_noss_2/182-8135276-7469311?url=search-alias%3Daps&amp;field-keywords=sl-814">amazon.com</a> (from resellers such as Neewer, Skque, Generic, HDE, BestDealUSA, and many others).</p>
+<p>The device has an auto-poweroff feature which leads to a power-off after 5 minutes. There is no known way to prevent this from happening when running off of batteries. When connected via USB, the device stays powered on. As soon as the connection is removed though, the 5 minute timer for poweroff starts.</p>
+<p>See <a href="https://sigrok.org/wiki/Tondaj_SL-814/Info">Tondaj SL-814/Info</a> for more details (such as <strong>lsusb -vvv</strong> output) about the device.</p>
+<h2 id="hardware">Hardware<a class="headerlink" href="#hardware" title="Permanent link">¶</a></h2>
+<p><strong>Device</strong>:</p>
+<ul>
+<li><strong>Main CPU</strong>: <a href="http://www.atmel.com/devices/ATMEGA8.aspx">Atmel ATmega8/L</a> (marking: "Atmel ATmega8L 8AU 1113D"), (<a href="http://www.atmel.com/Images/doc2486.pdf">datasheet</a>)</li>
+<li><strong>8MHz crystal</strong>: 8.00ECSXR</li>
+<li><strong>?</strong>: 324 GZ15129</li>
+<li><strong>5V (100mA) low-dropout voltage regulator</strong>: <a href="http://www.holtek.com/english/docum/consumer/75xx_1.htm">Holtek HT7550-1#</a> (<a href="http://www.holtek.com/pdf/consumer/ht75xx_1v200.pdf">datasheet</a>)</li>
+<li><strong>Trim potentiometer</strong>: Bochen 3296</li>
+</ul>
+<p><strong>USB cable</strong>:</p>
+<ul>
+<li>See <a href="https://sigrok.org/wiki/Device_cables#Tondaj_SL-814_cable">Device_cables#Tondaj_SL-814_cable</a>.</li>
+</ul>
+<h2 id="photos">Photos<a class="headerlink" href="#photos" title="Permanent link">¶</a></h2>
+<div class="photo-grid">
+<p><a class="glightbox" data-gallery="tondaj-sl-814" href="./img/Tondaj_sl-814.png" title="Tondaj Sl 814"><img alt="Tondaj Sl 814" src="./img/Tondaj_sl-814.png"></a>
+<span class="caption">Tondaj Sl 814</span></p>
+<p><a class="glightbox" data-gallery="tondaj-sl-814" href="img/Tondaj_sl-814_holtek_ht1621b.jpg" title="Tondaj Sl 814 Holtek Ht1621b"><img alt="Tondaj Sl 814 Holtek Ht1621b" src="img/Tondaj_sl-814_holtek_ht1621b.jpg"></a>
+<span class="caption">Tondaj Sl 814 Holtek Ht1621b</span></p>
+<p><a class="glightbox" data-gallery="tondaj-sl-814" href="img/Tondaj_sl-814_lcd_segments.jpg" title="Tondaj Sl 814 Lcd Segments"><img alt="Tondaj Sl 814 Lcd Segments" src="img/Tondaj_sl-814_lcd_segments.jpg"></a>
+<span class="caption">Tondaj Sl 814 Lcd Segments</span></p>
+<p><a class="glightbox" data-gallery="tondaj-sl-814" href="img/Tondaj_sl-814_gz15129_2.jpg" title="Tondaj Sl 814 Gz15129 2"><img alt="Tondaj Sl 814 Gz15129 2" src="img/Tondaj_sl-814_gz15129_2.jpg"></a>
+<span class="caption">Tondaj Sl 814 Gz15129 2</span></p>
+<p><a class="glightbox" data-gallery="tondaj-sl-814" href="img/Tondaj_sl-814_pcb_bottom.jpg" title="Tondaj Sl 814 Pcb Bottom"><img alt="Tondaj Sl 814 Pcb Bottom" src="img/Tondaj_sl-814_pcb_bottom.jpg"></a>
+<span class="caption">Tondaj Sl 814 Pcb Bottom</span></p>
+<p><a class="glightbox" data-gallery="tondaj-sl-814" href="img/Tondaj_sl-814_connectors.jpg" title="Tondaj Sl 814 Connectors"><img alt="Tondaj Sl 814 Connectors" src="img/Tondaj_sl-814_connectors.jpg"></a>
+<span class="caption">Tondaj Sl 814 Connectors</span></p>
+<p><a class="glightbox" data-gallery="tondaj-sl-814" href="img/Tondaj_sl-814_device_front.jpg" title="Tondaj Sl 814 Device Front"><img alt="Tondaj Sl 814 Device Front" src="img/Tondaj_sl-814_device_front.jpg"></a>
+<span class="caption">Tondaj Sl 814 Device Front</span></p>
+<p><a class="glightbox" data-gallery="tondaj-sl-814" href="img/Tondaj_sl-814_bochen.jpg" title="Tondaj Sl 814 Bochen"><img alt="Tondaj Sl 814 Bochen" src="img/Tondaj_sl-814_bochen.jpg"></a>
+<span class="caption">Tondaj Sl 814 Bochen</span></p>
+<p><a class="glightbox" data-gallery="tondaj-sl-814" href="img/Tondaj_sl-814_device_back.jpg" title="Tondaj Sl 814 Device Back"><img alt="Tondaj Sl 814 Device Back" src="img/Tondaj_sl-814_device_back.jpg"></a>
+<span class="caption">Tondaj Sl 814 Device Back</span></p>
+<p><a class="glightbox" data-gallery="tondaj-sl-814" href="img/Tondaj_sl-814_probe_tip.jpg" title="Tondaj Sl 814 Probe Tip"><img alt="Tondaj Sl 814 Probe Tip" src="img/Tondaj_sl-814_probe_tip.jpg"></a>
+<span class="caption">Tondaj Sl 814 Probe Tip</span></p>
+<p><a class="glightbox" data-gallery="tondaj-sl-814" href="img/Tondaj_sl-814_jacks.jpg" title="Tondaj Sl 814 Jacks"><img alt="Tondaj Sl 814 Jacks" src="img/Tondaj_sl-814_jacks.jpg"></a>
+<span class="caption">Tondaj Sl 814 Jacks</span></p>
+<p><a class="glightbox" data-gallery="tondaj-sl-814" href="img/Tondaj_sl-814_prolific_usb_cable.jpg" title="Tondaj Sl 814 Prolific Usb Cable"><img alt="Tondaj Sl 814 Prolific Usb Cable" src="img/Tondaj_sl-814_prolific_usb_cable.jpg"></a>
+<span class="caption">Tondaj Sl 814 Prolific Usb Cable</span></p>
+<p><a class="glightbox" data-gallery="tondaj-sl-814" href="img/Tondaj_sl-814_pcb_top.jpg" title="Tondaj Sl 814 Pcb Top"><img alt="Tondaj Sl 814 Pcb Top" src="img/Tondaj_sl-814_pcb_top.jpg"></a>
+<span class="caption">Tondaj Sl 814 Pcb Top</span></p>
+<p><a class="glightbox" data-gallery="tondaj-sl-814" href="img/Tondaj_sl-814_package_contents.jpg" title="Tondaj Sl 814 Package Contents"><img alt="Tondaj Sl 814 Package Contents" src="img/Tondaj_sl-814_package_contents.jpg"></a>
+<span class="caption">Tondaj Sl 814 Package Contents</span></p>
+<p><a class="glightbox" data-gallery="tondaj-sl-814" href="img/Tondaj_sl-814_nxp_hef4053bt.jpg" title="Tondaj Sl 814 Nxp Hef4053bt"><img alt="Tondaj Sl 814 Nxp Hef4053bt" src="img/Tondaj_sl-814_nxp_hef4053bt.jpg"></a>
+<span class="caption">Tondaj Sl 814 Nxp Hef4053bt</span></p>
+<p><a class="glightbox" data-gallery="tondaj-sl-814" href="img/Tondaj_sl-814_cover.jpg" title="Tondaj Sl 814 Cover"><img alt="Tondaj Sl 814 Cover" src="img/Tondaj_sl-814_cover.jpg"></a>
+<span class="caption">Tondaj Sl 814 Cover</span></p>
+<p><a class="glightbox" data-gallery="tondaj-sl-814" href="img/Tondaj_sl-814_ti_tl062c.jpg" title="Tondaj Sl 814 Ti Tl062c"><img alt="Tondaj Sl 814 Ti Tl062c" src="img/Tondaj_sl-814_ti_tl062c.jpg"></a>
+<span class="caption">Tondaj Sl 814 Ti Tl062c</span></p>
+<p><a class="glightbox" data-gallery="tondaj-sl-814" href="img/Tondaj_sl-814_decapitated.jpg" title="Tondaj Sl 814 Decapitated"><img alt="Tondaj Sl 814 Decapitated" src="img/Tondaj_sl-814_decapitated.jpg"></a>
+<span class="caption">Tondaj Sl 814 Decapitated</span></p>
+<p><a class="glightbox" data-gallery="tondaj-sl-814" href="img/Tondaj_sl-814_crystal.jpg" title="Tondaj Sl 814 Crystal"><img alt="Tondaj Sl 814 Crystal" src="img/Tondaj_sl-814_crystal.jpg"></a>
+<span class="caption">Tondaj Sl 814 Crystal</span></p>
+<p><a class="glightbox" data-gallery="tondaj-sl-814" href="img/Tondaj_sl-814_device_open.jpg" title="Tondaj Sl 814 Device Open"><img alt="Tondaj Sl 814 Device Open" src="img/Tondaj_sl-814_device_open.jpg"></a>
+<span class="caption">Tondaj Sl 814 Device Open</span></p>
+<p><a class="glightbox" data-gallery="tondaj-sl-814" href="img/Tondaj_sl-814_package.jpg" title="Tondaj Sl 814 Package"><img alt="Tondaj Sl 814 Package" src="img/Tondaj_sl-814_package.jpg"></a>
+<span class="caption">Tondaj Sl 814 Package</span></p>
+<p><a class="glightbox" data-gallery="tondaj-sl-814" href="img/Tondaj_sl-814_holtek_7550.jpg" title="Tondaj Sl 814 Holtek 7550"><img alt="Tondaj Sl 814 Holtek 7550" src="img/Tondaj_sl-814_holtek_7550.jpg"></a>
+<span class="caption">Tondaj Sl 814 Holtek 7550</span></p>
+<p><a class="glightbox" data-gallery="tondaj-sl-814" href="img/Tondaj_sl-814_atmega8l.jpg" title="Tondaj Sl 814 Atmega8l"><img alt="Tondaj Sl 814 Atmega8l" src="img/Tondaj_sl-814_atmega8l.jpg"></a>
+<span class="caption">Tondaj Sl 814 Atmega8l</span></p>
+<p><a class="glightbox" data-gallery="tondaj-sl-814" href="img/Tondaj_sl-814_device_front_nofoam.jpg" title="Tondaj Sl 814 Device Front Nofoam"><img alt="Tondaj Sl 814 Device Front Nofoam" src="img/Tondaj_sl-814_device_front_nofoam.jpg"></a>
+<span class="caption">Tondaj Sl 814 Device Front Nofoam</span></p>
+<p><a class="glightbox" data-gallery="tondaj-sl-814" href="img/Tondaj_sl-814_gz15129.jpg" title="Tondaj Sl 814 Gz15129"><img alt="Tondaj Sl 814 Gz15129" src="img/Tondaj_sl-814_gz15129.jpg"></a>
+<span class="caption">Tondaj Sl 814 Gz15129</span></p>
+</div>
+<h2 id="protocol">Protocol<a class="headerlink" href="#protocol" title="Permanent link">¶</a></h2>
+<p>The device has a mini-USB connector for PC connectivity. It ships with a Prolific USB-to-serial cable (i.e. the PL2303 Prolific chip is <em>inside the cable</em>) which can be attached to that connector. The pinout of the USB side of the cable <a href="https://www.amazon.com/review/R3DGCOYM03S2WJ">appears to be a little unusual</a>: 1-NC, 2-TX, 3-RX, 4-GND, 5-GND (green/white swapped, red disconnected).</p>
+<p>The device accepts a simple command-based protocol over the (virtual) serial port, using a baudrate of <strong>9600 baud</strong>, with <strong>8e1</strong> settings (8 data bits, even parity, one stop bit).</p>
+<h3 id="commands-replies">Commands / replies<a class="headerlink" href="#commands-replies" title="Permanent link">¶</a></h3>
+<p>Commands and replies can consist of multiple bytes, and always end with <strong>0x0d</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Command</th>
+<th>Reply</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Init</td>
+<td>0x10&nbsp;0x04&nbsp;0x0d</td>
+<td>0x05&nbsp;0x0d</td>
+<td>It's unclear what exactly this command does, likely some kind of initialization. Data transfers also seem to work fine when it is omitted. According to the scheme below in the "Send key" case it might be a "key press", but there doesn't seem to be any visible or noticeable effect at all. E.g. it does <em>not</em> reset any of the settings (A/C, fast/slow, and so on) to their defaults.</td>
+</tr>
+<tr>
+<td>Send key</td>
+<td>0x10&nbsp;<strong>0xKK</strong>&nbsp;0x0d</td>
+<td><strong>0xKK+1</strong>&nbsp;0x0d</td>
+<td>This command has the same effect as if a certain key/button on the SL-814 had been pressed. The known value encodings for the key (<strong>0xKK</strong>) are: <strong>0x20</strong> = up arrow key, <strong>0x30</strong> = down arrow key, <strong>0x40</strong> = A/C key, <strong>0x50</strong> = fast/slow key. There doesn't seem to be a key code for the "MAX" button or the power button. Thanks to Chris Hoogenboom for the info about this command.</td>
+</tr>
+<tr>
+<td>Get&nbsp;measurement</td>
+<td>0x30&nbsp;<strong>0xZZ</strong>&nbsp;0x0d</td>
+<td><em>0xAA&nbsp;0xBB</em>&nbsp;<strong>0xZZ+1</strong>&nbsp;0x0d</td>
+<td>For a given command with <strong>0xZZ</strong> value (0-255), the device returns <strong>0xZZ + 1</strong> as part of the reply (a simple "sequence number" mechanism which is apparently meant for the host as error-checking mechanism).</td>
+</tr>
+</tbody>
+</table>
+<h3 id="data-reply">Data reply<a class="headerlink" href="#data-reply" title="Permanent link">¶</a></h3>
+<p>The first two bytes of the reply to the "get measurement" command (<em>0xAA 0xBB</em>) have the following format:</p>
+<table>
+<thead>
+<tr>
+<th>Byte</th>
+<th>Bit</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>7</td>
+<td><em>A/C measurement type</em>. 0: <strong>A</strong>, 1: <strong>C</strong>.</td>
+</tr>
+<tr>
+<td></td>
+<td>6</td>
+<td><em>Unknown/unused</em>.</td>
+</tr>
+<tr>
+<td></td>
+<td>5-4</td>
+<td><em>Level</em>. 00: <strong>40</strong>, 01: <strong>60</strong>, 10: <strong>80</strong>, 11: <strong>100</strong></td>
+</tr>
+<tr>
+<td></td>
+<td>3</td>
+<td><em>Slow/Fast measurement mode</em>. 0: <strong>Fast</strong>, 1: <strong>Slow</strong>.</td>
+</tr>
+<tr>
+<td></td>
+<td>2-0</td>
+<td><em>Value[10..8]</em>.</td>
+</tr>
+<tr>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>7-0</td>
+<td><em>Value[7..0]</em>.</td>
+</tr>
+</tbody>
+</table>
+<p>The actual measurement value seems to span 11 bits, and is encoded in BCD format. Example: If <em>Value[10..0]</em> is <strong>436</strong> (decimal), the corresponding measurement value is <strong>43.6 dB</strong>.</p>
+<h3 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">¶</a></h3>
+<p>The "MAX" mode on the device (which always keeps showing the highest measured value since the "MAX" button was pressed) only affects the value shown on the display. The values returned via USB upon the "get measurement" command, always show the current value, not the "MAX" one shown on the display.</p>
+<h2 id="python-script">Python script<a class="headerlink" href="#python-script" title="Permanent link">¶</a></h2>
+<p>Here's a quick Python script for getting the values out of the Tondaj SL-814.</p>
+<div class="highlight"><pre><span></span><code>#!/usr/bin/python3
+# Tondaj SL-814 sound level meter Python script
+# Copyright (C) 2012 Uwe Hermann &lt;uwe@hermann-uwe.de&gt;
+# Released under the terms of the GNU GPL, version 2 or later.
+
+import time
+import serial
+
+s = serial.Serial('/dev/ttyUSB0', baudrate=9600, parity=serial.PARITY_EVEN)
+
+while 1:
+    # Query
+    s.write(bytes([0x30, 0x01, 0x0d]))
+    result = s.read(4)
+    print('%02x %02x %02x %02x'&amp;#160;% tuple(result), end='   -   ')
+
+    # A/C
+    ac = (result[0] &amp; (1 &lt;&lt; 7)) &gt;&gt; 7
+    print('A' if ac == 0 else 'C', end=', ')
+
+    # Slow/Fast
+    sl = (result[0] &amp; (1 &lt;&lt; 3)) &gt;&gt; 3
+    print('Fast' if sl == 0 else 'Slow', end=', ')
+
+    # Level
+    factor = (result[0] &amp; ((1 &lt;&lt; 5) | (1 &lt;&lt; 4))) &gt;&gt; 4
+    print('Level: %d'&amp;#160;% (40 + (int(bin(factor), 2) * 20)), end=', ')
+
+    # Value
+    val = ((result[0] &amp; 0x7) &lt;&lt; 8) | result[1]
+    tmp_str = '%d'&amp;#160;% val
+    val_str = tmp_str[:-1] + '.' + tmp_str[-1:]
+    print(val_str + ' dB')
+
+    time.sleep(0.5)
+
+s.close()
+</code></pre></div>
+<p><strong>Example output:</strong></p>
+<div class="highlight"><pre><span></span><code>09 af 02 0d   -   A, Slow, Level: 40, 43.1 dB
+09 b9 02 0d   -   A, Slow, Level: 40, 44.1 dB
+09 e9 02 0d   -   A, Slow, Level: 40, 48.9 dB
+89 cb 02 0d   -   C, Slow, Level: 40, 45.9 dB
+89 eb 02 0d   -   C, Slow, Level: 40, 49.1 dB
+8a 6c 02 0d   -   C, Slow, Level: 40, 62.0 dB
+82 99 02 0d   -   C, Fast, Level: 40, 66.5 dB
+82 3c 02 0d   -   C, Fast, Level: 40, 57.2 dB
+82 72 02 0d   -   C, Fast, Level: 40, 62.6 dB
+92 85 02 0d   -   C, Fast, Level: 60, 64.5 dB
+93 05 02 0d   -   C, Fast, Level: 60, 77.3 dB
+92 68 02 0d   -   C, Fast, Level: 60, 61.6 dB
+a3 93 02 0d   -   C, Fast, Level: 80, 91.5 dB
+a3 93 02 0d   -   C, Fast, Level: 80, 91.5 dB
+a3 93 02 0d   -   C, Fast, Level: 80, 91.5 dB
+b3 f2 02 0d   -   C, Fast, Level: 100, 101.0 dB
+b3 f2 02 0d   -   C, Fast, Level: 100, 101.0 dB
+b3 f2 02 0d   -   C, Fast, Level: 100, 101.0 dB
+</code></pre></div>
+<h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">¶</a></h2>
+<ul>
+<li><a href="http://www.amazon.com/USB-Digital-Sound-Level-Meter/product-reviews/B005JX2EZ2/ref=cm_cr_dp_see_all_btm?ie=UTF8&amp;showViewpoints=1&amp;sortBy=bySubmissionDateDescending">Many Amazon reviews of the SL-814</a></li>
+<li><a href="http://www.amazon.com/Digital-Sound-Frequency-Levels-Musicians/product-reviews/B005511F9Y/ref=cm_cr_pr_top_link_1?ie=UTF8&amp;showViewpoints=0">Even more Amazon reviews of the SL-814</a></li>
+<li>Reviews mentioning the sigrok support and/or teardown: "<a href="http://www.amazon.com/review/R1VC2CMBK9LHWJ/ref=cm_cr_dp_title?ie=UTF8&amp;ASIN=B005JX2EZ2&amp;nodeID=1055398&amp;store=home-garden">Forget the USB part...</a>", "<a href="http://www.amazon.com/review/R3DGCOYM03S2WJ/ref=cm_cr_rdp_perm">Works Fine For Me</a>"</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+
+
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+
+        <small>
+          Portions of this documentation are adapted from the sigrok project (CC-BY-SA 3.0).
+          OpenTraceLab documentation is licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA 4.0).
+        </small>
+      </div>
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.top", "navigation.tabs", "navigation.sections", "navigation.footer", "content.action.edit", "content.action.view", "toc.follow", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+        <script src="../../../overrides/assets/javascripts/report-issue.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
