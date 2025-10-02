@@ -1,0 +1,59 @@
+/* Table layout */
+.md-typeset .hw-wrap { overflow-x: auto; margin: .25rem 0 1rem 0; }
+.md-typeset .hw-head { display: flex; justify-content: flex-end; margin: .25rem 0 .5rem; }
+.md-typeset .hw-filter { 
+  max-width: 280px; 
+  padding: .4rem .6rem; 
+  border: 1px solid var(--md-default-fg-color--lighter); 
+  border-radius: .35rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+
+/* Table styling to match MkDocs Material */
+.md-typeset .hw-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  display: table;
+  max-width: 100%;
+  width: 100%;
+  border: .05rem solid var(--md-typeset-table-color);
+  border-radius: .1rem;
+  font-size: .64rem;
+}
+
+.md-typeset .hw-table th,
+.md-typeset .hw-table td {
+  border-bottom: .05rem solid var(--md-typeset-table-color);
+  padding: .6rem .8rem;
+  vertical-align: top;
+  text-align: left;
+}
+
+.md-typeset .hw-table th {
+  background-color: var(--md-typeset-table-color);
+  color: var(--md-default-fg-color);
+  font-weight: 700;
+  text-align: left;
+}
+
+.md-typeset .hw-table tbody tr:nth-child(odd) {
+  background-color: var(--md-typeset-table-color);
+}
+
+/* Thumbnail images */
+.md-typeset .hw-table .hw-thumb {
+  width: 64px; height: 48px; object-fit: contain;
+  border-radius: .25rem; background: var(--md-code-bg-color); padding: 2px;
+  display: block;
+}
+
+/* Status badges */
+.md-typeset .hw-badge { display:inline-block; padding:0.15rem 0.45rem; border-radius:0.5rem; font-size:0.78rem; font-weight:600; }
+.md-typeset .hw-ok        { color:#065f46; background:color-mix(in srgb,#10b981 18%,transparent); }
+.md-typeset .hw-exp       { color:#7c2d12; background:color-mix(in srgb,#f59e0b 18%,transparent); }
+.md-typeset .hw-untested  { color:#1f2937; background:color-mix(in srgb,#9ca3af 18%,transparent); }
+.md-typeset .hw-wip       { color:#1e3a8a; background:color-mix(in srgb,#3b82f6 18%,transparent); }
+.md-typeset .hw-deprecated{ color:#6b21a8; background:color-mix(in srgb,#a855f7 18%,transparent); }
+.md-typeset .hw-broken    { color:#7f1d1d; background:color-mix(in srgb,#ef4444 18%,transparent); }
+.md-typeset .hw-neutral   { color:var(--md-default-fg-color); background:color-mix(in srgb,var(--md-default-fg-color) 10%,transparent); }
