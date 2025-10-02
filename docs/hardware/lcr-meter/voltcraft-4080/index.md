@@ -1,0 +1,111 @@
+---
+title: Voltcraft 4080
+---
+
+# Voltcraft 4080
+
+<div class="infobox" markdown>
+
+![Voltcraft 4080](./img/Voltcraft4080_cutecom.png){ .infobox-image }
+
+### Voltcraft 4080
+
+| | |
+|---|---|
+| **Status** | supported |
+| **Source code** | [serial-lcr](https://github.com/OpenTraceLab/OpenTraceCapture/tree/main/src/hardware/serial-lcr) |
+| **Counts** | 20000 |
+| **IEC 61010-1** | — |
+| **Connectivity** | USB, RS232 |
+| **Measurements** | resistance, capacitance, inductance |
+| **Features** | autorange, relative, auto-poweroff, min-max, tolerance |
+| **Website** | [conrad.com](http://www.conrad.com/ce/en/product/121064/VOLTCRAFT-LCR-4080-Digital-Multimeter-DMM-20000-digits) |
+
+</div>
+
+The **Voltcraft 4080** is an LCR meter with USB connectivity. It is described as 4.5 digits (20000 count) LCR meter with 0.5% basic accuracy (resistance) that can measure at 120Hz and 1kHz, and comes with USB connectivity (serial protocol).
+
+The [Peaktech 2165](https://sigrok.org/wiki/Peaktech_2165) appears to be another rebrand. **Extech 380193** looks like another compatible.
+
+## Hardware
+
+LCR meter:
+
+- [TI TLC7135C](http://www.ti.com/product/TLC7135) ADC, 4 1/2 digits, 1Ksa/s
+- TI MSP430 MCU
+- several discrete TI components
+
+USB to IR cable:
+
+- FT232R, regular serial port, bidirectional (RX and TX LED)
+
+## Photos
+
+<div class="photo-grid" markdown>
+
+[![Voltcraft4080 Cutecom](./img/Voltcraft4080_cutecom.png)](./img/Voltcraft4080_cutecom.png "Voltcraft4080 Cutecom"){ .glightbox data-gallery="voltcraft-4080" }
+<span class="caption">Voltcraft4080 Cutecom</span>
+
+[![Voltcraft4080 2](./img/Voltcraft4080_2.png)](./img/Voltcraft4080_2.png "Voltcraft4080 2"){ .glightbox data-gallery="voltcraft-4080" }
+<span class="caption">Voltcraft4080 2</span>
+
+[![Voltcraft4080 Complete](./img/Voltcraft4080_complete.jpg)](./img/Voltcraft4080_complete.jpg "Voltcraft4080 Complete"){ .glightbox data-gallery="voltcraft-4080" }
+<span class="caption">Voltcraft4080 Complete</span>
+
+</div>
+## Protocol
+
+Serial communication runs at 1200/7e1, uses ASCII characters and is basically human readable. You can access the device with e.g. a terminal program like *CuteCom*.
+
+Serial packets consist of 39 ASCII characters that end in the CR-LF termination, contain a lot of single character flags, as well as multiple multi-character fields for the primary and secondary displays.
+
+The description of the commands you find [at Conrad](http://www.produktinfo.conrad.com/datenblaetter/100000-124999/121064-da-01-en-Schnittstellenbeschr_LCR_4080_Handmessg.pdf). The [PeakTech 2165 user manual](http://peaktech.de/productdetail/kategorie/lcr-messer/produkt/p-2165.html?file=tl_files/downloads/2001%20-%203000/PeakTech_2165_USB.pdf) has another description, represented differently.
+
+When the device does not respond it might be in setup mode. You can see that in the display. But the software can not. So it might be a good idea to do an initialization with [BXXXXXX] to stop the setup mode. This only works for a setup mode that was requested by an earlier remote session. You can not leave a manual setup mode this way.
+
+Some findings not mentioned in the protocol definition above; without waranty:
+
+### Disabling keys
+
+Sending
+
+```
+A
+
+```
+
+responds with
+
+```
+REMOTE READY..
+
+```
+
+and says **RS232** in the display.
+
+Keys on device are disabled.
+
+### Enabling keys
+
+Sending
+
+```
+B
+
+```
+
+responds with
+
+```
+REMOTE STOP...
+
+```
+
+Keys on device are enabled.
+
+### Resources
+- [Voltcraft 4080 product page at Conrad](http://www.conrad.com/ce/en/product/121064/VOLTCRAFT-LCR-4080-Digital-Multimeter-DMM-20000-digits)
+- [Protocol summary at Conrad](http://www.produktinfo.conrad.com/datenblaetter/100000-124999/121064-da-01-en-Schnittstellenbeschr_LCR_4080_Handmessg.pdf)
+- [PeakTech 2165 product page](http://peaktech.de/productdetail/kategorie/lcr-messer/produkt/p-2165.html)
+- [PeakTech user manual](http://peaktech.de/productdetail/kategorie/lcr-messer/produkt/p-2165.html?file=tl_files/downloads/2001%20-%203000/PeakTech_2165_USB.pdf) bilingual (German/English), see chapter 7 for the protocol
+

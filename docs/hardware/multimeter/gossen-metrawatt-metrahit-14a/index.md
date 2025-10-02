@@ -1,0 +1,102 @@
+---
+title: Gossen Metrawatt Metrahit 14A
+---
+
+# Gossen Metrawatt Metrahit 14A
+
+<div class="infobox" markdown>
+
+![Gossen Metrawatt Metrahit 14A](./img/Gmc_metrahit_14a_inside_1.jpg){ .infobox-image }
+
+### Gossen Metrawatt Metrahit 14A
+
+| | |
+|---|---|
+| **Status** | supported |
+| **Source code** | [gmc-mh-1x-2x](https://github.com/OpenTraceLab/OpenTraceCapture/tree/main/src/hardware/gmc-mh-1x-2x) |
+| **Counts** | 3100 |
+| **IEC 61010-1** | CAT III 1000 V, CAT IV 600 V |
+| **Connectivity** | Infrared (RS232) |
+| **Measurements** | voltage, current, resistance, temperature, diode, continuity |
+| **Features** | autorange, data hold, bargraph |
+
+</div>
+
+The **[Gossen Metrawatt](https://sigrok.org/wiki/Gossen_Metrawatt) Metrahit 14A** is a 3100 counts handheld digital multimeter with IR (RS232) connectivity.
+
+It is very similar to the [Metrahit 14S](https://sigrok.org/wiki/Gossen_Metrawatt_Metrahit_14S), but has no ranges of 3 µA= and 3 mA≈.
+
+## Hardware
+- **Battery**:  *9 V IEC 6 F 22* or *IEC 6 LR 61* or corresponding rechargeable battery
+- **Fuse**:
+Current 300 mA: FF 1,6 A/500G; 6,3x32 mm
+- Current 3A, 10A:
+Siba Ultrarapid 16A/600 V≈ 10mm x 38 mm
+- Littlefuse KLK 15A/600 V≈ 13/32” / 1 1/2”
+- Bussmann KLK 15A/600 V≈ 13/32” / 1 1/2”
+- TODO.
+
+## Photos
+
+<div class="photo-grid" markdown>
+
+[![Gmc Metrahit 14a Inside 1](./img/Gmc_metrahit_14a_inside_1.jpg)](./img/Gmc_metrahit_14a_inside_1.jpg "Gmc Metrahit 14a Inside 1"){ .glightbox data-gallery="gossen-metrawatt-metrahit-14a" }
+<span class="caption">Gmc Metrahit 14a Inside 1</span>
+
+[![Gmc Metrahit 14a Display](./img/Gmc_metrahit_14a_display.jpg)](./img/Gmc_metrahit_14a_display.jpg "Gmc Metrahit 14a Display"){ .glightbox data-gallery="gossen-metrawatt-metrahit-14a" }
+<span class="caption">Gmc Metrahit 14a Display</span>
+
+[![Gmc Metrahit 14a Logo](./img/Gmc_metrahit_14a_logo.png)](./img/Gmc_metrahit_14a_logo.png "Gmc Metrahit 14a Logo"){ .glightbox data-gallery="gossen-metrawatt-metrahit-14a" }
+<span class="caption">Gmc Metrahit 14a Logo</span>
+
+[![Gmc Metrahit 14a Front](./img/Gmc_metrahit_14a_front.jpg)](./img/Gmc_metrahit_14a_front.jpg "Gmc Metrahit 14a Front"){ .glightbox data-gallery="gossen-metrawatt-metrahit-14a" }
+<span class="caption">Gmc Metrahit 14a Front</span>
+
+[![Gmc Metrahit 14a Inside 2](./img/Gmc_metrahit_14a_inside_2.jpg)](./img/Gmc_metrahit_14a_inside_2.jpg "Gmc Metrahit 14a Inside 2"){ .glightbox data-gallery="gossen-metrawatt-metrahit-14a" }
+<span class="caption">Gmc Metrahit 14a Inside 2</span>
+
+[![Gmc Metrahit 14a Back](./img/Gmc_metrahit_14a_back.jpg)](./img/Gmc_metrahit_14a_back.jpg "Gmc Metrahit 14a Back"){ .glightbox data-gallery="gossen-metrawatt-metrahit-14a" }
+<span class="caption">Gmc Metrahit 14a Back</span>
+
+</div>
+## Measurement functions and ranges
+| Measurement function | Range | Resolution | Accuracy | sigrok result | Remarks |
+|---|---|---|---|---|---|
+| V= | 30.00 mV | 10 μV | ±(0.5% + 3) | mq V, unit V, mqflags DC | Manual range |
+| 300.0 mV | 100 μV | " | " |
+| 3.000 V | 1 mV | ±(0.25% + 1) | " |  |
+| 30.00 V | 10 mV | " |  |
+| 300.0 V | 100 mV | " |  |
+| 1000 V | 1 V | ±(0.35% + 1) | " |  |
+| V≈ | 3.000 V | 1 mV | ±(0.75% + 2) | " |  |
+| 30.00 V | 10 mV | " |  |
+| 300.0 V | 100 mV | " |  |
+| 1000 V | 1 V | " |  |
+| A= | 3.000 mA | 1 µA | ±(1.0% + 5) | mq Curr., unit A, mqflags DC | Disabled on power on, see below. |
+| 30.00 mA | 10 µA | ±(0.25% + 2) | " |  |
+| 300.0 mA | 100 µA | ±(1.0% + 2) | " |  |
+| 3.000 A | 1 mA | ±(1.0% + 5) | " | Disabled on power on, see below. |
+| 10.00 A | 10 mA | ±(1.0% + 2) | " |  |
+| A≈ | 30.00 mA | 10 µA | ±(1.5% + 2) | mq Curr., unit A, mqflags AC |  |
+| 300.0 mA | 100 µA | " |  |
+| 10.00 A | 10 mA | " |  |
+| Ω | 30.00 Ω | 10 mΩ |  | mq Res., unit Ω, mqflags - | Allows setting zero: Press yellow button short, decimal dot blinks. Press yellow button long until device beeps twice or switch off to disable. |
+| 300.0 Ω | 100 mΩ |  | " |  |
+| 3.000 kΩ | 1 Ω |  | " |  |
+| 30.00 kΩ | 10 Ω |  | " |  |
+| 300.0 kΩ | 100 Ω |  | " |  |
+| 3.000 MΩ | 1 kΩ |  | " |  |
+| 30.00 MΩ | 10 kΩ |  | " |  |
+| Diode/Cont. | 3.000 V– | 1 mV |  | mq V, unit V, mqflags DC,DIODE | Diode and cont. are identical on this device, just without beeper for diode. |
+| °C | Pt100 –200.0 - +200.0 °C | 0.1 °C | 2 Kelvin + 5 | mq Temp., unit °C, mqflags - |  |
+| Pt100 +200.0 - +850.0 °C | ±(1.0% + 5) | " |  |
+| Pt1000 –100.0 - +200.0 °C | 2 Kelvin + 2 | " |  |
+| Pt1000 +200.0 - +850.0 °C | ±(1.0% + 2) | " |  |
+| Data Hold |  |  |  | mqflags += HOLD | Disabled while IR interface is active. |
+| MIN |  |  |  | mqflags += MIN | Influences only display, via IR flag is set, but actual current value is delivered. |
+| MAX |  |  |  | mqflags += MAX | Influences only display, via IR flag is set, but actual current value is delivered. |
+
+To enable the ranges 3.000 mA and 3.000 A, switch function selector to circle with dot symbol and press yellow button. Wait until auto calibration of these ranges is finished ("CAL" in display disappears). After that the ranges are available in the mA resp. A function until multimeter powered off automatically or manually.
+
+The column "sigrok result" contains in short form what the driver generates for the resp. data type.
+

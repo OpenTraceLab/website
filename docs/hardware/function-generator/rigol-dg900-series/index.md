@@ -1,0 +1,169 @@
+---
+title: Rigol DG900 Series
+---
+
+# Rigol DG900 Series
+
+<div class="infobox" markdown>
+
+### Rigol DG900 Series
+
+| | |
+|---|---|
+| **Status** | supported |
+| **Source code** | [rigol-dg](https://github.com/OpenTraceLab/OpenTraceCapture/tree/main/src/hardware/rigol-dg) |
+| **Frequency (sine)** | 50-100MHz |
+| **Frequency (square)** | 15-20MHz |
+| **Frequency (other)** | 15-20MHz (pulse), 1.5-2MHz (ramp) |
+| **Frequency (user)** | 15-20MHz |
+| **Waveforms** | sine, square, ramp, pulse, harmonic, noise, arbitrary waveform |
+| **Waveform memory** | 16 Mpts |
+| **Modulation** | AM, FM, PM, DSB-AM, FSK, ASK, PWM |
+| **Connectivity** | USBTMC |
+| **Website** | [rigolna.com](https://www.rigolna.com/products/waveform-generators/dg900/) |
+
+</div>
+
+Rigol DG900 Series Arbitrary Waveform Generators are 2 channel, 50-100MHz high-resolution (16bit) signal generators with 16 Mpts waveform memory. 
+Thanks to fan-less design, these units are completely silent.
+
+These units appear to me using same hardware (just different color chassis) and firmware 
+as [ Rigol DG800 Series](https://sigrok.org/wiki/Rigol_DG800_Series) signal generators.
+
+Notable limitation when compared to Rigol DG1000z series is that Frequency Counter cannot be used simultaneously with second channel (CH2)
+is active.
+
+
+
+
+
+
+
+
+## Devices
+
+Hardware on all these models is identical, only difference is in software/firmware. 
+
+| Model | Channels | Max Frequency (Sine) | Max Frequency (Square) | Arbitrary Waveform Length | Frequency Counter |
+|---|---|---|---|---|---|
+| DG952 | 2 | 50 MHz | 15 MHz | 16 Mpts | Y |
+| DG972 | 2 | 70 MHz | 20 MHz | 16 Mpts | Y |
+| DG992 | 2 | 100 MHz | 25 MHz | 16 Mpts | Y |
+
+## Hardware
+
+**Digital**:
+
+TODO
+
+**Analog**:
+
+TODO
+
+## Photos
+
+## Protocol
+
+TODO
+
+## Example use
+
+Depending on your type of connection you have to can either use the [ USBTMC connection parameter](https://sigrok.org/wiki/Connection_parameters#USBTMC) or the [ TCP/IP connection parameter](https://sigrok.org/wiki/Connection_parameters#TCP_RAW). Examples:
+
+```
+ **-d rigol-dg**
+
+```
+
+(usually no parameters are needed when connecting via USB)
+
+When connecting over TCP/IP need to specify ip address and port:
+
+```
+ **-d rigol-dg:conn=tcp-raw/192.168.42.42/5555**
+
+```
+
+Check the capabilities of the meter's driver, and current state of settings:
+
+```
+ $ **sigrok-cli -d rigol-dg --show**
+
+```
+
+Check the capabilities specific to a channel (1 or 2):
+
+```
+ $ **sigrok-cli -d rigol-dg -g 1 --show**
+
+```
+
+Enable or disable channel output (first channel):
+
+```
+ $ **sigrok-cli -d rigol-dg -g 1 --set --config enabled=true**
+ $ **sigrok-cli -d rigol-dg -g 1 --set --config enabled=false**
+
+```
+
+Get or set the waveform function (second channel):
+
+```
+ $ **sigrok-cli -d rigol-dg -g 2 --get pattern**
+ $ **sigrok-cli -d rigol-dg -g 2 --set --config pattern=square**
+
+```
+
+Get or set the output signal frequency:
+
+```
+ $ **sigrok-cli -d rigol-dg -g 1 --get output_frequency**
+ $ **sigrok-cli -d rigol-dg -g 1 --set --config output_frequency=20000**
+
+```
+
+Get or set the output signal amplitude:
+
+```
+ $ **sigrok-cli -d rigol-dg -g 1 --get amplitude**
+ $ **sigrok-cli -d rigol-dg -g 1 --set --config amplitude=3.3**
+
+```
+
+Get or set the output signal offset:
+
+```
+ $ **sigrok-cli -d rigol-dg -g 1 --get offset**
+ $ **sigrok-cli -d rigol-dg -g 1 --set --config offset=1.0**
+
+```
+
+Get or set the output signal phase:
+
+```
+ $ **sigrok-cli -d rigol-dg -g 1 --get phase**
+ $ **sigrok-cli -d rigol-dg -g 1 --set --config phase=90.0**
+
+```
+
+Get or set the output signal duty cycle:
+
+```
+ $ **sigrok-cli -d rigol-dg -g 1 --get output_duty_cycle**
+ $ **sigrok-cli -d rigol-dg -g 1 --set --config output_duty_cycle=25.0**
+
+```
+
+Acquire measurement data (frequency counter output):
+
+```
+ $ **sigrok-cli -d rigol-dg --continuous**
+ $ **sigrok-cli -d rigol-dg --time 10s**
+ $ **sigrok-cli -d rigol-dg --samples 10**
+
+```
+## Resources
+- [DG900 Datasheet](https://beyondmeasure.rigoltech.com/acton/attachment/1579/f-08a1/0/-/-/-/-/DG900%20Datasheet.pdf)
+- [DG900 User's Guide](https://beyondmeasure.rigoltech.com/acton/attachment/1579/f-08a7/0/-/-/-/-/DG900_UserGuide_EN.pdf)
+- [DG900 Programming Guide](https://beyondmeasure.rigoltech.com/acton/attachment/1579/f-08aa/0/-/-/-/-/DG900_ProgrammingGuide_EN.pdf)
+

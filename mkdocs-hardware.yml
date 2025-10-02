@@ -1,0 +1,91 @@
+site_name: OpenTraceLab Hardware
+site_description: Hardware support documentation for OpenTraceLab
+site_url: https://opentracelab.github.io/website/hardware/
+repo_name: OpenTraceLab/website
+repo_url: https://github.com/OpenTraceLab/website
+edit_uri: edit/main/docs/
+use_directory_urls: true
+
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.top
+    - navigation.tabs
+    - navigation.sections
+    - navigation.footer
+    - content.action.edit
+    - content.action.view
+    - toc.follow
+    - content.code.copy
+  icon:
+    edit: material/pencil
+    view: material/eye
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: indigo
+      accent: indigo
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: indigo
+      accent: indigo  
+  logo: assets/logo/opentracelab_icon_square.svg
+  favicon: assets/logo/opentracelab_icon_square.svg
+
+nav:
+  - Hardware:
+      - Supported Devices: hardware/supported-hardware.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - macros
+  - glightbox:
+      auto_caption: true
+      touch_navigation: true
+      loop: false
+
+extra_javascript:
+  - js/hw-filter.js
+
+validation:
+  nav:
+    omitted_files: ignore
+    not_found: warn
+  links:
+    not_found: ignore
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/OpenTraceLab
+
+extra_javascript:
+  - overrides/assets/javascripts/report-issue.js
+
+extra_css:
+  - overrides/assets/styles/extra.css
+  - stylesheets/logo-size.css
+  - stylesheets/infobox.css
+  - stylesheets/gallery.css
+  - stylesheets/hw-table.css

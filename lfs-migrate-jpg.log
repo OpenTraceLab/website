@@ -1,0 +1,5 @@
+migrate: override changes in your working copy?  All uncommitted changes will be lost! [y/N] migrate: changes in your working copy will be overridden ...
+migrate: Sorting commits: ..., done.
+migrate: Rewriting commits: 100% (5/5), done.
+migrate: Updating refs: ..., done.
+migrate: checkout: ..., done.

@@ -1,0 +1,38 @@
+---
+title: Gossen Metrawatt Metrahit 28S
+---
+
+# Gossen Metrawatt Metrahit 28S
+
+<div class="infobox" markdown>
+
+### Gossen Metrawatt Metrahit 28S
+
+| | |
+|---|---|
+| **Status** | planned |
+| **Source code** | [gmc-mh-1x-2x](https://github.com/OpenTraceLab/OpenTraceCapture/tree/main/src/hardware/gmc-mh-1x-2x) |
+| **Counts** | 310000 |
+| **IEC 61010-1** | CAT III 600 V, CAT IV 300 V |
+| **Connectivity** | Infrared (RS232/USB) |
+| **Measurements** | voltage, current, resistance, capacitance, temperature, diode, continuity, insulation |
+| **Features** | autorange, data hold, bargraph, backlight |
+| **Website** | [[1]](http://www.gossenmetrawatt.com/gmc/deutsch/produkte/metrahit28s.htm) |
+
+</div>
+
+The **[Gossen Metrawatt](https://sigrok.org/wiki/Gossen_Metrawatt) Metrahit 28S** is a 310000 counts handheld digital multimeter with IR (RS232/USB) connectivity.
+
+It is not officially supported yet due to a lack of a test device, but should work like the [Siemens B1105](https://sigrok.org/wiki/Siemens_B1105).
+
+## Hardware
+- **Power**:
+Battery: 2x *1,5 V IEC R 6*, *IEC LR 6* or corresponding NiCd rechargeable batteries
+- External power supply *NA4/500* by Gossen Metrawatt, 4.2 V, 500 mA (for older version)
+- External power supply *NA5/600* by Gossen Metrawatt, 5 V, 600 mA (for newer version, 3-pin plug)
+- **Fuse**:
+Current 300 mA: FF (UR) 1,6 A/1000 V AC/DC (10 kA) 6,3 mm x 32 mm
+- Current 3A/10A: FF (UR) 10 A/1000 V AC/DC (30 kA) 10 mm x 38 mm**A 16A fuse described in older versions of the manual is wrong** [[2]](https://www.gossenmetrawatt.com/resources/zz_tam/hit28-29s/bbl_dgbfeinl_new_fuse.pdf)!
+- TODO.
+## Photos
+

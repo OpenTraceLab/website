@@ -1,0 +1,64 @@
+---
+title: Envox EEZ H24005
+---
+
+# Envox EEZ H24005
+
+<div class="infobox" markdown>
+
+![Envox EEZ H24005](./img/Envox_eez_h24005_front_panel.jpg){ .infobox-image }
+
+### Envox EEZ H24005
+
+| | |
+|---|---|
+| **Status** | supported |
+| **Source code** | [scpi-pps](https://github.com/OpenTraceLab/OpenTraceCapture/tree/main/src/hardware/scpi-pps) |
+| **Channels** | 2 |
+| **Connectivity** | SCPI over USB serial or TCP |
+| **Features** | values, output, over-(voltage,current,power) thresholds. |
+| **Website** | [www.envox.eu](https://www.envox.eu/bench-power-supply/introduction/) |
+
+</div>
+
+The **Envox EEZ H24005** is an open hardware and open source firmware bench DC power supply with two channels and a remote control interface based on SCPI 1999.0.
+
+EEZ H24005 is [no longer under active development](https://www.crowdsupply.com/envox/eez-h24005/updates/the-h24005-is-dead-long-live-the-bb3) and the official kits are no longer available for puchase; its successor is the [EEZ Bench Box 3](https://sigrok.org/wiki/Envox_EEZ_Bench_Box_3). (The hardware designs are still available if you want to build one yourself from raw parts.)
+
+## Hardware
+
+Due to being an open hardware design, there is comprehensive documentation of all of the hardware on [the project website](https://www.envox.eu/bench-power-supply/introduction/), including a [Technology overview](https://www.envox.eu/bench-power-supply/technology-overview/).
+
+The system is designed to be modular, so it can in principle have different power supply implementations and other custom modifications. A driver for this device should thus ideally be implemented in a dynamic way that can, as far as possible, respond to a particular system's different capabilities.
+
+## Protocol
+
+The EEZ H24005 has a SCPI-based protocol available either over USB Serial or over TCP/IP on the device's Ethernet port. The project website has [a comprehensive guide to the SCPI implementation](https://www.envox.eu/bench-power-supply/psu-scpi-reference-manual/).
+
+The SCPI self-identification strings (from `*IDN?`) changed in firmware v1.02:
+
+- Before v1.02: `EEZ,PSU 2/40/5` followed by the platform name
+- v1.02 and later: `Envox,EEZ H24005` followed by the platform name
+
+Only the newer form is shown in the documentation.
+
+There is [an online simulator](https://www.envox.hr/eez-psu-simulator/) which allows exercising both the touch user interface and the SCPI port. The simulator is an emscripten build of a variant of the real system firmware, so its behavior is pretty realistic aside from (of course) having just a software model of the power supply module behavior.
+
+## Sigrok Support
+
+The sigrok `scpi-pps` driver supports the EEZ H24005, [User:Apparentlymart](https://sigrok.org/wiki/User:Apparentlymart) provided the implementation.
+
+Only the USB port can be used to communicate with the device. The firmware's implementation of TCP over the ethernet port is broken.
+
+## See also
+- [Programmable power supply](https://sigrok.org/wiki/Programmable_power_supply)
+- [Power supply comparison](https://sigrok.org/wiki/Power_supply_comparison)
+
+## Photos
+
+<div class="photo-grid" markdown>
+
+[![Envox Eez H24005 Front Panel](./img/Envox_eez_h24005_front_panel.jpg)](./img/Envox_eez_h24005_front_panel.jpg "Envox Eez H24005 Front Panel"){ .glightbox data-gallery="envox-eez-h24005" }
+<span class="caption">Envox Eez H24005 Front Panel</span>
+
+</div>

@@ -1,0 +1,16 @@
+{
+  "templates": "default",
+  "baseUrl": "/",
+  "linkExtension": ".md",
+  "indexInFolders": true,
+  "folderLinks": "index",
+  "summary": {
+    "enabled": true,
+    "file": "_SUMMARY.md",
+    "ignore": ["files"]
+  },
+  "pages": { "flatten": false },
+  "groups": { "flatten": false },
+  "namespaces": { "flatten": false },
+  "classes": { "membersSplitByAccess": true }
+}

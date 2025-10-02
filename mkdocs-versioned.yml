@@ -1,0 +1,110 @@
+site_name: OpenTraceLab
+site_description: Open-source logic analysis — capture, view, and decode traces.
+site_url: https://opentracelab.github.io/website/
+repo_name: OpenTraceLab/website
+repo_url: https://github.com/OpenTraceLab/website
+edit_uri: edit/main/docs/
+use_directory_urls: true
+
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.top
+    - navigation.tabs
+    - navigation.sections
+    - navigation.footer
+    - content.action.edit
+    - content.action.view
+    - toc.follow
+    - content.code.copy
+  icon:
+    edit: material/pencil
+    view: material/eye
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: indigo
+      accent: indigo
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: indigo
+      accent: indigo  
+  logo: assets/logo/opentracelab_icon_square.svg
+  favicon: assets/logo/opentracelab_icon_square.svg
+
+nav:
+  - Home: index.md
+  - Get started:
+      - Install: get-started/install.md
+      - Capture your first trace: get-started/capture-first-trace.md
+      - FAQ: get-started/faq.md
+  - OpenTraceCapture:
+      - Overview: opentracecapture/overview.md
+      - Driver API: opentracecapture/driver-api.md
+      - C API: api/opentracecapture-c/index.md
+      - C++ API: api/opentracecapture-cxx/index.md
+  - OpenTraceView:
+      - Overview: opentraceview/overview.md
+      - Architecture: opentraceview/architecture.md
+      - API: ../api/opentraceview/index.html
+  - OpenTraceDecode:
+      - Overview: opentracedecode/overview.md
+      - Decoder HOWTO: opentracedecode/decoder-howto.md
+      - Decoder API: opentracedecode/decoder-api.md
+      - API: ../api/opentracedecode/index.html
+  - OpenTraceBroadcaster:
+      - Overview: opentracebroadcaster/overview.md
+  - Community:
+      - Contributing: community/contributing.md
+      - Code of Conduct: community/code-of-conduct.md
+      - Governance: community/governance.md
+      - Testing: community/testing.md
+  - About:
+      - Mission: about/mission.md
+      - Roadmap: about/roadmap.md
+  - Legal:
+      - License: legal/license.md
+      - Attribution: legal/attribution.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - mike:
+      alias_type: copy
+      version_selector: true
+
+validation:
+  nav:
+    omitted_files: ignore
+    not_found: warn
+  links:
+    not_found: ignore
+
+extra:
+  version:
+    provider: mike
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/OpenTraceLab
+
+extra_css:
+  - stylesheets/logo-size.css
+  - stylesheets/infobox.css

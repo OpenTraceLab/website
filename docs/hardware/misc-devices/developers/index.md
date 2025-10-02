@@ -1,0 +1,208 @@
+---
+title: Developers
+---
+
+# Developers
+
+<div class="infobox" markdown>
+
+### Developers
+
+| | |
+|---|---|
+
+</div>
+
+This page contains documentation and resources for aspiring sigrok developers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Source code browser
+- [gitweb](http://sigrok.org/gitweb/)
+## Tutorials and API descriptions
+- [libsigrok API](http://sigrok.org/api/libsigrok/unstable/index.html)
+- [libsigrokdecode API](http://sigrok.org/api/libsigrokdecode/unstable/index.html)
+- [Protocol decoder HOWTO](https://sigrok.org/wiki/Protocol_decoder_HOWTO)
+- [Protocol decoder API](https://sigrok.org/wiki/Protocol_decoder_API)
+- [Formats and structures](https://sigrok.org/wiki/Formats_and_structures)
+- [Hardware driver API](https://sigrok.org/wiki/Hardware_driver_API)
+- [Portability](https://sigrok.org/wiki/Portability)
+## Development guidelines
+
+Please check the respective sub-project's HACKING file for coding guidelines and development tips.
+
+- [libsigrok](http://sigrok.org/gitweb/?p=libsigrok.git;a=blob;f=HACKING;hb=HEAD)
+- [libsigrokdecode](http://sigrok.org/gitweb/?p=libsigrokdecode.git;a=blob;f=HACKING;hb=HEAD)
+- [sigrok-cli](http://sigrok.org/gitweb/?p=sigrok-cli.git;a=blob;f=HACKING;hb=HEAD)
+- [PulseView](http://sigrok.org/gitweb/?p=pulseview.git;a=blob;f=HACKING;hb=HEAD)
+- [sigrok-firmware-fx2lafw](http://sigrok.org/gitweb/?p=sigrok-firmware-fx2lafw.git;a=blob;f=HACKING;hb=HEAD)
+## Design pages
+
+This is a list of pages we use while working through new features or designs. They are working documents, not official API or feature documentation.
+
+- [New trigger specification](https://sigrok.org/wiki/New_trigger_specification)
+- [High precision analog](https://sigrok.org/wiki/High_precision_analog)
+- [Probe Groups‎](https://sigrok.org/wiki/Probe_Groups)
+- [Improved Configuration Enumeration](https://sigrok.org/wiki/Improved_Configuration_Enumeration)
+- [Input/output API revamp](https://sigrok.org/wiki/Input/output_API_revamp)
+- [File format:sigrok/v3](https://sigrok.org/wiki/File_format:Sigrok/v3)
+- [Domain-specific measurements and analysis](https://sigrok.org/wiki/Domain-specific_measurements_and_analysis)
+- [Feeding hardware-decoded packets into libsigrok](https://sigrok.org/wiki/Feeding_hardware-decoded_packets_into_libsigrok)
+- [Sending data sequences to devices](https://sigrok.org/wiki/Sending_data_sequences_to_devices)
+## Debugging (runtime messages)
+
+If you would like to see the output of the sr_dbg() or sr_err() functions you can use one of the following [sigrok-cli](https://sigrok.org/wiki/Sigrok-cli) options:
+
+```
+$ **export SIGROK_DEBUG=1**
+
+```
+or
+
+```
+$ **sigrok-cli -l 5 *<options>* **
+
+```
+
+The **5** above is the log level. The following levels are available:
+
+- 0: no output at all
+- 1: error messages
+- 2: warnings (the default)
+- 3: informational messages
+- 4: debug
+- 5: spew
+## Debugging (debug symbols)
+
+If you want to enable debug information in compiler output, 
+to receive fault information with symbolic information, 
+or run the software under a debugger's control,
+setup e.g. **CFLAGS=-g** before running **./configure** or 
+adjust the **CMAKE_BUILD_TYPE** to Debug or RelWithDebInfo.
+
+```
+ $ ./configure --prefix=$HOME/sr CFLAGS="-g -O0"
+ $ cmake -DCMAKE_BUILD_TYPE=Debug .
+
+```
+
+See the **valgrind** section below for more detailled examples.
+
+## Temporarily build PulseView with clang
+```
+$ **cmake -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++ .**
+
+```
+## GDB Backtraces for PulseView
+
+[PulseView](https://sigrok.org/wiki/PulseView) can be a bit tricky to debug as running it in GDB can stall the entire X11 session when PulseView crashes. This can be worked around, however. One approach is running GDB with a script that automatically creates a backtrace and terminates GDB (and thus, PulseView):
+
+```
+$ **gdb --command=auto_bt.gdb build/bin/pulseview**
+
+```
+
+with auto_bt.gdb containing lines as these:
+
+```
+set pagination off
+run -l 5
+thread apply all bt
+quit
+
+```
+
+Another approach is to run gdb in tmux. When X11 freezes you can switch to a different virtual console, reattach to tmux, and continue the debugging process from there. This approach also makes it easier to use breakpoints.
+
+## Catching Unhandled PulseView Exceptions with GDB
+
+By default, Qt catches and handles all unhandled C++ exceptions - see Application::notify() in [application.cpp](https://sigrok.org/gitweb/?p=pulseview.git;a=blob;f=pv/application.cpp). We don't want that when debugging unhandled exceptions, so the "exit(1)" must be replaced by "throw e". Then, you can use GDB to catch the exception:
+
+```
+$ **gdb --command=catch_exception.gdb build/bin/pulseview**
+
+```
+
+with catch_exception.gdb containing lines as these:
+
+```
+set pagination off
+define custom_action
+       break __cxa_throw
+       catch throw
+       bt
+end
+run -l 5
+thread apply all custom_action
+quit
+
+```
+
+## Valgrind
+
+The following instructions outline how you can use [valgrind](http://valgrind.org/) to help find memory-related bugs in the sigrok libraries and frontends.
+
+**Debug packages setup (optional):**
+
+In order to get more useful output from valgrind you can (optionally) install various **-dbg** packages (if your distro provides them).
+
+Example for [libsigrok](https://sigrok.org/wiki/Libsigrok) / [libsigrokdecode](https://sigrok.org/wiki/Libsigrokdecode) / [sigrok-cli](https://sigrok.org/wiki/Sigrok-cli) on Debian:
+
+```
+$ **apt-get install libgcc1-dbg libpcre3-dbg libglib2.0-0-dbg libftdi1-dbg zlib1g-dbg libasound2-dbg python3-dbg valgrind-dbg**
+
+```
+
+For Qt and/or Boost based frontends (e.g. [PulseView](https://sigrok.org/wiki/PulseView)) additional packages might be helpful in some cases:
+
+```
+$ **apt-get install libboost1.50-dbg libqt4-dbg libstdc++6-4.7-dbg libaudiofile-dbg \**
+  **libsm6-dbg libice6-dbg libxt6-dbg libicu48-dbg libjpeg62-dbg**
+
+```
+
+**Building:**
+
+Here's a short overview of how to build the sigrok subprojects for use with valgrind. Basically everything should be built with **-g O0** (enable debug output, and disable compiler optimizations). In this example, everything is installed into a custom install directory ($HOME/sr) in order to have a clean and consistent environment.
+
+```
+$ **cd libsigrok; CFLAGS="-g -O0" ./configure --prefix=$HOME/sr && make install**
+$ **cd libsigrokdecode; CFLAGS="-g -O0" ./configure --prefix=$HOME/sr && make install**
+$ **cd sigrok-cli; CFLAGS="-g -O0" PKG_CONFIG_PATH=$HOME/sr/lib/pkgconfig ./configure --prefix=$HOME/sr && make install**
+$ **cd pulseview; CXXFLAGS="-g -O0" PKG_CONFIG_PATH=$HOME/sr/lib/pkgconfig cmake . -DCMAKE_INSTALL_PREFIX:string=$HOME/sr && make install**
+
+```
+
+**Usage:**
+
+You can now run valgrind with your preferred options against the tools/libs in $HOME/sr. Note that **G_SLICE=always-malloc G_DEBUG=gc-friendly** should be used to get valgrind-friendly glib behaviour.
+
+Different command-line options, attached hardware and so on, will test different code paths in the libs/tools (e.g. [sigrok-cli](https://sigrok.org/wiki/Sigrok-cli)), of course.
+
+```
+$ **LD_LIBRARY_PATH=$HOME/sr/lib G_SLICE=always-malloc G_DEBUG=gc-friendly valgrind -v --tool=memcheck --leak-check=full \**
+  **--num-callers=40 --track-origins=yes --leak-resolution=high --track-fds=yes --fullpath-after=. \**
+  **--read-var-info=yes ~/sr/bin/sigrok-cli --help**
+
+```
+
+## Release process
+
+See [Release process](https://sigrok.org/wiki/Developers/Release_process).
+
+## Miscellaneous
+- [Current events](https://sigrok.org/wiki/Current_events)
+- [Public relations](https://sigrok.org/wiki/Public_relations)
+- [News](https://sigrok.org/wiki/News) (obsoleted by [the blog](http://www.sigrok.org/blog))
+

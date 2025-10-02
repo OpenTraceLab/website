@@ -1,0 +1,69 @@
+---
+title: Pax Instruments T400
+---
+
+# Pax Instruments T400
+
+<div class="infobox" markdown>
+
+![Pax Instruments T400](./img/Pax_instruments_t400.jpg){ .infobox-image }
+
+### Pax Instruments T400
+
+| | |
+|---|---|
+| **Status** | planned |
+| **Connectivity** | USB/serial |
+| **Measurement range (A)** | -270 - 1370 C |
+| **Resolution** | 0.1 C |
+| **Accuracy (94dB@1kHz)** | 1.5 C |
+| **Website** | [paxinstruments.com](http://paxinstruments.com/products/sku927/) |
+
+</div>
+
+The **Pax Instruments T400** is a logging thermometer with four thermocouple inputs, USB connectivity, and MicroSD storage. It supports K type thermocouples.
+
+## Hardware
+- **Microcontroller**: Atmel ATmega32U4, 8 MHz, 3.3 V
+- **ADC**: [Microchip MCP3424](http://ww1.microchip.com/downloads/en/DeviceDoc/22088b.pdf)
+- **Junction temperature**: [Microchip MCP9800](http://ww1.microchip.com/downloads/en/DeviceDoc/21909c.pdf)
+- **Screen**: 132x64 LCD
+## Protocol
+
+The T400 outputs CSV data in ASCII format over a USB serial port. Upon device boot or when a new log file is started a header is also output.
+
+Here is a sample of the serial output when a new logging session has started:
+
+```
+v0.14-beta
+File: LD0041.CSV
+time (s), temp_0 (C), temp_1 (C), temp_2 (C), temp_3 (C)
+      0, 24.86, 24.30, 25.83, 23.48
+      1, 24.86, 24.30, 25.83, 23.48
+      2, 24.86, 24.30, 25.83, 23.28
+      3, 24.79, 24.22, 25.56, 23.21
+      4, 24.99, 24.22, 25.56, 23.04
+      5, 24.79, 24.22, 25.56, 23.21
+      6, 24.74, 24.17, 25.51, 22.99
+      7, 24.99, 24.22, 25.36, 23.04
+      8, 24.94, 24.17, 25.31, 22.99
+      9, 24.94, 24.17, 25.31, 22.99
+     10, 24.94, 24.17, 25.31, 22.99
+     11, 24.94, 24.17, 25.31, 22.99
+
+```
+
+## Resources
+- [Pax Instruments T400 product page](http://paxinstruments.com/products/sku927/)
+- [T400 electronics on Github](https://github.com/PaxInstruments/t400-electronics)
+- [T400 firmware on Github](https://github.com/PaxInstruments/t400-firmware)
+- [T400 enclosure on Github](https://github.com/PaxInstruments/t400-enclosure)
+
+## Photos
+
+<div class="photo-grid" markdown>
+
+[![Pax Instruments T400](./img/Pax_instruments_t400.jpg)](./img/Pax_instruments_t400.jpg "Pax Instruments T400"){ .glightbox data-gallery="pax-instruments-t400" }
+<span class="caption">Pax Instruments T400</span>
+
+</div>

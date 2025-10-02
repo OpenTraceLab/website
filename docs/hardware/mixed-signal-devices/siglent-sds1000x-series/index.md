@@ -1,0 +1,64 @@
+---
+title: Siglent SDS1000X series
+---
+
+# Siglent SDS1000X series
+
+<div class="infobox" markdown>
+
+![Siglent SDS1000X series](./img/Siglent_SDS1202X-E_back.png){ .infobox-image }
+
+### Siglent SDS1000X series
+
+| | |
+|---|---|
+| **Status** | supported |
+| **Source code** | [siglent-sds](https://github.com/OpenTraceLab/OpenTraceCapture/tree/main/src/hardware/siglent-sds) |
+| **Channels** | 2 (+ 16 for LA on X+) or 4 (+ 16 for 4 ch E series) |
+| **Samplerate** | up to 1GSa/s |
+| **Analog bandwidth** | 100-200 MHz |
+| **Vertical resolution** | 8bit |
+| **Input impedance** | (1MΩ‖15pF) 2 ch (1MΩ‖18pF) 4 ch  400Vp CAT I, (50Ω 5V RMS only on older serie) |
+| **Memory** | 14 Mpts/Ch (single channel/odd pair) 7 Mpts/Ch (two channel/pair) |
+| **Display** | 7" 800x480 |
+| **Connectivity** | USB host/device(2 on E series), ethernet, pass/fail, trig out, E series WIFI(with dongle) |
+| **Website** | [siglent.com](http://www.siglent.com/ENs/pdxx.aspx?id=1451&amp;T=2&amp;tid=1) |
+
+</div>
+
+The Siglent SDS1000X(+)(-E) series scopes are available in several models. The series SDS1000X without the E are the older models, where the SDS1000X with the E are the newer scopes. 
+
+See [Siglent SDS1000X series/Info](https://sigrok.org/wiki/Siglent_SDS1000X_series/Info) for more details (such as **lsusb -v** output) about the device.
+
+## Hardware
+
+The Siglent SDS1000X series oscilloscopes are capable of sampling up to 1GSa/s 14 Mpts/CH memory for the analog channels. Due to the fact that both channels are shared, if both channels are on the sampling rate is limited to 500MSa/s and 7 Mpts/CH memory depth per channel. The analog channels have history memory where 80000 frames are stored and can be viewed via the scopes History function.
+
+The device is available in 2 categories namely, SDS1000 and SDS1000+, where the plus devices have the Logic Analyser and DDS arbitrary waveform generator build in. Keep in mind that for the Logic Analyser an extra software option and probe device (SPL1016) must be purchased. The Logic Analyser is capable 500 MSa/s with 14 Mpts/CH memory.
+
+An extra software option to decode serial protocols is also available on all devices.
+
+The model numbers are for the 100Mhz bw: SDS1102X SDS1102+ SDS1102X-E SDS1104X-E and 200Mhz bw: SDS1202 and SDS1202+ SDS1202X-E SDS1204X-E
+
+The older series SDS1000X( without the E) with a Logic Analyser function such as the SDS1102X+ do not support acquisition of the LA channels over VXI or USB. Due to flash memory program limitations the code for this function does not fit. The newer "E" scopes are able to export the LA data, and can be used in Pulseview and Sigrok-CLI.
+
+## Photos
+
+<div class="photo-grid" markdown>
+
+[![Siglent Sds1202x E Back](./img/Siglent_SDS1202X-E_back.png)](./img/Siglent_SDS1202X-E_back.png "Siglent Sds1202x E Back"){ .glightbox data-gallery="siglent-sds1000x-series" }
+<span class="caption">Siglent Sds1202x E Back</span>
+
+[![Siglent Sds1202x E Front](./img/Siglent_SDS1202X-E_front.png)](./img/Siglent_SDS1202X-E_front.png "Siglent Sds1202x E Front"){ .glightbox data-gallery="siglent-sds1000x-series" }
+<span class="caption">Siglent Sds1202x E Front</span>
+
+</div>
+## Protocol
+
+All devices support USB (USBTMC) and LAN (VXI-11) by default, and are implementing the IEEE488.2 protocol.
+
+## Resources
+- [SDS1000X Series Oscilloscopes - Data Sheet](http://www.siglentamerica.com/USA_website_2014/Documents/DataSheet/SDS1000X_DataSheet_DS0101X-E01C.pdf)
+- [SIGLENT_Digital Oscilloscopes Remote Control Manual](https://www.siglentamerica.com/wp-content/uploads/dlm_uploads/2017/10/Programming-Guide-1.pdf)
+- [Remote Control Manual SDS1000 Series Oscilloscopes](https://mediacdn.eu/mage/media/wysiwyg/siglent/Downloads/Command/SDS1000_RemoteManual.pdf)
+

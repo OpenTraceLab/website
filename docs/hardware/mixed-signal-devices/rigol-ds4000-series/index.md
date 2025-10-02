@@ -1,0 +1,39 @@
+---
+title: Rigol DS4000 series
+---
+
+# Rigol DS4000 series
+
+<div class="infobox" markdown>
+
+### Rigol DS4000 series
+
+| | |
+|---|---|
+| **Status** | supported |
+| **Channels** | analog: 2 or 4, digital (MSO4000 series): 16 |
+| **Samplerate** | analog: 4GSa/s (interleaved), 2GSa/s (non-interleaved); digital: 1GSa/s |
+| **Analog bandwidth** | 100-500MHz (depending on model) |
+| **Vertical resolution** | 8bits |
+| **Triggers** | edge, pulse, runt, nth edge, slope, video, pattern, RS232/UART, I²C, SPI, CAN, FlexRay, USB |
+| **Input impedance** | 1MΩ‖15pF or 50Ω 300V RMS CAT I analog, 101kΩ‖9pF digital |
+| **Memory** | 70/140 Mpts analog (mode/ch-dependent), 28 Mpts/channel (digital) |
+| **Display** | 9 Inch WVGA (800x480) 160,000 colours |
+| **Connectivity** | USB host/device, ethernet (LXI), aux out (trigger, fast, pass/fail, GND), VGA |
+| **Features** | math: +, —, x, /, FFT, digital filters, editable advanced operations, logic; vertical sensitivity: 1 mV/div to 5 V/div |
+| **Website** | [rigolna.com](https://www.rigolna.com/products/digital-oscilloscopes/4000/) |
+
+</div>
+
+The [Rigol DS4000 Series](https://www.rigolna.com/products/digital-oscilloscopes/4000/) are 4-channel oscilloscopes with an analog bandwidth of 100-500MHz and 4GSa/s maximum sampling rate.
+
+See [Rigol DS4000 series/Info](https://sigrok.org/wiki/Rigol_DS4000_series/Info) for more detailed information on the device.
+
+## Protocol
+
+The device uses [USBTMC](https://sigrok.org/wiki/USBTMC) or LXI via its Ethernet port for communication with a host PC. The protocol is based on SCPI commands.
+
+## Resources
+- [User manual](http://int.rigol.com/File/TechDoc/20151103/MSO%EF%BC%8DDS4000%20User%27s%20Guide.pdf)
+- [Programming guide](http://int.rigol.com/File/TechDoc/20160831/DS4000E_ProgrammingGuide_EN.pdf)
+

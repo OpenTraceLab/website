@@ -1,0 +1,60 @@
+---
+title: Rigol DS2000 series
+---
+
+# Rigol DS2000 series
+
+<div class="infobox" markdown>
+
+![Rigol DS2000 series](./img/Rigol-ds2072_mugshot.png){ .infobox-image }
+
+### Rigol DS2000 series
+
+| | |
+|---|---|
+| **Status** | supported |
+| **Source code** | [rigol-ds](https://github.com/OpenTraceLab/OpenTraceCapture/tree/main/src/hardware/rigol-ds) |
+| **Channels** | 2 |
+| **Samplerate** | 2GSa/s (1ch), 1GSa/s (2ch) |
+| **Analog bandwidth** | 70-200MHz (depending on model) |
+| **Vertical resolution** | 8bits |
+| **Triggers** | edge, pulse, runt, windows, nth edge, slope, video, pattern, delay, timeout, duration, setup/hold, RS232/UART, I²C, SPI, CAN, USB |
+| **Input impedance** | 1MΩ‖16pF 300V RMS CAT I |
+| **Memory** | 56Mpts (mode/ch-dependent) |
+| **Display** | 8" 800x480, 160K colors |
+| **Connectivity** | USB host/device, ethernet (LXI), trigger out, pass/fail out |
+| **Features** | math: +, —, x, /, FFT, vertical sensitivity: 500µV/div - 10V/div |
+| **Website** | [rigolna.com](http://www.rigolna.com/products/digital-oscilloscopes/ds2000/) |
+
+</div>
+
+The [Rigol DS2000 Series](http://www.rigolna.com/products/digital-oscilloscopes/ds2000/) are 2-channel oscilloscopes with an analog bandwidth of 70-200MHz and 2GS/s sampling rate.
+
+Except for small software differences all models in the series are identical.
+
+There exist two versions of the hardware, version 1 and version 2. Version 2 has a redesigned PCB which is prepared for additional modules, a signal generator and apparently a logic analyzer. Additionally version 2 hardware has the hardware fitted to switch the input impedance to 50 ohms. This is only accessible through SCPI commands, the option in the menu is disabled (as of firmware version 01.01.00.02).
+
+## Devices
+| Model | Bandwidth |
+|---|---|
+| [ DS2072](https://sigrok.org/wiki/Rigol_DS2072) | 70MHz |
+| DS2102 | 100MHz |
+| DS2202 | 200MHz |
+
+## Protocol
+
+The device uses [USBTMC](https://sigrok.org/wiki/USBTMC) or LXI via its ethernet port for communication with a host PC. The protocol is based on SCPI commands.
+
+## Resources
+- [EEVblog forums: Review of the Rigol DS2072](http://www.eevblog.com/forum/testgear/first-impressions-and-review-of-the-rigol-ds2072-ds2000-series-dso/)
+- [EEVblog: Teardown video of the Rigol DS2202](http://www.eevblog.com/2012/09/26/eevblog-360-rigol-ds2000-oscilloscope-teardown/)
+- [High resolution images of the innards of Rigol DS2202 from EEVblog](http://www.flickr.com/photos/eevblog/sets/72157631618295437/)
+
+## Photos
+
+<div class="photo-grid" markdown>
+
+[![Rigol Ds2072 Mugshot](./img/Rigol-ds2072_mugshot.png)](./img/Rigol-ds2072_mugshot.png "Rigol Ds2072 Mugshot"){ .glightbox data-gallery="rigol-ds2000-series" }
+<span class="caption">Rigol Ds2072 Mugshot</span>
+
+</div>

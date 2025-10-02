@@ -1,0 +1,59 @@
+---
+title: FTDI-LA
+---
+
+# FTDI-LA
+
+<div class="infobox" markdown>
+
+![FTDI-LA](./img/Chronovu_la8_ftdi_ft245rl.jpg){ .infobox-image }
+
+### FTDI-LA
+
+| | |
+|---|---|
+| **Status** | supported |
+| **Source code** | [ftdi-la](https://github.com/OpenTraceLab/OpenTraceCapture/tree/main/src/hardware/ftdi-la) |
+| **Channels** | 8 |
+| **Samplerate** | 10MHz |
+| **Samplerate (state)** | — |
+| **Triggers** | none (SW-only) |
+| **Min/max voltage** | 0V — 5V |
+| **Memory** | none |
+| **Compression** | none |
+| **Price range** | $2 - $27 |
+
+</div>
+
+There's a best-effort driver to acquire raw samples from any FTDI chip supporting bitbang modes. As these chips have tiny I/O buffers, ***it doesn't guarantee overrun-free operation so it may lose samples***, yet moving the device to a separate USB host or lowering the sample rate helps.
+
+## Hardware
+
+FT232RL and FT2232H are known to work, and adding an unsupported chip should be easy. Boards with the former are available on ebay for $3, but it doesn't support USB 2.0 hence sample rates will be lower. FT*H chips may provide ~20MHz sample rate over a reliable high speed USB link and (bursts of?) 60MHz using synchronous FIFO mode (not implemented in the sigrok driver).
+
+## Pitfalls
+
+This driver currently only supports FTDI chips configured in bitbang mode. This means you cannot use the driver with a board where an EEPROM configures the FTDI device to operate in a different mode. This means the driver doesn't work with Bitscope devices, for example.
+
+I've tried to use FT232RL to capture UART serial transmission and the timing was waaay off, so it didn't worked out even on low baudrates. Sometimes it seemed like the sample rate was half of announced value, sometimes it was completely off. This probably still needs lots of tweaking if you want to do some serious protocol decoding business. (Haven't tried the FT*H chips, they are supposed to work better)
+
+## FT232R Support Removal
+
+*Note: Please do not remove or rename this section. It is linked to from a warning message that new versions of libsigrok will print when they detect an FT232R.*
+
+A pending pull request, [sigrokproject/libsigrok#145](https://github.com/sigrokproject/libsigrok/pull/145), removes support for the FT232R from FTDI-LA because that chip has an unavoidable silicon erratum that results in extreme clock jitter when sampling (or writing to) its I/O pins in bitbang mode. Due to this erratum, the chip is unsuitable as a logic analyzer and has always produced bad data when used with sigrok. In fact, FTDI-LA used an incorrect FT232R clock divisor for years and no one noticed. If you need an FTDI chip that can function as a logic analyzer, consider an H-series chip (e.g. FT232H), or the FT230X/FT231X.
+
+See FTDI's [TN_120, "FT232R Errata Technical Note"](https://ftdichip.com/wp-content/uploads/2020/08/TN_120_FT232R-Errata-Technical-Note.pdf), for more details of the erratum. Note that all silicon revisions (A, B, and C) are affected, and that FTDI's proposed workaround of always sampling at 3MHz is not feasible due to USB bandwidth limitations. There are numerous other reports of this issue on the internet as well: [here](http://blog.bitheap.net/2012/03/ft232r-bitbang-mode-is-broken.html), [here](https://stb-tester.com/blog/2016/05/26/ir-post-mortem), [here](https://pushstack.wordpress.com/2016/04/13/ft232r-bit-bang-timing-2/), [here](https://hackaday.com/2018/06/15/silicon-bugs-in-the-ftdi-ft232r-and-a-tidy-rf-vco-project/), [here](https://forum.sparkfun.com/viewtopic.php?p=123077#p123077), [here](https://stackoverflow.com/questions/50091106/ftdi-bit-bang-jitter-ft232r-vs-ft232h), and [here](https://news.ycombinator.com/item?id=23817957) for example.
+
+## Windows
+
+On Windows, you'll need to [assign the "WinUSB" driver to the device](https://sigrok.org/wiki/Windows#Drivers), otherwise the ftdi-la driver will not be able to find or use it.
+
+## Photos
+
+<div class="photo-grid" markdown>
+
+[![Chronovu La8 Ftdi Ft245rl](./img/Chronovu_la8_ftdi_ft245rl.jpg)](./img/Chronovu_la8_ftdi_ft245rl.jpg "Chronovu La8 Ftdi Ft245rl"){ .glightbox data-gallery="ftdi-la" }
+<span class="caption">Chronovu La8 Ftdi Ft245rl</span>
+
+</div>
