@@ -21,11 +21,13 @@ def fix_png_to_jpg():
                     png_file = Path(local_path)
                     jpg_file = png_file.with_suffix('.jpg')
                     
-                    # Check if PNG doesn't exist but JPG does
-                    if not png_file.exists() and jpg_file.exists():
+                    # Check if JPG exists (regardless of PNG existence)
+                    if jpg_file.exists():
                         row['Image'] = img_path.replace('.png', '.jpg')
                         changes += 1
                         print(f"Fixed: {img_path} -> {row['Image']}")
+                    else:
+                        print(f"Warning: Neither PNG nor JPG exists for {img_path}")
     
     if changes > 0:
         with open(yaml_file, 'w') as f:
