@@ -21,8 +21,15 @@ jobs:
     - uses: actions/checkout@v4
       with:
         fetch-depth: 0
-        lfs: false
+        lfs: true
         token: ${{ secrets.GITHUB_TOKEN }}
+        sparse-checkout: |
+          docs/
+          !docs/hardware/*/img/
+          mkdocs*.yml
+          main.py
+          requirements.txt
+          .github/
         
     - name: Setup Python
       uses: actions/setup-python@v4
@@ -40,7 +47,6 @@ jobs:
         
     - name: Deploy versioned docs
       run: |
-        export GIT_LFS_SKIP_SMUDGE=1
         if [[ $GITHUB_REF == refs/tags/v* ]]; then
           VERSION=${GITHUB_REF#refs/tags/v}
           mike deploy --config-file mkdocs-versioned.yml $VERSION latest --update-aliases --push
@@ -50,7 +56,6 @@ jobs:
         
     - name: Deploy hardware docs
       run: |
-        export GIT_LFS_SKIP_SMUDGE=1
         mkdocs build --config-file mkdocs-hardware.yml --site-dir site-hardware
         git checkout gh-pages
         mkdir -p hardware
