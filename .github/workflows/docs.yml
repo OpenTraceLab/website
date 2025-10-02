@@ -50,7 +50,13 @@ jobs:
     - name: Deploy hardware docs
       run: |
         mkdocs build --config-file mkdocs-hardware.yml --site-dir site-hardware
-        mike deploy --config-file mkdocs-hardware.yml hardware --push --no-history
+        git checkout gh-pages
+        mkdir -p hardware
+        cp -r site-hardware/* hardware/
+        git add hardware/
+        git commit -m "Update hardware documentation" || echo "No changes to hardware docs"
+        git push origin gh-pages
+        git checkout main
         
   test:
     runs-on: ubuntu-latest
