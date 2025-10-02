@@ -55,12 +55,14 @@ def define_env(env):
                     val, lc = r.get(c), c.lower()
                     if lc == "image" and val:
                         model = r.get("Model", "")
-                        row_data.append(f'![{model}]({val}){{: style="width:64px;height:48px;object-fit:contain"}}')
+                        # Fix image path - remove /website prefix and make relative
+                        img_path = val.replace('/website/', '../')
+                        row_data.append(f'![{model}]({img_path}){{: style="width:64px;height:48px;object-fit:contain"}}')
                     elif lc == "model" and val:
                         if r.get("Page"): 
-                            # Use full absolute URL to bypass MkDocs link processing
-                            full_url = f"{site_url}hardware/{r['Page']}"
-                            row_data.append(f'<a href="{full_url}">{val}</a>')
+                            # Use relative path for hardware pages
+                            page_path = f'../{r["Page"]}'
+                            row_data.append(f'[{val}]({page_path})')
                         else: 
                             row_data.append(val)
                     elif lc == "status":
