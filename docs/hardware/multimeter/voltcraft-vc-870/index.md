@@ -6,7 +6,7 @@ title: Voltcraft VC-870
 
 <div class="infobox" markdown>
 
-![Voltcraft VC-870](./img/Voltcraft_vc870_mugshot.png){ .infobox-image }
+![Voltcraft VC-870](./img/Voltcraft_vc870_mugshot.jpg){ .infobox-image }
 
 ### Voltcraft VC-870
 
@@ -49,7 +49,7 @@ We don't have teardown photos yet, but [this article](http://www.all-electronics
 
 <div class="photo-grid" markdown>
 
-[![Voltcraft Vc870 Mugshot](./img/Voltcraft_vc870_mugshot.png)](./img/Voltcraft_vc870_mugshot.png "Voltcraft Vc870 Mugshot"){ .glightbox data-gallery="voltcraft-vc-870" }
+[![Voltcraft Vc870 Mugshot](./img/Voltcraft_vc870_mugshot.jpg)](./img/Voltcraft_vc870_mugshot.png "Voltcraft Vc870 Mugshot"){ .glightbox data-gallery="voltcraft-vc-870" }
 <span class="caption">Voltcraft Vc870 Mugshot</span>
 
 </div>

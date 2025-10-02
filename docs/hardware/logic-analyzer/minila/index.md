@@ -6,7 +6,7 @@ title: MiniLA
 
 <div class="infobox" markdown>
 
-![MiniLA](./img/Minila_parport.png){ .infobox-image }
+![MiniLA](./img/Minila_parport.jpg){ .infobox-image }
 
 ### MiniLA
 
@@ -37,7 +37,7 @@ TODO.
 
 <div class="photo-grid" markdown>
 
-[![Minila Parport](./img/Minila_parport.png)](./img/Minila_parport.png "Minila Parport"){ .glightbox data-gallery="minila" }
+[![Minila Parport](./img/Minila_parport.jpg)](./img/Minila_parport.png "Minila Parport"){ .glightbox data-gallery="minila" }
 <span class="caption">Minila Parport</span>
 
 </div>

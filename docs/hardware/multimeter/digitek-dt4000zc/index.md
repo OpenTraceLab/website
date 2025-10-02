@@ -6,7 +6,7 @@ title: Digitek DT4000ZC
 
 <div class="infobox" markdown>
 
-![Digitek DT4000ZC](./img/Digitek_dt4000zc_device_front.png){ .infobox-image }
+![Digitek DT4000ZC](./img/Digitek_dt4000zc_device_front.jpg){ .infobox-image }
 
 ### Digitek DT4000ZC
 
@@ -41,7 +41,7 @@ It is also sold under the name [TekPower TP4000ZC](https://sigrok.org/wiki/TekPo
 
 <div class="photo-grid" markdown>
 
-[![Digitek Dt4000zc Device Front](./img/Digitek_dt4000zc_device_front.png)](./img/Digitek_dt4000zc_device_front.png "Digitek Dt4000zc Device Front"){ .glightbox data-gallery="digitek-dt4000zc" }
+[![Digitek Dt4000zc Device Front](./img/Digitek_dt4000zc_device_front.jpg)](./img/Digitek_dt4000zc_device_front.png "Digitek Dt4000zc Device Front"){ .glightbox data-gallery="digitek-dt4000zc" }
 <span class="caption">Digitek Dt4000zc Device Front</span>
 
 </div>

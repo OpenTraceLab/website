@@ -6,7 +6,7 @@ title: Lcsoft Mini Board
 
 <div class="infobox" markdown>
 
-![Lcsoft Mini Board](./img/Lcsoft-miniboard-front.png){ .infobox-image }
+![Lcsoft Mini Board](./img/Lcsoft-miniboard-front.jpg){ .infobox-image }
 
 ### Lcsoft Mini Board
 
@@ -54,13 +54,13 @@ The Cypress has no DAC and can't by itself have any analog output. Other Cypress
 
 <div class="photo-grid" markdown>
 
-[![Lcsoft Miniboard Front](./img/Lcsoft-miniboard-front.png)](./img/Lcsoft-miniboard-front.png "Lcsoft Miniboard Front"){ .glightbox data-gallery="lcsoft-mini-board" }
+[![Lcsoft Miniboard Front](./img/Lcsoft-miniboard-front.jpg)](./img/Lcsoft-miniboard-front.png "Lcsoft Miniboard Front"){ .glightbox data-gallery="lcsoft-mini-board" }
 <span class="caption">Lcsoft Miniboard Front</span>
 
 [![Lcsoft Mini Board Ams1117](./img/Lcsoft_mini_board_ams1117.jpg)](./img/Lcsoft_mini_board_ams1117.jpg "Lcsoft Mini Board Ams1117"){ .glightbox data-gallery="lcsoft-mini-board" }
 <span class="caption">Lcsoft Mini Board Ams1117</span>
 
-[![Lcsoft Miniboard Back](./img/Lcsoft-miniboard-back.png)](./img/Lcsoft-miniboard-back.png "Lcsoft Miniboard Back"){ .glightbox data-gallery="lcsoft-mini-board" }
+[![Lcsoft Miniboard Back](./img/Lcsoft-miniboard-back.jpg)](./img/Lcsoft-miniboard-back.png "Lcsoft Miniboard Back"){ .glightbox data-gallery="lcsoft-mini-board" }
 <span class="caption">Lcsoft Miniboard Back</span>
 
 [![Lcsoft Mini Board Crystal](./img/Lcsoft_mini_board_crystal.jpg)](./img/Lcsoft_mini_board_crystal.jpg "Lcsoft Mini Board Crystal"){ .glightbox data-gallery="lcsoft-mini-board" }
@@ -75,7 +75,7 @@ The Cypress has no DAC and can't by itself have any analog output. Other Cypress
 [![Lcsoft Mini Board At24c128a](./img/Lcsoft_mini_board_at24c128a.jpg)](./img/Lcsoft_mini_board_at24c128a.jpg "Lcsoft Mini Board At24c128a"){ .glightbox data-gallery="lcsoft-mini-board" }
 <span class="caption">Lcsoft Mini Board At24c128a</span>
 
-[![Lcsoft Fx2 Pcb Top](./img/Lcsoft-fx2-pcb-top.png)](./img/Lcsoft-fx2-pcb-top.png "Lcsoft Fx2 Pcb Top"){ .glightbox data-gallery="lcsoft-mini-board" }
+[![Lcsoft Fx2 Pcb Top](./img/Lcsoft-fx2-pcb-top.jpg)](./img/Lcsoft-fx2-pcb-top.png "Lcsoft Fx2 Pcb Top"){ .glightbox data-gallery="lcsoft-mini-board" }
 <span class="caption">Lcsoft Fx2 Pcb Top</span>
 
 [![Geeetech Cy7c68013 Back](./img/Geeetech_CY7C68013_back.jpg)](./img/Geeetech_CY7C68013_back.jpg "Geeetech Cy7c68013 Back"){ .glightbox data-gallery="lcsoft-mini-board" }

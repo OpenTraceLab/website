@@ -44,10 +44,10 @@ See [Hantek DDS-3X25/Info](https://sigrok.org/wiki/Hantek_DDS-3X25/Info) for mor
 [![Hantek Dds 3x25 Bottom](./img/Hantek_DDS-3X25_bottom.jpg)](./img/Hantek_DDS-3X25_bottom.jpg "Hantek Dds 3x25 Bottom"){ .glightbox data-gallery="hantek-dds-3x25" }
 <span class="caption">Hantek Dds 3x25 Bottom</span>
 
-[![Hantek Dds 3x25 Pcb Bottom](./img/Hantek_DDS-3X25_PCB_bottom.png)](./img/Hantek_DDS-3X25_PCB_bottom.png "Hantek Dds 3x25 Pcb Bottom"){ .glightbox data-gallery="hantek-dds-3x25" }
+[![Hantek Dds 3x25 Pcb Bottom](./img/Hantek_DDS-3X25_PCB_bottom.jpg)](./img/Hantek_DDS-3X25_PCB_bottom.png "Hantek Dds 3x25 Pcb Bottom"){ .glightbox data-gallery="hantek-dds-3x25" }
 <span class="caption">Hantek Dds 3x25 Pcb Bottom</span>
 
-[![Hantek Dds 3x25 Pcb Top](./img/Hantek_DDS-3X25_PCB_top.png)](./img/Hantek_DDS-3X25_PCB_top.png "Hantek Dds 3x25 Pcb Top"){ .glightbox data-gallery="hantek-dds-3x25" }
+[![Hantek Dds 3x25 Pcb Top](./img/Hantek_DDS-3X25_PCB_top.jpg)](./img/Hantek_DDS-3X25_PCB_top.png "Hantek Dds 3x25 Pcb Top"){ .glightbox data-gallery="hantek-dds-3x25" }
 <span class="caption">Hantek Dds 3x25 Pcb Top</span>
 
 [![Hantek Dds 3x25 Top](./img/Hantek_DDS-3X25_top.jpg)](./img/Hantek_DDS-3X25_top.jpg "Hantek Dds 3x25 Top"){ .glightbox data-gallery="hantek-dds-3x25" }

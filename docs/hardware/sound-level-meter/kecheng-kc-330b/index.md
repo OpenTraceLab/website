@@ -6,7 +6,7 @@ title: Kecheng KC-330B
 
 <div class="infobox" markdown>
 
-![Kecheng KC-330B](./img/Kecheng_KC-330B.png){ .infobox-image }
+![Kecheng KC-330B](./img/Kecheng_KC-330B.jpg){ .infobox-image }
 
 ### Kecheng KC-330B
 
@@ -37,7 +37,7 @@ See [Kecheng KC-330B/Info](https://sigrok.org/wiki/Kecheng_KC-330B/Info) for mor
 
 <div class="photo-grid" markdown>
 
-[![Kecheng Kc 330b](./img/Kecheng_KC-330B.png)](./img/Kecheng_KC-330B.png "Kecheng Kc 330b"){ .glightbox data-gallery="kecheng-kc-330b" }
+[![Kecheng Kc 330b](./img/Kecheng_KC-330B.jpg)](./img/Kecheng_KC-330B.png "Kecheng Kc 330b"){ .glightbox data-gallery="kecheng-kc-330b" }
 <span class="caption">Kecheng Kc 330b</span>
 
 [![Kecheng Kc 330b Pcb Lcd Top](./img/Kecheng_KC-330B_PCB_LCD_top.jpg)](./img/Kecheng_KC-330B_PCB_LCD_top.jpg "Kecheng Kc 330b Pcb Lcd Top"){ .glightbox data-gallery="kecheng-kc-330b" }
@@ -52,7 +52,7 @@ See [Kecheng KC-330B/Info](https://sigrok.org/wiki/Kecheng_KC-330B/Info) for mor
 [![Kecheng Kc 330b Pcb Top Detail](./img/Kecheng_KC-330B_PCB_top_detail.jpg)](./img/Kecheng_KC-330B_PCB_top_detail.jpg "Kecheng Kc 330b Pcb Top Detail"){ .glightbox data-gallery="kecheng-kc-330b" }
 <span class="caption">Kecheng Kc 330b Pcb Top Detail</span>
 
-[![Kecheng Kc 330b Back](./img/Kecheng_KC-330B_back.png)](./img/Kecheng_KC-330B_back.png "Kecheng Kc 330b Back"){ .glightbox data-gallery="kecheng-kc-330b" }
+[![Kecheng Kc 330b Back](./img/Kecheng_KC-330B_back.jpg)](./img/Kecheng_KC-330B_back.png "Kecheng Kc 330b Back"){ .glightbox data-gallery="kecheng-kc-330b" }
 <span class="caption">Kecheng Kc 330b Back</span>
 
 [![Kecheng Kc 330b Pcb Bottom](./img/Kecheng_KC-330B_PCB_bottom.jpg)](./img/Kecheng_KC-330B_PCB_bottom.jpg "Kecheng Kc 330b Pcb Bottom"){ .glightbox data-gallery="kecheng-kc-330b" }

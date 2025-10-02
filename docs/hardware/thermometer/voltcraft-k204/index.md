@@ -51,7 +51,7 @@ title: Voltcraft K204
 [![Voltcraft K204 Device Top](./img/Voltcraft_k204_device_top.jpg)](./img/Voltcraft_k204_device_top.jpg "Voltcraft K204 Device Top"){ .glightbox data-gallery="voltcraft-k204" }
 <span class="caption">Voltcraft K204 Device Top</span>
 
-[![Voltcraft K204](./img/Voltcraft_k204.png)](./img/Voltcraft_k204.png "Voltcraft K204"){ .glightbox data-gallery="voltcraft-k204" }
+[![Voltcraft K204](./img/Voltcraft_k204.jpg)](./img/Voltcraft_k204.png "Voltcraft K204"){ .glightbox data-gallery="voltcraft-k204" }
 <span class="caption">Voltcraft K204</span>
 
 </div>

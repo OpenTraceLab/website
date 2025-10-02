@@ -54,7 +54,7 @@ The **Voltcraft VC-96** is an 4000 counts handheld, digital multimeter with RS23
 [![Voltcraft Vc96 Usb Micro Instead Subd25](./img/Voltcraft_vc96_usb_micro_instead_subd25.jpg)](./img/Voltcraft_vc96_usb_micro_instead_subd25.jpg "Voltcraft Vc96 Usb Micro Instead Subd25"){ .glightbox data-gallery="voltcraft-vc-96" }
 <span class="caption">Voltcraft Vc96 Usb Micro Instead Subd25</span>
 
-[![Voltcraft Vc96 Usb Modification Schematics](./img/Voltcraft_vc96_usb_modification_schematics.png)](./img/Voltcraft_vc96_usb_modification_schematics.png "Voltcraft Vc96 Usb Modification Schematics"){ .glightbox data-gallery="voltcraft-vc-96" }
+[![Voltcraft Vc96 Usb Modification Schematics](./img/Voltcraft_vc96_usb_modification_schematics.jpg)](./img/Voltcraft_vc96_usb_modification_schematics.png "Voltcraft Vc96 Usb Modification Schematics"){ .glightbox data-gallery="voltcraft-vc-96" }
 <span class="caption">Voltcraft Vc96 Usb Modification Schematics</span>
 
 [![Voltcraft Vc96 Pcb Back](./img/Voltcraft_vc96_pcb_back.jpg)](./img/Voltcraft_vc96_pcb_back.jpg "Voltcraft Vc96 Pcb Back"){ .glightbox data-gallery="voltcraft-vc-96" }
@@ -66,7 +66,7 @@ The **Voltcraft VC-96** is an 4000 counts handheld, digital multimeter with RS23
 [![Voltcraft Vc96 Front Rectifier Under Shunt](./img/Voltcraft_vc96_front_rectifier_under_shunt.jpg)](./img/Voltcraft_vc96_front_rectifier_under_shunt.jpg "Voltcraft Vc96 Front Rectifier Under Shunt"){ .glightbox data-gallery="voltcraft-vc-96" }
 <span class="caption">Voltcraft Vc96 Front Rectifier Under Shunt</span>
 
-[![Voltcraft Vc96 Mugshot](./img/Voltcraft_vc96_mugshot.png)](./img/Voltcraft_vc96_mugshot.png "Voltcraft Vc96 Mugshot"){ .glightbox data-gallery="voltcraft-vc-96" }
+[![Voltcraft Vc96 Mugshot](./img/Voltcraft_vc96_mugshot.jpg)](./img/Voltcraft_vc96_mugshot.png "Voltcraft Vc96 Mugshot"){ .glightbox data-gallery="voltcraft-vc-96" }
 <span class="caption">Voltcraft Vc96 Mugshot</span>
 
 [![Voltcraft Vc96 Usb Modification](./img/Voltcraft_vc96_usb_modification.jpg)](./img/Voltcraft_vc96_usb_modification.jpg "Voltcraft Vc96 Usb Modification"){ .glightbox data-gallery="voltcraft-vc-96" }

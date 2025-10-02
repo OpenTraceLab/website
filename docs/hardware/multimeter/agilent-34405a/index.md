@@ -6,7 +6,7 @@ title: Agilent 34405A
 
 <div class="infobox" markdown>
 
-![Agilent 34405A](./img/Agilent_34405A.png){ .infobox-image }
+![Agilent 34405A](./img/Agilent_34405A.jpg){ .infobox-image }
 
 ### Agilent 34405A
 
@@ -31,10 +31,10 @@ See [Agilent 34405A/Info](https://sigrok.org/wiki/Agilent_34405A/Info) for USB p
 
 <div class="photo-grid" markdown>
 
-[![Agilent 34405a](./img/Agilent_34405A.png)](./img/Agilent_34405A.png "Agilent 34405a"){ .glightbox data-gallery="agilent-34405a" }
+[![Agilent 34405a](./img/Agilent_34405A.jpg)](./img/Agilent_34405A.png "Agilent 34405a"){ .glightbox data-gallery="agilent-34405a" }
 <span class="caption">Agilent 34405a</span>
 
-[![Agilent 34405a Back](./img/Agilent_34405A_back.png)](./img/Agilent_34405A_back.png "Agilent 34405a Back"){ .glightbox data-gallery="agilent-34405a" }
+[![Agilent 34405a Back](./img/Agilent_34405A_back.jpg)](./img/Agilent_34405A_back.png "Agilent 34405a Back"){ .glightbox data-gallery="agilent-34405a" }
 <span class="caption">Agilent 34405a Back</span>
 
 </div>

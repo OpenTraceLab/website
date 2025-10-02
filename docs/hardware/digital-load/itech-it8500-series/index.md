@@ -6,7 +6,7 @@ title: ITECH IT8500 series
 
 <div class="infobox" markdown>
 
-![ITECH IT8500 series](./img/Itech_It8511plus_frontpanel.png){ .infobox-image }
+![ITECH IT8500 series](./img/Itech_It8511plus_frontpanel.jpg){ .infobox-image }
 
 ### ITECH IT8500 series
 
@@ -50,7 +50,7 @@ The devices linked above are supported. The other devices might work, but are un
 
 <div class="photo-grid" markdown>
 
-[![Itech It8511plus Frontpanel](./img/Itech_It8511plus_frontpanel.png)](./img/Itech_It8511plus_frontpanel.png "Itech It8511plus Frontpanel"){ .glightbox data-gallery="itech-it8500-series" }
+[![Itech It8511plus Frontpanel](./img/Itech_It8511plus_frontpanel.jpg)](./img/Itech_It8511plus_frontpanel.png "Itech It8511plus Frontpanel"){ .glightbox data-gallery="itech-it8500-series" }
 <span class="caption">Itech It8511plus Frontpanel</span>
 
 </div>

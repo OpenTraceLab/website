@@ -45,7 +45,7 @@ title: Focussz Fosc21
 [![Focussz Fosc21 Device Connectors](./img/Focussz_fosc21_device_connectors.jpg)](./img/Focussz_fosc21_device_connectors.jpg "Focussz Fosc21 Device Connectors"){ .glightbox data-gallery="focussz-fosc21" }
 <span class="caption">Focussz Fosc21 Device Connectors</span>
 
-[![Focussz Fosc21 Mugshot](./img/Focussz_fosc21_mugshot.png)](./img/Focussz_fosc21_mugshot.png "Focussz Fosc21 Mugshot"){ .glightbox data-gallery="focussz-fosc21" }
+[![Focussz Fosc21 Mugshot](./img/Focussz_fosc21_mugshot.jpg)](./img/Focussz_fosc21_mugshot.png "Focussz Fosc21 Mugshot"){ .glightbox data-gallery="focussz-fosc21" }
 <span class="caption">Focussz Fosc21 Mugshot</span>
 
 [![Focussz Fosc21 Back](./img/Focussz_fosc21_back.jpg)](./img/Focussz_fosc21_back.jpg "Focussz Fosc21 Back"){ .glightbox data-gallery="focussz-fosc21" }

@@ -6,7 +6,7 @@ title: NI USB-6008
 
 <div class="infobox" markdown>
 
-![NI USB-6008](./img/Ni_usb_6008.png){ .infobox-image }
+![NI USB-6008](./img/Ni_usb_6008.jpg){ .infobox-image }
 
 ### NI USB-6008
 
@@ -21,7 +21,7 @@ title: NI USB-6008
 
 <div class="photo-grid" markdown>
 
-[![Ni Usb 6008](./img/Ni_usb_6008.png)](./img/Ni_usb_6008.png "Ni Usb 6008"){ .glightbox data-gallery="ni-usb-6008" }
+[![Ni Usb 6008](./img/Ni_usb_6008.jpg)](./img/Ni_usb_6008.png "Ni Usb 6008"){ .glightbox data-gallery="ni-usb-6008" }
 <span class="caption">Ni Usb 6008</span>
 
 </div>

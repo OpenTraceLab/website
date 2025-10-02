@@ -64,7 +64,7 @@ This devices has a standard DB-9 connector at the top, and does not require a sp
 [![Radioshack 22 812 Button Pcb](./img/Radioshack_22_812_button_pcb.jpg)](./img/Radioshack_22_812_button_pcb.jpg "Radioshack 22 812 Button Pcb"){ .glightbox data-gallery="radioshack-22-812" }
 <span class="caption">Radioshack 22 812 Button Pcb</span>
 
-[![Radioshack 22 812 Front](./img/Radioshack_22_812_front.png)](./img/Radioshack_22_812_front.png "Radioshack 22 812 Front"){ .glightbox data-gallery="radioshack-22-812" }
+[![Radioshack 22 812 Front](./img/Radioshack_22_812_front.jpg)](./img/Radioshack_22_812_front.png "Radioshack 22 812 Front"){ .glightbox data-gallery="radioshack-22-812" }
 <span class="caption">Radioshack 22 812 Front</span>
 
 [![Radioshack 22 812 Inside](./img/Radioshack_22_812_inside.jpg)](./img/Radioshack_22_812_inside.jpg "Radioshack 22 812 Inside"){ .glightbox data-gallery="radioshack-22-812" }

@@ -342,7 +342,7 @@ The protocol on Serial and BLE is the same like for most of the APPA based model
 [![Benning Mm 12 Appa 506b Teardown 13](./img/BENNING_MM_12_-_APPA_506B_-_Teardown_-_13.jpg)](./img/BENNING_MM_12_-_APPA_506B_-_Teardown_-_13.jpg "Benning Mm 12 Appa 506b Teardown 13"){ .glightbox data-gallery="benning-mm-12" }
 <span class="caption">Benning Mm 12 Appa 506b Teardown 13</span>
 
-[![Benning Mm 12 04 Smuview](./img/Benning_MM_12_-_04_-_SmuView.png)](./img/Benning_MM_12_-_04_-_SmuView.png "Benning Mm 12 04 Smuview"){ .glightbox data-gallery="benning-mm-12" }
+[![Benning Mm 12 04 Smuview](./img/Benning_MM_12_-_04_-_SmuView.jpg)](./img/Benning_MM_12_-_04_-_SmuView.png "Benning Mm 12 04 Smuview"){ .glightbox data-gallery="benning-mm-12" }
 <span class="caption">Benning Mm 12 04 Smuview</span>
 
 [![Benning Mm 12 Appa 506b Teardown 08](./img/BENNING_MM_12_-_APPA_506B_-_Teardown_-_08.jpg)](./img/BENNING_MM_12_-_APPA_506B_-_Teardown_-_08.jpg "Benning Mm 12 Appa 506b Teardown 08"){ .glightbox data-gallery="benning-mm-12" }
@@ -360,7 +360,7 @@ The protocol on Serial and BLE is the same like for most of the APPA based model
 [![Benning Mm 12 Appa 506b Teardown 03](./img/BENNING_MM_12_-_APPA_506B_-_Teardown_-_03.jpg)](./img/BENNING_MM_12_-_APPA_506B_-_Teardown_-_03.jpg "Benning Mm 12 Appa 506b Teardown 03"){ .glightbox data-gallery="benning-mm-12" }
 <span class="caption">Benning Mm 12 Appa 506b Teardown 03</span>
 
-[![Benning Mm 12 01 Front Sleeve](./img/Benning_MM_12_-_01_-_Front_Sleeve.png)](./img/Benning_MM_12_-_01_-_Front_Sleeve.png "Benning Mm 12 01 Front Sleeve"){ .glightbox data-gallery="benning-mm-12" }
+[![Benning Mm 12 01 Front Sleeve](./img/Benning_MM_12_-_01_-_Front_Sleeve.jpg)](./img/Benning_MM_12_-_01_-_Front_Sleeve.png "Benning Mm 12 01 Front Sleeve"){ .glightbox data-gallery="benning-mm-12" }
 <span class="caption">Benning Mm 12 01 Front Sleeve</span>
 
 [![Benning Mm 12 06 Rear View](./img/Benning_MM_12_-_06_-_Rear_view.jpg)](./img/Benning_MM_12_-_06_-_Rear_view.jpg "Benning Mm 12 06 Rear View"){ .glightbox data-gallery="benning-mm-12" }

@@ -166,7 +166,7 @@ PC1 | PC0 | LED |
 [![Hantek 6022be Accessories](./img/Hantek_6022be_accessories.jpg)](./img/Hantek_6022be_accessories.jpg "Hantek 6022be Accessories"){ .glightbox data-gallery="hantek-6022be" }
 <span class="caption">Hantek 6022be Accessories</span>
 
-[![Hantek 6022be Mugshot](./img/Hantek_6022be_mugshot.png)](./img/Hantek_6022be_mugshot.png "Hantek 6022be Mugshot"){ .glightbox data-gallery="hantek-6022be" }
+[![Hantek 6022be Mugshot](./img/Hantek_6022be_mugshot.jpg)](./img/Hantek_6022be_mugshot.png "Hantek 6022be Mugshot"){ .glightbox data-gallery="hantek-6022be" }
 <span class="caption">Hantek 6022be Mugshot</span>
 
 </div>

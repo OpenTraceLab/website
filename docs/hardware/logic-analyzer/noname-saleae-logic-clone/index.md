@@ -57,7 +57,7 @@ See [Noname Saleae Logic clone/Info](/w/index.php?title=Noname_Saleae_Logic_clon
 [![Logicanalyzer3](./img/LogicAnalyzer3.jpg)](./img/LogicAnalyzer3.jpg "Logicanalyzer3"){ .glightbox data-gallery="noname-saleae-logic-clone" }
 <span class="caption">Logicanalyzer3</span>
 
-[![Noname Saleae Logic Clone Mugshot](./img/Noname_saleae_logic_clone_mugshot.png)](./img/Noname_saleae_logic_clone_mugshot.png "Noname Saleae Logic Clone Mugshot"){ .glightbox data-gallery="noname-saleae-logic-clone" }
+[![Noname Saleae Logic Clone Mugshot](./img/Noname_saleae_logic_clone_mugshot.jpg)](./img/Noname_saleae_logic_clone_mugshot.png "Noname Saleae Logic Clone Mugshot"){ .glightbox data-gallery="noname-saleae-logic-clone" }
 <span class="caption">Noname Saleae Logic Clone Mugshot</span>
 
 [![Logicanalyzerbox](./img/LogicAnalyzerBox.jpg)](./img/LogicAnalyzerBox.jpg "Logicanalyzerbox"){ .glightbox data-gallery="noname-saleae-logic-clone" }

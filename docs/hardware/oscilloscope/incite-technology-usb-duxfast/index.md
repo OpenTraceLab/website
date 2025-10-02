@@ -27,7 +27,7 @@ title: Incite Technology USB-DUXfast
 [![Usb Duxfast Pcb](./img/USB-DUXfast_PCB.jpg)](./img/USB-DUXfast_PCB.jpg "Usb Duxfast Pcb"){ .glightbox data-gallery="incite-technology-usb-duxfast" }
 <span class="caption">Usb Duxfast Pcb</span>
 
-[![Usbduxfast](./img/Usbduxfast.png)](./img/Usbduxfast.png "Usbduxfast"){ .glightbox data-gallery="incite-technology-usb-duxfast" }
+[![Usbduxfast](./img/Usbduxfast.jpg)](./img/Usbduxfast.png "Usbduxfast"){ .glightbox data-gallery="incite-technology-usb-duxfast" }
 <span class="caption">Usbduxfast</span>
 
 [![Usb Duxfast Input Connector](./img/USB-DUXfast_input_connector.jpg)](./img/USB-DUXfast_input_connector.jpg "Usb Duxfast Input Connector"){ .glightbox data-gallery="incite-technology-usb-duxfast" }

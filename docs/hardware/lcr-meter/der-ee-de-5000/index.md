@@ -6,7 +6,7 @@ title: DER EE DE-5000
 
 <div class="infobox" markdown>
 
-![DER EE DE-5000](./img/DER_EE_DE-5000.png){ .infobox-image }
+![DER EE DE-5000](./img/DER_EE_DE-5000.jpg){ .infobox-image }
 
 ### DER EE DE-5000
 
@@ -30,19 +30,19 @@ The **DER EE DE-5000** is a handheld LCR meter with USB connectivity.
 
 <div class="photo-grid" markdown>
 
-[![Der Ee De 5000](./img/DER_EE_DE-5000.png)](./img/DER_EE_DE-5000.png "Der Ee De 5000"){ .glightbox data-gallery="der-ee-de-5000" }
+[![Der Ee De 5000](./img/DER_EE_DE-5000.jpg)](./img/DER_EE_DE-5000.png "Der Ee De 5000"){ .glightbox data-gallery="der-ee-de-5000" }
 <span class="caption">Der Ee De 5000</span>
 
-[![Der Ee De 5000 Mugshot](./img/Der_ee_de-5000_mugshot.png)](./img/Der_ee_de-5000_mugshot.png "Der Ee De 5000 Mugshot"){ .glightbox data-gallery="der-ee-de-5000" }
+[![Der Ee De 5000 Mugshot](./img/Der_ee_de-5000_mugshot.jpg)](./img/Der_ee_de-5000_mugshot.png "Der Ee De 5000 Mugshot"){ .glightbox data-gallery="der-ee-de-5000" }
 <span class="caption">Der Ee De 5000 Mugshot</span>
 
-[![Der Ee De 5000 Back](./img/DER_EE_DE-5000_back.png)](./img/DER_EE_DE-5000_back.png "Der Ee De 5000 Back"){ .glightbox data-gallery="der-ee-de-5000" }
+[![Der Ee De 5000 Back](./img/DER_EE_DE-5000_back.jpg)](./img/DER_EE_DE-5000_back.png "Der Ee De 5000 Back"){ .glightbox data-gallery="der-ee-de-5000" }
 <span class="caption">Der Ee De 5000 Back</span>
 
-[![Der Ee De 5000 Pcb Top](./img/DER_EE_DE-5000_PCB_top.png)](./img/DER_EE_DE-5000_PCB_top.png "Der Ee De 5000 Pcb Top"){ .glightbox data-gallery="der-ee-de-5000" }
+[![Der Ee De 5000 Pcb Top](./img/DER_EE_DE-5000_PCB_top.jpg)](./img/DER_EE_DE-5000_PCB_top.png "Der Ee De 5000 Pcb Top"){ .glightbox data-gallery="der-ee-de-5000" }
 <span class="caption">Der Ee De 5000 Pcb Top</span>
 
-[![Der Ee De 5000 Pcb Bottom](./img/DER_EE_DE-5000_PCB_bottom.png)](./img/DER_EE_DE-5000_PCB_bottom.png "Der Ee De 5000 Pcb Bottom"){ .glightbox data-gallery="der-ee-de-5000" }
+[![Der Ee De 5000 Pcb Bottom](./img/DER_EE_DE-5000_PCB_bottom.jpg)](./img/DER_EE_DE-5000_PCB_bottom.png "Der Ee De 5000 Pcb Bottom"){ .glightbox data-gallery="der-ee-de-5000" }
 <span class="caption">Der Ee De 5000 Pcb Bottom</span>
 
 </div>

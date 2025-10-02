@@ -51,7 +51,7 @@ See [Device cables#UNI-T_UT-D04](https://sigrok.org/wiki/Device_cables#UNI-T_UT-
 [![Uni T Ut61d Package Contents](./img/Uni-t_ut61d_package_contents.jpg)](./img/Uni-t_ut61d_package_contents.jpg "Uni T Ut61d Package Contents"){ .glightbox data-gallery="uni-t-ut61d" }
 <span class="caption">Uni T Ut61d Package Contents</span>
 
-[![Uni T Ut61d Device](./img/Uni_t_ut61d_device.png)](./img/Uni_t_ut61d_device.png "Uni T Ut61d Device"){ .glightbox data-gallery="uni-t-ut61d" }
+[![Uni T Ut61d Device](./img/Uni_t_ut61d_device.jpg)](./img/Uni_t_ut61d_device.png "Uni T Ut61d Device"){ .glightbox data-gallery="uni-t-ut61d" }
 <span class="caption">Uni T Ut61d Device</span>
 
 [![Uni T Ut61d Device Open4](./img/Uni-t_ut61d_device_open4.jpg)](./img/Uni-t_ut61d_device_open4.jpg "Uni T Ut61d Device Open4"){ .glightbox data-gallery="uni-t-ut61d" }

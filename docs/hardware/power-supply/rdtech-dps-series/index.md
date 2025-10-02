@@ -6,7 +6,7 @@ title: RDTech DPS series
 
 <div class="infobox" markdown>
 
-![RDTech DPS series](./img/Rdtech-dps.png){ .infobox-image }
+![RDTech DPS series](./img/Rdtech-dps.jpg){ .infobox-image }
 
 ### RDTech DPS series
 
@@ -83,7 +83,7 @@ Do not exit the menu before this or the settings will be lost.
 
 <div class="photo-grid" markdown>
 
-[![Rdtech Dps](./img/Rdtech-dps.png)](./img/Rdtech-dps.png "Rdtech Dps"){ .glightbox data-gallery="rdtech-dps-series" }
+[![Rdtech Dps](./img/Rdtech-dps.jpg)](./img/Rdtech-dps.png "Rdtech Dps"){ .glightbox data-gallery="rdtech-dps-series" }
 <span class="caption">Rdtech Dps</span>
 
 </div>

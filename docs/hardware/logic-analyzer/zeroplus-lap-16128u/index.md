@@ -79,7 +79,7 @@ See [ZEROPLUS_Logic_Cube_LAP-C_series#Hardware](https://sigrok.org/wiki/ZEROPLUS
 [![Zeroplus Lap16128u Device Back](./img/Zeroplus_lap16128u_device_back.jpg)](./img/Zeroplus_lap16128u_device_back.jpg "Zeroplus Lap16128u Device Back"){ .glightbox data-gallery="zeroplus-lap-16128u" }
 <span class="caption">Zeroplus Lap16128u Device Back</span>
 
-[![Zeroplus Lap 16128u](./img/Zeroplus_lap-16128u.png)](./img/Zeroplus_lap-16128u.png "Zeroplus Lap 16128u"){ .glightbox data-gallery="zeroplus-lap-16128u" }
+[![Zeroplus Lap 16128u](./img/Zeroplus_lap-16128u.jpg)](./img/Zeroplus_lap-16128u.png "Zeroplus Lap 16128u"){ .glightbox data-gallery="zeroplus-lap-16128u" }
 <span class="caption">Zeroplus Lap 16128u</span>
 
 [![Zeroplus Lap16128u Pcb Top](./img/Zeroplus_lap16128u_pcb_top.jpg)](./img/Zeroplus_lap16128u_pcb_top.jpg "Zeroplus Lap16128u Pcb Top"){ .glightbox data-gallery="zeroplus-lap-16128u" }

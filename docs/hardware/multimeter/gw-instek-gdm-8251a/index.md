@@ -52,7 +52,7 @@ The **GW Instek GDM-8251A** is a 5.5 digits (120000 counts) bench digital multim
 [![Dmm Gdm 8251a Internals 2c Bottom Side 2c Power Supply And Data Outputs](./img/DMM_GDM-8251A_internals_2C_bottom_side_2C_power_supply_and_data_outputs.jpg)](./img/DMM_GDM-8251A_internals_2C_bottom_side_2C_power_supply_and_data_outputs.jpg "Dmm Gdm 8251a Internals 2c Bottom Side 2c Power Supply And Data Outputs"){ .glightbox data-gallery="gw-instek-gdm-8251a" }
 <span class="caption">Dmm Gdm 8251a Internals 2c Bottom Side 2c Power Supply And Data Outputs</span>
 
-[![Gdm 8251a Frontpanel](./img/Gdm-8251a_frontpanel.png)](./img/Gdm-8251a_frontpanel.png "Gdm 8251a Frontpanel"){ .glightbox data-gallery="gw-instek-gdm-8251a" }
+[![Gdm 8251a Frontpanel](./img/Gdm-8251a_frontpanel.jpg)](./img/Gdm-8251a_frontpanel.png "Gdm 8251a Frontpanel"){ .glightbox data-gallery="gw-instek-gdm-8251a" }
 <span class="caption">Gdm 8251a Frontpanel</span>
 
 [![Dmm Gdm 8251a Internals 2c Bottom Side](./img/DMM_GDM-8251A_internals_2C_bottom_side.jpg)](./img/DMM_GDM-8251A_internals_2C_bottom_side.jpg "Dmm Gdm 8251a Internals 2c Bottom Side"){ .glightbox data-gallery="gw-instek-gdm-8251a" }

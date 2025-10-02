@@ -44,7 +44,7 @@ Siba Ultrarapid 16A/600 V≈ 10mm x 38 mm
 [![Metrahit 18s 1](./img/Metrahit_18S_1.jpg)](./img/Metrahit_18S_1.jpg "Metrahit 18s 1"){ .glightbox data-gallery="gossen-metrawatt-metrahit-18s" }
 <span class="caption">Metrahit 18s 1</span>
 
-[![Gossen Metrawatt Metrahit 18s Small](./img/Gossen_Metrawatt_Metrahit_18S_small.png)](./img/Gossen_Metrawatt_Metrahit_18S_small.png "Gossen Metrawatt Metrahit 18s Small"){ .glightbox data-gallery="gossen-metrawatt-metrahit-18s" }
+[![Gossen Metrawatt Metrahit 18s Small](./img/Gossen_Metrawatt_Metrahit_18S_small.jpg)](./img/Gossen_Metrawatt_Metrahit_18S_small.png "Gossen Metrawatt Metrahit 18s Small"){ .glightbox data-gallery="gossen-metrawatt-metrahit-18s" }
 <span class="caption">Gossen Metrawatt Metrahit 18s Small</span>
 
 [![Metrahit 18s 3](./img/Metrahit_18S_3.jpg)](./img/Metrahit_18S_3.jpg "Metrahit 18s 3"){ .glightbox data-gallery="gossen-metrawatt-metrahit-18s" }

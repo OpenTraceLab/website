@@ -6,7 +6,7 @@ title: GreatFET One
 
 <div class="infobox" markdown>
 
-![GreatFET One](./img/Greatfet_mugshot.png){ .infobox-image }
+![GreatFET One](./img/Greatfet_mugshot.jpg){ .infobox-image }
 
 ### GreatFET One
 
@@ -89,7 +89,7 @@ It's all open hardware (BSD 3-clause).
 
 <div class="photo-grid" markdown>
 
-[![Greatfet Mugshot](./img/Greatfet_mugshot.png)](./img/Greatfet_mugshot.png "Greatfet Mugshot"){ .glightbox data-gallery="greatfet-one" }
+[![Greatfet Mugshot](./img/Greatfet_mugshot.jpg)](./img/Greatfet_mugshot.png "Greatfet Mugshot"){ .glightbox data-gallery="greatfet-one" }
 <span class="caption">Greatfet Mugshot</span>
 
 </div>

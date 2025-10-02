@@ -6,7 +6,7 @@ title: ASIX OMEGA
 
 <div class="infobox" markdown>
 
-![ASIX OMEGA](./img/ASIX_Omega.png){ .infobox-image }
+![ASIX OMEGA](./img/ASIX_Omega.jpg){ .infobox-image }
 
 ### ASIX OMEGA
 
@@ -47,7 +47,7 @@ See [ASIX OMEGA/Info](https://sigrok.org/wiki/ASIX_OMEGA/Info) for more details 
 
 <div class="photo-grid" markdown>
 
-[![Asix Omega](./img/ASIX_Omega.png)](./img/ASIX_Omega.png "Asix Omega"){ .glightbox data-gallery="asix-omega" }
+[![Asix Omega](./img/ASIX_Omega.jpg)](./img/ASIX_Omega.png "Asix Omega"){ .glightbox data-gallery="asix-omega" }
 <span class="caption">Asix Omega</span>
 
 [![Omega Bottom](./img/Omega-Bottom.jpg)](./img/Omega-Bottom.jpg "Omega Bottom"){ .glightbox data-gallery="asix-omega" }

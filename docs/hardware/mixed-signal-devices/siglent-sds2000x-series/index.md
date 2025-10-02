@@ -6,7 +6,7 @@ title: Siglent SDS2000X series
 
 <div class="infobox" markdown>
 
-![Siglent SDS2000X series](./img/Sds2304x-mugshot.png){ .infobox-image }
+![Siglent SDS2000X series](./img/Sds2304x-mugshot.jpg){ .infobox-image }
 
 ### Siglent SDS2000X series
 
@@ -56,25 +56,25 @@ An extra software option to decode serial protocols is also available on all dev
 
 <div class="photo-grid" markdown>
 
-[![Sds2304x Mugshot](./img/Sds2304x-mugshot.png)](./img/Sds2304x-mugshot.png "Sds2304x Mugshot"){ .glightbox data-gallery="siglent-sds2000x-series" }
+[![Sds2304x Mugshot](./img/Sds2304x-mugshot.jpg)](./img/Sds2304x-mugshot.png "Sds2304x Mugshot"){ .glightbox data-gallery="siglent-sds2000x-series" }
 <span class="caption">Sds2304x Mugshot</span>
 
-[![Sds2000x Logic Probe 3](./img/Sds2000x-logic-probe-3.png)](./img/Sds2000x-logic-probe-3.png "Sds2000x Logic Probe 3"){ .glightbox data-gallery="siglent-sds2000x-series" }
+[![Sds2000x Logic Probe 3](./img/Sds2000x-logic-probe-3.jpg)](./img/Sds2000x-logic-probe-3.png "Sds2000x Logic Probe 3"){ .glightbox data-gallery="siglent-sds2000x-series" }
 <span class="caption">Sds2000x Logic Probe 3</span>
 
-[![Sds2000x Connectors](./img/Sds2000x-connectors.png)](./img/Sds2000x-connectors.png "Sds2000x Connectors"){ .glightbox data-gallery="siglent-sds2000x-series" }
+[![Sds2000x Connectors](./img/Sds2000x-connectors.jpg)](./img/Sds2000x-connectors.png "Sds2000x Connectors"){ .glightbox data-gallery="siglent-sds2000x-series" }
 <span class="caption">Sds2000x Connectors</span>
 
-[![Sds2000x Logic Probe 1](./img/Sds2000x-logic-probe-1.png)](./img/Sds2000x-logic-probe-1.png "Sds2000x Logic Probe 1"){ .glightbox data-gallery="siglent-sds2000x-series" }
+[![Sds2000x Logic Probe 1](./img/Sds2000x-logic-probe-1.jpg)](./img/Sds2000x-logic-probe-1.png "Sds2000x Logic Probe 1"){ .glightbox data-gallery="siglent-sds2000x-series" }
 <span class="caption">Sds2000x Logic Probe 1</span>
 
-[![Sds2000x Analog Probe](./img/Sds2000x-analog-probe.png)](./img/Sds2000x-analog-probe.png "Sds2000x Analog Probe"){ .glightbox data-gallery="siglent-sds2000x-series" }
+[![Sds2000x Analog Probe](./img/Sds2000x-analog-probe.jpg)](./img/Sds2000x-analog-probe.png "Sds2000x Analog Probe"){ .glightbox data-gallery="siglent-sds2000x-series" }
 <span class="caption">Sds2000x Analog Probe</span>
 
-[![Sds2000x Logic Probe 2](./img/Sds2000x-logic-probe-2.png)](./img/Sds2000x-logic-probe-2.png "Sds2000x Logic Probe 2"){ .glightbox data-gallery="siglent-sds2000x-series" }
+[![Sds2000x Logic Probe 2](./img/Sds2000x-logic-probe-2.jpg)](./img/Sds2000x-logic-probe-2.png "Sds2000x Logic Probe 2"){ .glightbox data-gallery="siglent-sds2000x-series" }
 <span class="caption">Sds2000x Logic Probe 2</span>
 
-[![Sds2304x Front](./img/Sds2304x-front.png)](./img/Sds2304x-front.png "Sds2304x Front"){ .glightbox data-gallery="siglent-sds2000x-series" }
+[![Sds2304x Front](./img/Sds2304x-front.jpg)](./img/Sds2304x-front.png "Sds2304x Front"){ .glightbox data-gallery="siglent-sds2000x-series" }
 <span class="caption">Sds2304x Front</span>
 
 </div>

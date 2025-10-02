@@ -54,7 +54,7 @@ USB connectivity is via the [WCH CH9325](https://sigrok.org/wiki/WCH_CH9325) chi
 [![Ut803 Comms Pcb Bottom](./img/UT803_comms_PCB_bottom.jpg)](./img/UT803_comms_PCB_bottom.jpg "Ut803 Comms Pcb Bottom"){ .glightbox data-gallery="tenma-72-1016" }
 <span class="caption">Ut803 Comms Pcb Bottom</span>
 
-[![Tenma 72 1016](./img/Tenma_72-1016.png)](./img/Tenma_72-1016.png "Tenma 72 1016"){ .glightbox data-gallery="tenma-72-1016" }
+[![Tenma 72 1016](./img/Tenma_72-1016.jpg)](./img/Tenma_72-1016.png "Tenma 72 1016"){ .glightbox data-gallery="tenma-72-1016" }
 <span class="caption">Tenma 72 1016</span>
 
 [![Ut803 Air](./img/UT803_air.jpg)](./img/UT803_air.jpg "Ut803 Air"){ .glightbox data-gallery="tenma-72-1016" }

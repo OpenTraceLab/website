@@ -6,7 +6,7 @@ title: Lascar Electronics EL-USB-2
 
 <div class="infobox" markdown>
 
-![Lascar Electronics EL-USB-2](./img/EL-USB-2.png){ .infobox-image }
+![Lascar Electronics EL-USB-2](./img/EL-USB-2.jpg){ .infobox-image }
 
 ### Lascar Electronics EL-USB-2
 
@@ -21,7 +21,7 @@ title: Lascar Electronics EL-USB-2
 
 <div class="photo-grid" markdown>
 
-[![El Usb 2](./img/EL-USB-2.png)](./img/EL-USB-2.png "El Usb 2"){ .glightbox data-gallery="lascar-electronics-el-usb-2" }
+[![El Usb 2](./img/EL-USB-2.jpg)](./img/EL-USB-2.png "El Usb 2"){ .glightbox data-gallery="lascar-electronics-el-usb-2" }
 <span class="caption">El Usb 2</span>
 
 [![El Usb 2 24lc256](./img/EL-USB-2_24LC256.jpg)](./img/EL-USB-2_24LC256.jpg "El Usb 2 24lc256"){ .glightbox data-gallery="lascar-electronics-el-usb-2" }

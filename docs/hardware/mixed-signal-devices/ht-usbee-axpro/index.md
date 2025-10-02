@@ -6,7 +6,7 @@ title: HT USBee-AxPro
 
 <div class="infobox" markdown>
 
-![HT USBee-AxPro](./img/Ht_usbee_axpro_v5_mugshot.png){ .infobox-image }
+![HT USBee-AxPro](./img/Ht_usbee_axpro_v5_mugshot.jpg){ .infobox-image }
 
 ### HT USBee-AxPro
 
@@ -79,7 +79,7 @@ The FX2 CTL2 and PD0..7 pins are mapped exactly like the **HT2013 V5.00** versio
 
 <div class="photo-grid" markdown>
 
-[![Ht Usbee Axpro V5 Mugshot](./img/Ht_usbee_axpro_v5_mugshot.png)](./img/Ht_usbee_axpro_v5_mugshot.png "Ht Usbee Axpro V5 Mugshot"){ .glightbox data-gallery="ht-usbee-axpro" }
+[![Ht Usbee Axpro V5 Mugshot](./img/Ht_usbee_axpro_v5_mugshot.jpg)](./img/Ht_usbee_axpro_v5_mugshot.png "Ht Usbee Axpro V5 Mugshot"){ .glightbox data-gallery="ht-usbee-axpro" }
 <span class="caption">Ht Usbee Axpro V5 Mugshot</span>
 
 [![Ht Usbee Axpro V5 Intersil Icl7660](./img/Ht_usbee_axpro_v5_intersil_icl7660.jpg)](./img/Ht_usbee_axpro_v5_intersil_icl7660.jpg "Ht Usbee Axpro V5 Intersil Icl7660"){ .glightbox data-gallery="ht-usbee-axpro" }

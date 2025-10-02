@@ -6,7 +6,7 @@ title: PeakTech 4370
 
 <div class="infobox" markdown>
 
-![PeakTech 4370](./img/Peaktech_4370_device_front.png){ .infobox-image }
+![PeakTech 4370](./img/Peaktech_4370_device_front.jpg){ .infobox-image }
 
 ### PeakTech 4370
 
@@ -42,7 +42,7 @@ This is a rebadged [Metex M-3640D](http://web.archive.org/web/20090221062108/htt
 
 <div class="photo-grid" markdown>
 
-[![Peaktech 4370 Device Front](./img/Peaktech_4370_device_front.png)](./img/Peaktech_4370_device_front.png "Peaktech 4370 Device Front"){ .glightbox data-gallery="peaktech-4370" }
+[![Peaktech 4370 Device Front](./img/Peaktech_4370_device_front.jpg)](./img/Peaktech_4370_device_front.png "Peaktech 4370 Device Front"){ .glightbox data-gallery="peaktech-4370" }
 <span class="caption">Peaktech 4370 Device Front</span>
 
 </div>

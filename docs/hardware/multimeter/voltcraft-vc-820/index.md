@@ -105,7 +105,7 @@ The **Voltcraft VC-820** is a 4000 counts, CAT III (1000V) / CAT IV (600V) handh
 [![Voltcraft Vc820 Ir Pcb Bottom](./img/Voltcraft_vc820_ir_pcb_bottom.jpg)](./img/Voltcraft_vc820_ir_pcb_bottom.jpg "Voltcraft Vc820 Ir Pcb Bottom"){ .glightbox data-gallery="voltcraft-vc-820" }
 <span class="caption">Voltcraft Vc820 Ir Pcb Bottom</span>
 
-[![Voltcraft Vc820 Device](./img/Voltcraft_vc820_device.png)](./img/Voltcraft_vc820_device.png "Voltcraft Vc820 Device"){ .glightbox data-gallery="voltcraft-vc-820" }
+[![Voltcraft Vc820 Device](./img/Voltcraft_vc820_device.jpg)](./img/Voltcraft_vc820_device.png "Voltcraft Vc820 Device"){ .glightbox data-gallery="voltcraft-vc-820" }
 <span class="caption">Voltcraft Vc820 Device</span>
 
 [![Voltcraft Vc820 Fs9721 Lp3](./img/Voltcraft_vc820_fs9721_lp3.jpg)](./img/Voltcraft_vc820_fs9721_lp3.jpg "Voltcraft Vc820 Fs9721 Lp3"){ .glightbox data-gallery="voltcraft-vc-820" }

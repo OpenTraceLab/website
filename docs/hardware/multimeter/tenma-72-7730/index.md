@@ -59,7 +59,7 @@ See [UNI-T UT71x series](https://sigrok.org/wiki/UNI-T_UT71x_series) for informa
 [![Tenma 72 7730 Pcb Back](./img/Tenma_72-7730_PCB_back.jpg)](./img/Tenma_72-7730_PCB_back.jpg "Tenma 72 7730 Pcb Back"){ .glightbox data-gallery="tenma-72-7730" }
 <span class="caption">Tenma 72 7730 Pcb Back</span>
 
-[![Tenma 72 7730](./img/Tenma_72-7730.png)](./img/Tenma_72-7730.png "Tenma 72 7730"){ .glightbox data-gallery="tenma-72-7730" }
+[![Tenma 72 7730](./img/Tenma_72-7730.jpg)](./img/Tenma_72-7730.png "Tenma 72 7730"){ .glightbox data-gallery="tenma-72-7730" }
 <span class="caption">Tenma 72 7730</span>
 
 </div>

@@ -49,7 +49,7 @@ See [DreamSourceLab DSLogic U3Pro16/Info](/w/index.php?title=DreamSourceLab_DSLo
 [![Dslogic U3pro16 Device Connector](./img/DSLogic_U3Pro16_Device_Connector.jpg)](./img/DSLogic_U3Pro16_Device_Connector.jpg "Dslogic U3pro16 Device Connector"){ .glightbox data-gallery="dreamsourcelab-dslogic-u3pro16" }
 <span class="caption">Dslogic U3pro16 Device Connector</span>
 
-[![Dslogic U3pro16](./img/DSLogic_U3Pro16.png)](./img/DSLogic_U3Pro16.png "Dslogic U3pro16"){ .glightbox data-gallery="dreamsourcelab-dslogic-u3pro16" }
+[![Dslogic U3pro16](./img/DSLogic_U3Pro16.jpg)](./img/DSLogic_U3Pro16.png "Dslogic U3pro16"){ .glightbox data-gallery="dreamsourcelab-dslogic-u3pro16" }
 <span class="caption">Dslogic U3pro16</span>
 
 [![Dslogic U3pro16 Mx25r2035f](./img/DSLogic_U3Pro16_MX25R2035F.jpg)](./img/DSLogic_U3Pro16_MX25R2035F.jpg "Dslogic U3pro16 Mx25r2035f"){ .glightbox data-gallery="dreamsourcelab-dslogic-u3pro16" }

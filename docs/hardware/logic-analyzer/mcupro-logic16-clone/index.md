@@ -136,7 +136,7 @@ The bottom two channels are not GND, but SCK (sample clock out) and HCK (half of
 [![Mcupro Logic16 Variant2 Top Flash 2buc](./img/Mcupro_Logic16_Variant2_top_flash_2BuC.jpg)](./img/Mcupro_Logic16_Variant2_top_flash_2BuC.jpg "Mcupro Logic16 Variant2 Top Flash 2buc"){ .glightbox data-gallery="mcupro-logic16-clone" }
 <span class="caption">Mcupro Logic16 Variant2 Top Flash 2buc</span>
 
-[![Mcupro Logic16 Overview](./img/Mcupro_Logic16_overview.png)](./img/Mcupro_Logic16_overview.png "Mcupro Logic16 Overview"){ .glightbox data-gallery="mcupro-logic16-clone" }
+[![Mcupro Logic16 Overview](./img/Mcupro_Logic16_overview.jpg)](./img/Mcupro_Logic16_overview.png "Mcupro Logic16 Overview"){ .glightbox data-gallery="mcupro-logic16-clone" }
 <span class="caption">Mcupro Logic16 Overview</span>
 
 [![Mcupro 2014 1 25 Bottom Overview](./img/Mcupro-2014-1-25-bottom-overview.jpg)](./img/Mcupro-2014-1-25-bottom-overview.jpg "Mcupro 2014 1 25 Bottom Overview"){ .glightbox data-gallery="mcupro-logic16-clone" }
@@ -193,7 +193,7 @@ The bottom two channels are not GND, but SCK (sample clock out) and HCK (half of
 [![Mcupro Logic16 Variant2 Top Flash 2buc](./img/Mcupro_Logic16_Variant2_top_flash_2BuC.jpg)](./img/Mcupro_Logic16_Variant2_top_flash_2BuC.jpg "Mcupro Logic16 Variant2 Top Flash 2buc"){ .glightbox data-gallery="mcupro-logic16-clone" }
 <span class="caption">Mcupro Logic16 Variant2 Top Flash 2buc</span>
 
-[![Mcupro Logic16 Overview](./img/Mcupro_Logic16_overview.png)](./img/Mcupro_Logic16_overview.png "Mcupro Logic16 Overview"){ .glightbox data-gallery="mcupro-logic16-clone" }
+[![Mcupro Logic16 Overview](./img/Mcupro_Logic16_overview.jpg)](./img/Mcupro_Logic16_overview.png "Mcupro Logic16 Overview"){ .glightbox data-gallery="mcupro-logic16-clone" }
 <span class="caption">Mcupro Logic16 Overview</span>
 
 [![Mcupro 2014 1 25 Bottom Overview](./img/Mcupro-2014-1-25-bottom-overview.jpg)](./img/Mcupro-2014-1-25-bottom-overview.jpg "Mcupro 2014 1 25 Bottom Overview"){ .glightbox data-gallery="mcupro-logic16-clone" }
@@ -250,7 +250,7 @@ The bottom two channels are not GND, but SCK (sample clock out) and HCK (half of
 [![Mcupro Logic16 Variant2 Top Flash 2buc](./img/Mcupro_Logic16_Variant2_top_flash_2BuC.jpg)](./img/Mcupro_Logic16_Variant2_top_flash_2BuC.jpg "Mcupro Logic16 Variant2 Top Flash 2buc"){ .glightbox data-gallery="mcupro-logic16-clone" }
 <span class="caption">Mcupro Logic16 Variant2 Top Flash 2buc</span>
 
-[![Mcupro Logic16 Overview](./img/Mcupro_Logic16_overview.png)](./img/Mcupro_Logic16_overview.png "Mcupro Logic16 Overview"){ .glightbox data-gallery="mcupro-logic16-clone" }
+[![Mcupro Logic16 Overview](./img/Mcupro_Logic16_overview.jpg)](./img/Mcupro_Logic16_overview.png "Mcupro Logic16 Overview"){ .glightbox data-gallery="mcupro-logic16-clone" }
 <span class="caption">Mcupro Logic16 Overview</span>
 
 [![Mcupro 2014 1 25 Bottom Overview](./img/Mcupro-2014-1-25-bottom-overview.jpg)](./img/Mcupro-2014-1-25-bottom-overview.jpg "Mcupro 2014 1 25 Bottom Overview"){ .glightbox data-gallery="mcupro-logic16-clone" }
@@ -307,7 +307,7 @@ The bottom two channels are not GND, but SCK (sample clock out) and HCK (half of
 [![Mcupro Logic16 Variant2 Top Flash 2buc](./img/Mcupro_Logic16_Variant2_top_flash_2BuC.jpg)](./img/Mcupro_Logic16_Variant2_top_flash_2BuC.jpg "Mcupro Logic16 Variant2 Top Flash 2buc"){ .glightbox data-gallery="mcupro-logic16-clone" }
 <span class="caption">Mcupro Logic16 Variant2 Top Flash 2buc</span>
 
-[![Mcupro Logic16 Overview](./img/Mcupro_Logic16_overview.png)](./img/Mcupro_Logic16_overview.png "Mcupro Logic16 Overview"){ .glightbox data-gallery="mcupro-logic16-clone" }
+[![Mcupro Logic16 Overview](./img/Mcupro_Logic16_overview.jpg)](./img/Mcupro_Logic16_overview.png "Mcupro Logic16 Overview"){ .glightbox data-gallery="mcupro-logic16-clone" }
 <span class="caption">Mcupro Logic16 Overview</span>
 
 [![Mcupro 2014 1 25 Bottom Overview](./img/Mcupro-2014-1-25-bottom-overview.jpg)](./img/Mcupro-2014-1-25-bottom-overview.jpg "Mcupro 2014 1 25 Bottom Overview"){ .glightbox data-gallery="mcupro-logic16-clone" }
@@ -364,7 +364,7 @@ The bottom two channels are not GND, but SCK (sample clock out) and HCK (half of
 [![Mcupro Logic16 Variant2 Top Flash 2buc](./img/Mcupro_Logic16_Variant2_top_flash_2BuC.jpg)](./img/Mcupro_Logic16_Variant2_top_flash_2BuC.jpg "Mcupro Logic16 Variant2 Top Flash 2buc"){ .glightbox data-gallery="mcupro-logic16-clone" }
 <span class="caption">Mcupro Logic16 Variant2 Top Flash 2buc</span>
 
-[![Mcupro Logic16 Overview](./img/Mcupro_Logic16_overview.png)](./img/Mcupro_Logic16_overview.png "Mcupro Logic16 Overview"){ .glightbox data-gallery="mcupro-logic16-clone" }
+[![Mcupro Logic16 Overview](./img/Mcupro_Logic16_overview.jpg)](./img/Mcupro_Logic16_overview.png "Mcupro Logic16 Overview"){ .glightbox data-gallery="mcupro-logic16-clone" }
 <span class="caption">Mcupro Logic16 Overview</span>
 
 [![Mcupro 2014 1 25 Bottom Overview](./img/Mcupro-2014-1-25-bottom-overview.jpg)](./img/Mcupro-2014-1-25-bottom-overview.jpg "Mcupro 2014 1 25 Bottom Overview"){ .glightbox data-gallery="mcupro-logic16-clone" }

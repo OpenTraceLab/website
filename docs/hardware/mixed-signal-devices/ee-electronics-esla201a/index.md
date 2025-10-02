@@ -60,7 +60,7 @@ See [EE Electronics ESLA201A/Info](https://sigrok.org/wiki/EE_Electronics_ESLA20
 [![Esla201a Pcb](./img/Esla201a-pcb.jpg)](./img/Esla201a-pcb.jpg "Esla201a Pcb"){ .glightbox data-gallery="ee-electronics-esla201a" }
 <span class="caption">Esla201a Pcb</span>
 
-[![Esla201a](./img/Esla201a.png)](./img/Esla201a.png "Esla201a"){ .glightbox data-gallery="ee-electronics-esla201a" }
+[![Esla201a](./img/Esla201a.jpg)](./img/Esla201a.png "Esla201a"){ .glightbox data-gallery="ee-electronics-esla201a" }
 <span class="caption">Esla201a</span>
 
 </div>

@@ -6,7 +6,7 @@ title: RDTech TC66C
 
 <div class="infobox" markdown>
 
-![RDTech TC66C](./img/Rdtech-tc66c-parts-moon.png){ .infobox-image }
+![RDTech TC66C](./img/Rdtech-tc66c-parts-moon.jpg){ .infobox-image }
 
 ### RDTech TC66C
 
@@ -185,16 +185,16 @@ Firmware update process:
 
 <div class="photo-grid" markdown>
 
-[![Rdtech Tc66c Parts Moon](./img/Rdtech-tc66c-parts-moon.png)](./img/Rdtech-tc66c-parts-moon.png "Rdtech Tc66c Parts Moon"){ .glightbox data-gallery="rdtech-tc66c" }
+[![Rdtech Tc66c Parts Moon](./img/Rdtech-tc66c-parts-moon.jpg)](./img/Rdtech-tc66c-parts-moon.png "Rdtech Tc66c Parts Moon"){ .glightbox data-gallery="rdtech-tc66c" }
 <span class="caption">Rdtech Tc66c Parts Moon</span>
 
-[![Rdtech Tc66c Parts Pcb Zoom](./img/Rdtech-tc66c-parts-pcb-zoom.png)](./img/Rdtech-tc66c-parts-pcb-zoom.png "Rdtech Tc66c Parts Pcb Zoom"){ .glightbox data-gallery="rdtech-tc66c" }
+[![Rdtech Tc66c Parts Pcb Zoom](./img/Rdtech-tc66c-parts-pcb-zoom.jpg)](./img/Rdtech-tc66c-parts-pcb-zoom.png "Rdtech Tc66c Parts Pcb Zoom"){ .glightbox data-gallery="rdtech-tc66c" }
 <span class="caption">Rdtech Tc66c Parts Pcb Zoom</span>
 
-[![Rdtech Tc66c Mugshot](./img/Rdtech-tc66c-mugshot.png)](./img/Rdtech-tc66c-mugshot.png "Rdtech Tc66c Mugshot"){ .glightbox data-gallery="rdtech-tc66c" }
+[![Rdtech Tc66c Mugshot](./img/Rdtech-tc66c-mugshot.jpg)](./img/Rdtech-tc66c-mugshot.png "Rdtech Tc66c Mugshot"){ .glightbox data-gallery="rdtech-tc66c" }
 <span class="caption">Rdtech Tc66c Mugshot</span>
 
-[![Rdtech Tc66c Parts Pcb](./img/Rdtech-tc66c-parts-pcb.png)](./img/Rdtech-tc66c-parts-pcb.png "Rdtech Tc66c Parts Pcb"){ .glightbox data-gallery="rdtech-tc66c" }
+[![Rdtech Tc66c Parts Pcb](./img/Rdtech-tc66c-parts-pcb.jpg)](./img/Rdtech-tc66c-parts-pcb.png "Rdtech Tc66c Parts Pcb"){ .glightbox data-gallery="rdtech-tc66c" }
 <span class="caption">Rdtech Tc66c Parts Pcb</span>
 
 </div>

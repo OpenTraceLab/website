@@ -6,7 +6,7 @@ title: Saanlima Pipistrello OLS
 
 <div class="infobox" markdown>
 
-![Saanlima Pipistrello OLS](./img/Saanlima_Pipistrello-OLS.png){ .infobox-image }
+![Saanlima Pipistrello OLS](./img/Saanlima_Pipistrello-OLS.jpg){ .infobox-image }
 
 ### Saanlima Pipistrello OLS
 
@@ -57,7 +57,7 @@ The Pipistrello needs to be manually flashed with a FPGA bitstream to work with 
 
 <div class="photo-grid" markdown>
 
-[![Saanlima Pipistrello Ols](./img/Saanlima_Pipistrello-OLS.png)](./img/Saanlima_Pipistrello-OLS.png "Saanlima Pipistrello Ols"){ .glightbox data-gallery="saanlima-pipistrello-ols" }
+[![Saanlima Pipistrello Ols](./img/Saanlima_Pipistrello-OLS.jpg)](./img/Saanlima_Pipistrello-OLS.png "Saanlima Pipistrello Ols"){ .glightbox data-gallery="saanlima-pipistrello-ols" }
 <span class="caption">Saanlima Pipistrello Ols</span>
 
 [![Saanlima Pipistrello](./img/Saanlima_Pipistrello.jpg)](./img/Saanlima_Pipistrello.jpg "Saanlima Pipistrello"){ .glightbox data-gallery="saanlima-pipistrello-ols" }

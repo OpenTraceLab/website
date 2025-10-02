@@ -42,7 +42,7 @@ The resolution is one digit higher on the data interface.
 [![Gmc Kmm2002 6](./img/Gmc_kmm2002_6.jpg)](./img/Gmc_kmm2002_6.jpg "Gmc Kmm2002 6"){ .glightbox data-gallery="gossen-metrawatt-t-com-kmm2002" }
 <span class="caption">Gmc Kmm2002 6</span>
 
-[![Gmc Kmm2002 1](./img/Gmc_kmm2002_1.png)](./img/Gmc_kmm2002_1.png "Gmc Kmm2002 1"){ .glightbox data-gallery="gossen-metrawatt-t-com-kmm2002" }
+[![Gmc Kmm2002 1](./img/Gmc_kmm2002_1.jpg)](./img/Gmc_kmm2002_1.png "Gmc Kmm2002 1"){ .glightbox data-gallery="gossen-metrawatt-t-com-kmm2002" }
 <span class="caption">Gmc Kmm2002 1</span>
 
 [![Gmc Kmm2002 2](./img/Gmc_kmm2002_2.jpg)](./img/Gmc_kmm2002_2.jpg "Gmc Kmm2002 2"){ .glightbox data-gallery="gossen-metrawatt-t-com-kmm2002" }

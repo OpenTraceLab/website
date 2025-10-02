@@ -6,7 +6,7 @@ title: Siglent SDS1000X series
 
 <div class="infobox" markdown>
 
-![Siglent SDS1000X series](./img/Siglent_SDS1202X-E_back.png){ .infobox-image }
+![Siglent SDS1000X series](./img/Siglent_SDS1202X-E_back.jpg){ .infobox-image }
 
 ### Siglent SDS1000X series
 
@@ -46,10 +46,10 @@ The older series SDS1000X( without the E) with a Logic Analyser function such as
 
 <div class="photo-grid" markdown>
 
-[![Siglent Sds1202x E Back](./img/Siglent_SDS1202X-E_back.png)](./img/Siglent_SDS1202X-E_back.png "Siglent Sds1202x E Back"){ .glightbox data-gallery="siglent-sds1000x-series" }
+[![Siglent Sds1202x E Back](./img/Siglent_SDS1202X-E_back.jpg)](./img/Siglent_SDS1202X-E_back.png "Siglent Sds1202x E Back"){ .glightbox data-gallery="siglent-sds1000x-series" }
 <span class="caption">Siglent Sds1202x E Back</span>
 
-[![Siglent Sds1202x E Front](./img/Siglent_SDS1202X-E_front.png)](./img/Siglent_SDS1202X-E_front.png "Siglent Sds1202x E Front"){ .glightbox data-gallery="siglent-sds1000x-series" }
+[![Siglent Sds1202x E Front](./img/Siglent_SDS1202X-E_front.jpg)](./img/Siglent_SDS1202X-E_front.png "Siglent Sds1202x E Front"){ .glightbox data-gallery="siglent-sds1000x-series" }
 <span class="caption">Siglent Sds1202x E Front</span>
 
 </div>

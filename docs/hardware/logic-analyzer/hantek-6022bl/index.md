@@ -211,7 +211,7 @@ Dual-color (red/green) LED.
 [![Hantek 6022bl Microchip 24lc02bi Button](./img/Hantek_6022bl_microchip_24lc02bi_button.jpg)](./img/Hantek_6022bl_microchip_24lc02bi_button.jpg "Hantek 6022bl Microchip 24lc02bi Button"){ .glightbox data-gallery="hantek-6022bl" }
 <span class="caption">Hantek 6022bl Microchip 24lc02bi Button</span>
 
-[![Hantek 6022be Mugshot](./img/Hantek_6022be_mugshot.png)](./img/Hantek_6022be_mugshot.png "Hantek 6022be Mugshot"){ .glightbox data-gallery="hantek-6022bl" }
+[![Hantek 6022be Mugshot](./img/Hantek_6022be_mugshot.jpg)](./img/Hantek_6022be_mugshot.png "Hantek 6022be Mugshot"){ .glightbox data-gallery="hantek-6022bl" }
 <span class="caption">Hantek 6022be Mugshot</span>
 
 </div>

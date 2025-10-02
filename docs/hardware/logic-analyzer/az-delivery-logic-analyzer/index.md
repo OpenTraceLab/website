@@ -57,7 +57,7 @@ See [AZDelivery Logic Analyzer/Info](https://sigrok.org/wiki/AZDelivery_Logic_An
 [![Az Delivery Logic Pcb Back](./img/AZ-Delivery_logic_PCB_back.jpg)](./img/AZ-Delivery_logic_PCB_back.jpg "Az Delivery Logic Pcb Back"){ .glightbox data-gallery="az-delivery-logic-analyzer" }
 <span class="caption">Az Delivery Logic Pcb Back</span>
 
-[![Az Delivery Logic Analyzer](./img/AZ-Delivery_logic_analyzer.png)](./img/AZ-Delivery_logic_analyzer.png "Az Delivery Logic Analyzer"){ .glightbox data-gallery="az-delivery-logic-analyzer" }
+[![Az Delivery Logic Analyzer](./img/AZ-Delivery_logic_analyzer.jpg)](./img/AZ-Delivery_logic_analyzer.png "Az Delivery Logic Analyzer"){ .glightbox data-gallery="az-delivery-logic-analyzer" }
 <span class="caption">Az Delivery Logic Analyzer</span>
 
 [![Az Delivery Logic Package Content](./img/AZ-Delivery_logic_package_content.jpg)](./img/AZ-Delivery_logic_package_content.jpg "Az Delivery Logic Package Content"){ .glightbox data-gallery="az-delivery-logic-analyzer" }

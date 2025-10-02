@@ -45,7 +45,7 @@ See [Dangerous Prototypes USB IR Toy/Info](https://sigrok.org/wiki/Dangerous_Pro
 [![Dangerous Prototypes Irtoy Bottom](./img/Dangerous_prototypes_irtoy_bottom.jpg)](./img/Dangerous_prototypes_irtoy_bottom.jpg "Dangerous Prototypes Irtoy Bottom"){ .glightbox data-gallery="dangerous-prototypes-usb-ir-toy" }
 <span class="caption">Dangerous Prototypes Irtoy Bottom</span>
 
-[![Dangerous Prototypes Irtoy Mugshot](./img/Dangerous_prototypes_irtoy_mugshot.png)](./img/Dangerous_prototypes_irtoy_mugshot.png "Dangerous Prototypes Irtoy Mugshot"){ .glightbox data-gallery="dangerous-prototypes-usb-ir-toy" }
+[![Dangerous Prototypes Irtoy Mugshot](./img/Dangerous_prototypes_irtoy_mugshot.jpg)](./img/Dangerous_prototypes_irtoy_mugshot.png "Dangerous Prototypes Irtoy Mugshot"){ .glightbox data-gallery="dangerous-prototypes-usb-ir-toy" }
 <span class="caption">Dangerous Prototypes Irtoy Mugshot</span>
 
 [![Dangerous Prototypes Irtoy Top](./img/Dangerous_prototypes_irtoy_top.jpg)](./img/Dangerous_prototypes_irtoy_top.jpg "Dangerous Prototypes Irtoy Top"){ .glightbox data-gallery="dangerous-prototypes-usb-ir-toy" }

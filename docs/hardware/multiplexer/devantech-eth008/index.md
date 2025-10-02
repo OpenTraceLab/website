@@ -6,7 +6,7 @@ title: Devantech ETH008
 
 <div class="infobox" markdown>
 
-![Devantech ETH008](./img/Devantech-eth008b-mugshot.png){ .infobox-image }
+![Devantech ETH008](./img/Devantech-eth008b-mugshot.jpg){ .infobox-image }
 
 ### Devantech ETH008
 
@@ -74,7 +74,7 @@ See the card vendor's **relay power rating** discussion and relay datasheet.
 
 <div class="photo-grid" markdown>
 
-[![Devantech Eth008b Mugshot](./img/Devantech-eth008b-mugshot.png)](./img/Devantech-eth008b-mugshot.png "Devantech Eth008b Mugshot"){ .glightbox data-gallery="devantech-eth008" }
+[![Devantech Eth008b Mugshot](./img/Devantech-eth008b-mugshot.jpg)](./img/Devantech-eth008b-mugshot.png "Devantech Eth008b Mugshot"){ .glightbox data-gallery="devantech-eth008" }
 <span class="caption">Devantech Eth008b Mugshot</span>
 
 </div>

@@ -54,7 +54,7 @@ See [EE Electronics ESLA100/Info](https://sigrok.org/wiki/EE_Electronics_ESLA100
 [![Eeelec Xla Esla100 74hc245d](./img/Eeelec_xla_esla100_74hc245d.jpg)](./img/Eeelec_xla_esla100_74hc245d.jpg "Eeelec Xla Esla100 74hc245d"){ .glightbox data-gallery="ee-electronics-esla100" }
 <span class="caption">Eeelec Xla Esla100 74hc245d</span>
 
-[![Eeelec Xla Esla100](./img/Eeelec_xla_esla100.png)](./img/Eeelec_xla_esla100.png "Eeelec Xla Esla100"){ .glightbox data-gallery="ee-electronics-esla100" }
+[![Eeelec Xla Esla100](./img/Eeelec_xla_esla100.jpg)](./img/Eeelec_xla_esla100.png "Eeelec Xla Esla100"){ .glightbox data-gallery="ee-electronics-esla100" }
 <span class="caption">Eeelec Xla Esla100</span>
 
 [![Eeelec Xla Esla100 Usb](./img/Eeelec_xla_esla100_usb.jpg)](./img/Eeelec_xla_esla100_usb.jpg "Eeelec Xla Esla100 Usb"){ .glightbox data-gallery="ee-electronics-esla100" }

@@ -6,7 +6,7 @@ title: Escort 179
 
 <div class="infobox" markdown>
 
-![Escort 179](./img/Escort_179_device_front.png){ .infobox-image }
+![Escort 179](./img/Escort_179_device_front.jpg){ .infobox-image }
 
 ### Escort 179
 
@@ -31,7 +31,7 @@ TODO.
 
 <div class="photo-grid" markdown>
 
-[![Escort 179 Device Front](./img/Escort_179_device_front.png)](./img/Escort_179_device_front.png "Escort 179 Device Front"){ .glightbox data-gallery="escort-179" }
+[![Escort 179 Device Front](./img/Escort_179_device_front.jpg)](./img/Escort_179_device_front.png "Escort 179 Device Front"){ .glightbox data-gallery="escort-179" }
 <span class="caption">Escort 179 Device Front</span>
 
 </div>

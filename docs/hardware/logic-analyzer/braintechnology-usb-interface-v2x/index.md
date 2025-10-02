@@ -48,7 +48,7 @@ See [Braintechnology USB Interface V2.x/Info](https://sigrok.org/wiki/Braintechn
 [![Braintechnology Usb Interface V2x Pdei](./img/Braintechnology_usb_interface_v2x_pdei.jpg)](./img/Braintechnology_usb_interface_v2x_pdei.jpg "Braintechnology Usb Interface V2x Pdei"){ .glightbox data-gallery="braintechnology-usb-interface-v2.x" }
 <span class="caption">Braintechnology Usb Interface V2x Pdei</span>
 
-[![Braintechnology Usb Interface V26](./img/Braintechnology_usb_interface_v26.png)](./img/Braintechnology_usb_interface_v26.png "Braintechnology Usb Interface V26"){ .glightbox data-gallery="braintechnology-usb-interface-v2.x" }
+[![Braintechnology Usb Interface V26](./img/Braintechnology_usb_interface_v26.jpg)](./img/Braintechnology_usb_interface_v26.png "Braintechnology Usb Interface V26"){ .glightbox data-gallery="braintechnology-usb-interface-v2.x" }
 <span class="caption">Braintechnology Usb Interface V26</span>
 
 [![Braintechnology Usb Interface V2x Pcb Front](./img/Braintechnology_usb_interface_v2x_pcb_front.jpg)](./img/Braintechnology_usb_interface_v2x_pcb_front.jpg "Braintechnology Usb Interface V2x Pcb Front"){ .glightbox data-gallery="braintechnology-usb-interface-v2.x" }

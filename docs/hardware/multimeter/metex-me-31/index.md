@@ -6,7 +6,7 @@ title: Metex ME-31
 
 <div class="infobox" markdown>
 
-![Metex ME-31](./img/Metex_me-31.png){ .infobox-image }
+![Metex ME-31](./img/Metex_me-31.jpg){ .infobox-image }
 
 ### Metex ME-31
 
@@ -33,7 +33,7 @@ TODO.
 
 <div class="photo-grid" markdown>
 
-[![Metex Me 31](./img/Metex_me-31.png)](./img/Metex_me-31.png "Metex Me 31"){ .glightbox data-gallery="metex-me-31" }
+[![Metex Me 31](./img/Metex_me-31.jpg)](./img/Metex_me-31.png "Metex Me 31"){ .glightbox data-gallery="metex-me-31" }
 <span class="caption">Metex Me 31</span>
 
 [![Metex Me 31 Mugshot](./img/Metex_me-31_mugshot.jpg)](./img/Metex_me-31_mugshot.jpg "Metex Me 31 Mugshot"){ .glightbox data-gallery="metex-me-31" }

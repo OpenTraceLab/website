@@ -56,7 +56,7 @@ To convert it to a more common DCE configuration, unplug and open the device and
 [![Conrad Digi 35 Cpu 2](./img/Conrad_digi_35_cpu_2.jpg)](./img/Conrad_digi_35_cpu_2.jpg "Conrad Digi 35 Cpu 2"){ .glightbox data-gallery="conrad-digi-35-cpu" }
 <span class="caption">Conrad Digi 35 Cpu 2</span>
 
-[![Conrad Digi 35 Cpu Logo](./img/Conrad_digi_35_cpu_logo.png)](./img/Conrad_digi_35_cpu_logo.png "Conrad Digi 35 Cpu Logo"){ .glightbox data-gallery="conrad-digi-35-cpu" }
+[![Conrad Digi 35 Cpu Logo](./img/Conrad_digi_35_cpu_logo.jpg)](./img/Conrad_digi_35_cpu_logo.png "Conrad Digi 35 Cpu Logo"){ .glightbox data-gallery="conrad-digi-35-cpu" }
 <span class="caption">Conrad Digi 35 Cpu Logo</span>
 
 [![Conrad Digi 35 Cpu 5](./img/Conrad_digi_35_cpu_5.jpg)](./img/Conrad_digi_35_cpu_5.jpg "Conrad Digi 35 Cpu 5"){ .glightbox data-gallery="conrad-digi-35-cpu" }

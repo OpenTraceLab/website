@@ -47,7 +47,7 @@ The **Voltcraft VC-830** is a 6000 counts, CAT III (1000V) / CAT IV (600V) handh
 [![Voltcraft Vc830 Device Top](./img/Voltcraft_vc830_device_top.jpg)](./img/Voltcraft_vc830_device_top.jpg "Voltcraft Vc830 Device Top"){ .glightbox data-gallery="voltcraft-vc-830" }
 <span class="caption">Voltcraft Vc830 Device Top</span>
 
-[![Voltcraft Vc830](./img/Voltcraft_vc830.png)](./img/Voltcraft_vc830.png "Voltcraft Vc830"){ .glightbox data-gallery="voltcraft-vc-830" }
+[![Voltcraft Vc830](./img/Voltcraft_vc830.jpg)](./img/Voltcraft_vc830.png "Voltcraft Vc830"){ .glightbox data-gallery="voltcraft-vc-830" }
 <span class="caption">Voltcraft Vc830</span>
 
 [![Voltcraft Vc830 Battery](./img/Voltcraft_vc830_battery.jpg)](./img/Voltcraft_vc830_battery.jpg "Voltcraft Vc830 Battery"){ .glightbox data-gallery="voltcraft-vc-830" }

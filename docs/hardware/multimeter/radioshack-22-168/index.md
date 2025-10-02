@@ -91,7 +91,7 @@ The **RadioShack 22-168** is a 2000 counts handheld digital multimeter with RS-2
 [![Rs 22 168 Cable Mated](./img/Rs_22_168_cable_mated.jpg)](./img/Rs_22_168_cable_mated.jpg "Rs 22 168 Cable Mated"){ .glightbox data-gallery="radioshack-22-168" }
 <span class="caption">Rs 22 168 Cable Mated</span>
 
-[![Rs 22 168 Angle](./img/Rs_22_168_angle.png)](./img/Rs_22_168_angle.png "Rs 22 168 Angle"){ .glightbox data-gallery="radioshack-22-168" }
+[![Rs 22 168 Angle](./img/Rs_22_168_angle.jpg)](./img/Rs_22_168_angle.png "Rs 22 168 Angle"){ .glightbox data-gallery="radioshack-22-168" }
 <span class="caption">Rs 22 168 Angle</span>
 
 [![Rs 22 168 Hidden Components](./img/Rs_22_168_hidden_components.jpg)](./img/Rs_22_168_hidden_components.jpg "Rs 22 168 Hidden Components"){ .glightbox data-gallery="radioshack-22-168" }
@@ -115,7 +115,7 @@ The **RadioShack 22-168** is a 2000 counts handheld digital multimeter with RS-2
 [![Rs 22 168 Mosc](./img/Rs_22_168_mosc.jpg)](./img/Rs_22_168_mosc.jpg "Rs 22 168 Mosc"){ .glightbox data-gallery="radioshack-22-168" }
 <span class="caption">Rs 22 168 Mosc</span>
 
-[![Rs 22 168 Mugshot](./img/Rs_22_168_mugshot.png)](./img/Rs_22_168_mugshot.png "Rs 22 168 Mugshot"){ .glightbox data-gallery="radioshack-22-168" }
+[![Rs 22 168 Mugshot](./img/Rs_22_168_mugshot.jpg)](./img/Rs_22_168_mugshot.png "Rs 22 168 Mugshot"){ .glightbox data-gallery="radioshack-22-168" }
 <span class="caption">Rs 22 168 Mugshot</span>
 
 [![Rs 22 168 Rangeswitch](./img/Rs_22_168_rangeswitch.jpg)](./img/Rs_22_168_rangeswitch.jpg "Rs 22 168 Rangeswitch"){ .glightbox data-gallery="radioshack-22-168" }

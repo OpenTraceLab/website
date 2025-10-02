@@ -51,7 +51,7 @@ Some random facts:
 [![Cem Dt 8852 Side](./img/CEM_DT-8852_side.jpg)](./img/CEM_DT-8852_side.jpg "Cem Dt 8852 Side"){ .glightbox data-gallery="cem-dt-8852" }
 <span class="caption">Cem Dt 8852 Side</span>
 
-[![Cem Dt 8852](./img/CEM_DT-8852.png)](./img/CEM_DT-8852.png "Cem Dt 8852"){ .glightbox data-gallery="cem-dt-8852" }
+[![Cem Dt 8852](./img/CEM_DT-8852.jpg)](./img/CEM_DT-8852.png "Cem Dt 8852"){ .glightbox data-gallery="cem-dt-8852" }
 <span class="caption">Cem Dt 8852</span>
 
 [![Cem Dt 8852 Pcb Back Middle](./img/CEM_DT-8852_PCB_back_middle.jpg)](./img/CEM_DT-8852_PCB_back_middle.jpg "Cem Dt 8852 Pcb Back Middle"){ .glightbox data-gallery="cem-dt-8852" }

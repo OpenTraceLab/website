@@ -287,7 +287,7 @@ Hardware components on the PCB:
 [![Um24c Board 5](./img/UM24C_board_5.jpg)](./img/UM24C_board_5.jpg "Um24c Board 5"){ .glightbox data-gallery="rdtech-um-series" }
 <span class="caption">Um24c Board 5</span>
 
-[![Rdtech Um25c Pcb Rf Zoom](./img/Rdtech-um25c-pcb-rf-zoom.png)](./img/Rdtech-um25c-pcb-rf-zoom.png "Rdtech Um25c Pcb Rf Zoom"){ .glightbox data-gallery="rdtech-um-series" }
+[![Rdtech Um25c Pcb Rf Zoom](./img/Rdtech-um25c-pcb-rf-zoom.jpg)](./img/Rdtech-um25c-pcb-rf-zoom.png "Rdtech Um25c Pcb Rf Zoom"){ .glightbox data-gallery="rdtech-um-series" }
 <span class="caption">Rdtech Um25c Pcb Rf Zoom</span>
 
 [![Um24c Board 1](./img/UM24C_board_1.jpg)](./img/UM24C_board_1.jpg "Um24c Board 1"){ .glightbox data-gallery="rdtech-um-series" }
@@ -299,10 +299,10 @@ Hardware components on the PCB:
 [![Um24c Board 4](./img/UM24C_board_4.jpg)](./img/UM24C_board_4.jpg "Um24c Board 4"){ .glightbox data-gallery="rdtech-um-series" }
 <span class="caption">Um24c Board 4</span>
 
-[![Rdtech Um25c Pcb Bottom](./img/Rdtech-um25c-pcb-bottom.png)](./img/Rdtech-um25c-pcb-bottom.png "Rdtech Um25c Pcb Bottom"){ .glightbox data-gallery="rdtech-um-series" }
+[![Rdtech Um25c Pcb Bottom](./img/Rdtech-um25c-pcb-bottom.jpg)](./img/Rdtech-um25c-pcb-bottom.png "Rdtech Um25c Pcb Bottom"){ .glightbox data-gallery="rdtech-um-series" }
 <span class="caption">Rdtech Um25c Pcb Bottom</span>
 
-[![Rdtech Um25c Pcb Top](./img/Rdtech-um25c-pcb-top.png)](./img/Rdtech-um25c-pcb-top.png "Rdtech Um25c Pcb Top"){ .glightbox data-gallery="rdtech-um-series" }
+[![Rdtech Um25c Pcb Top](./img/Rdtech-um25c-pcb-top.jpg)](./img/Rdtech-um25c-pcb-top.png "Rdtech Um25c Pcb Top"){ .glightbox data-gallery="rdtech-um-series" }
 <span class="caption">Rdtech Um25c Pcb Top</span>
 
 </div>

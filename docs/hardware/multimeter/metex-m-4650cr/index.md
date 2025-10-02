@@ -57,7 +57,7 @@ It has also been sold under the name [Voltcraft M-4650CR](https://sigrok.org/wik
 [![Metex M4650cr Fuse](./img/Metex_M4650CR_fuse.JPG)](./img/Metex_M4650CR_fuse.JPG "Metex M4650cr Fuse"){ .glightbox data-gallery="metex-m-4650cr" }
 <span class="caption">Metex M4650cr Fuse</span>
 
-[![Metex M4650cr Mugshot](./img/Metex_m4650cr_mugshot.png)](./img/Metex_m4650cr_mugshot.png "Metex M4650cr Mugshot"){ .glightbox data-gallery="metex-m-4650cr" }
+[![Metex M4650cr Mugshot](./img/Metex_m4650cr_mugshot.jpg)](./img/Metex_m4650cr_mugshot.png "Metex M4650cr Mugshot"){ .glightbox data-gallery="metex-m-4650cr" }
 <span class="caption">Metex M4650cr Mugshot</span>
 
 [![Metex M4650cr Side](./img/Metex_M4650CR_side.JPG)](./img/Metex_M4650CR_side.JPG "Metex M4650cr Side"){ .glightbox data-gallery="metex-m-4650cr" }

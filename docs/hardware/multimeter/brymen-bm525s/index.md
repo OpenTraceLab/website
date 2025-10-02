@@ -6,7 +6,7 @@ title: Brymen BM525s
 
 <div class="infobox" markdown>
 
-![Brymen BM525s](./img/Bm525s-manual.png){ .infobox-image }
+![Brymen BM525s](./img/Bm525s-manual.jpg){ .infobox-image }
 
 ### Brymen BM525s
 
@@ -31,16 +31,16 @@ The DMM can record up to 87000 (single display) or 43500 (dual display) measurem
 
 <div class="photo-grid" markdown>
 
-[![Bm525s Manual](./img/Bm525s-manual.png)](./img/Bm525s-manual.png "Bm525s Manual"){ .glightbox data-gallery="brymen-bm525s" }
+[![Bm525s Manual](./img/Bm525s-manual.jpg)](./img/Bm525s-manual.png "Bm525s Manual"){ .glightbox data-gallery="brymen-bm525s" }
 <span class="caption">Bm525s Manual</span>
 
-[![Bm525s Box Front](./img/Bm525s-box-front.png)](./img/Bm525s-box-front.png "Bm525s Box Front"){ .glightbox data-gallery="brymen-bm525s" }
+[![Bm525s Box Front](./img/Bm525s-box-front.jpg)](./img/Bm525s-box-front.png "Bm525s Box Front"){ .glightbox data-gallery="brymen-bm525s" }
 <span class="caption">Bm525s Box Front</span>
 
-[![Bm525s Display Segments](./img/Bm525s-display-segments.png)](./img/Bm525s-display-segments.png "Bm525s Display Segments"){ .glightbox data-gallery="brymen-bm525s" }
+[![Bm525s Display Segments](./img/Bm525s-display-segments.jpg)](./img/Bm525s-display-segments.png "Bm525s Display Segments"){ .glightbox data-gallery="brymen-bm525s" }
 <span class="caption">Bm525s Display Segments</span>
 
-[![Bm525s Mugshot](./img/Bm525s-mugshot.png)](./img/Bm525s-mugshot.png "Bm525s Mugshot"){ .glightbox data-gallery="brymen-bm525s" }
+[![Bm525s Mugshot](./img/Bm525s-mugshot.jpg)](./img/Bm525s-mugshot.png "Bm525s Mugshot"){ .glightbox data-gallery="brymen-bm525s" }
 <span class="caption">Bm525s Mugshot</span>
 
 </div>

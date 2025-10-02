@@ -6,7 +6,7 @@ title: Metrix MX56C
 
 <div class="infobox" markdown>
 
-![Metrix MX56C](./img/Mx56c-batt-compart-covers.png){ .infobox-image }
+![Metrix MX56C](./img/Mx56c-batt-compart-covers.jpg){ .infobox-image }
 
 ### Metrix MX56C
 
@@ -52,22 +52,22 @@ User "free_electron" provides background on the ITT corporation.)
 
 <div class="photo-grid" markdown>
 
-[![Mx56c Batt Compart Covers](./img/Mx56c-batt-compart-covers.png)](./img/Mx56c-batt-compart-covers.png "Mx56c Batt Compart Covers"){ .glightbox data-gallery="metrix-mx56c" }
+[![Mx56c Batt Compart Covers](./img/Mx56c-batt-compart-covers.jpg)](./img/Mx56c-batt-compart-covers.png "Mx56c Batt Compart Covers"){ .glightbox data-gallery="metrix-mx56c" }
 <span class="caption">Mx56c Batt Compart Covers</span>
 
-[![Mx56c Front Holster](./img/Mx56c-front-holster.png)](./img/Mx56c-front-holster.png "Mx56c Front Holster"){ .glightbox data-gallery="metrix-mx56c" }
+[![Mx56c Front Holster](./img/Mx56c-front-holster.jpg)](./img/Mx56c-front-holster.png "Mx56c Front Holster"){ .glightbox data-gallery="metrix-mx56c" }
 <span class="caption">Mx56c Front Holster</span>
 
-[![Mx56c Display Asyc Ip67](./img/Mx56c-display-asyc-ip67.png)](./img/Mx56c-display-asyc-ip67.png "Mx56c Display Asyc Ip67"){ .glightbox data-gallery="metrix-mx56c" }
+[![Mx56c Display Asyc Ip67](./img/Mx56c-display-asyc-ip67.jpg)](./img/Mx56c-display-asyc-ip67.png "Mx56c Display Asyc Ip67"){ .glightbox data-gallery="metrix-mx56c" }
 <span class="caption">Mx56c Display Asyc Ip67</span>
 
-[![Mx56c Batt Compart Ir Location](./img/Mx56c-batt-compart-ir-location.png)](./img/Mx56c-batt-compart-ir-location.png "Mx56c Batt Compart Ir Location"){ .glightbox data-gallery="metrix-mx56c" }
+[![Mx56c Batt Compart Ir Location](./img/Mx56c-batt-compart-ir-location.jpg)](./img/Mx56c-batt-compart-ir-location.png "Mx56c Batt Compart Ir Location"){ .glightbox data-gallery="metrix-mx56c" }
 <span class="caption">Mx56c Batt Compart Ir Location</span>
 
-[![Metrix Mx56c](./img/Metrix_mx56c.png)](./img/Metrix_mx56c.png "Metrix Mx56c"){ .glightbox data-gallery="metrix-mx56c" }
+[![Metrix Mx56c](./img/Metrix_mx56c.jpg)](./img/Metrix_mx56c.png "Metrix Mx56c"){ .glightbox data-gallery="metrix-mx56c" }
 <span class="caption">Metrix Mx56c</span>
 
-[![Mx56c Back Instructions](./img/Mx56c-back-instructions.png)](./img/Mx56c-back-instructions.png "Mx56c Back Instructions"){ .glightbox data-gallery="metrix-mx56c" }
+[![Mx56c Back Instructions](./img/Mx56c-back-instructions.jpg)](./img/Mx56c-back-instructions.png "Mx56c Back Instructions"){ .glightbox data-gallery="metrix-mx56c" }
 <span class="caption">Mx56c Back Instructions</span>
 
 </div>

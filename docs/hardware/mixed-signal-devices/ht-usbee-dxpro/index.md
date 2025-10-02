@@ -72,7 +72,7 @@ See [HT USBee-DxPro/Info](https://sigrok.org/wiki/HT_USBee-DxPro/Info) for some 
 [![Ht Usbee Dxpro Connectors](./img/Ht_usbee_dxpro_connectors.jpg)](./img/Ht_usbee_dxpro_connectors.jpg "Ht Usbee Dxpro Connectors"){ .glightbox data-gallery="ht-usbee-dxpro" }
 <span class="caption">Ht Usbee Dxpro Connectors</span>
 
-[![Ht Usbee Dxpro Mugshot](./img/Ht_usbee_dxpro_mugshot.png)](./img/Ht_usbee_dxpro_mugshot.png "Ht Usbee Dxpro Mugshot"){ .glightbox data-gallery="ht-usbee-dxpro" }
+[![Ht Usbee Dxpro Mugshot](./img/Ht_usbee_dxpro_mugshot.jpg)](./img/Ht_usbee_dxpro_mugshot.png "Ht Usbee Dxpro Mugshot"){ .glightbox data-gallery="ht-usbee-dxpro" }
 <span class="caption">Ht Usbee Dxpro Mugshot</span>
 
 [![Ht Usbee Dxpro Device Top](./img/Ht_usbee_dxpro_device_top.jpg)](./img/Ht_usbee_dxpro_device_top.jpg "Ht Usbee Dxpro Device Top"){ .glightbox data-gallery="ht-usbee-dxpro" }

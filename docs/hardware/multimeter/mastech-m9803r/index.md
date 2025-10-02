@@ -6,7 +6,7 @@ title: MASTECH M9803R
 
 <div class="infobox" markdown>
 
-![MASTECH M9803R](./img/800px-Mastech_m9803r_device_front.png){ .infobox-image }
+![MASTECH M9803R](./img/800px-Mastech_m9803r_device_front.jpg){ .infobox-image }
 
 ### MASTECH M9803R
 
@@ -32,7 +32,7 @@ TODO.
 
 <div class="photo-grid" markdown>
 
-[![800px Mastech M9803r Device Front](./img/800px-Mastech_m9803r_device_front.png)](./img/800px-Mastech_m9803r_device_front.png "800px Mastech M9803r Device Front"){ .glightbox data-gallery="mastech-m9803r" }
+[![800px Mastech M9803r Device Front](./img/800px-Mastech_m9803r_device_front.jpg)](./img/800px-Mastech_m9803r_device_front.png "800px Mastech M9803r Device Front"){ .glightbox data-gallery="mastech-m9803r" }
 <span class="caption">800px Mastech M9803r Device Front</span>
 
 </div>

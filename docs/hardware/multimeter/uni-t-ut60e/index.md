@@ -76,7 +76,7 @@ It is similar to the [Voltcraft VC-840](https://sigrok.org/wiki/Voltcraft_VC-840
 [![Ut60e Ir](./img/Ut60e_-_ir.JPG)](./img/Ut60e_-_ir.JPG "Ut60e Ir"){ .glightbox data-gallery="uni-t-ut60e" }
 <span class="caption">Ut60e Ir</span>
 
-[![Ut60e Front Alpha](./img/Ut60e_-_front_-_alpha.png)](./img/Ut60e_-_front_-_alpha.png "Ut60e Front Alpha"){ .glightbox data-gallery="uni-t-ut60e" }
+[![Ut60e Front Alpha](./img/Ut60e_-_front_-_alpha.jpg)](./img/Ut60e_-_front_-_alpha.png "Ut60e Front Alpha"){ .glightbox data-gallery="uni-t-ut60e" }
 <span class="caption">Ut60e Front Alpha</span>
 
 [![Ut60e Back](./img/Ut60e_-_back.JPG)](./img/Ut60e_-_back.JPG "Ut60e Back"){ .glightbox data-gallery="uni-t-ut60e" }

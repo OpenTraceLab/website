@@ -24,7 +24,7 @@ title: Prologix GPIB-USB
 [![Prologix Usb](./img/Prologix-usb.jpg)](./img/Prologix-usb.jpg "Prologix Usb"){ .glightbox data-gallery="prologix-gpib-usb" }
 <span class="caption">Prologix Usb</span>
 
-[![Prologix Usb](./img/Prologix-usb.png)](./img/Prologix-usb.png "Prologix Usb"){ .glightbox data-gallery="prologix-gpib-usb" }
+[![Prologix Usb](./img/Prologix-usb.jpg)](./img/Prologix-usb.png "Prologix Usb"){ .glightbox data-gallery="prologix-gpib-usb" }
 <span class="caption">Prologix Usb</span>
 
 </div>

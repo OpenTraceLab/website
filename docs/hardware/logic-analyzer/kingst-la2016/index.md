@@ -116,7 +116,7 @@ U15 [TPS60403](http://www.ti.com/lit/ds/symlink/tps60403.pdf) Charge Pump Voltag
 [![Kingst La2016 Paper](./img/Kingst_la2016_paper.jpg)](./img/Kingst_la2016_paper.jpg "Kingst La2016 Paper"){ .glightbox data-gallery="kingst-la2016" }
 <span class="caption">Kingst La2016 Paper</span>
 
-[![Kingst La2016 Mugshot](./img/Kingst_la2016_mugshot.png)](./img/Kingst_la2016_mugshot.png "Kingst La2016 Mugshot"){ .glightbox data-gallery="kingst-la2016" }
+[![Kingst La2016 Mugshot](./img/Kingst_la2016_mugshot.jpg)](./img/Kingst_la2016_mugshot.png "Kingst La2016 Mugshot"){ .glightbox data-gallery="kingst-la2016" }
 <span class="caption">Kingst La2016 Mugshot</span>
 
 [![Kingst La2016 Samsung K4t1g164qg](./img/Kingst_la2016_samsung_k4t1g164qg.jpg)](./img/Kingst_la2016_samsung_k4t1g164qg.jpg "Kingst La2016 Samsung K4t1g164qg"){ .glightbox data-gallery="kingst-la2016" }
@@ -134,7 +134,7 @@ U15 [TPS60403](http://www.ti.com/lit/ds/symlink/tps60403.pdf) Charge Pump Voltag
 [![Kingst La2016 Cypress Fx2](./img/Kingst_la2016_cypress_fx2.jpg)](./img/Kingst_la2016_cypress_fx2.jpg "Kingst La2016 Cypress Fx2"){ .glightbox data-gallery="kingst-la2016" }
 <span class="caption">Kingst La2016 Cypress Fx2</span>
 
-[![Kingst La2016 Pcb 1.3.0 Top](./img/Kingst-la2016-pcb-1.3.0-top.png)](./img/Kingst-la2016-pcb-1.3.0-top.png "Kingst La2016 Pcb 1.3.0 Top"){ .glightbox data-gallery="kingst-la2016" }
+[![Kingst La2016 Pcb 1.3.0 Top](./img/Kingst-la2016-pcb-1.3.0-top.jpg)](./img/Kingst-la2016-pcb-1.3.0-top.png "Kingst La2016 Pcb 1.3.0 Top"){ .glightbox data-gallery="kingst-la2016" }
 <span class="caption">Kingst La2016 Pcb 1.3.0 Top</span>
 
 [![Kingst La2016 Pcb Top](./img/Kingst_la2016_pcb_top.jpg)](./img/Kingst_la2016_pcb_top.jpg "Kingst La2016 Pcb Top"){ .glightbox data-gallery="kingst-la2016" }
@@ -143,7 +143,7 @@ U15 [TPS60403](http://www.ti.com/lit/ds/symlink/tps60403.pdf) Charge Pump Voltag
 [![Kingst La2016 Pcb Bottom](./img/Kingst_la2016_pcb_bottom.jpg)](./img/Kingst_la2016_pcb_bottom.jpg "Kingst La2016 Pcb Bottom"){ .glightbox data-gallery="kingst-la2016" }
 <span class="caption">Kingst La2016 Pcb Bottom</span>
 
-[![Kingst La2016 Pcb 1.3.0 Bottom](./img/Kingst-la2016-pcb-1.3.0-bottom.png)](./img/Kingst-la2016-pcb-1.3.0-bottom.png "Kingst La2016 Pcb 1.3.0 Bottom"){ .glightbox data-gallery="kingst-la2016" }
+[![Kingst La2016 Pcb 1.3.0 Bottom](./img/Kingst-la2016-pcb-1.3.0-bottom.jpg)](./img/Kingst-la2016-pcb-1.3.0-bottom.png "Kingst La2016 Pcb 1.3.0 Bottom"){ .glightbox data-gallery="kingst-la2016" }
 <span class="caption">Kingst La2016 Pcb 1.3.0 Bottom</span>
 
 [![Kingst La2016 Altera Cyclone4 Ep4ce6f17c8n](./img/Kingst_la2016_altera_cyclone4_ep4ce6f17c8n.jpg)](./img/Kingst_la2016_altera_cyclone4_ep4ce6f17c8n.jpg "Kingst La2016 Altera Cyclone4 Ep4ce6f17c8n"){ .glightbox data-gallery="kingst-la2016" }

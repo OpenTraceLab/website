@@ -6,7 +6,7 @@ title: Kingst LA5016
 
 <div class="infobox" markdown>
 
-![Kingst LA5016](./img/Kingst-la5016-size-compared.png){ .infobox-image }
+![Kingst LA5016](./img/Kingst-la5016-size-compared.jpg){ .infobox-image }
 
 ### Kingst LA5016
 
@@ -47,22 +47,22 @@ TODO Add more details.
 
 <div class="photo-grid" markdown>
 
-[![Kingst La5016 Size Compared](./img/Kingst-la5016-size-compared.png)](./img/Kingst-la5016-size-compared.png "Kingst La5016 Size Compared"){ .glightbox data-gallery="kingst-la5016" }
+[![Kingst La5016 Size Compared](./img/Kingst-la5016-size-compared.jpg)](./img/Kingst-la5016-size-compared.png "Kingst La5016 Size Compared"){ .glightbox data-gallery="kingst-la5016" }
 <span class="caption">Kingst La5016 Size Compared</span>
 
-[![Kingst La5016 Mugshot](./img/Kingst-la5016-mugshot.png)](./img/Kingst-la5016-mugshot.png "Kingst La5016 Mugshot"){ .glightbox data-gallery="kingst-la5016" }
+[![Kingst La5016 Mugshot](./img/Kingst-la5016-mugshot.jpg)](./img/Kingst-la5016-mugshot.png "Kingst La5016 Mugshot"){ .glightbox data-gallery="kingst-la5016" }
 <span class="caption">Kingst La5016 Mugshot</span>
 
-[![Kingst La5016 Pcb Top](./img/Kingst-la5016-pcb-top.png)](./img/Kingst-la5016-pcb-top.png "Kingst La5016 Pcb Top"){ .glightbox data-gallery="kingst-la5016" }
+[![Kingst La5016 Pcb Top](./img/Kingst-la5016-pcb-top.jpg)](./img/Kingst-la5016-pcb-top.png "Kingst La5016 Pcb Top"){ .glightbox data-gallery="kingst-la5016" }
 <span class="caption">Kingst La5016 Pcb Top</span>
 
-[![Kingst La5016 Pcb Bottom](./img/Kingst-la5016-pcb-bottom.png)](./img/Kingst-la5016-pcb-bottom.png "Kingst La5016 Pcb Bottom"){ .glightbox data-gallery="kingst-la5016" }
+[![Kingst La5016 Pcb Bottom](./img/Kingst-la5016-pcb-bottom.jpg)](./img/Kingst-la5016-pcb-bottom.png "Kingst La5016 Pcb Bottom"){ .glightbox data-gallery="kingst-la5016" }
 <span class="caption">Kingst La5016 Pcb Bottom</span>
 
-[![Kingst La5016 Case Open](./img/Kingst-la5016-case-open.png)](./img/Kingst-la5016-case-open.png "Kingst La5016 Case Open"){ .glightbox data-gallery="kingst-la5016" }
+[![Kingst La5016 Case Open](./img/Kingst-la5016-case-open.jpg)](./img/Kingst-la5016-case-open.png "Kingst La5016 Case Open"){ .glightbox data-gallery="kingst-la5016" }
 <span class="caption">Kingst La5016 Case Open</span>
 
-[![Kingst La5016 Connectors](./img/Kingst-la5016-connectors.png)](./img/Kingst-la5016-connectors.png "Kingst La5016 Connectors"){ .glightbox data-gallery="kingst-la5016" }
+[![Kingst La5016 Connectors](./img/Kingst-la5016-connectors.jpg)](./img/Kingst-la5016-connectors.png "Kingst La5016 Connectors"){ .glightbox data-gallery="kingst-la5016" }
 <span class="caption">Kingst La5016 Connectors</span>
 
 </div>

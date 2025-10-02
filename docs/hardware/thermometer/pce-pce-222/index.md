@@ -38,7 +38,7 @@ TODO.
 [![Pce Pce 222 Front](./img/Pce_pce-222_front.jpg)](./img/Pce_pce-222_front.jpg "Pce Pce 222 Front"){ .glightbox data-gallery="pce-pce-222" }
 <span class="caption">Pce Pce 222 Front</span>
 
-[![Pce Pce 222 Front](./img/Pce_pce-222_front.png)](./img/Pce_pce-222_front.png "Pce Pce 222 Front"){ .glightbox data-gallery="pce-pce-222" }
+[![Pce Pce 222 Front](./img/Pce_pce-222_front.jpg)](./img/Pce_pce-222_front.png "Pce Pce 222 Front"){ .glightbox data-gallery="pce-pce-222" }
 <span class="caption">Pce Pce 222 Front</span>
 
 </div>

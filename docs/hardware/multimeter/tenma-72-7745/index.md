@@ -39,7 +39,7 @@ It is a rebadged [UNI-T UT60E](https://sigrok.org/wiki/UNI-T_UT60E).
 [![Tenma 72 7745 Pcb Bottom](./img/Tenma_72-7745_PCB_bottom.jpg)](./img/Tenma_72-7745_PCB_bottom.jpg "Tenma 72 7745 Pcb Bottom"){ .glightbox data-gallery="tenma-72-7745" }
 <span class="caption">Tenma 72 7745 Pcb Bottom</span>
 
-[![Tenma 72 7745](./img/Tenma_72-7745.png)](./img/Tenma_72-7745.png "Tenma 72 7745"){ .glightbox data-gallery="tenma-72-7745" }
+[![Tenma 72 7745](./img/Tenma_72-7745.jpg)](./img/Tenma_72-7745.png "Tenma 72 7745"){ .glightbox data-gallery="tenma-72-7745" }
 <span class="caption">Tenma 72 7745</span>
 
 </div>

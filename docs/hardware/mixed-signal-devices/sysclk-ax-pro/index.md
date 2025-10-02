@@ -79,7 +79,7 @@ The analog channels are multiplexed by relay or solid-state IC to one ADC.
 [![Sysclk Ax Pro Box](./img/SysCLK_AX_Pro_box.jpg)](./img/SysCLK_AX_Pro_box.jpg "Sysclk Ax Pro Box"){ .glightbox data-gallery="sysclk-ax-pro" }
 <span class="caption">Sysclk Ax Pro Box</span>
 
-[![Sysclk Ax Pro Mugshot](./img/Sysclk_ax_pro_mugshot.png)](./img/Sysclk_ax_pro_mugshot.png "Sysclk Ax Pro Mugshot"){ .glightbox data-gallery="sysclk-ax-pro" }
+[![Sysclk Ax Pro Mugshot](./img/Sysclk_ax_pro_mugshot.jpg)](./img/Sysclk_ax_pro_mugshot.png "Sysclk Ax Pro Mugshot"){ .glightbox data-gallery="sysclk-ax-pro" }
 <span class="caption">Sysclk Ax Pro Mugshot</span>
 
 [![Sysclk Ax Pro Top](./img/SysCLK_AX_Pro_top.jpg)](./img/SysCLK_AX_Pro_top.jpg "Sysclk Ax Pro Top"){ .glightbox data-gallery="sysclk-ax-pro" }

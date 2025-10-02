@@ -6,7 +6,7 @@ title: KERN scale series
 
 <div class="infobox" markdown>
 
-![KERN scale series](./img/Kern_ew-6200-2nm_mugshot.png){ .infobox-image }
+![KERN scale series](./img/Kern_ew-6200-2nm_mugshot.jpg){ .infobox-image }
 
 ### KERN scale series
 
@@ -56,7 +56,7 @@ See e.g. the [KERN EW/EG-N/EWB series user manual](http://dok.kern-sohn.com/down
 
 <div class="photo-grid" markdown>
 
-[![Kern Ew 6200 2nm Mugshot](./img/Kern_ew-6200-2nm_mugshot.png)](./img/Kern_ew-6200-2nm_mugshot.png "Kern Ew 6200 2nm Mugshot"){ .glightbox data-gallery="kern-scale-series" }
+[![Kern Ew 6200 2nm Mugshot](./img/Kern_ew-6200-2nm_mugshot.jpg)](./img/Kern_ew-6200-2nm_mugshot.png "Kern Ew 6200 2nm Mugshot"){ .glightbox data-gallery="kern-scale-series" }
 <span class="caption">Kern Ew 6200 2nm Mugshot</span>
 
 </div>

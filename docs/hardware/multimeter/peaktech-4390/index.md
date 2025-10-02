@@ -6,7 +6,7 @@ title: PeakTech 4390
 
 <div class="infobox" markdown>
 
-![PeakTech 4390](./img/Dmm.png){ .infobox-image }
+![PeakTech 4390](./img/Dmm.jpg){ .infobox-image }
 
 ### PeakTech 4390
 
@@ -35,40 +35,40 @@ See [PeakTech 4390/Info](https://sigrok.org/wiki/PeakTech_4390/Info) for more de
 
 <div class="photo-grid" markdown>
 
-[![Dmm](./img/Dmm.png)](./img/Dmm.png "Dmm"){ .glightbox data-gallery="peaktech-4390" }
+[![Dmm](./img/Dmm.jpg)](./img/Dmm.png "Dmm"){ .glightbox data-gallery="peaktech-4390" }
 <span class="caption">Dmm</span>
 
-[![Main Board G View](./img/Main_board_g_view.png)](./img/Main_board_g_view.png "Main Board G View"){ .glightbox data-gallery="peaktech-4390" }
+[![Main Board G View](./img/Main_board_g_view.jpg)](./img/Main_board_g_view.png "Main Board G View"){ .glightbox data-gallery="peaktech-4390" }
 <span class="caption">Main Board G View</span>
 
-[![Usb Conn](./img/Usb_conn.png)](./img/Usb_conn.png "Usb Conn"){ .glightbox data-gallery="peaktech-4390" }
+[![Usb Conn](./img/Usb_conn.jpg)](./img/Usb_conn.png "Usb Conn"){ .glightbox data-gallery="peaktech-4390" }
 <span class="caption">Usb Conn</span>
 
-[![Main Back B](./img/Main_back_b.png)](./img/Main_back_b.png "Main Back B"){ .glightbox data-gallery="peaktech-4390" }
+[![Main Back B](./img/Main_back_b.jpg)](./img/Main_back_b.png "Main Back B"){ .glightbox data-gallery="peaktech-4390" }
 <span class="caption">Main Back B</span>
 
-[![Main Front G View](./img/Main_front_g_view.png)](./img/Main_front_g_view.png "Main Front G View"){ .glightbox data-gallery="peaktech-4390" }
+[![Main Front G View](./img/Main_front_g_view.jpg)](./img/Main_front_g_view.png "Main Front G View"){ .glightbox data-gallery="peaktech-4390" }
 <span class="caption">Main Front G View</span>
 
-[![Comm Back](./img/Comm_back.png)](./img/Comm_back.png "Comm Back"){ .glightbox data-gallery="peaktech-4390" }
+[![Comm Back](./img/Comm_back.jpg)](./img/Comm_back.png "Comm Back"){ .glightbox data-gallery="peaktech-4390" }
 <span class="caption">Comm Back</span>
 
-[![Peaktech 4390 Mugshot](./img/Peaktech_4390_mugshot.png)](./img/Peaktech_4390_mugshot.png "Peaktech 4390 Mugshot"){ .glightbox data-gallery="peaktech-4390" }
+[![Peaktech 4390 Mugshot](./img/Peaktech_4390_mugshot.jpg)](./img/Peaktech_4390_mugshot.png "Peaktech 4390 Mugshot"){ .glightbox data-gallery="peaktech-4390" }
 <span class="caption">Peaktech 4390 Mugshot</span>
 
-[![Img 20160628 203835](./img/IMG_20160628_203835.png)](./img/IMG_20160628_203835.png "Img 20160628 203835"){ .glightbox data-gallery="peaktech-4390" }
+[![Img 20160628 203835](./img/IMG_20160628_203835.jpg)](./img/IMG_20160628_203835.png "Img 20160628 203835"){ .glightbox data-gallery="peaktech-4390" }
 <span class="caption">Img 20160628 203835</span>
 
-[![Comm Front](./img/Comm_front.png)](./img/Comm_front.png "Comm Front"){ .glightbox data-gallery="peaktech-4390" }
+[![Comm Front](./img/Comm_front.jpg)](./img/Comm_front.png "Comm Front"){ .glightbox data-gallery="peaktech-4390" }
 <span class="caption">Comm Front</span>
 
-[![Box Content](./img/Box-content.png)](./img/Box-content.png "Box Content"){ .glightbox data-gallery="peaktech-4390" }
+[![Box Content](./img/Box-content.jpg)](./img/Box-content.png "Box Content"){ .glightbox data-gallery="peaktech-4390" }
 <span class="caption">Box Content</span>
 
-[![Main Front Screen](./img/Main_front_screen.png)](./img/Main_front_screen.png "Main Front Screen"){ .glightbox data-gallery="peaktech-4390" }
+[![Main Front Screen](./img/Main_front_screen.jpg)](./img/Main_front_screen.png "Main Front Screen"){ .glightbox data-gallery="peaktech-4390" }
 <span class="caption">Main Front Screen</span>
 
-[![Main Back T](./img/Main_back_t.png)](./img/Main_back_t.png "Main Back T"){ .glightbox data-gallery="peaktech-4390" }
+[![Main Back T](./img/Main_back_t.jpg)](./img/Main_back_t.png "Main Back T"){ .glightbox data-gallery="peaktech-4390" }
 <span class="caption">Main Back T</span>
 
 </div>

@@ -40,7 +40,7 @@ See [Testo 435-4/Info](https://sigrok.org/wiki/Testo_435-4/Info) for more detail
 [![Testo Temperature Probe](./img/Testo_temperature_probe.jpg)](./img/Testo_temperature_probe.jpg "Testo Temperature Probe"){ .glightbox data-gallery="testo-435-4" }
 <span class="caption">Testo Temperature Probe</span>
 
-[![Testo 435 4 Back](./img/Testo_435-4_back.png)](./img/Testo_435-4_back.png "Testo 435 4 Back"){ .glightbox data-gallery="testo-435-4" }
+[![Testo 435 4 Back](./img/Testo_435-4_back.jpg)](./img/Testo_435-4_back.png "Testo 435 4 Back"){ .glightbox data-gallery="testo-435-4" }
 <span class="caption">Testo 435 4 Back</span>
 
 [![Testo 435 4 Pcb Bottom](./img/Testo_435-4_PCB_bottom.jpg)](./img/Testo_435-4_PCB_bottom.jpg "Testo 435 4 Pcb Bottom"){ .glightbox data-gallery="testo-435-4" }
@@ -52,7 +52,7 @@ See [Testo 435-4/Info](https://sigrok.org/wiki/Testo_435-4/Info) for more detail
 [![Testo 435 4 Probe Board Pcb](./img/Testo_435-4_probe_board_PCB.jpg)](./img/Testo_435-4_probe_board_PCB.jpg "Testo 435 4 Probe Board Pcb"){ .glightbox data-gallery="testo-435-4" }
 <span class="caption">Testo 435 4 Probe Board Pcb</span>
 
-[![Testo 435 4](./img/Testo_435-4.png)](./img/Testo_435-4.png "Testo 435 4"){ .glightbox data-gallery="testo-435-4" }
+[![Testo 435 4](./img/Testo_435-4.jpg)](./img/Testo_435-4.png "Testo 435 4"){ .glightbox data-gallery="testo-435-4" }
 <span class="caption">Testo 435 4</span>
 
 [![Testo 435 4 Bottom](./img/Testo_435-4_bottom.jpg)](./img/Testo_435-4_bottom.jpg "Testo 435 4 Bottom"){ .glightbox data-gallery="testo-435-4" }

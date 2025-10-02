@@ -42,7 +42,7 @@ The **HP 59306A** is a programmable relay actuator with GPIB connectivity.
 [![Hp 59306a Pcb Relais](./img/HP_59306A-PCB_relais.jpg)](./img/HP_59306A-PCB_relais.jpg "Hp 59306a Pcb Relais"){ .glightbox data-gallery="hp-59306a" }
 <span class="caption">Hp 59306a Pcb Relais</span>
 
-[![Hp 59306a Mugshot](./img/HP_59306A-mugshot.png)](./img/HP_59306A-mugshot.png "Hp 59306a Mugshot"){ .glightbox data-gallery="hp-59306a" }
+[![Hp 59306a Mugshot](./img/HP_59306A-mugshot.jpg)](./img/HP_59306A-mugshot.png "Hp 59306a Mugshot"){ .glightbox data-gallery="hp-59306a" }
 <span class="caption">Hp 59306a Mugshot</span>
 
 [![Hp 59306a Pcb Top](./img/HP_59306A-PCB_top.jpg)](./img/HP_59306A-PCB_top.jpg "Hp 59306a Pcb Top"){ .glightbox data-gallery="hp-59306a" }

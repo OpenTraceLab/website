@@ -6,7 +6,7 @@ title: Agilent DSO1000 series
 
 <div class="infobox" markdown>
 
-![Agilent DSO1000 series](./img/Agilent_DSO1014A.png){ .infobox-image }
+![Agilent DSO1000 series](./img/Agilent_DSO1014A.jpg){ .infobox-image }
 
 ### Agilent DSO1000 series
 
@@ -51,7 +51,7 @@ The underlying hardware and firmware is very clearly (and in places hastily) reb
 
 <div class="photo-grid" markdown>
 
-[![Agilent Dso1014a](./img/Agilent_DSO1014A.png)](./img/Agilent_DSO1014A.png "Agilent Dso1014a"){ .glightbox data-gallery="agilent-dso1000-series" }
+[![Agilent Dso1014a](./img/Agilent_DSO1014A.jpg)](./img/Agilent_DSO1014A.png "Agilent Dso1014a"){ .glightbox data-gallery="agilent-dso1000-series" }
 <span class="caption">Agilent Dso1014a</span>
 
 </div>

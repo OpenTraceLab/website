@@ -39,7 +39,7 @@ The resolution is one digit higher on the data interface.
 [![Metrahit 16i 1](./img/Metrahit_16i_1.jpg)](./img/Metrahit_16i_1.jpg "Metrahit 16i 1"){ .glightbox data-gallery="gossen-metrawatt-metrahit-16i" }
 <span class="caption">Metrahit 16i 1</span>
 
-[![Gossen Metrawatt Metrahit 16i Small](./img/Gossen_Metrawatt_Metrahit_16I_small.png)](./img/Gossen_Metrawatt_Metrahit_16I_small.png "Gossen Metrawatt Metrahit 16i Small"){ .glightbox data-gallery="gossen-metrawatt-metrahit-16i" }
+[![Gossen Metrawatt Metrahit 16i Small](./img/Gossen_Metrawatt_Metrahit_16I_small.jpg)](./img/Gossen_Metrawatt_Metrahit_16I_small.png "Gossen Metrawatt Metrahit 16i Small"){ .glightbox data-gallery="gossen-metrawatt-metrahit-16i" }
 <span class="caption">Gossen Metrawatt Metrahit 16i Small</span>
 
 [![Metrahit 16i 2](./img/Metrahit_16i_2.jpg)](./img/Metrahit_16i_2.jpg "Metrahit 16i 2"){ .glightbox data-gallery="gossen-metrawatt-metrahit-16i" }

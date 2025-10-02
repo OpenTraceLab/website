@@ -68,7 +68,7 @@ The more recent [UT61+/UT161 series](https://www.uni-trend.com/meters/html/produ
 [![Old Ver](./img/Old_ver.JPG)](./img/Old_ver.JPG "Old Ver"){ .glightbox data-gallery="uni-t-ut61e" }
 <span class="caption">Old Ver</span>
 
-[![Old Ver Front](./img/Old_ver_front.png)](./img/Old_ver_front.png "Old Ver Front"){ .glightbox data-gallery="uni-t-ut61e" }
+[![Old Ver Front](./img/Old_ver_front.jpg)](./img/Old_ver_front.png "Old Ver Front"){ .glightbox data-gallery="uni-t-ut61e" }
 <span class="caption">Old Ver Front</span>
 
 [![New Ver Knob](./img/New_ver_Knob.JPG)](./img/New_ver_Knob.JPG "New Ver Knob"){ .glightbox data-gallery="uni-t-ut61e" }

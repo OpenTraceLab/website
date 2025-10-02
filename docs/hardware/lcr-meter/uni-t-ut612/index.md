@@ -6,7 +6,7 @@ title: UNI-T UT612
 
 <div class="infobox" markdown>
 
-![UNI-T UT612](./img/Ut612-usb-bob-top.png){ .infobox-image }
+![UNI-T UT612](./img/Ut612-usb-bob-top.jpg){ .infobox-image }
 
 ### UNI-T UT612
 
@@ -42,22 +42,22 @@ The CP2110 USB serial-over-HID chip resides on a separate breakout board, and is
 
 <div class="photo-grid" markdown>
 
-[![Ut612 Usb Bob Top](./img/Ut612-usb-bob-top.png)](./img/Ut612-usb-bob-top.png "Ut612 Usb Bob Top"){ .glightbox data-gallery="uni-t-ut612" }
+[![Ut612 Usb Bob Top](./img/Ut612-usb-bob-top.jpg)](./img/Ut612-usb-bob-top.png "Ut612 Usb Bob Top"){ .glightbox data-gallery="uni-t-ut612" }
 <span class="caption">Ut612 Usb Bob Top</span>
 
-[![Ut612 Usb Bob Socket](./img/Ut612-usb-bob-socket.png)](./img/Ut612-usb-bob-socket.png "Ut612 Usb Bob Socket"){ .glightbox data-gallery="uni-t-ut612" }
+[![Ut612 Usb Bob Socket](./img/Ut612-usb-bob-socket.jpg)](./img/Ut612-usb-bob-socket.png "Ut612 Usb Bob Socket"){ .glightbox data-gallery="uni-t-ut612" }
 <span class="caption">Ut612 Usb Bob Socket</span>
 
-[![Ut612 Pcb Birds View](./img/Ut612-pcb-birds-view.png)](./img/Ut612-pcb-birds-view.png "Ut612 Pcb Birds View"){ .glightbox data-gallery="uni-t-ut612" }
+[![Ut612 Pcb Birds View](./img/Ut612-pcb-birds-view.jpg)](./img/Ut612-pcb-birds-view.png "Ut612 Pcb Birds View"){ .glightbox data-gallery="uni-t-ut612" }
 <span class="caption">Ut612 Pcb Birds View</span>
 
-[![Ut612 Usb Bob Chip](./img/Ut612-usb-bob-chip.png)](./img/Ut612-usb-bob-chip.png "Ut612 Usb Bob Chip"){ .glightbox data-gallery="uni-t-ut612" }
+[![Ut612 Usb Bob Chip](./img/Ut612-usb-bob-chip.jpg)](./img/Ut612-usb-bob-chip.png "Ut612 Usb Bob Chip"){ .glightbox data-gallery="uni-t-ut612" }
 <span class="caption">Ut612 Usb Bob Chip</span>
 
-[![Ut612 Front Mugshot](./img/Ut612-front-mugshot.png)](./img/Ut612-front-mugshot.png "Ut612 Front Mugshot"){ .glightbox data-gallery="uni-t-ut612" }
+[![Ut612 Front Mugshot](./img/Ut612-front-mugshot.jpg)](./img/Ut612-front-mugshot.png "Ut612 Front Mugshot"){ .glightbox data-gallery="uni-t-ut612" }
 <span class="caption">Ut612 Front Mugshot</span>
 
-[![Ut612 Usb Bob Bot](./img/Ut612-usb-bob-bot.png)](./img/Ut612-usb-bob-bot.png "Ut612 Usb Bob Bot"){ .glightbox data-gallery="uni-t-ut612" }
+[![Ut612 Usb Bob Bot](./img/Ut612-usb-bob-bot.jpg)](./img/Ut612-usb-bob-bot.png "Ut612 Usb Bob Bot"){ .glightbox data-gallery="uni-t-ut612" }
 <span class="caption">Ut612 Usb Bob Bot</span>
 
 </div>

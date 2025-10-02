@@ -6,7 +6,7 @@ title: CWAV USBee SX
 
 <div class="infobox" markdown>
 
-![CWAV USBee SX](./img/Cwav_usbee_sx.png){ .infobox-image }
+![CWAV USBee SX](./img/Cwav_usbee_sx.jpg){ .infobox-image }
 
 ### CWAV USBee SX
 
@@ -46,7 +46,7 @@ CWAV, Inc. [has been closed and no longer sells](http://usbee.com/company.htm) t
 
 <div class="photo-grid" markdown>
 
-[![Cwav Usbee Sx](./img/Cwav_usbee_sx.png)](./img/Cwav_usbee_sx.png "Cwav Usbee Sx"){ .glightbox data-gallery="cwav-usbee-sx" }
+[![Cwav Usbee Sx](./img/Cwav_usbee_sx.jpg)](./img/Cwav_usbee_sx.png "Cwav Usbee Sx"){ .glightbox data-gallery="cwav-usbee-sx" }
 <span class="caption">Cwav Usbee Sx</span>
 
 [![Cwav Usbee Sx Device Bottom](./img/Cwav_usbee_sx_device_bottom.jpg)](./img/Cwav_usbee_sx_device_bottom.jpg "Cwav Usbee Sx Device Bottom"){ .glightbox data-gallery="cwav-usbee-sx" }

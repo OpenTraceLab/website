@@ -54,7 +54,7 @@ See [XZL_Studio AX/Info](https://sigrok.org/wiki/XZL_Studio_AX/Info) for some mo
 [![Studio Xzl Ax.back](./img/Studio_XZL_AX.back.jpg)](./img/Studio_XZL_AX.back.jpg "Studio Xzl Ax.back"){ .glightbox data-gallery="xzl_studio-ax" }
 <span class="caption">Studio Xzl Ax.back</span>
 
-[![Xzl Studio Ax Mugshot](./img/Xzl_studio_ax_mugshot.png)](./img/Xzl_studio_ax_mugshot.png "Xzl Studio Ax Mugshot"){ .glightbox data-gallery="xzl_studio-ax" }
+[![Xzl Studio Ax Mugshot](./img/Xzl_studio_ax_mugshot.jpg)](./img/Xzl_studio_ax_mugshot.png "Xzl Studio Ax Mugshot"){ .glightbox data-gallery="xzl_studio-ax" }
 <span class="caption">Xzl Studio Ax Mugshot</span>
 
 </div>

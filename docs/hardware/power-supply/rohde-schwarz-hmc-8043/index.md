@@ -6,7 +6,7 @@ title: Rohde&amp;Schwarz HMC 8043
 
 <div class="infobox" markdown>
 
-![Rohde&amp;Schwarz HMC 8043](./img/Rs_hmc8043_mugshot.png){ .infobox-image }
+![Rohde&amp;Schwarz HMC 8043](./img/Rs_hmc8043_mugshot.jpg){ .infobox-image }
 
 ### Rohde&amp;Schwarz HMC 8043
 
@@ -31,13 +31,13 @@ See [Rohde&Schwarz HMC 8043/Info](https://sigrok.org/wiki/Rohde%26Schwarz_HMC_80
 
 <div class="photo-grid" markdown>
 
-[![Rs Hmc8043 Mugshot](./img/Rs_hmc8043_mugshot.png)](./img/Rs_hmc8043_mugshot.png "Rs Hmc8043 Mugshot"){ .glightbox data-gallery="rohdeamp;schwarz-hmc-8043" }
+[![Rs Hmc8043 Mugshot](./img/Rs_hmc8043_mugshot.jpg)](./img/Rs_hmc8043_mugshot.png "Rs Hmc8043 Mugshot"){ .glightbox data-gallery="rohdeamp;schwarz-hmc-8043" }
 <span class="caption">Rs Hmc8043 Mugshot</span>
 
-[![Rs Hmc8043 Front](./img/Rs_hmc8043_front.png)](./img/Rs_hmc8043_front.png "Rs Hmc8043 Front"){ .glightbox data-gallery="rohdeamp;schwarz-hmc-8043" }
+[![Rs Hmc8043 Front](./img/Rs_hmc8043_front.jpg)](./img/Rs_hmc8043_front.png "Rs Hmc8043 Front"){ .glightbox data-gallery="rohdeamp;schwarz-hmc-8043" }
 <span class="caption">Rs Hmc8043 Front</span>
 
-[![Rs Hmc8043 Back](./img/Rs_hmc8043_back.png)](./img/Rs_hmc8043_back.png "Rs Hmc8043 Back"){ .glightbox data-gallery="rohdeamp;schwarz-hmc-8043" }
+[![Rs Hmc8043 Back](./img/Rs_hmc8043_back.jpg)](./img/Rs_hmc8043_back.png "Rs Hmc8043 Back"){ .glightbox data-gallery="rohdeamp;schwarz-hmc-8043" }
 <span class="caption">Rs Hmc8043 Back</span>
 
 </div>

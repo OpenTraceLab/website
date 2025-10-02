@@ -6,7 +6,7 @@ title: Rigol DS2000 series
 
 <div class="infobox" markdown>
 
-![Rigol DS2000 series](./img/Rigol-ds2072_mugshot.png){ .infobox-image }
+![Rigol DS2000 series](./img/Rigol-ds2072_mugshot.jpg){ .infobox-image }
 
 ### Rigol DS2000 series
 
@@ -54,7 +54,7 @@ The device uses [USBTMC](https://sigrok.org/wiki/USBTMC) or LXI via its ethernet
 
 <div class="photo-grid" markdown>
 
-[![Rigol Ds2072 Mugshot](./img/Rigol-ds2072_mugshot.png)](./img/Rigol-ds2072_mugshot.png "Rigol Ds2072 Mugshot"){ .glightbox data-gallery="rigol-ds2000-series" }
+[![Rigol Ds2072 Mugshot](./img/Rigol-ds2072_mugshot.jpg)](./img/Rigol-ds2072_mugshot.png "Rigol Ds2072 Mugshot"){ .glightbox data-gallery="rigol-ds2000-series" }
 <span class="caption">Rigol Ds2072 Mugshot</span>
 
 </div>

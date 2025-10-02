@@ -47,7 +47,7 @@ See [Hantek 6254BD/Info](https://sigrok.org/wiki/Hantek_6254BD/Info) for more de
 [![Hantek 6254bd Device Bottom](./img/Hantek_6254bd_device_bottom.jpg)](./img/Hantek_6254bd_device_bottom.jpg "Hantek 6254bd Device Bottom"){ .glightbox data-gallery="hantek-6254bd" }
 <span class="caption">Hantek 6254bd Device Bottom</span>
 
-[![Hantek 6254bd Mugshot](./img/Hantek_6254bd_mugshot.png)](./img/Hantek_6254bd_mugshot.png "Hantek 6254bd Mugshot"){ .glightbox data-gallery="hantek-6254bd" }
+[![Hantek 6254bd Mugshot](./img/Hantek_6254bd_mugshot.jpg)](./img/Hantek_6254bd_mugshot.png "Hantek 6254bd Mugshot"){ .glightbox data-gallery="hantek-6254bd" }
 <span class="caption">Hantek 6254bd Mugshot</span>
 
 [![Hantek 6254bd Device Top](./img/Hantek_6254bd_device_top.jpg)](./img/Hantek_6254bd_device_top.jpg "Hantek 6254bd Device Top"){ .glightbox data-gallery="hantek-6254bd" }

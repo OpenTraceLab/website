@@ -61,7 +61,7 @@ See [ZEROPLUS_Logic_Cube_LAP-C_series#Hardware](https://sigrok.org/wiki/ZEROPLUS
 [![Zeroplus Logic Cube Lapc 16032 Pcb Front](./img/Zeroplus_logic_cube_lapc_16032_pcb_front.jpg)](./img/Zeroplus_logic_cube_lapc_16032_pcb_front.jpg "Zeroplus Logic Cube Lapc 16032 Pcb Front"){ .glightbox data-gallery="zeroplus-logic-cube-lap-c16032" }
 <span class="caption">Zeroplus Logic Cube Lapc 16032 Pcb Front</span>
 
-[![Zeroplus Logic Cube](./img/Zeroplus_Logic_Cube.png)](./img/Zeroplus_Logic_Cube.png "Zeroplus Logic Cube"){ .glightbox data-gallery="zeroplus-logic-cube-lap-c16032" }
+[![Zeroplus Logic Cube](./img/Zeroplus_Logic_Cube.jpg)](./img/Zeroplus_Logic_Cube.png "Zeroplus Logic Cube"){ .glightbox data-gallery="zeroplus-logic-cube-lap-c16032" }
 <span class="caption">Zeroplus Logic Cube</span>
 
 [![Zeroplus Logic Cube Lapc 16032 Packaging Front](./img/Zeroplus_logic_cube_lapc_16032_packaging_front.jpg)](./img/Zeroplus_logic_cube_lapc_16032_packaging_front.jpg "Zeroplus Logic Cube Lapc 16032 Packaging Front"){ .glightbox data-gallery="zeroplus-logic-cube-lap-c16032" }

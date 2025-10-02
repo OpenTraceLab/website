@@ -6,7 +6,7 @@ title: Motech LPS-301
 
 <div class="infobox" markdown>
 
-![Motech LPS-301](./img/Motech_LPS-301_1.png){ .infobox-image }
+![Motech LPS-301](./img/Motech_LPS-301_1.jpg){ .infobox-image }
 
 ### Motech LPS-301
 
@@ -37,16 +37,16 @@ It was sold from 1993-????.
 
 <div class="photo-grid" markdown>
 
-[![Motech Lps 301 1](./img/Motech_LPS-301_1.png)](./img/Motech_LPS-301_1.png "Motech Lps 301 1"){ .glightbox data-gallery="motech-lps-301" }
+[![Motech Lps 301 1](./img/Motech_LPS-301_1.jpg)](./img/Motech_LPS-301_1.png "Motech Lps 301 1"){ .glightbox data-gallery="motech-lps-301" }
 <span class="caption">Motech Lps 301 1</span>
 
-[![Motech Lps 301 3](./img/Motech_LPS-301_3.png)](./img/Motech_LPS-301_3.png "Motech Lps 301 3"){ .glightbox data-gallery="motech-lps-301" }
+[![Motech Lps 301 3](./img/Motech_LPS-301_3.jpg)](./img/Motech_LPS-301_3.png "Motech Lps 301 3"){ .glightbox data-gallery="motech-lps-301" }
 <span class="caption">Motech Lps 301 3</span>
 
-[![Motech Lps 301 5](./img/Motech_LPS-301_5.png)](./img/Motech_LPS-301_5.png "Motech Lps 301 5"){ .glightbox data-gallery="motech-lps-301" }
+[![Motech Lps 301 5](./img/Motech_LPS-301_5.jpg)](./img/Motech_LPS-301_5.png "Motech Lps 301 5"){ .glightbox data-gallery="motech-lps-301" }
 <span class="caption">Motech Lps 301 5</span>
 
-[![Motech Lps 301 2](./img/Motech_LPS-301_2.png)](./img/Motech_LPS-301_2.png "Motech Lps 301 2"){ .glightbox data-gallery="motech-lps-301" }
+[![Motech Lps 301 2](./img/Motech_LPS-301_2.jpg)](./img/Motech_LPS-301_2.png "Motech Lps 301 2"){ .glightbox data-gallery="motech-lps-301" }
 <span class="caption">Motech Lps 301 2</span>
 
 [![Motech Lps 301 6](./img/Motech_LPS-301_6.JPG)](./img/Motech_LPS-301_6.JPG "Motech Lps 301 6"){ .glightbox data-gallery="motech-lps-301" }
@@ -58,7 +58,7 @@ It was sold from 1993-????.
 [![Motech Lps 301 Logo](./img/Motech_LPS-301_logo.png)](./img/Motech_LPS-301_logo.png "Motech Lps 301 Logo"){ .glightbox data-gallery="motech-lps-301" }
 <span class="caption">Motech Lps 301 Logo</span>
 
-[![Motech Lps 301 4](./img/Motech_LPS-301_4.png)](./img/Motech_LPS-301_4.png "Motech Lps 301 4"){ .glightbox data-gallery="motech-lps-301" }
+[![Motech Lps 301 4](./img/Motech_LPS-301_4.jpg)](./img/Motech_LPS-301_4.png "Motech Lps 301 4"){ .glightbox data-gallery="motech-lps-301" }
 <span class="caption">Motech Lps 301 4</span>
 
 </div>

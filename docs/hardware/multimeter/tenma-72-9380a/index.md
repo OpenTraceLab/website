@@ -6,7 +6,7 @@ title: Tenma 72-9380A
 
 <div class="infobox" markdown>
 
-![Tenma 72-9380A](./img/Tenma_72-9380A.png){ .infobox-image }
+![Tenma 72-9380A](./img/Tenma_72-9380A.jpg){ .infobox-image }
 
 ### Tenma 72-9380A
 
@@ -51,7 +51,7 @@ See [UNI-T UT71x series](https://sigrok.org/wiki/UNI-T_UT71x_series) for informa
 
 <div class="photo-grid" markdown>
 
-[![Tenma 72 9380a](./img/Tenma_72-9380A.png)](./img/Tenma_72-9380A.png "Tenma 72 9380a"){ .glightbox data-gallery="tenma-72-9380a" }
+[![Tenma 72 9380a](./img/Tenma_72-9380A.jpg)](./img/Tenma_72-9380A.png "Tenma 72 9380a"){ .glightbox data-gallery="tenma-72-9380a" }
 <span class="caption">Tenma 72 9380a</span>
 
 [![Tenma 72 9380a Pcb Front](./img/Tenma_72-9380A_PCB_front.jpg)](./img/Tenma_72-9380A_PCB_front.jpg "Tenma 72 9380a Pcb Front"){ .glightbox data-gallery="tenma-72-9380a" }

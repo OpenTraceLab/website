@@ -42,7 +42,7 @@ title: Lascar Electronics EL-USB-CO
 [![El Usb Co F321](./img/EL-USB-CO_F321.jpg)](./img/EL-USB-CO_F321.jpg "El Usb Co F321"){ .glightbox data-gallery="lascar-electronics-el-usb-co" }
 <span class="caption">El Usb Co F321</span>
 
-[![El Usb Co](./img/EL-USB-CO.png)](./img/EL-USB-CO.png "El Usb Co"){ .glightbox data-gallery="lascar-electronics-el-usb-co" }
+[![El Usb Co](./img/EL-USB-CO.jpg)](./img/EL-USB-CO.png "El Usb Co"){ .glightbox data-gallery="lascar-electronics-el-usb-co" }
 <span class="caption">El Usb Co</span>
 
 </div>

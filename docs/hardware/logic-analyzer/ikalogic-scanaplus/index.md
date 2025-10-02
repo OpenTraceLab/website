@@ -84,7 +84,7 @@ See [IKALOGIC ScanaPLUS/Info](https://sigrok.org/wiki/IKALOGIC_ScanaPLUS/Info) f
 [![Ikalogic Scanaplus Ti Wt774 1](./img/Ikalogic_scanaplus_ti_wt774_1.jpg)](./img/Ikalogic_scanaplus_ti_wt774_1.jpg "Ikalogic Scanaplus Ti Wt774 1"){ .glightbox data-gallery="ikalogic-scanaplus" }
 <span class="caption">Ikalogic Scanaplus Ti Wt774 1</span>
 
-[![Ikalogic Scanaplus Mugshot](./img/Ikalogic_scanaplus_mugshot.png)](./img/Ikalogic_scanaplus_mugshot.png "Ikalogic Scanaplus Mugshot"){ .glightbox data-gallery="ikalogic-scanaplus" }
+[![Ikalogic Scanaplus Mugshot](./img/Ikalogic_scanaplus_mugshot.jpg)](./img/Ikalogic_scanaplus_mugshot.png "Ikalogic Scanaplus Mugshot"){ .glightbox data-gallery="ikalogic-scanaplus" }
 <span class="caption">Ikalogic Scanaplus Mugshot</span>
 
 [![Ikalogic Scanaplus Device Open2](./img/Ikalogic_scanaplus_device_open2.jpg)](./img/Ikalogic_scanaplus_device_open2.jpg "Ikalogic Scanaplus Device Open2"){ .glightbox data-gallery="ikalogic-scanaplus" }

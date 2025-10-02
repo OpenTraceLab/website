@@ -6,7 +6,7 @@ title: UNI-T UT61B
 
 <div class="infobox" markdown>
 
-![UNI-T UT61B](./img/Uni-t_ut61b_device.png){ .infobox-image }
+![UNI-T UT61B](./img/Uni-t_ut61b_device.jpg){ .infobox-image }
 
 ### UNI-T UT61B
 
@@ -47,7 +47,7 @@ See [Device cables#UNI-T_UT-D04](https://sigrok.org/wiki/Device_cables#UNI-T_UT-
 
 <div class="photo-grid" markdown>
 
-[![Uni T Ut61b Device](./img/Uni-t_ut61b_device.png)](./img/Uni-t_ut61b_device.png "Uni T Ut61b Device"){ .glightbox data-gallery="uni-t-ut61b" }
+[![Uni T Ut61b Device](./img/Uni-t_ut61b_device.jpg)](./img/Uni-t_ut61b_device.png "Uni T Ut61b Device"){ .glightbox data-gallery="uni-t-ut61b" }
 <span class="caption">Uni T Ut61b Device</span>
 
 [![Uni T Ut61b Inside Back](./img/Uni-t_ut61b_inside-back.jpg)](./img/Uni-t_ut61b_inside-back.jpg "Uni T Ut61b Inside Back"){ .glightbox data-gallery="uni-t-ut61b" }
@@ -59,7 +59,7 @@ See [Device cables#UNI-T_UT-D04](https://sigrok.org/wiki/Device_cables#UNI-T_UT-
 [![Uni T Ut61b Battery](./img/Uni-t_ut61b_battery.jpg)](./img/Uni-t_ut61b_battery.jpg "Uni T Ut61b Battery"){ .glightbox data-gallery="uni-t-ut61b" }
 <span class="caption">Uni T Ut61b Battery</span>
 
-[![Uni T Ut61b Mugshot](./img/Uni-t_ut61b_mugshot.png)](./img/Uni-t_ut61b_mugshot.png "Uni T Ut61b Mugshot"){ .glightbox data-gallery="uni-t-ut61b" }
+[![Uni T Ut61b Mugshot](./img/Uni-t_ut61b_mugshot.jpg)](./img/Uni-t_ut61b_mugshot.png "Uni T Ut61b Mugshot"){ .glightbox data-gallery="uni-t-ut61b" }
 <span class="caption">Uni T Ut61b Mugshot</span>
 
 [![Uni T Ut61b Pcb Front](./img/Uni-t_ut61b_pcb-front.jpg)](./img/Uni-t_ut61b_pcb-front.jpg "Uni T Ut61b Pcb Front"){ .glightbox data-gallery="uni-t-ut61b" }

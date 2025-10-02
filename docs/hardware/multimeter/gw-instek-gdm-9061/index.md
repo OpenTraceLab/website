@@ -67,7 +67,7 @@ Meter has dual measurement mode, that allows two simultaneous measurements, like
 [![Gdm 9061 Dual Measurement](./img/GDM-9061_dual_measurement.png)](./img/GDM-9061_dual_measurement.png "Gdm 9061 Dual Measurement"){ .glightbox data-gallery="gw-instek-gdm-9061" }
 <span class="caption">Gdm 9061 Dual Measurement</span>
 
-[![Gdm 9061 Frontpanel](./img/Gdm-9061_frontpanel.png)](./img/Gdm-9061_frontpanel.png "Gdm 9061 Frontpanel"){ .glightbox data-gallery="gw-instek-gdm-9061" }
+[![Gdm 9061 Frontpanel](./img/Gdm-9061_frontpanel.jpg)](./img/Gdm-9061_frontpanel.png "Gdm 9061 Frontpanel"){ .glightbox data-gallery="gw-instek-gdm-9061" }
 <span class="caption">Gdm 9061 Frontpanel</span>
 
 [![Gdm 9061 Number Display](./img/GDM-9061_number_display.png)](./img/GDM-9061_number_display.png "Gdm 9061 Number Display"){ .glightbox data-gallery="gw-instek-gdm-9061" }

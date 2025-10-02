@@ -49,7 +49,7 @@ See [MCU123 USBee AX Pro clone/Info](https://sigrok.org/wiki/MCU123_USBee_AX_Pro
 [![Usbee Ax Clone Angle](./img/Usbee_ax_clone_angle.jpg)](./img/Usbee_ax_clone_angle.jpg "Usbee Ax Clone Angle"){ .glightbox data-gallery="mcu123-usbee-ax-pro-clone" }
 <span class="caption">Usbee Ax Clone Angle</span>
 
-[![Usbee Ax Clone Front](./img/Usbee_ax_clone_front.png)](./img/Usbee_ax_clone_front.png "Usbee Ax Clone Front"){ .glightbox data-gallery="mcu123-usbee-ax-pro-clone" }
+[![Usbee Ax Clone Front](./img/Usbee_ax_clone_front.jpg)](./img/Usbee_ax_clone_front.png "Usbee Ax Clone Front"){ .glightbox data-gallery="mcu123-usbee-ax-pro-clone" }
 <span class="caption">Usbee Ax Clone Front</span>
 
 [![Usbee Ax Clone Back](./img/Usbee_ax_clone_back.jpg)](./img/Usbee_ax_clone_back.jpg "Usbee Ax Clone Back"){ .glightbox data-gallery="mcu123-usbee-ax-pro-clone" }

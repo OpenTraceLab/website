@@ -6,7 +6,7 @@ title: Siemens B1026
 
 <div class="infobox" markdown>
 
-![Siemens B1026](./img/Siemens_b1026_4.png){ .infobox-image }
+![Siemens B1026](./img/Siemens_b1026_4.jpg){ .infobox-image }
 
 ### Siemens B1026
 
@@ -39,19 +39,19 @@ See [Norma DM950](https://sigrok.org/wiki/Norma_DM950) for further information o
 
 <div class="photo-grid" markdown>
 
-[![Siemens B1026 4](./img/Siemens_b1026_4.png)](./img/Siemens_b1026_4.png "Siemens B1026 4"){ .glightbox data-gallery="siemens-b1026" }
+[![Siemens B1026 4](./img/Siemens_b1026_4.jpg)](./img/Siemens_b1026_4.png "Siemens B1026 4"){ .glightbox data-gallery="siemens-b1026" }
 <span class="caption">Siemens B1026 4</span>
 
-[![Siemens B1026 2](./img/Siemens_b1026_2.png)](./img/Siemens_b1026_2.png "Siemens B1026 2"){ .glightbox data-gallery="siemens-b1026" }
+[![Siemens B1026 2](./img/Siemens_b1026_2.jpg)](./img/Siemens_b1026_2.png "Siemens B1026 2"){ .glightbox data-gallery="siemens-b1026" }
 <span class="caption">Siemens B1026 2</span>
 
 [![Siemens B1026 Logo](./img/Siemens_b1026_logo.png)](./img/Siemens_b1026_logo.png "Siemens B1026 Logo"){ .glightbox data-gallery="siemens-b1026" }
 <span class="caption">Siemens B1026 Logo</span>
 
-[![Siemens B1026 1](./img/Siemens_b1026_1.png)](./img/Siemens_b1026_1.png "Siemens B1026 1"){ .glightbox data-gallery="siemens-b1026" }
+[![Siemens B1026 1](./img/Siemens_b1026_1.jpg)](./img/Siemens_b1026_1.png "Siemens B1026 1"){ .glightbox data-gallery="siemens-b1026" }
 <span class="caption">Siemens B1026 1</span>
 
-[![Siemens B1026 3](./img/Siemens_b1026_3.png)](./img/Siemens_b1026_3.png "Siemens B1026 3"){ .glightbox data-gallery="siemens-b1026" }
+[![Siemens B1026 3](./img/Siemens_b1026_3.jpg)](./img/Siemens_b1026_3.png "Siemens B1026 3"){ .glightbox data-gallery="siemens-b1026" }
 <span class="caption">Siemens B1026 3</span>
 
 </div>

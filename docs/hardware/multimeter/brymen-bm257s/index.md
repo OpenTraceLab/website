@@ -56,7 +56,7 @@ The **Brymen BM257s** is a 6000 counts CAT II (1000V) / CAT III (600V) / CAT IV 
 [![Brymen Bm257s Lcd](./img/Brymen_bm257s_lcd.jpg)](./img/Brymen_bm257s_lcd.jpg "Brymen Bm257s Lcd"){ .glightbox data-gallery="brymen-bm257s" }
 <span class="caption">Brymen Bm257s Lcd</span>
 
-[![Brymen Bm257s Mugshot](./img/Brymen_bm257s_mugshot.png)](./img/Brymen_bm257s_mugshot.png "Brymen Bm257s Mugshot"){ .glightbox data-gallery="brymen-bm257s" }
+[![Brymen Bm257s Mugshot](./img/Brymen_bm257s_mugshot.jpg)](./img/Brymen_bm257s_mugshot.png "Brymen Bm257s Mugshot"){ .glightbox data-gallery="brymen-bm257s" }
 <span class="caption">Brymen Bm257s Mugshot</span>
 
 </div>

@@ -49,7 +49,7 @@ Current 300 mA: FF (UR) 1,6 A/1000 V AC/DC (10 kA) 6,3 mm x 32 mm
 [![Siemens B1105 2](./img/Siemens_b1105_2.jpg)](./img/Siemens_b1105_2.jpg "Siemens B1105 2"){ .glightbox data-gallery="siemens-b1105" }
 <span class="caption">Siemens B1105 2</span>
 
-[![Siemens B1105 Small](./img/Siemens_B1105_small.png)](./img/Siemens_B1105_small.png "Siemens B1105 Small"){ .glightbox data-gallery="siemens-b1105" }
+[![Siemens B1105 Small](./img/Siemens_B1105_small.jpg)](./img/Siemens_B1105_small.png "Siemens B1105 Small"){ .glightbox data-gallery="siemens-b1105" }
 <span class="caption">Siemens B1105 Small</span>
 
 [![Siemens B1105 1](./img/Siemens_b1105_1.jpg)](./img/Siemens_b1105_1.jpg "Siemens B1105 1"){ .glightbox data-gallery="siemens-b1105" }

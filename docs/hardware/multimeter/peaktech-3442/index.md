@@ -6,7 +6,7 @@ title: PeakTech 3442
 
 <div class="infobox" markdown>
 
-![PeakTech 3442](./img/Peaktech-3442-bta-4-pcb.png){ .infobox-image }
+![PeakTech 3442](./img/Peaktech-3442-bta-4-pcb.jpg){ .infobox-image }
 
 ### PeakTech 3442
 
@@ -42,22 +42,22 @@ dongle
 
 <div class="photo-grid" markdown>
 
-[![Peaktech 3442 Bta 4 Pcb](./img/Peaktech-3442-bta-4-pcb.png)](./img/Peaktech-3442-bta-4-pcb.png "Peaktech 3442 Bta 4 Pcb"){ .glightbox data-gallery="peaktech-3442" }
+[![Peaktech 3442 Bta 4 Pcb](./img/Peaktech-3442-bta-4-pcb.jpg)](./img/Peaktech-3442-bta-4-pcb.png "Peaktech 3442 Bta 4 Pcb"){ .glightbox data-gallery="peaktech-3442" }
 <span class="caption">Peaktech 3442 Bta 4 Pcb</span>
 
-[![Peaktech 3442 Pcb Overview](./img/Peaktech-3442-pcb-overview.png)](./img/Peaktech-3442-pcb-overview.png "Peaktech 3442 Pcb Overview"){ .glightbox data-gallery="peaktech-3442" }
+[![Peaktech 3442 Pcb Overview](./img/Peaktech-3442-pcb-overview.jpg)](./img/Peaktech-3442-pcb-overview.png "Peaktech 3442 Pcb Overview"){ .glightbox data-gallery="peaktech-3442" }
 <span class="caption">Peaktech 3442 Pcb Overview</span>
 
-[![Peaktech 3442 Front](./img/Peaktech-3442-front.png)](./img/Peaktech-3442-front.png "Peaktech 3442 Front"){ .glightbox data-gallery="peaktech-3442" }
+[![Peaktech 3442 Front](./img/Peaktech-3442-front.jpg)](./img/Peaktech-3442-front.png "Peaktech 3442 Front"){ .glightbox data-gallery="peaktech-3442" }
 <span class="caption">Peaktech 3442 Front</span>
 
-[![Peaktech 3442 Pcb Dmm Chip](./img/Peaktech-3442-pcb-dmm-chip.png)](./img/Peaktech-3442-pcb-dmm-chip.png "Peaktech 3442 Pcb Dmm Chip"){ .glightbox data-gallery="peaktech-3442" }
+[![Peaktech 3442 Pcb Dmm Chip](./img/Peaktech-3442-pcb-dmm-chip.jpg)](./img/Peaktech-3442-pcb-dmm-chip.png "Peaktech 3442 Pcb Dmm Chip"){ .glightbox data-gallery="peaktech-3442" }
 <span class="caption">Peaktech 3442 Pcb Dmm Chip</span>
 
-[![Peaktech 3442 Pcb Mcu Ble](./img/Peaktech-3442-pcb-mcu-ble.png)](./img/Peaktech-3442-pcb-mcu-ble.png "Peaktech 3442 Pcb Mcu Ble"){ .glightbox data-gallery="peaktech-3442" }
+[![Peaktech 3442 Pcb Mcu Ble](./img/Peaktech-3442-pcb-mcu-ble.jpg)](./img/Peaktech-3442-pcb-mcu-ble.png "Peaktech 3442 Pcb Mcu Ble"){ .glightbox data-gallery="peaktech-3442" }
 <span class="caption">Peaktech 3442 Pcb Mcu Ble</span>
 
-[![Peaktech 3442 Bta 4 Case](./img/Peaktech-3442-bta-4-case.png)](./img/Peaktech-3442-bta-4-case.png "Peaktech 3442 Bta 4 Case"){ .glightbox data-gallery="peaktech-3442" }
+[![Peaktech 3442 Bta 4 Case](./img/Peaktech-3442-bta-4-case.jpg)](./img/Peaktech-3442-bta-4-case.png "Peaktech 3442 Bta 4 Case"){ .glightbox data-gallery="peaktech-3442" }
 <span class="caption">Peaktech 3442 Bta 4 Case</span>
 
 </div>

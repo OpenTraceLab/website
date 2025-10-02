@@ -108,7 +108,7 @@ See [SainSmart DDS120/Info](https://sigrok.org/wiki/SainSmart_DDS120/Info) for m
 [![Saintsmart Dds120 Ams1117 3.3](./img/Saintsmart_dds120_ams1117-3.3.jpg)](./img/Saintsmart_dds120_ams1117-3.3.jpg "Saintsmart Dds120 Ams1117 3.3"){ .glightbox data-gallery="sainsmart-dds120" }
 <span class="caption">Saintsmart Dds120 Ams1117 3.3</span>
 
-[![Dds120 Mugshot](./img/Dds120_mugshot.png)](./img/Dds120_mugshot.png "Dds120 Mugshot"){ .glightbox data-gallery="sainsmart-dds120" }
+[![Dds120 Mugshot](./img/Dds120_mugshot.jpg)](./img/Dds120_mugshot.png "Dds120 Mugshot"){ .glightbox data-gallery="sainsmart-dds120" }
 <span class="caption">Dds120 Mugshot</span>
 
 [![Saintsmart Dds120 Fx2](./img/Saintsmart_dds120_fx2.jpg)](./img/Saintsmart_dds120_fx2.jpg "Saintsmart Dds120 Fx2"){ .glightbox data-gallery="sainsmart-dds120" }

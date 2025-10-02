@@ -6,7 +6,7 @@ title: Hobby Components HCTEST0006
 
 <div class="infobox" markdown>
 
-![Hobby Components HCTEST0006](./img/Hobby_components_hctest0006_mugshot.png){ .infobox-image }
+![Hobby Components HCTEST0006](./img/Hobby_components_hctest0006_mugshot.jpg){ .infobox-image }
 
 ### Hobby Components HCTEST0006
 
@@ -42,7 +42,7 @@ This device ships with the [official sigrok fx2lafw VID/PID](http://sigrok.org/b
 
 <div class="photo-grid" markdown>
 
-[![Hobby Components Hctest0006 Mugshot](./img/Hobby_components_hctest0006_mugshot.png)](./img/Hobby_components_hctest0006_mugshot.png "Hobby Components Hctest0006 Mugshot"){ .glightbox data-gallery="hobby-components-hctest0006" }
+[![Hobby Components Hctest0006 Mugshot](./img/Hobby_components_hctest0006_mugshot.jpg)](./img/Hobby_components_hctest0006_mugshot.png "Hobby Components Hctest0006 Mugshot"){ .glightbox data-gallery="hobby-components-hctest0006" }
 <span class="caption">Hobby Components Hctest0006 Mugshot</span>
 
 </div>

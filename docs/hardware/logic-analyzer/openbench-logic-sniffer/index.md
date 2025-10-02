@@ -6,7 +6,7 @@ title: Openbench Logic Sniffer
 
 <div class="infobox" markdown>
 
-![Openbench Logic Sniffer](./img/Ols_buffer.png){ .infobox-image }
+![Openbench Logic Sniffer](./img/Ols_buffer.jpg){ .infobox-image }
 
 ### Openbench Logic Sniffer
 
@@ -55,7 +55,7 @@ Recent hardware (from seeedstudio at least) appears to ship with an FPGA loaded 
 
 <div class="photo-grid" markdown>
 
-[![Ols Buffer](./img/Ols_buffer.png)](./img/Ols_buffer.png "Ols Buffer"){ .glightbox data-gallery="openbench-logic-sniffer" }
+[![Ols Buffer](./img/Ols_buffer.jpg)](./img/Ols_buffer.png "Ols Buffer"){ .glightbox data-gallery="openbench-logic-sniffer" }
 <span class="caption">Ols Buffer</span>
 
 [![Openbench Logic Sniffer Front](./img/Openbench_logic_sniffer_front.jpg)](./img/Openbench_logic_sniffer_front.jpg "Openbench Logic Sniffer Front"){ .glightbox data-gallery="openbench-logic-sniffer" }
@@ -79,7 +79,7 @@ Recent hardware (from seeedstudio at least) appears to ship with an FPGA loaded 
 [![1100xx01](./img/1100xx01.png)](./img/1100xx01.png "1100xx01"){ .glightbox data-gallery="openbench-logic-sniffer" }
 <span class="caption">1100xx01</span>
 
-[![Openbench Logic Sniffer Front](./img/Openbench_logic_sniffer_front.png)](./img/Openbench_logic_sniffer_front.png "Openbench Logic Sniffer Front"){ .glightbox data-gallery="openbench-logic-sniffer" }
+[![Openbench Logic Sniffer Front](./img/Openbench_logic_sniffer_front.jpg)](./img/Openbench_logic_sniffer_front.png "Openbench Logic Sniffer Front"){ .glightbox data-gallery="openbench-logic-sniffer" }
 <span class="caption">Openbench Logic Sniffer Front</span>
 
 [![1100xx00](./img/1100xx00.png)](./img/1100xx00.png "1100xx00"){ .glightbox data-gallery="openbench-logic-sniffer" }

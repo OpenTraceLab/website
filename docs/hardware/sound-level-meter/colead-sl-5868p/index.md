@@ -65,7 +65,7 @@ It is rebranded under many names, but appears to generally have the SL-5868P mod
 [![Colead Sl 5868p Back](./img/Colead_SL-5868P_back.jpg)](./img/Colead_SL-5868P_back.jpg "Colead Sl 5868p Back"){ .glightbox data-gallery="colead-sl-5868p" }
 <span class="caption">Colead Sl 5868p Back</span>
 
-[![Colead Sl 5868p](./img/Colead_SL-5868P.png)](./img/Colead_SL-5868P.png "Colead Sl 5868p"){ .glightbox data-gallery="colead-sl-5868p" }
+[![Colead Sl 5868p](./img/Colead_SL-5868P.jpg)](./img/Colead_SL-5868P.png "Colead Sl 5868p"){ .glightbox data-gallery="colead-sl-5868p" }
 <span class="caption">Colead Sl 5868p</span>
 
 </div>

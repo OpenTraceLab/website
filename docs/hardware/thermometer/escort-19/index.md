@@ -42,7 +42,7 @@ The Escort 19 [RTD](http://en.wikipedia.org/wiki/Resistance_thermometer) thermom
 [![Escort 19 Socket Pcb Back](./img/Escort_19_socket_PCB_back.jpg)](./img/Escort_19_socket_PCB_back.jpg "Escort 19 Socket Pcb Back"){ .glightbox data-gallery="escort-19" }
 <span class="caption">Escort 19 Socket Pcb Back</span>
 
-[![Escort 19 Back](./img/Escort_19_back.png)](./img/Escort_19_back.png "Escort 19 Back"){ .glightbox data-gallery="escort-19" }
+[![Escort 19 Back](./img/Escort_19_back.jpg)](./img/Escort_19_back.png "Escort 19 Back"){ .glightbox data-gallery="escort-19" }
 <span class="caption">Escort 19 Back</span>
 
 [![Escort 19 Pcb Back](./img/Escort_19_PCB_back.jpg)](./img/Escort_19_PCB_back.jpg "Escort 19 Pcb Back"){ .glightbox data-gallery="escort-19" }
@@ -57,7 +57,7 @@ The Escort 19 [RTD](http://en.wikipedia.org/wiki/Resistance_thermometer) thermom
 [![Escort 19 Comms Pcb Front](./img/Escort_19_comms_PCB_front.jpg)](./img/Escort_19_comms_PCB_front.jpg "Escort 19 Comms Pcb Front"){ .glightbox data-gallery="escort-19" }
 <span class="caption">Escort 19 Comms Pcb Front</span>
 
-[![Escort 19](./img/Escort_19.png)](./img/Escort_19.png "Escort 19"){ .glightbox data-gallery="escort-19" }
+[![Escort 19](./img/Escort_19.jpg)](./img/Escort_19.png "Escort 19"){ .glightbox data-gallery="escort-19" }
 <span class="caption">Escort 19</span>
 
 [![Escort 19 Pcb Back Bottom](./img/Escort_19_PCB_back_bottom.jpg)](./img/Escort_19_PCB_back_bottom.jpg "Escort 19 Pcb Back Bottom"){ .glightbox data-gallery="escort-19" }

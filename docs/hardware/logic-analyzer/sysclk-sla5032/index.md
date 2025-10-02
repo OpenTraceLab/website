@@ -122,7 +122,7 @@ Switching between modes is done via the following mechanism: Plug the device int
 [![Sysclk Sla5032 Usb Cable](./img/Sysclk_sla5032_usb_cable.jpg)](./img/Sysclk_sla5032_usb_cable.jpg "Sysclk Sla5032 Usb Cable"){ .glightbox data-gallery="sysclk-sla5032" }
 <span class="caption">Sysclk Sla5032 Usb Cable</span>
 
-[![Sysclk Sla5032 Mugshot](./img/Sysclk_sla5032_mugshot.png)](./img/Sysclk_sla5032_mugshot.png "Sysclk Sla5032 Mugshot"){ .glightbox data-gallery="sysclk-sla5032" }
+[![Sysclk Sla5032 Mugshot](./img/Sysclk_sla5032_mugshot.jpg)](./img/Sysclk_sla5032_mugshot.png "Sysclk Sla5032 Mugshot"){ .glightbox data-gallery="sysclk-sla5032" }
 <span class="caption">Sysclk Sla5032 Mugshot</span>
 
 </div>

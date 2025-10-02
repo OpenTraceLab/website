@@ -36,7 +36,7 @@ See [ Info](https://sigrok.org/wiki/ICStation_USBRelay/Info) for USB details.
 [![Icstation Icse012a Front](./img/ICStation_ICSE012A-front.jpg)](./img/ICStation_ICSE012A-front.jpg "Icstation Icse012a Front"){ .glightbox data-gallery="icstation-usbrelay" }
 <span class="caption">Icstation Icse012a Front</span>
 
-[![Icstation Icse012a Mugshot](./img/ICStation_ICSE012A-mugshot.png)](./img/ICStation_ICSE012A-mugshot.png "Icstation Icse012a Mugshot"){ .glightbox data-gallery="icstation-usbrelay" }
+[![Icstation Icse012a Mugshot](./img/ICStation_ICSE012A-mugshot.jpg)](./img/ICStation_ICSE012A-mugshot.png "Icstation Icse012a Mugshot"){ .glightbox data-gallery="icstation-usbrelay" }
 <span class="caption">Icstation Icse012a Mugshot</span>
 
 </div>

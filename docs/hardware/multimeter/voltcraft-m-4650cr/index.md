@@ -6,7 +6,7 @@ title: Voltcraft M-4650CR
 
 <div class="infobox" markdown>
 
-![Voltcraft M-4650CR](./img/Voltcraft_m4650cr.png){ .infobox-image }
+![Voltcraft M-4650CR](./img/Voltcraft_m4650cr.jpg){ .infobox-image }
 
 ### Voltcraft M-4650CR
 
@@ -49,7 +49,7 @@ It is a rebadged [Metex M-4650CR](https://sigrok.org/wiki/Metex_M-4650CR).
 
 <div class="photo-grid" markdown>
 
-[![Voltcraft M4650cr](./img/Voltcraft_m4650cr.png)](./img/Voltcraft_m4650cr.png "Voltcraft M4650cr"){ .glightbox data-gallery="voltcraft-m-4650cr" }
+[![Voltcraft M4650cr](./img/Voltcraft_m4650cr.jpg)](./img/Voltcraft_m4650cr.png "Voltcraft M4650cr"){ .glightbox data-gallery="voltcraft-m-4650cr" }
 <span class="caption">Voltcraft M4650cr</span>
 
 [![Metex M 4650cr Display](./img/METEX_M-4650CR_Display.jpg)](./img/METEX_M-4650CR_Display.jpg "Metex M 4650cr Display"){ .glightbox data-gallery="voltcraft-m-4650cr" }

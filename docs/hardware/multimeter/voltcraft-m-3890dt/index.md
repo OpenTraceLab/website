@@ -6,7 +6,7 @@ title: Voltcraft M-3890DT
 
 <div class="infobox" markdown>
 
-![Voltcraft M-3890DT](./img/Voltcraft_m3890dt_usb.png){ .infobox-image }
+![Voltcraft M-3890DT](./img/Voltcraft_m3890dt_usb.jpg){ .infobox-image }
 
 ### Voltcraft M-3890DT
 
@@ -34,7 +34,7 @@ TODO.
 
 <div class="photo-grid" markdown>
 
-[![Voltcraft M3890dt Usb](./img/Voltcraft_m3890dt_usb.png)](./img/Voltcraft_m3890dt_usb.png "Voltcraft M3890dt Usb"){ .glightbox data-gallery="voltcraft-m-3890dt" }
+[![Voltcraft M3890dt Usb](./img/Voltcraft_m3890dt_usb.jpg)](./img/Voltcraft_m3890dt_usb.png "Voltcraft M3890dt Usb"){ .glightbox data-gallery="voltcraft-m-3890dt" }
 <span class="caption">Voltcraft M3890dt Usb</span>
 
 </div>

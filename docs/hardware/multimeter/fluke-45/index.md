@@ -31,7 +31,7 @@ The **Fluke 45** is a 100000 counts, CAT I (1000V) / CAT II (600V) bench multime
 [![Fluke 45 Front](./img/Fluke_45_front.jpg)](./img/Fluke_45_front.jpg "Fluke 45 Front"){ .glightbox data-gallery="fluke-45" }
 <span class="caption">Fluke 45 Front</span>
 
-[![Fluke 45 Mugshot](./img/Fluke_45_mugshot.png)](./img/Fluke_45_mugshot.png "Fluke 45 Mugshot"){ .glightbox data-gallery="fluke-45" }
+[![Fluke 45 Mugshot](./img/Fluke_45_mugshot.jpg)](./img/Fluke_45_mugshot.png "Fluke 45 Mugshot"){ .glightbox data-gallery="fluke-45" }
 <span class="caption">Fluke 45 Mugshot</span>
 
 [![Fluke 45 Pcb Top](./img/Fluke_45_pcb_top.jpg)](./img/Fluke_45_pcb_top.jpg "Fluke 45 Pcb Top"){ .glightbox data-gallery="fluke-45" }

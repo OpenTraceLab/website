@@ -49,7 +49,7 @@ TODO.
 [![Sysclk Lwla1016 Pcb Input](./img/Sysclk_lwla1016_pcb_input.jpg)](./img/Sysclk_lwla1016_pcb_input.jpg "Sysclk Lwla1016 Pcb Input"){ .glightbox data-gallery="sysclk-lwla1016" }
 <span class="caption">Sysclk Lwla1016 Pcb Input</span>
 
-[![Sysclk Lwla1016](./img/Sysclk_lwla1016.png)](./img/Sysclk_lwla1016.png "Sysclk Lwla1016"){ .glightbox data-gallery="sysclk-lwla1016" }
+[![Sysclk Lwla1016](./img/Sysclk_lwla1016.jpg)](./img/Sysclk_lwla1016.png "Sysclk Lwla1016"){ .glightbox data-gallery="sysclk-lwla1016" }
 <span class="caption">Sysclk Lwla1016</span>
 
 [![Sysclk Lwla1016 Pcb Crystal](./img/Sysclk_lwla1016_pcb_crystal.jpg)](./img/Sysclk_lwla1016_pcb_crystal.jpg "Sysclk Lwla1016 Pcb Crystal"){ .glightbox data-gallery="sysclk-lwla1016" }

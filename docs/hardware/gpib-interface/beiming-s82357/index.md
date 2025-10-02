@@ -63,7 +63,7 @@ title: Beiming S82357
 [![Beiming S82357 Device Bottom](./img/Beiming_s82357_device_bottom.jpg)](./img/Beiming_s82357_device_bottom.jpg "Beiming S82357 Device Bottom"){ .glightbox data-gallery="beiming-s82357" }
 <span class="caption">Beiming S82357 Device Bottom</span>
 
-[![Beiming S82357](./img/Beiming_s82357.png)](./img/Beiming_s82357.png "Beiming S82357"){ .glightbox data-gallery="beiming-s82357" }
+[![Beiming S82357](./img/Beiming_s82357.jpg)](./img/Beiming_s82357.png "Beiming S82357"){ .glightbox data-gallery="beiming-s82357" }
 <span class="caption">Beiming S82357</span>
 
 [![Beiming S82357 Chip4](./img/Beiming_s82357_chip4.jpg)](./img/Beiming_s82357_chip4.jpg "Beiming S82357 Chip4"){ .glightbox data-gallery="beiming-s82357" }

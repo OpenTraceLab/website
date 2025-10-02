@@ -108,13 +108,13 @@ this specific LA model or any other sigrok supported FPGA based device (compare 
 [![Intronix Logicport With Probes](./img/Intronix_Logicport_with_probes.jpg)](./img/Intronix_Logicport_with_probes.jpg "Intronix Logicport With Probes"){ .glightbox data-gallery="intronix-logicport-la1034" }
 <span class="caption">Intronix Logicport With Probes</span>
 
-[![Intronix Logicport](./img/Intronix_Logicport.png)](./img/Intronix_Logicport.png "Intronix Logicport"){ .glightbox data-gallery="intronix-logicport-la1034" }
+[![Intronix Logicport](./img/Intronix_Logicport.jpg)](./img/Intronix_Logicport.png "Intronix Logicport"){ .glightbox data-gallery="intronix-logicport-la1034" }
 <span class="caption">Intronix Logicport</span>
 
 [![Intronix Logicport Circuit Detail](./img/Intronix_Logicport_Circuit_Detail.jpg)](./img/Intronix_Logicport_Circuit_Detail.jpg "Intronix Logicport Circuit Detail"){ .glightbox data-gallery="intronix-logicport-la1034" }
 <span class="caption">Intronix Logicport Circuit Detail</span>
 
-[![Logicport La1034 Probes 21channels Connected](./img/Logicport-LA1034-probes-21channels-connected.png)](./img/Logicport-LA1034-probes-21channels-connected.png "Logicport La1034 Probes 21channels Connected"){ .glightbox data-gallery="intronix-logicport-la1034" }
+[![Logicport La1034 Probes 21channels Connected](./img/Logicport-LA1034-probes-21channels-connected.jpg)](./img/Logicport-LA1034-probes-21channels-connected.png "Logicport La1034 Probes 21channels Connected"){ .glightbox data-gallery="intronix-logicport-la1034" }
 <span class="caption">Logicport La1034 Probes 21channels Connected</span>
 
 [![Intronix Logicport Pcb Back](./img/Intronix_Logicport_PCB_Back.jpg)](./img/Intronix_Logicport_PCB_Back.jpg "Intronix Logicport Pcb Back"){ .glightbox data-gallery="intronix-logicport-la1034" }
@@ -126,7 +126,7 @@ this specific LA model or any other sigrok supported FPGA based device (compare 
 [![Intronix Logicport](./img/Intronix_Logicport.jpg)](./img/Intronix_Logicport.jpg "Intronix Logicport"){ .glightbox data-gallery="intronix-logicport-la1034" }
 <span class="caption">Intronix Logicport</span>
 
-[![Logicport La1034 Probes Colour Scheme](./img/Logicport-LA1034-probes-colour-scheme.png)](./img/Logicport-LA1034-probes-colour-scheme.png "Logicport La1034 Probes Colour Scheme"){ .glightbox data-gallery="intronix-logicport-la1034" }
+[![Logicport La1034 Probes Colour Scheme](./img/Logicport-LA1034-probes-colour-scheme.jpg)](./img/Logicport-LA1034-probes-colour-scheme.png "Logicport La1034 Probes Colour Scheme"){ .glightbox data-gallery="intronix-logicport-la1034" }
 <span class="caption">Logicport La1034 Probes Colour Scheme</span>
 
 </div>

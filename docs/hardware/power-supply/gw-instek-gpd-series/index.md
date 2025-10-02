@@ -6,7 +6,7 @@ title: GW Instek GPD series
 
 <div class="infobox" markdown>
 
-![GW Instek GPD series](./img/Gwinstek-gpd-3303s.png){ .infobox-image }
+![GW Instek GPD series](./img/Gwinstek-gpd-3303s.jpg){ .infobox-image }
 
 ### GW Instek GPD series
 
@@ -91,7 +91,7 @@ See the [vendor user manual](https://www.gwinstek.com/en-US/products/downloadSer
 
 <div class="photo-grid" markdown>
 
-[![Gwinstek Gpd 3303s](./img/Gwinstek-gpd-3303s.png)](./img/Gwinstek-gpd-3303s.png "Gwinstek Gpd 3303s"){ .glightbox data-gallery="gw-instek-gpd-series" }
+[![Gwinstek Gpd 3303s](./img/Gwinstek-gpd-3303s.jpg)](./img/Gwinstek-gpd-3303s.png "Gwinstek Gpd 3303s"){ .glightbox data-gallery="gw-instek-gpd-series" }
 <span class="caption">Gwinstek Gpd 3303s</span>
 
 </div>

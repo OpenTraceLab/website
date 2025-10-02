@@ -57,7 +57,7 @@ Note: the USB/HID chip is *in the multimeter* (not in the USB cable/connector) f
 [![Victor 70c Hef4066bt](./img/Victor_70C_HEF4066BT.jpg)](./img/Victor_70C_HEF4066BT.jpg "Victor 70c Hef4066bt"){ .glightbox data-gallery="victor-70c" }
 <span class="caption">Victor 70c Hef4066bt</span>
 
-[![Victor 70c](./img/Victor_70C.png)](./img/Victor_70C.png "Victor 70c"){ .glightbox data-gallery="victor-70c" }
+[![Victor 70c](./img/Victor_70C.jpg)](./img/Victor_70C.png "Victor 70c"){ .glightbox data-gallery="victor-70c" }
 <span class="caption">Victor 70c</span>
 
 [![Victor 70c Pcb Top](./img/Victor_70C_PCB_top.jpg)](./img/Victor_70C_PCB_top.jpg "Victor 70c Pcb Top"){ .glightbox data-gallery="victor-70c" }

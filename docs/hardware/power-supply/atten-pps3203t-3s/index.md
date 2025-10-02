@@ -6,7 +6,7 @@ title: Atten PPS3203T-3S
 
 <div class="infobox" markdown>
 
-![Atten PPS3203T-3S](./img/Atten_PPS3203T-3S.png){ .infobox-image }
+![Atten PPS3203T-3S](./img/Atten_PPS3203T-3S.jpg){ .infobox-image }
 
 ### Atten PPS3203T-3S
 
@@ -45,7 +45,7 @@ $ **sigrok-cli --driver=atten-pps3203:conn=/dev/ttyUSB0 --channel-group=CH2 \**
 
 <div class="photo-grid" markdown>
 
-[![Atten Pps3203t 3s](./img/Atten_PPS3203T-3S.png)](./img/Atten_PPS3203T-3S.png "Atten Pps3203t 3s"){ .glightbox data-gallery="atten-pps3203t-3s" }
+[![Atten Pps3203t 3s](./img/Atten_PPS3203T-3S.jpg)](./img/Atten_PPS3203T-3S.png "Atten Pps3203t 3s"){ .glightbox data-gallery="atten-pps3203t-3s" }
 <span class="caption">Atten Pps3203t 3s</span>
 
 [![Atten Pps3203t 3s Back](./img/Atten_PPS3203T-3S_back.jpg)](./img/Atten_PPS3203T-3S_back.jpg "Atten Pps3203t 3s Back"){ .glightbox data-gallery="atten-pps3203t-3s" }

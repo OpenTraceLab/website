@@ -42,7 +42,7 @@ The **Fluke 287** and **289** are 50000-count handheld digital multimeters.
 [![Fluke 287 Pcb Top Detail 2](./img/Fluke_287_PCB_top_detail_2.jpg)](./img/Fluke_287_PCB_top_detail_2.jpg "Fluke 287 Pcb Top Detail 2"){ .glightbox data-gallery="fluke-287-289" }
 <span class="caption">Fluke 287 Pcb Top Detail 2</span>
 
-[![Fluke 287](./img/Fluke_287.png)](./img/Fluke_287.png "Fluke 287"){ .glightbox data-gallery="fluke-287-289" }
+[![Fluke 287](./img/Fluke_287.jpg)](./img/Fluke_287.png "Fluke 287"){ .glightbox data-gallery="fluke-287-289" }
 <span class="caption">Fluke 287</span>
 
 [![Fluke 287 Pcb Bottom](./img/Fluke_287_PCB_bottom.jpg)](./img/Fluke_287_PCB_bottom.jpg "Fluke 287 Pcb Bottom"){ .glightbox data-gallery="fluke-287-289" }

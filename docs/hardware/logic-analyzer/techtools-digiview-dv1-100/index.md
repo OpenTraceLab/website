@@ -54,7 +54,7 @@ See [TechTools DigiView DV1-100/Info](https://sigrok.org/wiki/TechTools_DigiView
 [![Techtools Digiview Dv1 100 Device Connector](./img/Techtools_digiview_dv1-100_device_connector.jpg)](./img/Techtools_digiview_dv1-100_device_connector.jpg "Techtools Digiview Dv1 100 Device Connector"){ .glightbox data-gallery="techtools-digiview-dv1-100" }
 <span class="caption">Techtools Digiview Dv1 100 Device Connector</span>
 
-[![Techtools Digiview Dv1 100](./img/Techtools_digiview_dv1-100.png)](./img/Techtools_digiview_dv1-100.png "Techtools Digiview Dv1 100"){ .glightbox data-gallery="techtools-digiview-dv1-100" }
+[![Techtools Digiview Dv1 100](./img/Techtools_digiview_dv1-100.jpg)](./img/Techtools_digiview_dv1-100.png "Techtools Digiview Dv1 100"){ .glightbox data-gallery="techtools-digiview-dv1-100" }
 <span class="caption">Techtools Digiview Dv1 100</span>
 
 [![Techtools Digiview Dv1 100 Maxim Ds1233](./img/Techtools_digiview_dv1-100_maxim_ds1233.jpg)](./img/Techtools_digiview_dv1-100_maxim_ds1233.jpg "Techtools Digiview Dv1 100 Maxim Ds1233"){ .glightbox data-gallery="techtools-digiview-dv1-100" }

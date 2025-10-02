@@ -35,7 +35,7 @@ The **MASTECH MS8250B** is a 4000 counts, CAT IV (600V) handheld digital multime
 [![Mastech Ms8250b](./img/MASTECH_MS8250B.jpg)](./img/MASTECH_MS8250B.jpg "Mastech Ms8250b"){ .glightbox data-gallery="mastech-ms8250b" }
 <span class="caption">Mastech Ms8250b</span>
 
-[![Mastech Ms8250b Mugshot](./img/Mastech_ms8250b_mugshot.png)](./img/Mastech_ms8250b_mugshot.png "Mastech Ms8250b Mugshot"){ .glightbox data-gallery="mastech-ms8250b" }
+[![Mastech Ms8250b Mugshot](./img/Mastech_ms8250b_mugshot.jpg)](./img/Mastech_ms8250b_mugshot.png "Mastech Ms8250b Mugshot"){ .glightbox data-gallery="mastech-ms8250b" }
 <span class="caption">Mastech Ms8250b Mugshot</span>
 
 </div>

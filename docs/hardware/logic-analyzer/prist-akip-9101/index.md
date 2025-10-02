@@ -47,7 +47,7 @@ TODO
 [![Akip Front](./img/Akip-front.JPG)](./img/Akip-front.JPG "Akip Front"){ .glightbox data-gallery="prist-akip-9101" }
 <span class="caption">Akip Front</span>
 
-[![Prist Akip 9101 Mugshot](./img/Prist_akip_9101_mugshot.png)](./img/Prist_akip_9101_mugshot.png "Prist Akip 9101 Mugshot"){ .glightbox data-gallery="prist-akip-9101" }
+[![Prist Akip 9101 Mugshot](./img/Prist_akip_9101_mugshot.jpg)](./img/Prist_akip_9101_mugshot.png "Prist Akip 9101 Mugshot"){ .glightbox data-gallery="prist-akip-9101" }
 <span class="caption">Prist Akip 9101 Mugshot</span>
 
 [![Akip Ports](./img/Akip-ports.JPG)](./img/Akip-ports.JPG "Akip Ports"){ .glightbox data-gallery="prist-akip-9101" }

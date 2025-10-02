@@ -60,7 +60,7 @@ This multimeter is a rebadged [Digitek DT4000ZC](https://sigrok.org/wiki/Digitek
 [![Tp4000zc Back Nocover](./img/Tp4000zc_back_nocover.jpg)](./img/Tp4000zc_back_nocover.jpg "Tp4000zc Back Nocover"){ .glightbox data-gallery="tekpower-tp4000zc" }
 <span class="caption">Tp4000zc Back Nocover</span>
 
-[![Tp4000zc Front Nocover](./img/Tp4000zc_front_nocover.png)](./img/Tp4000zc_front_nocover.png "Tp4000zc Front Nocover"){ .glightbox data-gallery="tekpower-tp4000zc" }
+[![Tp4000zc Front Nocover](./img/Tp4000zc_front_nocover.jpg)](./img/Tp4000zc_front_nocover.png "Tp4000zc Front Nocover"){ .glightbox data-gallery="tekpower-tp4000zc" }
 <span class="caption">Tp4000zc Front Nocover</span>
 
 [![Tp4000zc 232 Module](./img/Tp4000zc_232_module.jpg)](./img/Tp4000zc_232_module.jpg "Tp4000zc 232 Module"){ .glightbox data-gallery="tekpower-tp4000zc" }
@@ -84,13 +84,13 @@ This multimeter is a rebadged [Digitek DT4000ZC](https://sigrok.org/wiki/Digitek
 [![Tp4000zc Contents](./img/Tp4000zc_contents.jpg)](./img/Tp4000zc_contents.jpg "Tp4000zc Contents"){ .glightbox data-gallery="tekpower-tp4000zc" }
 <span class="caption">Tp4000zc Contents</span>
 
-[![Tp4000zc Angle](./img/Tp4000zc_angle.png)](./img/Tp4000zc_angle.png "Tp4000zc Angle"){ .glightbox data-gallery="tekpower-tp4000zc" }
+[![Tp4000zc Angle](./img/Tp4000zc_angle.jpg)](./img/Tp4000zc_angle.png "Tp4000zc Angle"){ .glightbox data-gallery="tekpower-tp4000zc" }
 <span class="caption">Tp4000zc Angle</span>
 
 [![Tp4000zc Pcb Back](./img/Tp4000zc_pcb_back.jpg)](./img/Tp4000zc_pcb_back.jpg "Tp4000zc Pcb Back"){ .glightbox data-gallery="tekpower-tp4000zc" }
 <span class="caption">Tp4000zc Pcb Back</span>
 
-[![Tp4000zc Front](./img/Tp4000zc_front.png)](./img/Tp4000zc_front.png "Tp4000zc Front"){ .glightbox data-gallery="tekpower-tp4000zc" }
+[![Tp4000zc Front](./img/Tp4000zc_front.jpg)](./img/Tp4000zc_front.png "Tp4000zc Front"){ .glightbox data-gallery="tekpower-tp4000zc" }
 <span class="caption">Tp4000zc Front</span>
 
 [![Tp4000zc Chip Hef4013bt](./img/Tp4000zc_chip_HEF4013BT.jpg)](./img/Tp4000zc_chip_HEF4013BT.jpg "Tp4000zc Chip Hef4013bt"){ .glightbox data-gallery="tekpower-tp4000zc" }

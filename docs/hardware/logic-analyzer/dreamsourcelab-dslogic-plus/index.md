@@ -69,7 +69,7 @@ New hardware variant received early 2023, enumerates as 2a0e:0030, and uses a di
 [![Dslogic Plus Pcb Back](./img/Dslogic_plus_pcb_back.jpg)](./img/Dslogic_plus_pcb_back.jpg "Dslogic Plus Pcb Back"){ .glightbox data-gallery="dreamsourcelab-dslogic-plus" }
 <span class="caption">Dslogic Plus Pcb Back</span>
 
-[![Dslogic](./img/DSLogic.png)](./img/DSLogic.png "Dslogic"){ .glightbox data-gallery="dreamsourcelab-dslogic-plus" }
+[![Dslogic](./img/DSLogic.jpg)](./img/DSLogic.png "Dslogic"){ .glightbox data-gallery="dreamsourcelab-dslogic-plus" }
 <span class="caption">Dslogic</span>
 
 [![Dslogic Plus Pcb Front](./img/Dslogic_plus_pcb_front.jpg)](./img/Dslogic_plus_pcb_front.jpg "Dslogic Plus Pcb Front"){ .glightbox data-gallery="dreamsourcelab-dslogic-plus" }

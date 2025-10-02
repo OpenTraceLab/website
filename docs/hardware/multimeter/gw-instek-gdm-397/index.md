@@ -52,7 +52,7 @@ Press and hold the **REL** button to enable serial data transmission.
 [![Gdm 397 Rs232cable](./img/Gdm-397_rs232cable.jpg)](./img/Gdm-397_rs232cable.jpg "Gdm 397 Rs232cable"){ .glightbox data-gallery="gw-instek-gdm-397" }
 <span class="caption">Gdm 397 Rs232cable</span>
 
-[![Gdm 397 Front](./img/Gdm-397_front.png)](./img/Gdm-397_front.png "Gdm 397 Front"){ .glightbox data-gallery="gw-instek-gdm-397" }
+[![Gdm 397 Front](./img/Gdm-397_front.jpg)](./img/Gdm-397_front.png "Gdm 397 Front"){ .glightbox data-gallery="gw-instek-gdm-397" }
 <span class="caption">Gdm 397 Front</span>
 
 [![Gdm 397 Pcb](./img/Gdm-397_pcb.jpg)](./img/Gdm-397_pcb.jpg "Gdm 397 Pcb"){ .glightbox data-gallery="gw-instek-gdm-397" }

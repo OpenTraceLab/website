@@ -24,13 +24,13 @@ title: Lutron YK-2005LX
 [![Lutron Yk 2005lx Side](./img/Lutron_YK-2005LX_side.jpg)](./img/Lutron_YK-2005LX_side.jpg "Lutron Yk 2005lx Side"){ .glightbox data-gallery="lutron-yk-2005lx" }
 <span class="caption">Lutron Yk 2005lx Side</span>
 
-[![Lutron Yk 2005lx Pcb Back](./img/Lutron_YK-2005LX_PCB_back.png)](./img/Lutron_YK-2005LX_PCB_back.png "Lutron Yk 2005lx Pcb Back"){ .glightbox data-gallery="lutron-yk-2005lx" }
+[![Lutron Yk 2005lx Pcb Back](./img/Lutron_YK-2005LX_PCB_back.jpg)](./img/Lutron_YK-2005LX_PCB_back.png "Lutron Yk 2005lx Pcb Back"){ .glightbox data-gallery="lutron-yk-2005lx" }
 <span class="caption">Lutron Yk 2005lx Pcb Back</span>
 
-[![Lutron Yk 2005lx](./img/Lutron_YK-2005LX.png)](./img/Lutron_YK-2005LX.png "Lutron Yk 2005lx"){ .glightbox data-gallery="lutron-yk-2005lx" }
+[![Lutron Yk 2005lx](./img/Lutron_YK-2005LX.jpg)](./img/Lutron_YK-2005LX.png "Lutron Yk 2005lx"){ .glightbox data-gallery="lutron-yk-2005lx" }
 <span class="caption">Lutron Yk 2005lx</span>
 
-[![Lutron Yk 2005lx Pcb Front](./img/Lutron_YK-2005LX_PCB_front.png)](./img/Lutron_YK-2005LX_PCB_front.png "Lutron Yk 2005lx Pcb Front"){ .glightbox data-gallery="lutron-yk-2005lx" }
+[![Lutron Yk 2005lx Pcb Front](./img/Lutron_YK-2005LX_PCB_front.jpg)](./img/Lutron_YK-2005LX_PCB_front.png "Lutron Yk 2005lx Pcb Front"){ .glightbox data-gallery="lutron-yk-2005lx" }
 <span class="caption">Lutron Yk 2005lx Pcb Front</span>
 
 [![Lutron Yk 2005lx Back](./img/Lutron_YK-2005LX_back.jpg)](./img/Lutron_YK-2005LX_back.jpg "Lutron Yk 2005lx Back"){ .glightbox data-gallery="lutron-yk-2005lx" }

@@ -6,7 +6,7 @@ title: EEVBlog 121GW
 
 <div class="infobox" markdown>
 
-![EEVBlog 121GW](./img/Eevblog_121gw_mugshot.png){ .infobox-image }
+![EEVBlog 121GW](./img/Eevblog_121gw_mugshot.jpg){ .infobox-image }
 
 ### EEVBlog 121GW
 
@@ -52,25 +52,25 @@ The STM32 MCU communicates to the HY3131 chip via SPI, and to the BLE112 module 
 
 <div class="photo-grid" markdown>
 
-[![Eevblog 121gw Mugshot](./img/Eevblog_121gw_mugshot.png)](./img/Eevblog_121gw_mugshot.png "Eevblog 121gw Mugshot"){ .glightbox data-gallery="eevblog-121gw" }
+[![Eevblog 121gw Mugshot](./img/Eevblog_121gw_mugshot.jpg)](./img/Eevblog_121gw_mugshot.png "Eevblog 121gw Mugshot"){ .glightbox data-gallery="eevblog-121gw" }
 <span class="caption">Eevblog 121gw Mugshot</span>
 
-[![Eev121gw Back Text](./img/Eev121gw-back-text.png)](./img/Eev121gw-back-text.png "Eev121gw Back Text"){ .glightbox data-gallery="eevblog-121gw" }
+[![Eev121gw Back Text](./img/Eev121gw-back-text.jpg)](./img/Eev121gw-back-text.png "Eev121gw Back Text"){ .glightbox data-gallery="eevblog-121gw" }
 <span class="caption">Eev121gw Back Text</span>
 
-[![Eev121gw Display Volt Xmpl](./img/Eev121gw-display-volt-xmpl.png)](./img/Eev121gw-display-volt-xmpl.png "Eev121gw Display Volt Xmpl"){ .glightbox data-gallery="eevblog-121gw" }
+[![Eev121gw Display Volt Xmpl](./img/Eev121gw-display-volt-xmpl.jpg)](./img/Eev121gw-display-volt-xmpl.png "Eev121gw Display Volt Xmpl"){ .glightbox data-gallery="eevblog-121gw" }
 <span class="caption">Eev121gw Display Volt Xmpl</span>
 
-[![Eev121gw Batt Fuse Sd](./img/Eev121gw-batt-fuse-sd.png)](./img/Eev121gw-batt-fuse-sd.png "Eev121gw Batt Fuse Sd"){ .glightbox data-gallery="eevblog-121gw" }
+[![Eev121gw Batt Fuse Sd](./img/Eev121gw-batt-fuse-sd.jpg)](./img/Eev121gw-batt-fuse-sd.png "Eev121gw Batt Fuse Sd"){ .glightbox data-gallery="eevblog-121gw" }
 <span class="caption">Eev121gw Batt Fuse Sd</span>
 
-[![Eev121gw Display Most Segments](./img/Eev121gw-display-most-segments.png)](./img/Eev121gw-display-most-segments.png "Eev121gw Display Most Segments"){ .glightbox data-gallery="eevblog-121gw" }
+[![Eev121gw Display Most Segments](./img/Eev121gw-display-most-segments.jpg)](./img/Eev121gw-display-most-segments.png "Eev121gw Display Most Segments"){ .glightbox data-gallery="eevblog-121gw" }
 <span class="caption">Eev121gw Display Most Segments</span>
 
-[![Eev121gw Pcb All](./img/Eev121gw-pcb-all.png)](./img/Eev121gw-pcb-all.png "Eev121gw Pcb All"){ .glightbox data-gallery="eevblog-121gw" }
+[![Eev121gw Pcb All](./img/Eev121gw-pcb-all.jpg)](./img/Eev121gw-pcb-all.png "Eev121gw Pcb All"){ .glightbox data-gallery="eevblog-121gw" }
 <span class="caption">Eev121gw Pcb All</span>
 
-[![Eev121gw Front Sleeve](./img/Eev121gw-front-sleeve.png)](./img/Eev121gw-front-sleeve.png "Eev121gw Front Sleeve"){ .glightbox data-gallery="eevblog-121gw" }
+[![Eev121gw Front Sleeve](./img/Eev121gw-front-sleeve.jpg)](./img/Eev121gw-front-sleeve.png "Eev121gw Front Sleeve"){ .glightbox data-gallery="eevblog-121gw" }
 <span class="caption">Eev121gw Front Sleeve</span>
 
 </div>

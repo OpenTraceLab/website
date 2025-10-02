@@ -42,7 +42,7 @@ TODO.
 [![Noname La16 Stc](./img/Noname_la16_stc.jpg)](./img/Noname_la16_stc.jpg "Noname La16 Stc"){ .glightbox data-gallery="noname-la16" }
 <span class="caption">Noname La16 Stc</span>
 
-[![Noname La16 Mugshot](./img/Noname_la16_mugshot.png)](./img/Noname_la16_mugshot.png "Noname La16 Mugshot"){ .glightbox data-gallery="noname-la16" }
+[![Noname La16 Mugshot](./img/Noname_la16_mugshot.jpg)](./img/Noname_la16_mugshot.png "Noname La16 Mugshot"){ .glightbox data-gallery="noname-la16" }
 <span class="caption">Noname La16 Mugshot</span>
 
 [![Noname La16 Device Usb](./img/Noname_la16_device_usb.jpg)](./img/Noname_la16_device_usb.jpg "Noname La16 Device Usb"){ .glightbox data-gallery="noname-la16" }

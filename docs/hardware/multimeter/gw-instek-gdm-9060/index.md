@@ -6,7 +6,7 @@ title: GW Instek GDM-9060
 
 <div class="infobox" markdown>
 
-![GW Instek GDM-9060](./img/Gdm-9061_frontpanel.png){ .infobox-image }
+![GW Instek GDM-9060](./img/Gdm-9061_frontpanel.jpg){ .infobox-image }
 
 ### GW Instek GDM-9060
 
@@ -50,7 +50,7 @@ GPIB option is available as user installable module.
 
 <div class="photo-grid" markdown>
 
-[![Gdm 9061 Frontpanel](./img/Gdm-9061_frontpanel.png)](./img/Gdm-9061_frontpanel.png "Gdm 9061 Frontpanel"){ .glightbox data-gallery="gw-instek-gdm-9060" }
+[![Gdm 9061 Frontpanel](./img/Gdm-9061_frontpanel.jpg)](./img/Gdm-9061_frontpanel.png "Gdm 9061 Frontpanel"){ .glightbox data-gallery="gw-instek-gdm-9060" }
 <span class="caption">Gdm 9061 Frontpanel</span>
 
 </div>

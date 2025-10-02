@@ -66,7 +66,7 @@ There's a jumper on the PCB which write-protects the I²C EEPROM when set (it sh
 [![Linsou21 V1 3 Pcb Top](./img/LINSOU21-V1_3-PCB-Top.jpg)](./img/LINSOU21-V1_3-PCB-Top.jpg "Linsou21 V1 3 Pcb Top"){ .glightbox data-gallery="noname-lht00su1" }
 <span class="caption">Linsou21 V1 3 Pcb Top</span>
 
-[![Noname Lht00su1 Mugshot](./img/Noname_lht00su1_mugshot.png)](./img/Noname_lht00su1_mugshot.png "Noname Lht00su1 Mugshot"){ .glightbox data-gallery="noname-lht00su1" }
+[![Noname Lht00su1 Mugshot](./img/Noname_lht00su1_mugshot.jpg)](./img/Noname_lht00su1_mugshot.png "Noname Lht00su1 Mugshot"){ .glightbox data-gallery="noname-lht00su1" }
 <span class="caption">Noname Lht00su1 Mugshot</span>
 
 [![Noname Lht00su1 Lm358](./img/Noname_lht00su1_lm358.jpg)](./img/Noname_lht00su1_lm358.jpg "Noname Lht00su1 Lm358"){ .glightbox data-gallery="noname-lht00su1" }

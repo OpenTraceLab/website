@@ -51,7 +51,7 @@ Many thanks to the vendor ([ChronoVu](http://www.chronovu.com/)) for freely prov
 [![Chronovu La8 Ftdi Ft245rl](./img/Chronovu_la8_ftdi_ft245rl.jpg)](./img/Chronovu_la8_ftdi_ft245rl.jpg "Chronovu La8 Ftdi Ft245rl"){ .glightbox data-gallery="chronovu-la8" }
 <span class="caption">Chronovu La8 Ftdi Ft245rl</span>
 
-[![Chronovu La8 Front](./img/Chronovu_la8_front.png)](./img/Chronovu_la8_front.png "Chronovu La8 Front"){ .glightbox data-gallery="chronovu-la8" }
+[![Chronovu La8 Front](./img/Chronovu_la8_front.jpg)](./img/Chronovu_la8_front.png "Chronovu La8 Front"){ .glightbox data-gallery="chronovu-la8" }
 <span class="caption">Chronovu La8 Front</span>
 
 [![Chronovu La8 Xilinx](./img/Chronovu_la8_xilinx.jpg)](./img/Chronovu_la8_xilinx.jpg "Chronovu La8 Xilinx"){ .glightbox data-gallery="chronovu-la8" }

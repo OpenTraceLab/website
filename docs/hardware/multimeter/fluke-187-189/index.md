@@ -38,7 +38,7 @@ The **Fluke 187/198** multimeters are 50000-count handheld digital multimeters.
 [![Fluke 187 Pcb Bottom](./img/Fluke_187_PCB_bottom.jpg)](./img/Fluke_187_PCB_bottom.jpg "Fluke 187 Pcb Bottom"){ .glightbox data-gallery="fluke-187-189" }
 <span class="caption">Fluke 187 Pcb Bottom</span>
 
-[![Fluke 187](./img/Fluke_187.png)](./img/Fluke_187.png "Fluke 187"){ .glightbox data-gallery="fluke-187-189" }
+[![Fluke 187](./img/Fluke_187.jpg)](./img/Fluke_187.png "Fluke 187"){ .glightbox data-gallery="fluke-187-189" }
 <span class="caption">Fluke 187</span>
 
 [![Fluke 187 Pcb Top](./img/Fluke_187_PCB_top.jpg)](./img/Fluke_187_PCB_top.jpg "Fluke 187 Pcb Top"){ .glightbox data-gallery="fluke-187-189" }

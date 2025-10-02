@@ -40,7 +40,7 @@ The **Agilent U1732B** is a handheld LCR meter with USB connectivity.
 [![U1732b Pcb](./img/U1732b_pcb.JPG)](./img/U1732b_pcb.JPG "U1732b Pcb"){ .glightbox data-gallery="agilent-u1732b" }
 <span class="caption">U1732b Pcb</span>
 
-[![Agilent U1732b](./img/Agilent_U1732B.png)](./img/Agilent_U1732B.png "Agilent U1732b"){ .glightbox data-gallery="agilent-u1732b" }
+[![Agilent U1732b](./img/Agilent_U1732B.jpg)](./img/Agilent_U1732B.png "Agilent U1732b"){ .glightbox data-gallery="agilent-u1732b" }
 <span class="caption">Agilent U1732b</span>
 
 </div>

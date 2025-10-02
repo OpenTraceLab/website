@@ -53,7 +53,7 @@ See [DreamSourceLab DSLogic/Info](https://sigrok.org/wiki/DreamSourceLab_DSLogic
 [![Dslogic Usb](./img/DSLogic_USB.jpg)](./img/DSLogic_USB.jpg "Dslogic Usb"){ .glightbox data-gallery="dreamsourcelab-dslogic" }
 <span class="caption">Dslogic Usb</span>
 
-[![Dslogic](./img/DSLogic.png)](./img/DSLogic.png "Dslogic"){ .glightbox data-gallery="dreamsourcelab-dslogic" }
+[![Dslogic](./img/DSLogic.jpg)](./img/DSLogic.png "Dslogic"){ .glightbox data-gallery="dreamsourcelab-dslogic" }
 <span class="caption">Dslogic</span>
 
 [![Dslogic Pcb Back](./img/DSLogic_PCB_back.jpg)](./img/DSLogic_PCB_back.jpg "Dslogic Pcb Back"){ .glightbox data-gallery="dreamsourcelab-dslogic" }

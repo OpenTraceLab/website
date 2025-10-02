@@ -6,7 +6,7 @@ title: Dangerous Prototypes Buspirate
 
 <div class="infobox" markdown>
 
-![Dangerous Prototypes Buspirate](./img/Buspirate_v3.png){ .infobox-image }
+![Dangerous Prototypes Buspirate](./img/Buspirate_v3.jpg){ .infobox-image }
 
 ### Dangerous Prototypes Buspirate
 
@@ -39,7 +39,7 @@ See [Dangerous Prototypes Buspirate/Info](https://sigrok.org/wiki/Dangerous_Prot
 
 <div class="photo-grid" markdown>
 
-[![Buspirate V3](./img/Buspirate_v3.png)](./img/Buspirate_v3.png "Buspirate V3"){ .glightbox data-gallery="dangerous-prototypes-buspirate" }
+[![Buspirate V3](./img/Buspirate_v3.jpg)](./img/Buspirate_v3.png "Buspirate V3"){ .glightbox data-gallery="dangerous-prototypes-buspirate" }
 <span class="caption">Buspirate V3</span>
 
 [![Buspirate V3 Mugshot](./img/Buspirate_v3_mugshot.jpg)](./img/Buspirate_v3_mugshot.jpg "Buspirate V3 Mugshot"){ .glightbox data-gallery="dangerous-prototypes-buspirate" }

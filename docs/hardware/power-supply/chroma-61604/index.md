@@ -6,7 +6,7 @@ title: Chroma 61604
 
 <div class="infobox" markdown>
 
-![Chroma 61604](./img/Chroma_61604_front_wide_format.png){ .infobox-image }
+![Chroma 61604](./img/Chroma_61604_front_wide_format.jpg){ .infobox-image }
 
 ### Chroma 61604
 
@@ -28,10 +28,10 @@ The **Chroma 61604** is a programmable AC power supply with GPIB, RS485, and RS2
 
 <div class="photo-grid" markdown>
 
-[![Chroma 61604 Front Wide Format](./img/Chroma_61604_front_wide_format.png)](./img/Chroma_61604_front_wide_format.png "Chroma 61604 Front Wide Format"){ .glightbox data-gallery="chroma-61604" }
+[![Chroma 61604 Front Wide Format](./img/Chroma_61604_front_wide_format.jpg)](./img/Chroma_61604_front_wide_format.png "Chroma 61604 Front Wide Format"){ .glightbox data-gallery="chroma-61604" }
 <span class="caption">Chroma 61604 Front Wide Format</span>
 
-[![Chroma 61604 Front](./img/Chroma_61604_front.png)](./img/Chroma_61604_front.png "Chroma 61604 Front"){ .glightbox data-gallery="chroma-61604" }
+[![Chroma 61604 Front](./img/Chroma_61604_front.jpg)](./img/Chroma_61604_front.png "Chroma 61604 Front"){ .glightbox data-gallery="chroma-61604" }
 <span class="caption">Chroma 61604 Front</span>
 
 </div>

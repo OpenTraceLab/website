@@ -6,7 +6,7 @@ title: Rigol DG1000z Series
 
 <div class="infobox" markdown>
 
-![Rigol DG1000z Series](./img/Dg1000z_series.png){ .infobox-image }
+![Rigol DG1000z Series](./img/Dg1000z_series.jpg){ .infobox-image }
 
 ### Rigol DG1000z Series
 
@@ -53,7 +53,7 @@ TODO
 
 <div class="photo-grid" markdown>
 
-[![Dg1000z Series](./img/Dg1000z_series.png)](./img/Dg1000z_series.png "Dg1000z Series"){ .glightbox data-gallery="rigol-dg1000z-series" }
+[![Dg1000z Series](./img/Dg1000z_series.jpg)](./img/Dg1000z_series.png "Dg1000z Series"){ .glightbox data-gallery="rigol-dg1000z-series" }
 <span class="caption">Dg1000z Series</span>
 
 </div>

@@ -6,7 +6,7 @@ title: ZKETECH EBD-USB
 
 <div class="infobox" markdown>
 
-![ZKETECH EBD-USB](./img/Ztetech-ebd-usb_2B.png){ .infobox-image }
+![ZKETECH EBD-USB](./img/Ztetech-ebd-usb_2B.jpg){ .infobox-image }
 
 ### ZKETECH EBD-USB
 
@@ -124,7 +124,7 @@ direction: device to host
 
 <div class="photo-grid" markdown>
 
-[![Ztetech Ebd Usb 2b](./img/Ztetech-ebd-usb_2B.png)](./img/Ztetech-ebd-usb_2B.png "Ztetech Ebd Usb 2b"){ .glightbox data-gallery="zketech-ebd-usb" }
+[![Ztetech Ebd Usb 2b](./img/Ztetech-ebd-usb_2B.jpg)](./img/Ztetech-ebd-usb_2B.png "Ztetech Ebd Usb 2b"){ .glightbox data-gallery="zketech-ebd-usb" }
 <span class="caption">Ztetech Ebd Usb 2b</span>
 
 [![Zketech Ebd Usb 2b Left](./img/Zketech-ebd-usb_2B_left.jpg)](./img/Zketech-ebd-usb_2B_left.jpg "Zketech Ebd Usb 2b Left"){ .glightbox data-gallery="zketech-ebd-usb" }

@@ -24,7 +24,7 @@ title: Pico Technology PicoScope 2205
 [![Picoscope 2205 Front](./img/PicoScope_2205_front.jpg)](./img/PicoScope_2205_front.jpg "Picoscope 2205 Front"){ .glightbox data-gallery="pico-technology-picoscope-2205" }
 <span class="caption">Picoscope 2205 Front</span>
 
-[![Picoscope 2205](./img/PicoScope_2205.png)](./img/PicoScope_2205.png "Picoscope 2205"){ .glightbox data-gallery="pico-technology-picoscope-2205" }
+[![Picoscope 2205](./img/PicoScope_2205.jpg)](./img/PicoScope_2205.png "Picoscope 2205"){ .glightbox data-gallery="pico-technology-picoscope-2205" }
 <span class="caption">Picoscope 2205</span>
 
 [![Picoscope 2205 Inside1](./img/PicoScope_2205_inside1.jpg)](./img/PicoScope_2205_inside1.jpg "Picoscope 2205 Inside1"){ .glightbox data-gallery="pico-technology-picoscope-2205" }

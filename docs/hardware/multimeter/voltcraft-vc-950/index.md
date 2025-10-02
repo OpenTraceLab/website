@@ -153,7 +153,7 @@ Teardown 10/10
 [![Voltcraft Vc 950 Teardown 05](./img/Voltcraft_VC-950_-_Teardown_-_05.jpg)](./img/Voltcraft_VC-950_-_Teardown_-_05.jpg "Voltcraft Vc 950 Teardown 05"){ .glightbox data-gallery="voltcraft-vc-950" }
 <span class="caption">Voltcraft Vc 950 Teardown 05</span>
 
-[![Voltcraft Vc 950 02 Smuview](./img/Voltcraft_VC-950_-_02_-_SmuView.png)](./img/Voltcraft_VC-950_-_02_-_SmuView.png "Voltcraft Vc 950 02 Smuview"){ .glightbox data-gallery="voltcraft-vc-950" }
+[![Voltcraft Vc 950 02 Smuview](./img/Voltcraft_VC-950_-_02_-_SmuView.jpg)](./img/Voltcraft_VC-950_-_02_-_SmuView.png "Voltcraft Vc 950 02 Smuview"){ .glightbox data-gallery="voltcraft-vc-950" }
 <span class="caption">Voltcraft Vc 950 02 Smuview</span>
 
 [![Voltcraft Vc 950 Teardown 06](./img/Voltcraft_VC-950_-_Teardown_-_06.jpg)](./img/Voltcraft_VC-950_-_Teardown_-_06.jpg "Voltcraft Vc 950 Teardown 06"){ .glightbox data-gallery="voltcraft-vc-950" }
@@ -165,7 +165,7 @@ Teardown 10/10
 [![Voltcraft Vc 950 Teardown 03](./img/Voltcraft_VC-950_-_Teardown_-_03.jpg)](./img/Voltcraft_VC-950_-_Teardown_-_03.jpg "Voltcraft Vc 950 Teardown 03"){ .glightbox data-gallery="voltcraft-vc-950" }
 <span class="caption">Voltcraft Vc 950 Teardown 03</span>
 
-[![Voltcraft Vc 950 01 Front](./img/Voltcraft_VC-950_-_01_-_Front.png)](./img/Voltcraft_VC-950_-_01_-_Front.png "Voltcraft Vc 950 01 Front"){ .glightbox data-gallery="voltcraft-vc-950" }
+[![Voltcraft Vc 950 01 Front](./img/Voltcraft_VC-950_-_01_-_Front.jpg)](./img/Voltcraft_VC-950_-_01_-_Front.png "Voltcraft Vc 950 01 Front"){ .glightbox data-gallery="voltcraft-vc-950" }
 <span class="caption">Voltcraft Vc 950 01 Front</span>
 
 [![Voltcraft Vc 950 Teardown 09](./img/Voltcraft_VC-950_-_Teardown_-_09.jpg)](./img/Voltcraft_VC-950_-_Teardown_-_09.jpg "Voltcraft Vc 950 Teardown 09"){ .glightbox data-gallery="voltcraft-vc-950" }

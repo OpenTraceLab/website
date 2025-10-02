@@ -52,7 +52,7 @@ See [DreamSourceLab DSLogic Basic/Info](https://sigrok.org/wiki/DreamSourceLab_D
 [![Dreamsourcelab Dslogic Basic Cable 6](./img/Dreamsourcelab_dslogic_basic_cable_6.jpg)](./img/Dreamsourcelab_dslogic_basic_cable_6.jpg "Dreamsourcelab Dslogic Basic Cable 6"){ .glightbox data-gallery="dreamsourcelab-dslogic-basic" }
 <span class="caption">Dreamsourcelab Dslogic Basic Cable 6</span>
 
-[![Dslogic](./img/DSLogic.png)](./img/DSLogic.png "Dslogic"){ .glightbox data-gallery="dreamsourcelab-dslogic-basic" }
+[![Dslogic](./img/DSLogic.jpg)](./img/DSLogic.png "Dslogic"){ .glightbox data-gallery="dreamsourcelab-dslogic-basic" }
 <span class="caption">Dslogic</span>
 
 [![Dreamsourcelab Dslogic Basic Cable 5](./img/Dreamsourcelab_dslogic_basic_cable_5.jpg)](./img/Dreamsourcelab_dslogic_basic_cable_5.jpg "Dreamsourcelab Dslogic Basic Cable 5"){ .glightbox data-gallery="dreamsourcelab-dslogic-basic" }

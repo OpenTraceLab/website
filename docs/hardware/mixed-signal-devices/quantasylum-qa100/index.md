@@ -24,7 +24,7 @@ title: QuantAsylum QA100
 [![Qa100 Pcb Bottom](./img/QA100_PCB_bottom.jpg)](./img/QA100_PCB_bottom.jpg "Qa100 Pcb Bottom"){ .glightbox data-gallery="quantasylum-qa100" }
 <span class="caption">Qa100 Pcb Bottom</span>
 
-[![Quantasylum Qa100](./img/QuantAsylum_QA100.png)](./img/QuantAsylum_QA100.png "Quantasylum Qa100"){ .glightbox data-gallery="quantasylum-qa100" }
+[![Quantasylum Qa100](./img/QuantAsylum_QA100.jpg)](./img/QuantAsylum_QA100.png "Quantasylum Qa100"){ .glightbox data-gallery="quantasylum-qa100" }
 <span class="caption">Quantasylum Qa100</span>
 
 [![Qa100 Top](./img/QA100_top.jpg)](./img/QA100_top.jpg "Qa100 Top"){ .glightbox data-gallery="quantasylum-qa100" }

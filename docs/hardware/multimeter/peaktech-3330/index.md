@@ -6,7 +6,7 @@ title: PeakTech 3330
 
 <div class="infobox" markdown>
 
-![PeakTech 3330](./img/P3330_front_holster.png){ .infobox-image }
+![PeakTech 3330](./img/P3330_front_holster.jpg){ .infobox-image }
 
 ### PeakTech 3330
 
@@ -56,40 +56,40 @@ There is a COB ("U2") on pads with a QFP44 footprint. The chip is close to a big
 
 <div class="photo-grid" markdown>
 
-[![P3330 Front Holster](./img/P3330_front_holster.png)](./img/P3330_front_holster.png "P3330 Front Holster"){ .glightbox data-gallery="peaktech-3330" }
+[![P3330 Front Holster](./img/P3330_front_holster.jpg)](./img/P3330_front_holster.png "P3330 Front Holster"){ .glightbox data-gallery="peaktech-3330" }
 <span class="caption">P3330 Front Holster</span>
 
-[![P3330 Pcb Input](./img/P3330_pcb_input.png)](./img/P3330_pcb_input.png "P3330 Pcb Input"){ .glightbox data-gallery="peaktech-3330" }
+[![P3330 Pcb Input](./img/P3330_pcb_input.jpg)](./img/P3330_pcb_input.png "P3330 Pcb Input"){ .glightbox data-gallery="peaktech-3330" }
 <span class="caption">P3330 Pcb Input</span>
 
-[![P3330 Lcd Backlight](./img/P3330_lcd_backlight.png)](./img/P3330_lcd_backlight.png "P3330 Lcd Backlight"){ .glightbox data-gallery="peaktech-3330" }
+[![P3330 Lcd Backlight](./img/P3330_lcd_backlight.jpg)](./img/P3330_lcd_backlight.png "P3330 Lcd Backlight"){ .glightbox data-gallery="peaktech-3330" }
 <span class="caption">P3330 Lcd Backlight</span>
 
-[![P3330 Pcb Dmmchip Closeup](./img/P3330_pcb_dmmchip_closeup.png)](./img/P3330_pcb_dmmchip_closeup.png "P3330 Pcb Dmmchip Closeup"){ .glightbox data-gallery="peaktech-3330" }
+[![P3330 Pcb Dmmchip Closeup](./img/P3330_pcb_dmmchip_closeup.jpg)](./img/P3330_pcb_dmmchip_closeup.png "P3330 Pcb Dmmchip Closeup"){ .glightbox data-gallery="peaktech-3330" }
 <span class="caption">P3330 Pcb Dmmchip Closeup</span>
 
-[![P3330 Serial Cables](./img/P3330_serial_cables.png)](./img/P3330_serial_cables.png "P3330 Serial Cables"){ .glightbox data-gallery="peaktech-3330" }
+[![P3330 Serial Cables](./img/P3330_serial_cables.jpg)](./img/P3330_serial_cables.png "P3330 Serial Cables"){ .glightbox data-gallery="peaktech-3330" }
 <span class="caption">P3330 Serial Cables</span>
 
-[![P3330 Device Back](./img/P3330_device_back.png)](./img/P3330_device_back.png "P3330 Device Back"){ .glightbox data-gallery="peaktech-3330" }
+[![P3330 Device Back](./img/P3330_device_back.jpg)](./img/P3330_device_back.png "P3330 Device Back"){ .glightbox data-gallery="peaktech-3330" }
 <span class="caption">P3330 Device Back</span>
 
-[![P3330 Range Labels](./img/P3330_range_labels.png)](./img/P3330_range_labels.png "P3330 Range Labels"){ .glightbox data-gallery="peaktech-3330" }
+[![P3330 Range Labels](./img/P3330_range_labels.jpg)](./img/P3330_range_labels.png "P3330 Range Labels"){ .glightbox data-gallery="peaktech-3330" }
 <span class="caption">P3330 Range Labels</span>
 
-[![P3330 Device Front](./img/P3330_device_front.png)](./img/P3330_device_front.png "P3330 Device Front"){ .glightbox data-gallery="peaktech-3330" }
+[![P3330 Device Front](./img/P3330_device_front.jpg)](./img/P3330_device_front.png "P3330 Device Front"){ .glightbox data-gallery="peaktech-3330" }
 <span class="caption">P3330 Device Front</span>
 
-[![P3330 Lcd Indicator](./img/P3330_lcd_indicator.png)](./img/P3330_lcd_indicator.png "P3330 Lcd Indicator"){ .glightbox data-gallery="peaktech-3330" }
+[![P3330 Lcd Indicator](./img/P3330_lcd_indicator.jpg)](./img/P3330_lcd_indicator.png "P3330 Lcd Indicator"){ .glightbox data-gallery="peaktech-3330" }
 <span class="caption">P3330 Lcd Indicator</span>
 
-[![P3330 Pcb Dmmchip](./img/P3330_pcb_dmmchip.png)](./img/P3330_pcb_dmmchip.png "P3330 Pcb Dmmchip"){ .glightbox data-gallery="peaktech-3330" }
+[![P3330 Pcb Dmmchip](./img/P3330_pcb_dmmchip.jpg)](./img/P3330_pcb_dmmchip.png "P3330 Pcb Dmmchip"){ .glightbox data-gallery="peaktech-3330" }
 <span class="caption">P3330 Pcb Dmmchip</span>
 
-[![Peaktech 3330 Mugshot](./img/Peaktech_3330_mugshot.png)](./img/Peaktech_3330_mugshot.png "Peaktech 3330 Mugshot"){ .glightbox data-gallery="peaktech-3330" }
+[![Peaktech 3330 Mugshot](./img/Peaktech_3330_mugshot.jpg)](./img/Peaktech_3330_mugshot.png "Peaktech 3330 Mugshot"){ .glightbox data-gallery="peaktech-3330" }
 <span class="caption">Peaktech 3330 Mugshot</span>
 
-[![P3330 Pcb Twoboard](./img/P3330_pcb_twoboard.png)](./img/P3330_pcb_twoboard.png "P3330 Pcb Twoboard"){ .glightbox data-gallery="peaktech-3330" }
+[![P3330 Pcb Twoboard](./img/P3330_pcb_twoboard.jpg)](./img/P3330_pcb_twoboard.png "P3330 Pcb Twoboard"){ .glightbox data-gallery="peaktech-3330" }
 <span class="caption">P3330 Pcb Twoboard</span>
 
 </div>

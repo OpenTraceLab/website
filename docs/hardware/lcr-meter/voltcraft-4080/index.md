@@ -46,7 +46,7 @@ USB to IR cable:
 [![Voltcraft4080 Cutecom](./img/Voltcraft4080_cutecom.png)](./img/Voltcraft4080_cutecom.png "Voltcraft4080 Cutecom"){ .glightbox data-gallery="voltcraft-4080" }
 <span class="caption">Voltcraft4080 Cutecom</span>
 
-[![Voltcraft4080 2](./img/Voltcraft4080_2.png)](./img/Voltcraft4080_2.png "Voltcraft4080 2"){ .glightbox data-gallery="voltcraft-4080" }
+[![Voltcraft4080 2](./img/Voltcraft4080_2.jpg)](./img/Voltcraft4080_2.png "Voltcraft4080 2"){ .glightbox data-gallery="voltcraft-4080" }
 <span class="caption">Voltcraft4080 2</span>
 
 [![Voltcraft4080 Complete](./img/Voltcraft4080_complete.jpg)](./img/Voltcraft4080_complete.jpg "Voltcraft4080 Complete"){ .glightbox data-gallery="voltcraft-4080" }

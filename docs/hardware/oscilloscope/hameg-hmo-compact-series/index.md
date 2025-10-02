@@ -6,7 +6,7 @@ title: Hameg HMO compact series
 
 <div class="infobox" markdown>
 
-![Hameg HMO compact series](./img/Hameg_HMO2024.png){ .infobox-image }
+![Hameg HMO compact series](./img/Hameg_HMO2024.jpg){ .infobox-image }
 
 ### Hameg HMO compact series
 
@@ -71,7 +71,7 @@ Some models optionally support USBTMC.
 
 <div class="photo-grid" markdown>
 
-[![Hameg Hmo2024](./img/Hameg_HMO2024.png)](./img/Hameg_HMO2024.png "Hameg Hmo2024"){ .glightbox data-gallery="hameg-hmo-compact-series" }
+[![Hameg Hmo2024](./img/Hameg_HMO2024.jpg)](./img/Hameg_HMO2024.png "Hameg Hmo2024"){ .glightbox data-gallery="hameg-hmo-compact-series" }
 <span class="caption">Hameg Hmo2024</span>
 
 </div>

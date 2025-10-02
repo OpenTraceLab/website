@@ -6,7 +6,7 @@ title: Yokogawa DLM2000 series
 
 <div class="infobox" markdown>
 
-![Yokogawa DLM2000 series](./img/Yokogawa_DLM2000_front.png){ .infobox-image }
+![Yokogawa DLM2000 series](./img/Yokogawa_DLM2000_front.jpg){ .infobox-image }
 
 ### Yokogawa DLM2000 series
 
@@ -44,13 +44,13 @@ Due to Yokogawa's focus on the controls industry, their oscilloscopes offer exte
 
 <div class="photo-grid" markdown>
 
-[![Yokogawa Dlm2000 Front](./img/Yokogawa_DLM2000_front.png)](./img/Yokogawa_DLM2000_front.png "Yokogawa Dlm2000 Front"){ .glightbox data-gallery="yokogawa-dlm2000-series" }
+[![Yokogawa Dlm2000 Front](./img/Yokogawa_DLM2000_front.jpg)](./img/Yokogawa_DLM2000_front.png "Yokogawa Dlm2000 Front"){ .glightbox data-gallery="yokogawa-dlm2000-series" }
 <span class="caption">Yokogawa Dlm2000 Front</span>
 
-[![Yokogawa Dlm2000 Back](./img/Yokogawa_DLM2000_back.png)](./img/Yokogawa_DLM2000_back.png "Yokogawa Dlm2000 Back"){ .glightbox data-gallery="yokogawa-dlm2000-series" }
+[![Yokogawa Dlm2000 Back](./img/Yokogawa_DLM2000_back.jpg)](./img/Yokogawa_DLM2000_back.png "Yokogawa Dlm2000 Back"){ .glightbox data-gallery="yokogawa-dlm2000-series" }
 <span class="caption">Yokogawa Dlm2000 Back</span>
 
-[![Yokogawa Pbl250](./img/Yokogawa_PBL250.png)](./img/Yokogawa_PBL250.png "Yokogawa Pbl250"){ .glightbox data-gallery="yokogawa-dlm2000-series" }
+[![Yokogawa Pbl250](./img/Yokogawa_PBL250.jpg)](./img/Yokogawa_PBL250.png "Yokogawa Pbl250"){ .glightbox data-gallery="yokogawa-dlm2000-series" }
 <span class="caption">Yokogawa Pbl250</span>
 
 </div>

@@ -43,7 +43,7 @@ See [JTAGulator/Info](https://sigrok.org/wiki/JTAGulator/Info) for lsusb details
 [![Jtagulator Annotated](./img/Jtagulator-annotated.jpg)](./img/Jtagulator-annotated.jpg "Jtagulator Annotated"){ .glightbox data-gallery="grand-idea-studio-jtagulator" }
 <span class="caption">Jtagulator Annotated</span>
 
-[![Jtagulator Transparent](./img/Jtagulator-transparent.png)](./img/Jtagulator-transparent.png "Jtagulator Transparent"){ .glightbox data-gallery="grand-idea-studio-jtagulator" }
+[![Jtagulator Transparent](./img/Jtagulator-transparent.jpg)](./img/Jtagulator-transparent.png "Jtagulator Transparent"){ .glightbox data-gallery="grand-idea-studio-jtagulator" }
 <span class="caption">Jtagulator Transparent</span>
 
 </div>

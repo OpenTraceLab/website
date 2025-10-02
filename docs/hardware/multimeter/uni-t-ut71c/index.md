@@ -52,7 +52,7 @@ See [UNI-T UT71x series](https://sigrok.org/wiki/UNI-T_UT71x_series) for informa
 [![Ut71c Pcb Front](./img/Ut71c_pcb_front.jpg)](./img/Ut71c_pcb_front.jpg "Ut71c Pcb Front"){ .glightbox data-gallery="uni-t-ut71c" }
 <span class="caption">Ut71c Pcb Front</span>
 
-[![Ut71c Mugshot](./img/Ut71c_mugshot.png)](./img/Ut71c_mugshot.png "Ut71c Mugshot"){ .glightbox data-gallery="uni-t-ut71c" }
+[![Ut71c Mugshot](./img/Ut71c_mugshot.jpg)](./img/Ut71c_mugshot.png "Ut71c Mugshot"){ .glightbox data-gallery="uni-t-ut71c" }
 <span class="caption">Ut71c Mugshot</span>
 
 [![Ut71c Pcb Backside](./img/Ut71c_pcb_backside.jpg)](./img/Ut71c_pcb_backside.jpg "Ut71c Pcb Backside"){ .glightbox data-gallery="uni-t-ut71c" }

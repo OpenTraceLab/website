@@ -6,7 +6,7 @@ title: LeCroy oscilloscope series
 
 <div class="infobox" markdown>
 
-![LeCroy oscilloscope series](./img/LeCroy_WaveSurfer_24Xs-A_front.png){ .infobox-image }
+![LeCroy oscilloscope series](./img/LeCroy_WaveSurfer_24Xs-A_front.jpg){ .infobox-image }
 
 ### LeCroy oscilloscope series
 
@@ -52,7 +52,7 @@ The protocol is based on SCPI commands and there is a USB-GPIB converter availab
 
 <div class="photo-grid" markdown>
 
-[![Lecroy Wavesurfer 24xs A Front](./img/LeCroy_WaveSurfer_24Xs-A_front.png)](./img/LeCroy_WaveSurfer_24Xs-A_front.png "Lecroy Wavesurfer 24xs A Front"){ .glightbox data-gallery="lecroy-oscilloscope-series" }
+[![Lecroy Wavesurfer 24xs A Front](./img/LeCroy_WaveSurfer_24Xs-A_front.jpg)](./img/LeCroy_WaveSurfer_24Xs-A_front.png "Lecroy Wavesurfer 24xs A Front"){ .glightbox data-gallery="lecroy-oscilloscope-series" }
 <span class="caption">Lecroy Wavesurfer 24xs A Front</span>
 
 </div>

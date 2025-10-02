@@ -6,7 +6,7 @@ title: AR488
 
 <div class="infobox" markdown>
 
-![AR488](./img/Ar488-artag-pcb-top.png){ .infobox-image }
+![AR488](./img/Ar488-artag-pcb-top.jpg){ .infobox-image }
 
 ### AR488
 
@@ -33,16 +33,16 @@ The primary goal of the project is to enable quick access to GPIB attached devic
 
 <div class="photo-grid" markdown>
 
-[![Ar488 Artag Pcb Top](./img/Ar488-artag-pcb-top.png)](./img/Ar488-artag-pcb-top.png "Ar488 Artag Pcb Top"){ .glightbox data-gallery="ar488" }
+[![Ar488 Artag Pcb Top](./img/Ar488-artag-pcb-top.jpg)](./img/Ar488-artag-pcb-top.png "Ar488 Artag Pcb Top"){ .glightbox data-gallery="ar488" }
 <span class="caption">Ar488 Artag Pcb Top</span>
 
-[![Ar488 Artag Pcb Conn](./img/Ar488-artag-pcb-conn.png)](./img/Ar488-artag-pcb-conn.png "Ar488 Artag Pcb Conn"){ .glightbox data-gallery="ar488" }
+[![Ar488 Artag Pcb Conn](./img/Ar488-artag-pcb-conn.jpg)](./img/Ar488-artag-pcb-conn.png "Ar488 Artag Pcb Conn"){ .glightbox data-gallery="ar488" }
 <span class="caption">Ar488 Artag Pcb Conn</span>
 
-[![Ar488 Diy Sniff Top](./img/Ar488-diy-sniff-top.png)](./img/Ar488-diy-sniff-top.png "Ar488 Diy Sniff Top"){ .glightbox data-gallery="ar488" }
+[![Ar488 Diy Sniff Top](./img/Ar488-diy-sniff-top.jpg)](./img/Ar488-diy-sniff-top.png "Ar488 Diy Sniff Top"){ .glightbox data-gallery="ar488" }
 <span class="caption">Ar488 Diy Sniff Top</span>
 
-[![Ar488 Diy Sniff Bot](./img/Ar488-diy-sniff-bot.png)](./img/Ar488-diy-sniff-bot.png "Ar488 Diy Sniff Bot"){ .glightbox data-gallery="ar488" }
+[![Ar488 Diy Sniff Bot](./img/Ar488-diy-sniff-bot.jpg)](./img/Ar488-diy-sniff-bot.png "Ar488 Diy Sniff Bot"){ .glightbox data-gallery="ar488" }
 <span class="caption">Ar488 Diy Sniff Bot</span>
 
 </div>

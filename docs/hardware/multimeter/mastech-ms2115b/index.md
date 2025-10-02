@@ -53,7 +53,7 @@ See [MASTECH MS2115B/Info](https://sigrok.org/wiki/MASTECH_MS2115B/Info) for mor
 [![Mastech Ms2115b Package Top](./img/Mastech_ms2115b_package_top.jpg)](./img/Mastech_ms2115b_package_top.jpg "Mastech Ms2115b Package Top"){ .glightbox data-gallery="mastech-ms2115b" }
 <span class="caption">Mastech Ms2115b Package Top</span>
 
-[![Mastech Ms2115b Mugshot](./img/Mastech_ms2115b_mugshot.png)](./img/Mastech_ms2115b_mugshot.png "Mastech Ms2115b Mugshot"){ .glightbox data-gallery="mastech-ms2115b" }
+[![Mastech Ms2115b Mugshot](./img/Mastech_ms2115b_mugshot.jpg)](./img/Mastech_ms2115b_mugshot.png "Mastech Ms2115b Mugshot"){ .glightbox data-gallery="mastech-ms2115b" }
 <span class="caption">Mastech Ms2115b Mugshot</span>
 
 [![Ms2115b Front](./img/Ms2115b_front.jpg)](./img/Ms2115b_front.jpg "Ms2115b Front"){ .glightbox data-gallery="mastech-ms2115b" }

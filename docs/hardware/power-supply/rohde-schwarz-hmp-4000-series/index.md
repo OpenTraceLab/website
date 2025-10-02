@@ -6,7 +6,7 @@ title: Rohde&amp;Schwarz HMP 4000 series
 
 <div class="infobox" markdown>
 
-![Rohde&amp;Schwarz HMP 4000 series](./img/Rs_hmp4040_front.png){ .infobox-image }
+![Rohde&amp;Schwarz HMP 4000 series](./img/Rs_hmp4040_front.jpg){ .infobox-image }
 
 ### Rohde&amp;Schwarz HMP 4000 series
 
@@ -34,13 +34,13 @@ The **HMP 2000** series provides models with fewer channels and lower capabiliti
 
 <div class="photo-grid" markdown>
 
-[![Rs Hmp4040 Front](./img/Rs_hmp4040_front.png)](./img/Rs_hmp4040_front.png "Rs Hmp4040 Front"){ .glightbox data-gallery="rohdeamp;schwarz-hmp-4000-series" }
+[![Rs Hmp4040 Front](./img/Rs_hmp4040_front.jpg)](./img/Rs_hmp4040_front.png "Rs Hmp4040 Front"){ .glightbox data-gallery="rohdeamp;schwarz-hmp-4000-series" }
 <span class="caption">Rs Hmp4040 Front</span>
 
-[![Rs Hmp4040 Back](./img/Rs_hmp4040_back.png)](./img/Rs_hmp4040_back.png "Rs Hmp4040 Back"){ .glightbox data-gallery="rohdeamp;schwarz-hmp-4000-series" }
+[![Rs Hmp4040 Back](./img/Rs_hmp4040_back.jpg)](./img/Rs_hmp4040_back.png "Rs Hmp4040 Back"){ .glightbox data-gallery="rohdeamp;schwarz-hmp-4000-series" }
 <span class="caption">Rs Hmp4040 Back</span>
 
-[![Rs Hmp4040 Mugshot](./img/Rs_hmp4040_mugshot.png)](./img/Rs_hmp4040_mugshot.png "Rs Hmp4040 Mugshot"){ .glightbox data-gallery="rohdeamp;schwarz-hmp-4000-series" }
+[![Rs Hmp4040 Mugshot](./img/Rs_hmp4040_mugshot.jpg)](./img/Rs_hmp4040_mugshot.png "Rs Hmp4040 Mugshot"){ .glightbox data-gallery="rohdeamp;schwarz-hmp-4000-series" }
 <span class="caption">Rs Hmp4040 Mugshot</span>
 
 </div>

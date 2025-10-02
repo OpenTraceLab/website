@@ -39,7 +39,7 @@ The device sends temperature measurements at 6Hz to the host.
 [![Uni T Ut325 Top](./img/Uni-t_ut325_top.jpg)](./img/Uni-t_ut325_top.jpg "Uni T Ut325 Top"){ .glightbox data-gallery="uni-t-ut325" }
 <span class="caption">Uni T Ut325 Top</span>
 
-[![Uni T Ut325 Front](./img/Uni-t_ut325_front.png)](./img/Uni-t_ut325_front.png "Uni T Ut325 Front"){ .glightbox data-gallery="uni-t-ut325" }
+[![Uni T Ut325 Front](./img/Uni-t_ut325_front.jpg)](./img/Uni-t_ut325_front.png "Uni T Ut325 Front"){ .glightbox data-gallery="uni-t-ut325" }
 <span class="caption">Uni T Ut325 Front</span>
 
 [![Uni T Ut325 Perspective](./img/Uni-t_ut325_perspective.jpg)](./img/Uni-t_ut325_perspective.jpg "Uni T Ut325 Perspective"){ .glightbox data-gallery="uni-t-ut325" }
@@ -51,13 +51,13 @@ The device sends temperature measurements at 6Hz to the host.
 [![Uni T Ut325 Fpanel Back](./img/Uni-t_ut325_fpanel_back.jpg)](./img/Uni-t_ut325_fpanel_back.jpg "Uni T Ut325 Fpanel Back"){ .glightbox data-gallery="uni-t-ut325" }
 <span class="caption">Uni T Ut325 Fpanel Back</span>
 
-[![Uni T Ut325 Usb Cable Connector](./img/UNI-T_UT325_USB_cable_connector.png)](./img/UNI-T_UT325_USB_cable_connector.png "Uni T Ut325 Usb Cable Connector"){ .glightbox data-gallery="uni-t-ut325" }
+[![Uni T Ut325 Usb Cable Connector](./img/UNI-T_UT325_USB_cable_connector.jpg)](./img/UNI-T_UT325_USB_cable_connector.png "Uni T Ut325 Usb Cable Connector"){ .glightbox data-gallery="uni-t-ut325" }
 <span class="caption">Uni T Ut325 Usb Cable Connector</span>
 
 [![Uni T Ut325 Back Wo Bail](./img/Uni-t_ut325_back_wo_bail.jpg)](./img/Uni-t_ut325_back_wo_bail.jpg "Uni T Ut325 Back Wo Bail"){ .glightbox data-gallery="uni-t-ut325" }
 <span class="caption">Uni T Ut325 Back Wo Bail</span>
 
-[![Uni T Ut325 Lcd](./img/UNI-T_UT325_LCD.png)](./img/UNI-T_UT325_LCD.png "Uni T Ut325 Lcd"){ .glightbox data-gallery="uni-t-ut325" }
+[![Uni T Ut325 Lcd](./img/UNI-T_UT325_LCD.jpg)](./img/UNI-T_UT325_LCD.png "Uni T Ut325 Lcd"){ .glightbox data-gallery="uni-t-ut325" }
 <span class="caption">Uni T Ut325 Lcd</span>
 
 [![Uni T Ut325 Pcb Front W Display](./img/Uni-t_ut325_pcb_front_w_display.jpg)](./img/Uni-t_ut325_pcb_front_w_display.jpg "Uni T Ut325 Pcb Front W Display"){ .glightbox data-gallery="uni-t-ut325" }

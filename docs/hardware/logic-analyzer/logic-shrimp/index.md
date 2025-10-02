@@ -6,7 +6,7 @@ title: Logic Shrimp
 
 <div class="infobox" markdown>
 
-![Logic Shrimp](./img/Logic-shrimp-front.png){ .infobox-image }
+![Logic Shrimp](./img/Logic-shrimp-front.jpg){ .infobox-image }
 
 ### Logic Shrimp
 
@@ -43,10 +43,10 @@ The device essentially consists of a Microchip PIC microcontroller running at 20
 
 <div class="photo-grid" markdown>
 
-[![Logic Shrimp Front](./img/Logic-shrimp-front.png)](./img/Logic-shrimp-front.png "Logic Shrimp Front"){ .glightbox data-gallery="logic-shrimp" }
+[![Logic Shrimp Front](./img/Logic-shrimp-front.jpg)](./img/Logic-shrimp-front.png "Logic Shrimp Front"){ .glightbox data-gallery="logic-shrimp" }
 <span class="caption">Logic Shrimp Front</span>
 
-[![Logic Shrimp Back](./img/Logic-shrimp-back.png)](./img/Logic-shrimp-back.png "Logic Shrimp Back"){ .glightbox data-gallery="logic-shrimp" }
+[![Logic Shrimp Back](./img/Logic-shrimp-back.jpg)](./img/Logic-shrimp-back.png "Logic Shrimp Back"){ .glightbox data-gallery="logic-shrimp" }
 <span class="caption">Logic Shrimp Back</span>
 
 </div>

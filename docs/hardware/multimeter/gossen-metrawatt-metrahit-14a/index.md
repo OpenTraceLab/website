@@ -46,7 +46,7 @@ Siba Ultrarapid 16A/600 V≈ 10mm x 38 mm
 [![Gmc Metrahit 14a Display](./img/Gmc_metrahit_14a_display.jpg)](./img/Gmc_metrahit_14a_display.jpg "Gmc Metrahit 14a Display"){ .glightbox data-gallery="gossen-metrawatt-metrahit-14a" }
 <span class="caption">Gmc Metrahit 14a Display</span>
 
-[![Gmc Metrahit 14a Logo](./img/Gmc_metrahit_14a_logo.png)](./img/Gmc_metrahit_14a_logo.png "Gmc Metrahit 14a Logo"){ .glightbox data-gallery="gossen-metrawatt-metrahit-14a" }
+[![Gmc Metrahit 14a Logo](./img/Gmc_metrahit_14a_logo.jpg)](./img/Gmc_metrahit_14a_logo.png "Gmc Metrahit 14a Logo"){ .glightbox data-gallery="gossen-metrawatt-metrahit-14a" }
 <span class="caption">Gmc Metrahit 14a Logo</span>
 
 [![Gmc Metrahit 14a Front](./img/Gmc_metrahit_14a_front.jpg)](./img/Gmc_metrahit_14a_front.jpg "Gmc Metrahit 14a Front"){ .glightbox data-gallery="gossen-metrawatt-metrahit-14a" }

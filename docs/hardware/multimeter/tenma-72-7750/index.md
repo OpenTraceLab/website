@@ -51,7 +51,7 @@ See [Tenma 72-7750/Info](https://sigrok.org/wiki/Tenma_72-7750/Info) for more de
 [![Tenma 72 7750 Pcb Top](./img/Tenma_72-7750_PCB_top.jpg)](./img/Tenma_72-7750_PCB_top.jpg "Tenma 72 7750 Pcb Top"){ .glightbox data-gallery="tenma-72-7750" }
 <span class="caption">Tenma 72 7750 Pcb Top</span>
 
-[![Tenma 72 7750](./img/Tenma_72-7750.png)](./img/Tenma_72-7750.png "Tenma 72 7750"){ .glightbox data-gallery="tenma-72-7750" }
+[![Tenma 72 7750](./img/Tenma_72-7750.jpg)](./img/Tenma_72-7750.png "Tenma 72 7750"){ .glightbox data-gallery="tenma-72-7750" }
 <span class="caption">Tenma 72 7750</span>
 
 [![Tenma 72 7750 Pcb Bottom](./img/Tenma_72-7750_PCB_bottom.jpg)](./img/Tenma_72-7750_PCB_bottom.jpg "Tenma 72 7750 Pcb Bottom"){ .glightbox data-gallery="tenma-72-7750" }

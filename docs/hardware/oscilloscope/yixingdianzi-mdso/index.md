@@ -176,7 +176,7 @@ Description:
 [![Yixingdianzi Mdso Pcb Top](./img/YiXingDianZi-MDSO-pcb-top.jpg)](./img/YiXingDianZi-MDSO-pcb-top.jpg "Yixingdianzi Mdso Pcb Top"){ .glightbox data-gallery="yixingdianzi-mdso" }
 <span class="caption">Yixingdianzi Mdso Pcb Top</span>
 
-[![Yixingdianzi Mdso](./img/YiXingDianZi-MDSO.png)](./img/YiXingDianZi-MDSO.png "Yixingdianzi Mdso"){ .glightbox data-gallery="yixingdianzi-mdso" }
+[![Yixingdianzi Mdso](./img/YiXingDianZi-MDSO.jpg)](./img/YiXingDianZi-MDSO.png "Yixingdianzi Mdso"){ .glightbox data-gallery="yixingdianzi-mdso" }
 <span class="caption">Yixingdianzi Mdso</span>
 
 </div>

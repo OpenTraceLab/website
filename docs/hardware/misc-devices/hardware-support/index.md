@@ -6,7 +6,7 @@ title: Hardware support
 
 <div class="infobox" markdown>
 
-![Hardware support](./img/Yokogawa_DLM2000_front.png){ .infobox-image }
+![Hardware support](./img/Yokogawa_DLM2000_front.jpg){ .infobox-image }
 
 ### Hardware support
 
@@ -2059,34 +2059,34 @@ If you own any other logic analyzers, oscilloscopes, multimeters, dataloggers, .
 
 <div class="photo-grid" markdown>
 
-[![Yokogawa Dlm2000 Front](./img/Yokogawa_DLM2000_front.png)](./img/Yokogawa_DLM2000_front.png "Yokogawa Dlm2000 Front"){ .glightbox data-gallery="hardware-support" }
+[![Yokogawa Dlm2000 Front](./img/Yokogawa_DLM2000_front.jpg)](./img/Yokogawa_DLM2000_front.png "Yokogawa Dlm2000 Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Yokogawa Dlm2000 Front</span>
 
-[![Ht Usbee Axpro V5 Mugshot](./img/Ht_usbee_axpro_v5_mugshot.png)](./img/Ht_usbee_axpro_v5_mugshot.png "Ht Usbee Axpro V5 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Ht Usbee Axpro V5 Mugshot](./img/Ht_usbee_axpro_v5_mugshot.jpg)](./img/Ht_usbee_axpro_v5_mugshot.png "Ht Usbee Axpro V5 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Ht Usbee Axpro V5 Mugshot</span>
 
-[![Peaktech 4390a Metex M 3860m Mugshot](./img/Peaktech_4390a_metex_m-3860m_mugshot.png)](./img/Peaktech_4390a_metex_m-3860m_mugshot.png "Peaktech 4390a Metex M 3860m Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Peaktech 4390a Metex M 3860m Mugshot](./img/Peaktech_4390a_metex_m-3860m_mugshot.jpg)](./img/Peaktech_4390a_metex_m-3860m_mugshot.png "Peaktech 4390a Metex M 3860m Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Peaktech 4390a Metex M 3860m Mugshot</span>
 
 [![Picoscope 3205d Mso Fp](./img/Picoscope_3205D_MSO_fp.jpg)](./img/Picoscope_3205D_MSO_fp.jpg "Picoscope 3205d Mso Fp"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Picoscope 3205d Mso Fp</span>
 
-[![Sysclk Lwla2034 Mugshot](./img/Sysclk_lwla2034_mugshot.png)](./img/Sysclk_lwla2034_mugshot.png "Sysclk Lwla2034 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Sysclk Lwla2034 Mugshot](./img/Sysclk_lwla2034_mugshot.jpg)](./img/Sysclk_lwla2034_mugshot.png "Sysclk Lwla2034 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Sysclk Lwla2034 Mugshot</span>
 
-[![Dvm4100](./img/DVM4100.png)](./img/DVM4100.png "Dvm4100"){ .glightbox data-gallery="hardware-support" }
+[![Dvm4100](./img/DVM4100.jpg)](./img/DVM4100.png "Dvm4100"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Dvm4100</span>
 
-[![Eevblog 121gw Mugshot](./img/Eevblog_121gw_mugshot.png)](./img/Eevblog_121gw_mugshot.png "Eevblog 121gw Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Eevblog 121gw Mugshot](./img/Eevblog_121gw_mugshot.jpg)](./img/Eevblog_121gw_mugshot.png "Eevblog 121gw Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Eevblog 121gw Mugshot</span>
 
-[![Acute Pkla1216](./img/Acute_pkla1216.png)](./img/Acute_pkla1216.png "Acute Pkla1216"){ .glightbox data-gallery="hardware-support" }
+[![Acute Pkla1216](./img/Acute_pkla1216.jpg)](./img/Acute_pkla1216.png "Acute Pkla1216"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Acute Pkla1216</span>
 
-[![Tondaj Sl 814](./img/Tondaj_sl-814.png)](./img/Tondaj_sl-814.png "Tondaj Sl 814"){ .glightbox data-gallery="hardware-support" }
+[![Tondaj Sl 814](./img/Tondaj_sl-814.jpg)](./img/Tondaj_sl-814.png "Tondaj Sl 814"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Tondaj Sl 814</span>
 
-[![Lecroy Wavesurfer 24xs A Front](./img/LeCroy_WaveSurfer_24Xs-A_front.png)](./img/LeCroy_WaveSurfer_24Xs-A_front.png "Lecroy Wavesurfer 24xs A Front"){ .glightbox data-gallery="hardware-support" }
+[![Lecroy Wavesurfer 24xs A Front](./img/LeCroy_WaveSurfer_24Xs-A_front.jpg)](./img/LeCroy_WaveSurfer_24Xs-A_front.png "Lecroy Wavesurfer 24xs A Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Lecroy Wavesurfer 24xs A Front</span>
 
 [![Silabs Si7005usb Dgl Eb Top](./img/Silabs_si7005usb_dgl_eb_top.jpg)](./img/Silabs_si7005usb_dgl_eb_top.jpg "Silabs Si7005usb Dgl Eb Top"){ .glightbox data-gallery="hardware-support" }
@@ -2095,103 +2095,103 @@ If you own any other logic analyzers, oscilloscopes, multimeters, dataloggers, .
 [![Voltcraft Me 42 Logo](./img/Voltcraft_ME-42_logo.png)](./img/Voltcraft_ME-42_logo.png "Voltcraft Me 42 Logo"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Voltcraft Me 42 Logo</span>
 
-[![Arachnid Labs Reload Pro Mugshot](./img/Arachnid_Labs_ReLoad_Pro_-_Mugshot.png)](./img/Arachnid_Labs_ReLoad_Pro_-_Mugshot.png "Arachnid Labs Reload Pro Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Arachnid Labs Reload Pro Mugshot](./img/Arachnid_Labs_ReLoad_Pro_-_Mugshot.jpg)](./img/Arachnid_Labs_ReLoad_Pro_-_Mugshot.png "Arachnid Labs Reload Pro Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Arachnid Labs Reload Pro Mugshot</span>
 
-[![Noname La16 Mugshot](./img/Noname_la16_mugshot.png)](./img/Noname_la16_mugshot.png "Noname La16 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Noname La16 Mugshot](./img/Noname_la16_mugshot.jpg)](./img/Noname_la16_mugshot.png "Noname La16 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Noname La16 Mugshot</span>
 
-[![Voltcraft M4660a Device Front](./img/Voltcraft_m4660a_device_front.png)](./img/Voltcraft_m4660a_device_front.png "Voltcraft M4660a Device Front"){ .glightbox data-gallery="hardware-support" }
+[![Voltcraft M4660a Device Front](./img/Voltcraft_m4660a_device_front.jpg)](./img/Voltcraft_m4660a_device_front.png "Voltcraft M4660a Device Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Voltcraft M4660a Device Front</span>
 
-[![Usbee Ax Clone Front](./img/Usbee_ax_clone_front.png)](./img/Usbee_ax_clone_front.png "Usbee Ax Clone Front"){ .glightbox data-gallery="hardware-support" }
+[![Usbee Ax Clone Front](./img/Usbee_ax_clone_front.jpg)](./img/Usbee_ax_clone_front.png "Usbee Ax Clone Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Usbee Ax Clone Front</span>
 
-[![Tenma 72 9380a](./img/Tenma_72-9380A.png)](./img/Tenma_72-9380A.png "Tenma 72 9380a"){ .glightbox data-gallery="hardware-support" }
+[![Tenma 72 9380a](./img/Tenma_72-9380A.jpg)](./img/Tenma_72-9380A.png "Tenma 72 9380a"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Tenma 72 9380a</span>
 
-[![Logic Shrimp Front](./img/Logic-shrimp-front.png)](./img/Logic-shrimp-front.png "Logic Shrimp Front"){ .glightbox data-gallery="hardware-support" }
+[![Logic Shrimp Front](./img/Logic-shrimp-front.jpg)](./img/Logic-shrimp-front.png "Logic Shrimp Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Logic Shrimp Front</span>
 
-[![Lab Nation Smartscope Mugshot](./img/Lab_nation_smartscope_mugshot.png)](./img/Lab_nation_smartscope_mugshot.png "Lab Nation Smartscope Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Lab Nation Smartscope Mugshot](./img/Lab_nation_smartscope_mugshot.jpg)](./img/Lab_nation_smartscope_mugshot.png "Lab Nation Smartscope Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Lab Nation Smartscope Mugshot</span>
 
-[![Minila Mockup](./img/Minila_mockup.png)](./img/Minila_mockup.png "Minila Mockup"){ .glightbox data-gallery="hardware-support" }
+[![Minila Mockup](./img/Minila_mockup.jpg)](./img/Minila_mockup.png "Minila Mockup"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Minila Mockup</span>
 
 [![Pax Instruments T400](./img/Pax_instruments_t400.jpg)](./img/Pax_instruments_t400.jpg "Pax Instruments T400"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Pax Instruments T400</span>
 
-[![Rding Temper1 Device Front](./img/Rding_temper1_device_front.png)](./img/Rding_temper1_device_front.png "Rding Temper1 Device Front"){ .glightbox data-gallery="hardware-support" }
+[![Rding Temper1 Device Front](./img/Rding_temper1_device_front.jpg)](./img/Rding_temper1_device_front.png "Rding Temper1 Device Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Rding Temper1 Device Front</span>
 
-[![Bbc Gm M2110 Mugshot](./img/Bbc_gm_m2110_mugshot.png)](./img/Bbc_gm_m2110_mugshot.png "Bbc Gm M2110 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Bbc Gm M2110 Mugshot](./img/Bbc_gm_m2110_mugshot.jpg)](./img/Bbc_gm_m2110_mugshot.png "Bbc Gm M2110 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Bbc Gm M2110 Mugshot</span>
 
-[![Asix Omega](./img/ASIX_Omega.png)](./img/ASIX_Omega.png "Asix Omega"){ .glightbox data-gallery="hardware-support" }
+[![Asix Omega](./img/ASIX_Omega.jpg)](./img/ASIX_Omega.png "Asix Omega"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Asix Omega</span>
 
-[![Rs Hmc8043 Mugshot](./img/Rs_hmc8043_mugshot.png)](./img/Rs_hmc8043_mugshot.png "Rs Hmc8043 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Rs Hmc8043 Mugshot](./img/Rs_hmc8043_mugshot.jpg)](./img/Rs_hmc8043_mugshot.png "Rs Hmc8043 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Rs Hmc8043 Mugshot</span>
 
 [![Hantek Pso2020 0](./img/Hantek_PSO2020_0.JPG)](./img/Hantek_PSO2020_0.JPG "Hantek Pso2020 0"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Hantek Pso2020 0</span>
 
-[![Hantek 6254bd Mugshot](./img/Hantek_6254bd_mugshot.png)](./img/Hantek_6254bd_mugshot.png "Hantek 6254bd Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Hantek 6254bd Mugshot](./img/Hantek_6254bd_mugshot.jpg)](./img/Hantek_6254bd_mugshot.png "Hantek 6254bd Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Hantek 6254bd Mugshot</span>
 
-[![Peaktech3415 Top](./img/Peaktech3415_top.png)](./img/Peaktech3415_top.png "Peaktech3415 Top"){ .glightbox data-gallery="hardware-support" }
+[![Peaktech3415 Top](./img/Peaktech3415_top.jpg)](./img/Peaktech3415_top.png "Peaktech3415 Top"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Peaktech3415 Top</span>
 
-[![El Usb 2](./img/EL-USB-2.png)](./img/EL-USB-2.png "El Usb 2"){ .glightbox data-gallery="hardware-support" }
+[![El Usb 2](./img/EL-USB-2.jpg)](./img/EL-USB-2.png "El Usb 2"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">El Usb 2</span>
 
-[![Cwav Usbee Sx](./img/Cwav_usbee_sx.png)](./img/Cwav_usbee_sx.png "Cwav Usbee Sx"){ .glightbox data-gallery="hardware-support" }
+[![Cwav Usbee Sx](./img/Cwav_usbee_sx.jpg)](./img/Cwav_usbee_sx.png "Cwav Usbee Sx"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Cwav Usbee Sx</span>
 
 [![Siglent Sdl1020x E Mugshot](./img/SIGLENT_SDL1020X-E_-_Mugshot.jpg)](./img/SIGLENT_SDL1020X-E_-_Mugshot.jpg "Siglent Sdl1020x E Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Siglent Sdl1020x E Mugshot</span>
 
-[![Zlg La1032](./img/Zlg_la1032.png)](./img/Zlg_la1032.png "Zlg La1032"){ .glightbox data-gallery="hardware-support" }
+[![Zlg La1032](./img/Zlg_la1032.jpg)](./img/Zlg_la1032.png "Zlg La1032"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Zlg La1032</span>
 
-[![Digitek Dt80000](./img/Digitek_dt80000.png)](./img/Digitek_dt80000.png "Digitek Dt80000"){ .glightbox data-gallery="hardware-support" }
+[![Digitek Dt80000](./img/Digitek_dt80000.jpg)](./img/Digitek_dt80000.png "Digitek Dt80000"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Digitek Dt80000</span>
 
-[![Xmos Xtag2](./img/Xmos_xtag2.png)](./img/Xmos_xtag2.png "Xmos Xtag2"){ .glightbox data-gallery="hardware-support" }
+[![Xmos Xtag2](./img/Xmos_xtag2.jpg)](./img/Xmos_xtag2.png "Xmos Xtag2"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Xmos Xtag2</span>
 
-[![Eeelec Xla Esla100](./img/Eeelec_xla_esla100.png)](./img/Eeelec_xla_esla100.png "Eeelec Xla Esla100"){ .glightbox data-gallery="hardware-support" }
+[![Eeelec Xla Esla100](./img/Eeelec_xla_esla100.jpg)](./img/Eeelec_xla_esla100.png "Eeelec Xla Esla100"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Eeelec Xla Esla100</span>
 
-[![Peaktech2165 Front](./img/Peaktech2165-front.png)](./img/Peaktech2165-front.png "Peaktech2165 Front"){ .glightbox data-gallery="hardware-support" }
+[![Peaktech2165 Front](./img/Peaktech2165-front.jpg)](./img/Peaktech2165-front.png "Peaktech2165 Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Peaktech2165 Front</span>
 
-[![Ztetech Ebd Usb 2b](./img/Ztetech-ebd-usb_2B.png)](./img/Ztetech-ebd-usb_2B.png "Ztetech Ebd Usb 2b"){ .glightbox data-gallery="hardware-support" }
+[![Ztetech Ebd Usb 2b](./img/Ztetech-ebd-usb_2B.jpg)](./img/Ztetech-ebd-usb_2B.png "Ztetech Ebd Usb 2b"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Ztetech Ebd Usb 2b</span>
 
-[![Sainsmart Dds140 Mugshot](./img/Sainsmart_dds140_mugshot.png)](./img/Sainsmart_dds140_mugshot.png "Sainsmart Dds140 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Sainsmart Dds140 Mugshot](./img/Sainsmart_dds140_mugshot.jpg)](./img/Sainsmart_dds140_mugshot.png "Sainsmart Dds140 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Sainsmart Dds140 Mugshot</span>
 
-[![Atten Pps3203t 3s](./img/Atten_PPS3203T-3S.png)](./img/Atten_PPS3203T-3S.png "Atten Pps3203t 3s"){ .glightbox data-gallery="hardware-support" }
+[![Atten Pps3203t 3s](./img/Atten_PPS3203T-3S.jpg)](./img/Atten_PPS3203T-3S.png "Atten Pps3203t 3s"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Atten Pps3203t 3s</span>
 
-[![Velleman Ps3005d Mugshot](./img/Velleman_ps3005d_mugshot.png)](./img/Velleman_ps3005d_mugshot.png "Velleman Ps3005d Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Velleman Ps3005d Mugshot](./img/Velleman_ps3005d_mugshot.jpg)](./img/Velleman_ps3005d_mugshot.png "Velleman Ps3005d Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Velleman Ps3005d Mugshot</span>
 
-[![Rding Temper Front](./img/Rding_temper_front.png)](./img/Rding_temper_front.png "Rding Temper Front"){ .glightbox data-gallery="hardware-support" }
+[![Rding Temper Front](./img/Rding_temper_front.jpg)](./img/Rding_temper_front.png "Rding Temper Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Rding Temper Front</span>
 
-[![Kingst La2016 Mugshot](./img/Kingst_la2016_mugshot.png)](./img/Kingst_la2016_mugshot.png "Kingst La2016 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Kingst La2016 Mugshot](./img/Kingst_la2016_mugshot.jpg)](./img/Kingst_la2016_mugshot.png "Kingst La2016 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Kingst La2016 Mugshot</span>
 
-[![Bitscope Bs10](./img/BitScope_BS10.png)](./img/BitScope_BS10.png "Bitscope Bs10"){ .glightbox data-gallery="hardware-support" }
+[![Bitscope Bs10](./img/BitScope_BS10.jpg)](./img/BitScope_BS10.png "Bitscope Bs10"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Bitscope Bs10</span>
 
-[![Picoscope 5203](./img/Picoscope_5203.png)](./img/Picoscope_5203.png "Picoscope 5203"){ .glightbox data-gallery="hardware-support" }
+[![Picoscope 5203](./img/Picoscope_5203.jpg)](./img/Picoscope_5203.png "Picoscope 5203"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Picoscope 5203</span>
 
-[![Gpib Usb 82357b Clone](./img/GPIB-USB_82357B_clone.png)](./img/GPIB-USB_82357B_clone.png "Gpib Usb 82357b Clone"){ .glightbox data-gallery="hardware-support" }
+[![Gpib Usb 82357b Clone](./img/GPIB-USB_82357B_clone.jpg)](./img/GPIB-USB_82357B_clone.png "Gpib Usb 82357b Clone"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Gpib Usb 82357b Clone</span>
 
 [![Nuvola Ok](./img/Nuvola_OK.png)](./img/Nuvola_OK.png "Nuvola Ok"){ .glightbox data-gallery="hardware-support" }
@@ -2200,313 +2200,313 @@ If you own any other logic analyzers, oscilloscopes, multimeters, dataloggers, .
 [![Gmc Kmm2002 Logo](./img/Gmc_kmm2002_logo.png)](./img/Gmc_kmm2002_logo.png "Gmc Kmm2002 Logo"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Gmc Kmm2002 Logo</span>
 
-[![Philips Pm2813](./img/Philips_PM2813.png)](./img/Philips_PM2813.png "Philips Pm2813"){ .glightbox data-gallery="hardware-support" }
+[![Philips Pm2813](./img/Philips_PM2813.jpg)](./img/Philips_PM2813.png "Philips Pm2813"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Philips Pm2813</span>
 
 [![Atorch J7 C](./img/ATORCH_J7-c.jpg)](./img/ATORCH_J7-c.jpg "Atorch J7 C"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Atorch J7 C</span>
 
-[![Hung Chang Dso 2100 Mugshot](./img/Hung_chang_dso_2100_mugshot.png)](./img/Hung_chang_dso_2100_mugshot.png "Hung Chang Dso 2100 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Hung Chang Dso 2100 Mugshot](./img/Hung_chang_dso_2100_mugshot.jpg)](./img/Hung_chang_dso_2100_mugshot.png "Hung Chang Dso 2100 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Hung Chang Dso 2100 Mugshot</span>
 
-[![Atten Atz9711](./img/Atten_ATZ9711.png)](./img/Atten_ATZ9711.png "Atten Atz9711"){ .glightbox data-gallery="hardware-support" }
+[![Atten Atz9711](./img/Atten_ATZ9711.jpg)](./img/Atten_ATZ9711.png "Atten Atz9711"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Atten Atz9711</span>
 
-[![Hp 3325a Front](./img/Hp_3325a_front.png)](./img/Hp_3325a_front.png "Hp 3325a Front"){ .glightbox data-gallery="hardware-support" }
+[![Hp 3325a Front](./img/Hp_3325a_front.jpg)](./img/Hp_3325a_front.png "Hp 3325a Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Hp 3325a Front</span>
 
-[![Sysclk Lwla1016](./img/Sysclk_lwla1016.png)](./img/Sysclk_lwla1016.png "Sysclk Lwla1016"){ .glightbox data-gallery="hardware-support" }
+[![Sysclk Lwla1016](./img/Sysclk_lwla1016.jpg)](./img/Sysclk_lwla1016.png "Sysclk Lwla1016"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Sysclk Lwla1016</span>
 
-[![Saanlima Pipistrello Ols](./img/Saanlima_Pipistrello-OLS.png)](./img/Saanlima_Pipistrello-OLS.png "Saanlima Pipistrello Ols"){ .glightbox data-gallery="hardware-support" }
+[![Saanlima Pipistrello Ols](./img/Saanlima_Pipistrello-OLS.jpg)](./img/Saanlima_Pipistrello-OLS.png "Saanlima Pipistrello Ols"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Saanlima Pipistrello Ols</span>
 
-[![Brymen Bm257](./img/Brymen_BM257.png)](./img/Brymen_BM257.png "Brymen Bm257"){ .glightbox data-gallery="hardware-support" }
+[![Brymen Bm257](./img/Brymen_BM257.jpg)](./img/Brymen_BM257.png "Brymen Bm257"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Brymen Bm257</span>
 
 [![Dso3254a](./img/DSO3254A.jpg)](./img/DSO3254A.jpg "Dso3254a"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Dso3254a</span>
 
-[![Lcsoft Miniboard Front](./img/Lcsoft-miniboard-front.png)](./img/Lcsoft-miniboard-front.png "Lcsoft Miniboard Front"){ .glightbox data-gallery="hardware-support" }
+[![Lcsoft Miniboard Front](./img/Lcsoft-miniboard-front.jpg)](./img/Lcsoft-miniboard-front.png "Lcsoft Miniboard Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Lcsoft Miniboard Front</span>
 
-[![Victor 86c Device Front](./img/Victor_86c_device_front.png)](./img/Victor_86c_device_front.png "Victor 86c Device Front"){ .glightbox data-gallery="hardware-support" }
+[![Victor 86c Device Front](./img/Victor_86c_device_front.jpg)](./img/Victor_86c_device_front.png "Victor 86c Device Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Victor 86c Device Front</span>
 
 [![Gossen Metrawatt Metrahit 25s Logo](./img/Gossen_Metrawatt_Metrahit_25S_Logo.png)](./img/Gossen_Metrawatt_Metrahit_25S_Logo.png "Gossen Metrawatt Metrahit 25s Logo"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Gossen Metrawatt Metrahit 25s Logo</span>
 
-[![Intronix Logicport](./img/Intronix_Logicport.png)](./img/Intronix_Logicport.png "Intronix Logicport"){ .glightbox data-gallery="hardware-support" }
+[![Intronix Logicport](./img/Intronix_Logicport.jpg)](./img/Intronix_Logicport.png "Intronix Logicport"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Intronix Logicport</span>
 
-[![Uni T Ut61d Device](./img/Uni_t_ut61d_device.png)](./img/Uni_t_ut61d_device.png "Uni T Ut61d Device"){ .glightbox data-gallery="hardware-support" }
+[![Uni T Ut61d Device](./img/Uni_t_ut61d_device.jpg)](./img/Uni_t_ut61d_device.png "Uni T Ut61d Device"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Uni T Ut61d Device</span>
 
-[![Hsa Logic](./img/Hsa-logic.png)](./img/Hsa-logic.png "Hsa Logic"){ .glightbox data-gallery="hardware-support" }
+[![Hsa Logic](./img/Hsa-logic.jpg)](./img/Hsa-logic.png "Hsa Logic"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Hsa Logic</span>
 
-[![Hantek 4032l Mugshot](./img/Hantek_4032l_mugshot.png)](./img/Hantek_4032l_mugshot.png "Hantek 4032l Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Hantek 4032l Mugshot](./img/Hantek_4032l_mugshot.jpg)](./img/Hantek_4032l_mugshot.png "Hantek 4032l Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Hantek 4032l Mugshot</span>
 
 [![Ht410 Logo](./img/HT410_logo.png)](./img/HT410_logo.png "Ht410 Logo"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Ht410 Logo</span>
 
-[![Voltcraft M 3650d Transparent](./img/Voltcraft_M-3650D_transparent.png)](./img/Voltcraft_M-3650D_transparent.png "Voltcraft M 3650d Transparent"){ .glightbox data-gallery="hardware-support" }
+[![Voltcraft M 3650d Transparent](./img/Voltcraft_M-3650D_transparent.jpg)](./img/Voltcraft_M-3650D_transparent.png "Voltcraft M 3650d Transparent"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Voltcraft M 3650d Transparent</span>
 
-[![Rockylogic Ant8](./img/Rockylogic_ant8.png)](./img/Rockylogic_ant8.png "Rockylogic Ant8"){ .glightbox data-gallery="hardware-support" }
+[![Rockylogic Ant8](./img/Rockylogic_ant8.jpg)](./img/Rockylogic_ant8.png "Rockylogic Ant8"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Rockylogic Ant8</span>
 
-[![Kingst Kqs3506 La16100](./img/Kingst_kqs3506_la16100.png)](./img/Kingst_kqs3506_la16100.png "Kingst Kqs3506 La16100"){ .glightbox data-gallery="hardware-support" }
+[![Kingst Kqs3506 La16100](./img/Kingst_kqs3506_la16100.jpg)](./img/Kingst_kqs3506_la16100.png "Kingst Kqs3506 La16100"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Kingst Kqs3506 La16100</span>
 
-[![Voltcraft4080 2](./img/Voltcraft4080_2.png)](./img/Voltcraft4080_2.png "Voltcraft4080 2"){ .glightbox data-gallery="hardware-support" }
+[![Voltcraft4080 2](./img/Voltcraft4080_2.jpg)](./img/Voltcraft4080_2.png "Voltcraft4080 2"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Voltcraft4080 2</span>
 
-[![Techtools Digiview Dv1 100](./img/Techtools_digiview_dv1-100.png)](./img/Techtools_digiview_dv1-100.png "Techtools Digiview Dv1 100"){ .glightbox data-gallery="hardware-support" }
+[![Techtools Digiview Dv1 100](./img/Techtools_digiview_dv1-100.jpg)](./img/Techtools_digiview_dv1-100.png "Techtools Digiview Dv1 100"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Techtools Digiview Dv1 100</span>
 
 [![Galvantgpibusbrev4](./img/GalvantGPIBUSBrev4.JPG)](./img/GalvantGPIBUSBrev4.JPG "Galvantgpibusbrev4"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Galvantgpibusbrev4</span>
 
-[![Dg1000z Series](./img/Dg1000z_series.png)](./img/Dg1000z_series.png "Dg1000z Series"){ .glightbox data-gallery="hardware-support" }
+[![Dg1000z Series](./img/Dg1000z_series.jpg)](./img/Dg1000z_series.png "Dg1000z Series"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Dg1000z Series</span>
 
-[![Gossen Metrawatt Metrahit 18s Small](./img/Gossen_Metrawatt_Metrahit_18S_small.png)](./img/Gossen_Metrawatt_Metrahit_18S_small.png "Gossen Metrawatt Metrahit 18s Small"){ .glightbox data-gallery="hardware-support" }
+[![Gossen Metrawatt Metrahit 18s Small](./img/Gossen_Metrawatt_Metrahit_18S_small.jpg)](./img/Gossen_Metrawatt_Metrahit_18S_small.png "Gossen Metrawatt Metrahit 18s Small"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Gossen Metrawatt Metrahit 18s Small</span>
 
-[![Kecheng Kc 330b](./img/Kecheng_KC-330B.png)](./img/Kecheng_KC-330B.png "Kecheng Kc 330b"){ .glightbox data-gallery="hardware-support" }
+[![Kecheng Kc 330b](./img/Kecheng_KC-330B.jpg)](./img/Kecheng_KC-330B.png "Kecheng Kc 330b"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Kecheng Kc 330b</span>
 
-[![Uni T Ut325 Front](./img/Uni-t_ut325_front.png)](./img/Uni-t_ut325_front.png "Uni T Ut325 Front"){ .glightbox data-gallery="hardware-support" }
+[![Uni T Ut325 Front](./img/Uni-t_ut325_front.jpg)](./img/Uni-t_ut325_front.png "Uni T Ut325 Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Uni T Ut325 Front</span>
 
-[![Sds2304x Mugshot](./img/Sds2304x-mugshot.png)](./img/Sds2304x-mugshot.png "Sds2304x Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Sds2304x Mugshot](./img/Sds2304x-mugshot.jpg)](./img/Sds2304x-mugshot.png "Sds2304x Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Sds2304x Mugshot</span>
 
 [![Kingst La5032 Mugshot](./img/Kingst-la5032-mugshot.jpg)](./img/Kingst-la5032-mugshot.jpg "Kingst La5032 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Kingst La5032 Mugshot</span>
 
-[![Xzl Studio Dx Mugshot](./img/Xzl_studio-dx_mugshot.png)](./img/Xzl_studio-dx_mugshot.png "Xzl Studio Dx Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Xzl Studio Dx Mugshot](./img/Xzl_studio-dx_mugshot.jpg)](./img/Xzl_studio-dx_mugshot.png "Xzl Studio Dx Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Xzl Studio Dx Mugshot</span>
 
-[![Uni T Utd2042c](./img/UNI-T_UTD2042C.png)](./img/UNI-T_UTD2042C.png "Uni T Utd2042c"){ .glightbox data-gallery="hardware-support" }
+[![Uni T Utd2042c](./img/UNI-T_UTD2042C.jpg)](./img/UNI-T_UTD2042C.png "Uni T Utd2042c"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Uni T Utd2042c</span>
 
-[![Dcttech Usbrelay Mugshot](./img/Dcttech_usbrelay_mugshot.png)](./img/Dcttech_usbrelay_mugshot.png "Dcttech Usbrelay Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Dcttech Usbrelay Mugshot](./img/Dcttech_usbrelay_mugshot.jpg)](./img/Dcttech_usbrelay_mugshot.png "Dcttech Usbrelay Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Dcttech Usbrelay Mugshot</span>
 
-[![Hantek Dds 3x25 Top](./img/Hantek_DDS-3X25_top.png)](./img/Hantek_DDS-3X25_top.png "Hantek Dds 3x25 Top"){ .glightbox data-gallery="hardware-support" }
+[![Hantek Dds 3x25 Top](./img/Hantek_DDS-3X25_top.jpg)](./img/Hantek_DDS-3X25_top.png "Hantek Dds 3x25 Top"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Hantek Dds 3x25 Top</span>
 
-[![Voltcraft Vc940](./img/Voltcraft_vc940.png)](./img/Voltcraft_vc940.png "Voltcraft Vc940"){ .glightbox data-gallery="hardware-support" }
+[![Voltcraft Vc940](./img/Voltcraft_vc940.jpg)](./img/Voltcraft_vc940.png "Voltcraft Vc940"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Voltcraft Vc940</span>
 
-[![Robomotic Minilogic](./img/Robomotic_minilogic.png)](./img/Robomotic_minilogic.png "Robomotic Minilogic"){ .glightbox data-gallery="hardware-support" }
+[![Robomotic Minilogic](./img/Robomotic_minilogic.jpg)](./img/Robomotic_minilogic.png "Robomotic Minilogic"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Robomotic Minilogic</span>
 
 [![Mhinstek Mhs 5200a Persp](./img/MHINSTEK_MHS-5200A_persp.jpg)](./img/MHINSTEK_MHS-5200A_persp.jpg "Mhinstek Mhs 5200a Persp"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Mhinstek Mhs 5200a Persp</span>
 
-[![Mastech Mas345 Device Front](./img/Mastech_mas345_device_front.png)](./img/Mastech_mas345_device_front.png "Mastech Mas345 Device Front"){ .glightbox data-gallery="hardware-support" }
+[![Mastech Mas345 Device Front](./img/Mastech_mas345_device_front.jpg)](./img/Mastech_mas345_device_front.png "Mastech Mas345 Device Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Mastech Mas345 Device Front</span>
 
-[![Keysight 34465a Mugshot](./img/Keysight-34465a-mugshot.png)](./img/Keysight-34465a-mugshot.png "Keysight 34465a Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Keysight 34465a Mugshot](./img/Keysight-34465a-mugshot.jpg)](./img/Keysight-34465a-mugshot.png "Keysight 34465a Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Keysight 34465a Mugshot</span>
 
-[![Fluke 187](./img/Fluke_187.png)](./img/Fluke_187.png "Fluke 187"){ .glightbox data-gallery="hardware-support" }
+[![Fluke 187](./img/Fluke_187.jpg)](./img/Fluke_187.png "Fluke 187"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Fluke 187</span>
 
-[![Gdm 397 Front](./img/Gdm-397_front.png)](./img/Gdm-397_front.png "Gdm 397 Front"){ .glightbox data-gallery="hardware-support" }
+[![Gdm 397 Front](./img/Gdm-397_front.jpg)](./img/Gdm-397_front.png "Gdm 397 Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Gdm 397 Front</span>
 
-[![Dslogic](./img/DSLogic.png)](./img/DSLogic.png "Dslogic"){ .glightbox data-gallery="hardware-support" }
+[![Dslogic](./img/DSLogic.jpg)](./img/DSLogic.png "Dslogic"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Dslogic</span>
 
-[![Uni T Ut61c Mugshot](./img/Uni-t_ut61c_mugshot.png)](./img/Uni-t_ut61c_mugshot.png "Uni T Ut61c Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Uni T Ut61c Mugshot](./img/Uni-t_ut61c_mugshot.jpg)](./img/Uni-t_ut61c_mugshot.png "Uni T Ut61c Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Uni T Ut61c Mugshot</span>
 
-[![Elitech Rc3](./img/Elitech_rc3.png)](./img/Elitech_rc3.png "Elitech Rc3"){ .glightbox data-gallery="hardware-support" }
+[![Elitech Rc3](./img/Elitech_rc3.jpg)](./img/Elitech_rc3.png "Elitech Rc3"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Elitech Rc3</span>
 
-[![Quantasylum Qa100](./img/QuantAsylum_QA100.png)](./img/QuantAsylum_QA100.png "Quantasylum Qa100"){ .glightbox data-gallery="hardware-support" }
+[![Quantasylum Qa100](./img/QuantAsylum_QA100.jpg)](./img/QuantAsylum_QA100.png "Quantasylum Qa100"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Quantasylum Qa100</span>
 
-[![Fluke 287](./img/Fluke_287.png)](./img/Fluke_287.png "Fluke 287"){ .glightbox data-gallery="hardware-support" }
+[![Fluke 287](./img/Fluke_287.jpg)](./img/Fluke_287.png "Fluke 287"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Fluke 287</span>
 
-[![Rocktech Bm102 Mugshot](./img/Rocktech_bm102_mugshot.png)](./img/Rocktech_bm102_mugshot.png "Rocktech Bm102 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Rocktech Bm102 Mugshot](./img/Rocktech_bm102_mugshot.jpg)](./img/Rocktech_bm102_mugshot.png "Rocktech Bm102 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Rocktech Bm102 Mugshot</span>
 
-[![Sparkfun 70c Mugshot](./img/Sparkfun_70c_mugshot.png)](./img/Sparkfun_70c_mugshot.png "Sparkfun 70c Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Sparkfun 70c Mugshot](./img/Sparkfun_70c_mugshot.jpg)](./img/Sparkfun_70c_mugshot.png "Sparkfun 70c Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Sparkfun 70c Mugshot</span>
 
-[![Agilent 34401a Front](./img/Agilent_34401A_-_front.png)](./img/Agilent_34401A_-_front.png "Agilent 34401a Front"){ .glightbox data-gallery="hardware-support" }
+[![Agilent 34401a Front](./img/Agilent_34401A_-_front.jpg)](./img/Agilent_34401A_-_front.png "Agilent 34401a Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Agilent 34401a Front</span>
 
-[![Wayengineer Saleae16](./img/Wayengineer_saleae16.png)](./img/Wayengineer_saleae16.png "Wayengineer Saleae16"){ .glightbox data-gallery="hardware-support" }
+[![Wayengineer Saleae16](./img/Wayengineer_saleae16.jpg)](./img/Wayengineer_saleae16.png "Wayengineer Saleae16"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Wayengineer Saleae16</span>
 
-[![Voltcraft Vc830](./img/Voltcraft_vc830.png)](./img/Voltcraft_vc830.png "Voltcraft Vc830"){ .glightbox data-gallery="hardware-support" }
+[![Voltcraft Vc830](./img/Voltcraft_vc830.jpg)](./img/Voltcraft_vc830.png "Voltcraft Vc830"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Voltcraft Vc830</span>
 
 [![Chronovu La8 Ftdi Ft245rl](./img/Chronovu_la8_ftdi_ft245rl.jpg)](./img/Chronovu_la8_ftdi_ft245rl.jpg "Chronovu La8 Ftdi Ft245rl"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Chronovu La8 Ftdi Ft245rl</span>
 
-[![Acme](./img/Acme.png)](./img/Acme.png "Acme"){ .glightbox data-gallery="hardware-support" }
+[![Acme](./img/Acme.jpg)](./img/Acme.png "Acme"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Acme</span>
 
 [![Nuvola Red](./img/Nuvola_Red.png)](./img/Nuvola_Red.png "Nuvola Red"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Nuvola Red</span>
 
-[![Meterman 38xr](./img/Meterman-38xr.png)](./img/Meterman-38xr.png "Meterman 38xr"){ .glightbox data-gallery="hardware-support" }
+[![Meterman 38xr](./img/Meterman-38xr.jpg)](./img/Meterman-38xr.png "Meterman 38xr"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Meterman 38xr</span>
 
-[![Chronovu La8 Front](./img/Chronovu_la8_front.png)](./img/Chronovu_la8_front.png "Chronovu La8 Front"){ .glightbox data-gallery="hardware-support" }
+[![Chronovu La8 Front](./img/Chronovu_la8_front.jpg)](./img/Chronovu_la8_front.png "Chronovu La8 Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Chronovu La8 Front</span>
 
-[![Mastech Ms6252b](./img/Mastech_ms6252b.png)](./img/Mastech_ms6252b.png "Mastech Ms6252b"){ .glightbox data-gallery="hardware-support" }
+[![Mastech Ms6252b](./img/Mastech_ms6252b.jpg)](./img/Mastech_ms6252b.png "Mastech Ms6252b"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Mastech Ms6252b</span>
 
 [![Hantek Dso 220 Back](./img/Hantek_DSO-220_Back.jpg)](./img/Hantek_DSO-220_Back.jpg "Hantek Dso 220 Back"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Hantek Dso 220 Back</span>
 
-[![Saleae Logic Pro 8 Bottom](./img/Saleae_logic_pro_8-bottom.png)](./img/Saleae_logic_pro_8-bottom.png "Saleae Logic Pro 8 Bottom"){ .glightbox data-gallery="hardware-support" }
+[![Saleae Logic Pro 8 Bottom](./img/Saleae_logic_pro_8-bottom.jpg)](./img/Saleae_logic_pro_8-bottom.png "Saleae Logic Pro 8 Bottom"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Saleae Logic Pro 8 Bottom</span>
 
-[![Ar488 Artag Pcb Top](./img/Ar488-artag-pcb-top.png)](./img/Ar488-artag-pcb-top.png "Ar488 Artag Pcb Top"){ .glightbox data-gallery="hardware-support" }
+[![Ar488 Artag Pcb Top](./img/Ar488-artag-pcb-top.jpg)](./img/Ar488-artag-pcb-top.png "Ar488 Artag Pcb Top"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Ar488 Artag Pcb Top</span>
 
-[![Pce 322a](./img/PCE-322A.png)](./img/PCE-322A.png "Pce 322a"){ .glightbox data-gallery="hardware-support" }
+[![Pce 322a](./img/PCE-322A.jpg)](./img/PCE-322A.png "Pce 322a"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Pce 322a</span>
 
 [![Picoscope 2204a](./img/Picoscope_2204A.png)](./img/Picoscope_2204A.png "Picoscope 2204a"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Picoscope 2204a</span>
 
-[![Sysclk Lwla1034 Mugshot](./img/Sysclk_lwla1034_mugshot.png)](./img/Sysclk_lwla1034_mugshot.png "Sysclk Lwla1034 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Sysclk Lwla1034 Mugshot](./img/Sysclk_lwla1034_mugshot.jpg)](./img/Sysclk_lwla1034_mugshot.png "Sysclk Lwla1034 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Sysclk Lwla1034 Mugshot</span>
 
-[![Old Ver Front](./img/Old_ver_front.png)](./img/Old_ver_front.png "Old Ver Front"){ .glightbox data-gallery="hardware-support" }
+[![Old Ver Front](./img/Old_ver_front.jpg)](./img/Old_ver_front.png "Old Ver Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Old Ver Front</span>
 
-[![Cem Dt 8852](./img/CEM_DT-8852.png)](./img/CEM_DT-8852.png "Cem Dt 8852"){ .glightbox data-gallery="hardware-support" }
+[![Cem Dt 8852](./img/CEM_DT-8852.jpg)](./img/CEM_DT-8852.png "Cem Dt 8852"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Cem Dt 8852</span>
 
 [![Rockseed Rs310p](./img/Rockseed_rs310p.jpg)](./img/Rockseed_rs310p.jpg "Rockseed Rs310p"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Rockseed Rs310p</span>
 
-[![Hp 3457a Sigrok Teaser](./img/HP_3457a_sigrok_teaser.png)](./img/HP_3457a_sigrok_teaser.png "Hp 3457a Sigrok Teaser"){ .glightbox data-gallery="hardware-support" }
+[![Hp 3457a Sigrok Teaser](./img/HP_3457a_sigrok_teaser.jpg)](./img/HP_3457a_sigrok_teaser.png "Hp 3457a Sigrok Teaser"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Hp 3457a Sigrok Teaser</span>
 
 [![Saleae Logic8 Case Bottom](./img/Saleae_Logic8_case_bottom.jpg)](./img/Saleae_Logic8_case_bottom.jpg "Saleae Logic8 Case Bottom"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Saleae Logic8 Case Bottom</span>
 
-[![Ut71c Mugshot](./img/Ut71c_mugshot.png)](./img/Ut71c_mugshot.png "Ut71c Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Ut71c Mugshot](./img/Ut71c_mugshot.jpg)](./img/Ut71c_mugshot.png "Ut71c Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Ut71c Mugshot</span>
 
-[![Lecroy Logicstudio16 Mugshot](./img/Lecroy_logicstudio16_mugshot.png)](./img/Lecroy_logicstudio16_mugshot.png "Lecroy Logicstudio16 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Lecroy Logicstudio16 Mugshot](./img/Lecroy_logicstudio16_mugshot.jpg)](./img/Lecroy_logicstudio16_mugshot.png "Lecroy Logicstudio16 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Lecroy Logicstudio16 Mugshot</span>
 
-[![Voltcraft M3890dt Usb](./img/Voltcraft_m3890dt_usb.png)](./img/Voltcraft_m3890dt_usb.png "Voltcraft M3890dt Usb"){ .glightbox data-gallery="hardware-support" }
+[![Voltcraft M3890dt Usb](./img/Voltcraft_m3890dt_usb.jpg)](./img/Voltcraft_m3890dt_usb.png "Voltcraft M3890dt Usb"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Voltcraft M3890dt Usb</span>
 
-[![Radioshack 22 812 Front](./img/Radioshack_22_812_front.png)](./img/Radioshack_22_812_front.png "Radioshack 22 812 Front"){ .glightbox data-gallery="hardware-support" }
+[![Radioshack 22 812 Front](./img/Radioshack_22_812_front.jpg)](./img/Radioshack_22_812_front.png "Radioshack 22 812 Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Radioshack 22 812 Front</span>
 
-[![Va Va18b](./img/Va_va18b.png)](./img/Va_va18b.png "Va Va18b"){ .glightbox data-gallery="hardware-support" }
+[![Va Va18b](./img/Va_va18b.jpg)](./img/Va_va18b.png "Va Va18b"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Va Va18b</span>
 
-[![Uni T Ut181a Mugshot](./img/Uni-t-ut181a_mugshot.png)](./img/Uni-t-ut181a_mugshot.png "Uni T Ut181a Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Uni T Ut181a Mugshot](./img/Uni-t-ut181a_mugshot.jpg)](./img/Uni-t-ut181a_mugshot.png "Uni T Ut181a Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Uni T Ut181a Mugshot</span>
 
-[![Voltcraft M4650cr](./img/Voltcraft_m4650cr.png)](./img/Voltcraft_m4650cr.png "Voltcraft M4650cr"){ .glightbox data-gallery="hardware-support" }
+[![Voltcraft M4650cr](./img/Voltcraft_m4650cr.jpg)](./img/Voltcraft_m4650cr.png "Voltcraft M4650cr"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Voltcraft M4650cr</span>
 
 [![Saleae Logic Pro 16 Bottom](./img/Saleae_Logic_Pro_16_bottom.jpg)](./img/Saleae_Logic_Pro_16_bottom.jpg "Saleae Logic Pro 16 Bottom"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Saleae Logic Pro 16 Bottom</span>
 
-[![Microchip Pickit2](./img/Microchip_pickit2.png)](./img/Microchip_pickit2.png "Microchip Pickit2"){ .glightbox data-gallery="hardware-support" }
+[![Microchip Pickit2](./img/Microchip_pickit2.jpg)](./img/Microchip_pickit2.png "Microchip Pickit2"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Microchip Pickit2</span>
 
-[![Gdm 8251a Frontpanel](./img/Gdm-8251a_frontpanel.png)](./img/Gdm-8251a_frontpanel.png "Gdm 8251a Frontpanel"){ .glightbox data-gallery="hardware-support" }
+[![Gdm 8251a Frontpanel](./img/Gdm-8251a_frontpanel.jpg)](./img/Gdm-8251a_frontpanel.png "Gdm 8251a Frontpanel"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Gdm 8251a Frontpanel</span>
 
-[![Braintechnology Usb Lps](./img/Braintechnology_usb_lps.png)](./img/Braintechnology_usb_lps.png "Braintechnology Usb Lps"){ .glightbox data-gallery="hardware-support" }
+[![Braintechnology Usb Lps](./img/Braintechnology_usb_lps.jpg)](./img/Braintechnology_usb_lps.png "Braintechnology Usb Lps"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Braintechnology Usb Lps</span>
 
-[![Rdtech Dps](./img/Rdtech-dps.png)](./img/Rdtech-dps.png "Rdtech Dps"){ .glightbox data-gallery="hardware-support" }
+[![Rdtech Dps](./img/Rdtech-dps.jpg)](./img/Rdtech-dps.png "Rdtech Dps"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Rdtech Dps</span>
 
 [![Envox Eez H24005 Front Panel](./img/Envox_eez_h24005_front_panel.jpg)](./img/Envox_eez_h24005_front_panel.jpg "Envox Eez H24005 Front Panel"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Envox Eez H24005 Front Panel</span>
 
-[![Hp 5350b](./img/HP_5350B.png)](./img/HP_5350B.png "Hp 5350b"){ .glightbox data-gallery="hardware-support" }
+[![Hp 5350b](./img/HP_5350B.jpg)](./img/HP_5350B.png "Hp 5350b"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Hp 5350b</span>
 
 [![Hantek Front](./img/Hantek_front.jpg)](./img/Hantek_front.jpg "Hantek Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Hantek Front</span>
 
-[![Buspirate V3](./img/Buspirate_v3.png)](./img/Buspirate_v3.png "Buspirate V3"){ .glightbox data-gallery="hardware-support" }
+[![Buspirate V3](./img/Buspirate_v3.jpg)](./img/Buspirate_v3.png "Buspirate V3"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Buspirate V3</span>
 
 [![Hantek Dso 2100 Usb](./img/Hantek_DSO_2100_usb.jpg)](./img/Hantek_DSO_2100_usb.jpg "Hantek Dso 2100 Usb"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Hantek Dso 2100 Usb</span>
 
-[![Siglent Sds1202x E Front](./img/Siglent_SDS1202X-E_front.png)](./img/Siglent_SDS1202X-E_front.png "Siglent Sds1202x E Front"){ .glightbox data-gallery="hardware-support" }
+[![Siglent Sds1202x E Front](./img/Siglent_SDS1202X-E_front.jpg)](./img/Siglent_SDS1202X-E_front.png "Siglent Sds1202x E Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Siglent Sds1202x E Front</span>
 
-[![Rigol Dg811 Frontpanel](./img/Rigol_DG811_frontpanel.png)](./img/Rigol_DG811_frontpanel.png "Rigol Dg811 Frontpanel"){ .glightbox data-gallery="hardware-support" }
+[![Rigol Dg811 Frontpanel](./img/Rigol_DG811_frontpanel.jpg)](./img/Rigol_DG811_frontpanel.png "Rigol Dg811 Frontpanel"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Rigol Dg811 Frontpanel</span>
 
-[![Voltcraft Vc920](./img/Voltcraft_vc920.png)](./img/Voltcraft_vc920.png "Voltcraft Vc920"){ .glightbox data-gallery="hardware-support" }
+[![Voltcraft Vc920](./img/Voltcraft_vc920.jpg)](./img/Voltcraft_vc920.png "Voltcraft Vc920"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Voltcraft Vc920</span>
 
-[![Appa 107](./img/Appa_107.png)](./img/Appa_107.png "Appa 107"){ .glightbox data-gallery="hardware-support" }
+[![Appa 107](./img/Appa_107.jpg)](./img/Appa_107.png "Appa 107"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Appa 107</span>
 
-[![Metex M3850m Mugshot](./img/Metex_M3850M_mugshot.png)](./img/Metex_M3850M_mugshot.png "Metex M3850m Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Metex M3850m Mugshot](./img/Metex_M3850M_mugshot.jpg)](./img/Metex_M3850M_mugshot.png "Metex M3850m Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Metex M3850m Mugshot</span>
 
-[![Voltcraft Vc840 Device Front](./img/Voltcraft_vc840_device_front.png)](./img/Voltcraft_vc840_device_front.png "Voltcraft Vc840 Device Front"){ .glightbox data-gallery="hardware-support" }
+[![Voltcraft Vc840 Device Front](./img/Voltcraft_vc840_device_front.jpg)](./img/Voltcraft_vc840_device_front.png "Voltcraft Vc840 Device Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Voltcraft Vc840 Device Front</span>
 
 [![Owon Xdm2041](./img/Owon_XDM2041.JPG)](./img/Owon_XDM2041.JPG "Owon Xdm2041"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Owon Xdm2041</span>
 
-[![Ni Gpib Usb Hs](./img/NI_GPIB-USB-HS.png)](./img/NI_GPIB-USB-HS.png "Ni Gpib Usb Hs"){ .glightbox data-gallery="hardware-support" }
+[![Ni Gpib Usb Hs](./img/NI_GPIB-USB-HS.jpg)](./img/NI_GPIB-USB-HS.png "Ni Gpib Usb Hs"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Ni Gpib Usb Hs</span>
 
-[![Agilent Mso7104a](./img/Agilent_MSO7104A.png)](./img/Agilent_MSO7104A.png "Agilent Mso7104a"){ .glightbox data-gallery="hardware-support" }
+[![Agilent Mso7104a](./img/Agilent_MSO7104A.jpg)](./img/Agilent_MSO7104A.png "Agilent Mso7104a"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Agilent Mso7104a</span>
 
-[![Gsg Indoor Air Monitor](./img/Gsg_indoor_air_monitor.png)](./img/Gsg_indoor_air_monitor.png "Gsg Indoor Air Monitor"){ .glightbox data-gallery="hardware-support" }
+[![Gsg Indoor Air Monitor](./img/Gsg_indoor_air_monitor.jpg)](./img/Gsg_indoor_air_monitor.png "Gsg Indoor Air Monitor"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Gsg Indoor Air Monitor</span>
 
-[![Noname Saleae Logic Clone Mugshot](./img/Noname_saleae_logic_clone_mugshot.png)](./img/Noname_saleae_logic_clone_mugshot.png "Noname Saleae Logic Clone Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Noname Saleae Logic Clone Mugshot](./img/Noname_saleae_logic_clone_mugshot.jpg)](./img/Noname_saleae_logic_clone_mugshot.png "Noname Saleae Logic Clone Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Noname Saleae Logic Clone Mugshot</span>
 
-[![Braintechnology Usb Interface V26](./img/Braintechnology_usb_interface_v26.png)](./img/Braintechnology_usb_interface_v26.png "Braintechnology Usb Interface V26"){ .glightbox data-gallery="hardware-support" }
+[![Braintechnology Usb Interface V26](./img/Braintechnology_usb_interface_v26.jpg)](./img/Braintechnology_usb_interface_v26.png "Braintechnology Usb Interface V26"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Braintechnology Usb Interface V26</span>
 
-[![Vellemanwfs210](./img/VellemanWFS210.png)](./img/VellemanWFS210.png "Vellemanwfs210"){ .glightbox data-gallery="hardware-support" }
+[![Vellemanwfs210](./img/VellemanWFS210.jpg)](./img/VellemanWFS210.png "Vellemanwfs210"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Vellemanwfs210</span>
 
-[![Tenma 72 7750](./img/Tenma_72-7750.png)](./img/Tenma_72-7750.png "Tenma 72 7750"){ .glightbox data-gallery="hardware-support" }
+[![Tenma 72 7750](./img/Tenma_72-7750.jpg)](./img/Tenma_72-7750.png "Tenma 72 7750"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Tenma 72 7750</span>
 
-[![Hameg Hmo2024](./img/Hameg_HMO2024.png)](./img/Hameg_HMO2024.png "Hameg Hmo2024"){ .glightbox data-gallery="hardware-support" }
+[![Hameg Hmo2024](./img/Hameg_HMO2024.jpg)](./img/Hameg_HMO2024.png "Hameg Hmo2024"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Hameg Hmo2024</span>
 
-[![Rigol Ds1052e](./img/Rigol_DS1052E.png)](./img/Rigol_DS1052E.png "Rigol Ds1052e"){ .glightbox data-gallery="hardware-support" }
+[![Rigol Ds1052e](./img/Rigol_DS1052E.jpg)](./img/Rigol_DS1052E.png "Rigol Ds1052e"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Rigol Ds1052e</span>
 
 [![100px Idm103n](./img/100px_Idm103n.png)](./img/100px_Idm103n.png "100px Idm103n"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">100px Idm103n</span>
 
-[![Bm 857 Mugshot 500000](./img/Bm_857_mugshot_500000.png)](./img/Bm_857_mugshot_500000.png "Bm 857 Mugshot 500000"){ .glightbox data-gallery="hardware-support" }
+[![Bm 857 Mugshot 500000](./img/Bm_857_mugshot_500000.jpg)](./img/Bm_857_mugshot_500000.png "Bm 857 Mugshot 500000"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Bm 857 Mugshot 500000</span>
 
-[![Mooshimeter Mugshot](./img/Mooshimeter_mugshot.png)](./img/Mooshimeter_mugshot.png "Mooshimeter Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Mooshimeter Mugshot](./img/Mooshimeter_mugshot.jpg)](./img/Mooshimeter_mugshot.png "Mooshimeter Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Mooshimeter Mugshot</span>
 
 [![Siemens B1026 Logo](./img/Siemens_b1026_logo.png)](./img/Siemens_b1026_logo.png "Siemens B1026 Logo"){ .glightbox data-gallery="hardware-support" }
@@ -2515,61 +2515,61 @@ If you own any other logic analyzers, oscilloscopes, multimeters, dataloggers, .
 [![Atorch Dl24mp 150w Purple Picture](./img/ATORCH_DL24MP-150W_Purple_Picture.jpg)](./img/ATORCH_DL24MP-150W_Purple_Picture.jpg "Atorch Dl24mp 150w Purple Picture"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Atorch Dl24mp 150w Purple Picture</span>
 
-[![Usbduxfast](./img/Usbduxfast.png)](./img/Usbduxfast.png "Usbduxfast"){ .glightbox data-gallery="hardware-support" }
+[![Usbduxfast](./img/Usbduxfast.jpg)](./img/Usbduxfast.png "Usbduxfast"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Usbduxfast</span>
 
-[![Digitek Dt8000](./img/Digitek_dt8000.png)](./img/Digitek_dt8000.png "Digitek Dt8000"){ .glightbox data-gallery="hardware-support" }
+[![Digitek Dt8000](./img/Digitek_dt8000.jpg)](./img/Digitek_dt8000.png "Digitek Dt8000"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Digitek Dt8000</span>
 
-[![Chronovu La16](./img/Chronovu_la16.png)](./img/Chronovu_la16.png "Chronovu La16"){ .glightbox data-gallery="hardware-support" }
+[![Chronovu La16](./img/Chronovu_la16.jpg)](./img/Chronovu_la16.png "Chronovu La16"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Chronovu La16</span>
 
 [![Nuvola Orange](./img/Nuvola_Orange.png)](./img/Nuvola_Orange.png "Nuvola Orange"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Nuvola Orange</span>
 
-[![Metrix Mx53](./img/Metrix_mx53.png)](./img/Metrix_mx53.png "Metrix Mx53"){ .glightbox data-gallery="hardware-support" }
+[![Metrix Mx53](./img/Metrix_mx53.jpg)](./img/Metrix_mx53.png "Metrix Mx53"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Metrix Mx53</span>
 
-[![Esla201a](./img/Esla201a.png)](./img/Esla201a.png "Esla201a"){ .glightbox data-gallery="hardware-support" }
+[![Esla201a](./img/Esla201a.jpg)](./img/Esla201a.png "Esla201a"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Esla201a</span>
 
-[![Gossen Metrawatt Metrahit 16i Small](./img/Gossen_Metrawatt_Metrahit_16I_small.png)](./img/Gossen_Metrawatt_Metrahit_16I_small.png "Gossen Metrawatt Metrahit 16i Small"){ .glightbox data-gallery="hardware-support" }
+[![Gossen Metrawatt Metrahit 16i Small](./img/Gossen_Metrawatt_Metrahit_16I_small.jpg)](./img/Gossen_Metrawatt_Metrahit_16I_small.png "Gossen Metrawatt Metrahit 16i Small"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Gossen Metrawatt Metrahit 16i Small</span>
 
-[![Metex Me 31](./img/Metex_me-31.png)](./img/Metex_me-31.png "Metex Me 31"){ .glightbox data-gallery="hardware-support" }
+[![Metex Me 31](./img/Metex_me-31.jpg)](./img/Metex_me-31.png "Metex Me 31"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Metex Me 31</span>
 
-[![Rigol Ds2072 Mugshot](./img/Rigol-ds2072_mugshot.png)](./img/Rigol-ds2072_mugshot.png "Rigol Ds2072 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Rigol Ds2072 Mugshot](./img/Rigol-ds2072_mugshot.jpg)](./img/Rigol-ds2072_mugshot.png "Rigol Ds2072 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Rigol Ds2072 Mugshot</span>
 
-[![Voltcraft Dso 220 Usb](./img/Voltcraft_dso-220_usb.png)](./img/Voltcraft_dso-220_usb.png "Voltcraft Dso 220 Usb"){ .glightbox data-gallery="hardware-support" }
+[![Voltcraft Dso 220 Usb](./img/Voltcraft_dso-220_usb.jpg)](./img/Voltcraft_dso-220_usb.png "Voltcraft Dso 220 Usb"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Voltcraft Dso 220 Usb</span>
 
-[![Peaktech 3442 Front](./img/Peaktech-3442-front.png)](./img/Peaktech-3442-front.png "Peaktech 3442 Front"){ .glightbox data-gallery="hardware-support" }
+[![Peaktech 3442 Front](./img/Peaktech-3442-front.jpg)](./img/Peaktech-3442-front.png "Peaktech 3442 Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Peaktech 3442 Front</span>
 
-[![Greatfet Mugshot](./img/Greatfet_mugshot.png)](./img/Greatfet_mugshot.png "Greatfet Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Greatfet Mugshot](./img/Greatfet_mugshot.jpg)](./img/Greatfet_mugshot.png "Greatfet Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Greatfet Mugshot</span>
 
-[![Picoscope 2205](./img/PicoScope_2205.png)](./img/PicoScope_2205.png "Picoscope 2205"){ .glightbox data-gallery="hardware-support" }
+[![Picoscope 2205](./img/PicoScope_2205.jpg)](./img/PicoScope_2205.png "Picoscope 2205"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Picoscope 2205</span>
 
-[![Agilent Dso1014a](./img/Agilent_DSO1014A.png)](./img/Agilent_DSO1014A.png "Agilent Dso1014a"){ .glightbox data-gallery="hardware-support" }
+[![Agilent Dso1014a](./img/Agilent_DSO1014A.jpg)](./img/Agilent_DSO1014A.png "Agilent Dso1014a"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Agilent Dso1014a</span>
 
-[![Kern Ew 6200 2nm Mugshot](./img/Kern_ew-6200-2nm_mugshot.png)](./img/Kern_ew-6200-2nm_mugshot.png "Kern Ew 6200 2nm Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Kern Ew 6200 2nm Mugshot](./img/Kern_ew-6200-2nm_mugshot.jpg)](./img/Kern_ew-6200-2nm_mugshot.png "Kern Ew 6200 2nm Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Kern Ew 6200 2nm Mugshot</span>
 
-[![Voltcraft Vc890 Mugshot](./img/Voltcraft_vc890_mugshot.png)](./img/Voltcraft_vc890_mugshot.png "Voltcraft Vc890 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Voltcraft Vc890 Mugshot](./img/Voltcraft_vc890_mugshot.jpg)](./img/Voltcraft_vc890_mugshot.png "Voltcraft Vc890 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Voltcraft Vc890 Mugshot</span>
 
-[![Link Instruments Mso 19 Front](./img/Link_Instruments_MSO-19_front.png)](./img/Link_Instruments_MSO-19_front.png "Link Instruments Mso 19 Front"){ .glightbox data-gallery="hardware-support" }
+[![Link Instruments Mso 19 Front](./img/Link_Instruments_MSO-19_front.jpg)](./img/Link_Instruments_MSO-19_front.png "Link Instruments Mso 19 Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Link Instruments Mso 19 Front</span>
 
-[![Picoscope 2203](./img/Picoscope_2203.png)](./img/Picoscope_2203.png "Picoscope 2203"){ .glightbox data-gallery="hardware-support" }
+[![Picoscope 2203](./img/Picoscope_2203.jpg)](./img/Picoscope_2203.png "Picoscope 2203"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Picoscope 2203</span>
 
-[![Dangerous Prototypes Irtoy Mugshot](./img/Dangerous_prototypes_irtoy_mugshot.png)](./img/Dangerous_prototypes_irtoy_mugshot.png "Dangerous Prototypes Irtoy Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Dangerous Prototypes Irtoy Mugshot](./img/Dangerous_prototypes_irtoy_mugshot.jpg)](./img/Dangerous_prototypes_irtoy_mugshot.png "Dangerous Prototypes Irtoy Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Dangerous Prototypes Irtoy Mugshot</span>
 
 [![Bm869 Mugshot](./img/Bm869_mugshot.png)](./img/Bm869_mugshot.png "Bm869 Mugshot"){ .glightbox data-gallery="hardware-support" }
@@ -2578,79 +2578,79 @@ If you own any other logic analyzers, oscilloscopes, multimeters, dataloggers, .
 [![Arduino Uno R3](./img/Arduino_Uno-R3.jpg)](./img/Arduino_Uno-R3.jpg "Arduino Uno R3"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Arduino Uno R3</span>
 
-[![Voltcraft Dso 6060c Mugshot](./img/Voltcraft_dso-6060c_mugshot.png)](./img/Voltcraft_dso-6060c_mugshot.png "Voltcraft Dso 6060c Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Voltcraft Dso 6060c Mugshot](./img/Voltcraft_dso-6060c_mugshot.jpg)](./img/Voltcraft_dso-6060c_mugshot.png "Voltcraft Dso 6060c Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Voltcraft Dso 6060c Mugshot</span>
 
-[![Kingst La5016 Mugshot](./img/Kingst-la5016-mugshot.png)](./img/Kingst-la5016-mugshot.png "Kingst La5016 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Kingst La5016 Mugshot](./img/Kingst-la5016-mugshot.jpg)](./img/Kingst-la5016-mugshot.png "Kingst La5016 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Kingst La5016 Mugshot</span>
 
-[![Agilent 34405a](./img/Agilent_34405A.png)](./img/Agilent_34405A.png "Agilent 34405a"){ .glightbox data-gallery="hardware-support" }
+[![Agilent 34405a](./img/Agilent_34405A.jpg)](./img/Agilent_34405A.png "Agilent 34405a"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Agilent 34405a</span>
 
-[![Osciprime](./img/OsciPrime.png)](./img/OsciPrime.png "Osciprime"){ .glightbox data-gallery="hardware-support" }
+[![Osciprime](./img/OsciPrime.jpg)](./img/OsciPrime.png "Osciprime"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Osciprime</span>
 
-[![Tecpel Dmm8061](./img/Tecpel_dmm8061.png)](./img/Tecpel_dmm8061.png "Tecpel Dmm8061"){ .glightbox data-gallery="hardware-support" }
+[![Tecpel Dmm8061](./img/Tecpel_dmm8061.jpg)](./img/Tecpel_dmm8061.png "Tecpel Dmm8061"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Tecpel Dmm8061</span>
 
-[![Zeroplus Lap 16128u](./img/Zeroplus_lap-16128u.png)](./img/Zeroplus_lap-16128u.png "Zeroplus Lap 16128u"){ .glightbox data-gallery="hardware-support" }
+[![Zeroplus Lap 16128u](./img/Zeroplus_lap-16128u.jpg)](./img/Zeroplus_lap-16128u.png "Zeroplus Lap 16128u"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Zeroplus Lap 16128u</span>
 
-[![Voltcraft M 3650cr](./img/Voltcraft_m-3650cr.png)](./img/Voltcraft_m-3650cr.png "Voltcraft M 3650cr"){ .glightbox data-gallery="hardware-support" }
+[![Voltcraft M 3650cr](./img/Voltcraft_m-3650cr.jpg)](./img/Voltcraft_m-3650cr.png "Voltcraft M 3650cr"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Voltcraft M 3650cr</span>
 
-[![Gembird Silvershield Front](./img/Gembird-silvershield-front.png)](./img/Gembird-silvershield-front.png "Gembird Silvershield Front"){ .glightbox data-gallery="hardware-support" }
+[![Gembird Silvershield Front](./img/Gembird-silvershield-front.jpg)](./img/Gembird-silvershield-front.png "Gembird Silvershield Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Gembird Silvershield Front</span>
 
-[![Meilhaus Logian 16l Mugshot](./img/Meilhaus_logian_16l_mugshot.png)](./img/Meilhaus_logian_16l_mugshot.png "Meilhaus Logian 16l Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Meilhaus Logian 16l Mugshot](./img/Meilhaus_logian_16l_mugshot.jpg)](./img/Meilhaus_logian_16l_mugshot.png "Meilhaus Logian 16l Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Meilhaus Logian 16l Mugshot</span>
 
-[![Lutron Yk 2005lx](./img/Lutron_YK-2005LX.png)](./img/Lutron_YK-2005LX.png "Lutron Yk 2005lx"){ .glightbox data-gallery="hardware-support" }
+[![Lutron Yk 2005lx](./img/Lutron_YK-2005LX.jpg)](./img/Lutron_YK-2005LX.png "Lutron Yk 2005lx"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Lutron Yk 2005lx</span>
 
-[![Voltcraft 3850d Front Transp](./img/Voltcraft_3850D_front_transp.png)](./img/Voltcraft_3850D_front_transp.png "Voltcraft 3850d Front Transp"){ .glightbox data-gallery="hardware-support" }
+[![Voltcraft 3850d Front Transp](./img/Voltcraft_3850D_front_transp.jpg)](./img/Voltcraft_3850D_front_transp.png "Voltcraft 3850d Front Transp"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Voltcraft 3850d Front Transp</span>
 
-[![Prist Akip 9101 Mugshot](./img/Prist_akip_9101_mugshot.png)](./img/Prist_akip_9101_mugshot.png "Prist Akip 9101 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Prist Akip 9101 Mugshot](./img/Prist_akip_9101_mugshot.jpg)](./img/Prist_akip_9101_mugshot.png "Prist Akip 9101 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Prist Akip 9101 Mugshot</span>
 
 [![Loto Osc802](./img/Loto_OSC802.jpg)](./img/Loto_OSC802.jpg "Loto Osc802"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Loto Osc802</span>
 
-[![Hobby Components Hctest0006 Mugshot](./img/Hobby_components_hctest0006_mugshot.png)](./img/Hobby_components_hctest0006_mugshot.png "Hobby Components Hctest0006 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Hobby Components Hctest0006 Mugshot](./img/Hobby_components_hctest0006_mugshot.jpg)](./img/Hobby_components_hctest0006_mugshot.png "Hobby Components Hctest0006 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Hobby Components Hctest0006 Mugshot</span>
 
-[![Fluke Scopemeter 199b](./img/Fluke_Scopemeter_199B.png)](./img/Fluke_Scopemeter_199B.png "Fluke Scopemeter 199b"){ .glightbox data-gallery="hardware-support" }
+[![Fluke Scopemeter 199b](./img/Fluke_Scopemeter_199B.jpg)](./img/Fluke_Scopemeter_199B.png "Fluke Scopemeter 199b"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Fluke Scopemeter 199b</span>
 
-[![Rigol Ds1074z Front](./img/Rigol_DS1074Z_front.png)](./img/Rigol_DS1074Z_front.png "Rigol Ds1074z Front"){ .glightbox data-gallery="hardware-support" }
+[![Rigol Ds1074z Front](./img/Rigol_DS1074Z_front.jpg)](./img/Rigol_DS1074Z_front.png "Rigol Ds1074z Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Rigol Ds1074z Front</span>
 
-[![Robomotic Buglogic3](./img/Robomotic_buglogic3.png)](./img/Robomotic_buglogic3.png "Robomotic Buglogic3"){ .glightbox data-gallery="hardware-support" }
+[![Robomotic Buglogic3](./img/Robomotic_buglogic3.jpg)](./img/Robomotic_buglogic3.png "Robomotic Buglogic3"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Robomotic Buglogic3</span>
 
-[![Noname Xl Logic16 100m Mugshot](./img/Noname_xl_logic16_100m_mugshot.png)](./img/Noname_xl_logic16_100m_mugshot.png "Noname Xl Logic16 100m Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Noname Xl Logic16 100m Mugshot](./img/Noname_xl_logic16_100m_mugshot.jpg)](./img/Noname_xl_logic16_100m_mugshot.png "Noname Xl Logic16 100m Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Noname Xl Logic16 100m Mugshot</span>
 
-[![Der Ee De 5000 Mugshot](./img/Der_ee_de-5000_mugshot.png)](./img/Der_ee_de-5000_mugshot.png "Der Ee De 5000 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Der Ee De 5000 Mugshot](./img/Der_ee_de-5000_mugshot.jpg)](./img/Der_ee_de-5000_mugshot.png "Der Ee De 5000 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Der Ee De 5000 Mugshot</span>
 
 [![128axc Usbee Axpro Clone Overview](./img/128axc-usbee-axpro-clone-Overview.jpg)](./img/128axc-usbee-axpro-clone-Overview.jpg "128axc Usbee Axpro Clone Overview"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">128axc Usbee Axpro Clone Overview</span>
 
-[![Noname Lht00su1 Mugshot](./img/Noname_lht00su1_mugshot.png)](./img/Noname_lht00su1_mugshot.png "Noname Lht00su1 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Noname Lht00su1 Mugshot](./img/Noname_lht00su1_mugshot.jpg)](./img/Noname_lht00su1_mugshot.png "Noname Lht00su1 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Noname Lht00su1 Mugshot</span>
 
-[![Sysclk Ax Pro Mugshot](./img/Sysclk_ax_pro_mugshot.png)](./img/Sysclk_ax_pro_mugshot.png "Sysclk Ax Pro Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Sysclk Ax Pro Mugshot](./img/Sysclk_ax_pro_mugshot.jpg)](./img/Sysclk_ax_pro_mugshot.png "Sysclk Ax Pro Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Sysclk Ax Pro Mugshot</span>
 
-[![Jds6600 Mugshot](./img/Jds6600-mugshot.png)](./img/Jds6600-mugshot.png "Jds6600 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Jds6600 Mugshot](./img/Jds6600-mugshot.jpg)](./img/Jds6600-mugshot.png "Jds6600 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Jds6600 Mugshot</span>
 
-[![Saleae Logic16 Bottom](./img/Saleae_Logic16_bottom.png)](./img/Saleae_Logic16_bottom.png "Saleae Logic16 Bottom"){ .glightbox data-gallery="hardware-support" }
+[![Saleae Logic16 Bottom](./img/Saleae_Logic16_bottom.jpg)](./img/Saleae_Logic16_bottom.png "Saleae Logic16 Bottom"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Saleae Logic16 Bottom</span>
 
-[![Rd6006 Frontpanel](./img/RD6006_frontpanel.png)](./img/RD6006_frontpanel.png "Rd6006 Frontpanel"){ .glightbox data-gallery="hardware-support" }
+[![Rd6006 Frontpanel](./img/RD6006_frontpanel.jpg)](./img/RD6006_frontpanel.png "Rd6006 Frontpanel"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Rd6006 Frontpanel</span>
 
 [![Motech Lps 301 Logo](./img/Motech_LPS-301_logo.png)](./img/Motech_LPS-301_logo.png "Motech Lps 301 Logo"){ .glightbox data-gallery="hardware-support" }
@@ -2659,181 +2659,181 @@ If you own any other logic analyzers, oscilloscopes, multimeters, dataloggers, .
 [![Uni T Ut612 1](./img/Uni_t_ut612_1.png)](./img/Uni_t_ut612_1.png "Uni T Ut612 1"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Uni T Ut612 1</span>
 
-[![Tenma 72 1016](./img/Tenma_72-1016.png)](./img/Tenma_72-1016.png "Tenma 72 1016"){ .glightbox data-gallery="hardware-support" }
+[![Tenma 72 1016](./img/Tenma_72-1016.jpg)](./img/Tenma_72-1016.png "Tenma 72 1016"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Tenma 72 1016</span>
 
-[![Voltcraft Dl 120th](./img/Voltcraft_dl-120th.png)](./img/Voltcraft_dl-120th.png "Voltcraft Dl 120th"){ .glightbox data-gallery="hardware-support" }
+[![Voltcraft Dl 120th](./img/Voltcraft_dl-120th.jpg)](./img/Voltcraft_dl-120th.png "Voltcraft Dl 120th"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Voltcraft Dl 120th</span>
 
 [![Metex Me 21](./img/Metex_ME-21.jpg)](./img/Metex_ME-21.jpg "Metex Me 21"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Metex Me 21</span>
 
-[![Siemens B1105 Small](./img/Siemens_B1105_small.png)](./img/Siemens_B1105_small.png "Siemens B1105 Small"){ .glightbox data-gallery="hardware-support" }
+[![Siemens B1105 Small](./img/Siemens_B1105_small.jpg)](./img/Siemens_B1105_small.png "Siemens B1105 Small"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Siemens B1105 Small</span>
 
-[![Ut60e Front Alpha](./img/Ut60e_-_front_-_alpha.png)](./img/Ut60e_-_front_-_alpha.png "Ut60e Front Alpha"){ .glightbox data-gallery="hardware-support" }
+[![Ut60e Front Alpha](./img/Ut60e_-_front_-_alpha.jpg)](./img/Ut60e_-_front_-_alpha.png "Ut60e Front Alpha"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Ut60e Front Alpha</span>
 
-[![Rockylogic Ant18e](./img/RockyLogic_Ant18e.png)](./img/RockyLogic_Ant18e.png "Rockylogic Ant18e"){ .glightbox data-gallery="hardware-support" }
+[![Rockylogic Ant18e](./img/RockyLogic_Ant18e.jpg)](./img/RockyLogic_Ant18e.png "Rockylogic Ant18e"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Rockylogic Ant18e</span>
 
-[![Maul Studio I](./img/Maul_studio_i.png)](./img/Maul_studio_i.png "Maul Studio I"){ .glightbox data-gallery="hardware-support" }
+[![Maul Studio I](./img/Maul_studio_i.jpg)](./img/Maul_studio_i.png "Maul Studio I"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Maul Studio I</span>
 
-[![Dslogic U3pro16](./img/DSLogic_U3Pro16.png)](./img/DSLogic_U3Pro16.png "Dslogic U3pro16"){ .glightbox data-gallery="hardware-support" }
+[![Dslogic U3pro16](./img/DSLogic_U3Pro16.jpg)](./img/DSLogic_U3Pro16.png "Dslogic U3pro16"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Dslogic U3pro16</span>
 
 [![Um24c Display](./img/UM24C_display.jpg)](./img/UM24C_display.jpg "Um24c Display"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Um24c Display</span>
 
-[![Mastech Ms2115b Mugshot](./img/Mastech_ms2115b_mugshot.png)](./img/Mastech_ms2115b_mugshot.png "Mastech Ms2115b Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Mastech Ms2115b Mugshot](./img/Mastech_ms2115b_mugshot.jpg)](./img/Mastech_ms2115b_mugshot.png "Mastech Ms2115b Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Mastech Ms2115b Mugshot</span>
 
-[![Ikalogic Scanaplus Mugshot](./img/Ikalogic_scanaplus_mugshot.png)](./img/Ikalogic_scanaplus_mugshot.png "Ikalogic Scanaplus Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Ikalogic Scanaplus Mugshot](./img/Ikalogic_scanaplus_mugshot.jpg)](./img/Ikalogic_scanaplus_mugshot.png "Ikalogic Scanaplus Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Ikalogic Scanaplus Mugshot</span>
 
 [![Mhinstek Udb1305s Persp](./img/MHINSTEK_UDB1305S_persp.jpg)](./img/MHINSTEK_UDB1305S_persp.jpg "Mhinstek Udb1305s Persp"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Mhinstek Udb1305s Persp</span>
 
-[![Voltcraft Co 20](./img/Voltcraft_co-20.png)](./img/Voltcraft_co-20.png "Voltcraft Co 20"){ .glightbox data-gallery="hardware-support" }
+[![Voltcraft Co 20](./img/Voltcraft_co-20.jpg)](./img/Voltcraft_co-20.png "Voltcraft Co 20"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Voltcraft Co 20</span>
 
-[![Benning Mm 12 01 Front Sleeve](./img/Benning_MM_12_-_01_-_Front_Sleeve.png)](./img/Benning_MM_12_-_01_-_Front_Sleeve.png "Benning Mm 12 01 Front Sleeve"){ .glightbox data-gallery="hardware-support" }
+[![Benning Mm 12 01 Front Sleeve](./img/Benning_MM_12_-_01_-_Front_Sleeve.jpg)](./img/Benning_MM_12_-_01_-_Front_Sleeve.png "Benning Mm 12 01 Front Sleeve"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Benning Mm 12 01 Front Sleeve</span>
 
-[![Saleae Logic](./img/Saleae_Logic.png)](./img/Saleae_Logic.png "Saleae Logic"){ .glightbox data-gallery="hardware-support" }
+[![Saleae Logic](./img/Saleae_Logic.jpg)](./img/Saleae_Logic.png "Saleae Logic"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Saleae Logic</span>
 
-[![Bg7tbl Small](./img/BG7TBL_small.png)](./img/BG7TBL_small.png "Bg7tbl Small"){ .glightbox data-gallery="hardware-support" }
+[![Bg7tbl Small](./img/BG7TBL_small.jpg)](./img/BG7TBL_small.png "Bg7tbl Small"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Bg7tbl Small</span>
 
-[![Az Delivery Logic Analyzer](./img/AZ-Delivery_logic_analyzer.png)](./img/AZ-Delivery_logic_analyzer.png "Az Delivery Logic Analyzer"){ .glightbox data-gallery="hardware-support" }
+[![Az Delivery Logic Analyzer](./img/AZ-Delivery_logic_analyzer.jpg)](./img/AZ-Delivery_logic_analyzer.png "Az Delivery Logic Analyzer"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Az Delivery Logic Analyzer</span>
 
-[![Brymen Bm257s Mugshot](./img/Brymen_bm257s_mugshot.png)](./img/Brymen_bm257s_mugshot.png "Brymen Bm257s Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Brymen Bm257s Mugshot](./img/Brymen_bm257s_mugshot.jpg)](./img/Brymen_bm257s_mugshot.png "Brymen Bm257s Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Brymen Bm257s Mugshot</span>
 
-[![Hantek Dso 2090](./img/Hantek_DSO-2090.png)](./img/Hantek_DSO-2090.png "Hantek Dso 2090"){ .glightbox data-gallery="hardware-support" }
+[![Hantek Dso 2090](./img/Hantek_DSO-2090.jpg)](./img/Hantek_DSO-2090.png "Hantek Dso 2090"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Hantek Dso 2090</span>
 
-[![Uni T Ut61b Mugshot](./img/Uni-t_ut61b_mugshot.png)](./img/Uni-t_ut61b_mugshot.png "Uni T Ut61b Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Uni T Ut61b Mugshot](./img/Uni-t_ut61b_mugshot.jpg)](./img/Uni-t_ut61b_mugshot.png "Uni T Ut61b Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Uni T Ut61b Mugshot</span>
 
-[![Voltcraft Dso 3062c](./img/Voltcraft_DSO-3062C.png)](./img/Voltcraft_DSO-3062C.png "Voltcraft Dso 3062c"){ .glightbox data-gallery="hardware-support" }
+[![Voltcraft Dso 3062c](./img/Voltcraft_DSO-3062C.jpg)](./img/Voltcraft_DSO-3062C.png "Voltcraft Dso 3062c"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Voltcraft Dso 3062c</span>
 
-[![Hp3478a Mugshot](./img/Hp3478a_mugshot.png)](./img/Hp3478a_mugshot.png "Hp3478a Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Hp3478a Mugshot](./img/Hp3478a_mugshot.jpg)](./img/Hp3478a_mugshot.png "Hp3478a Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Hp3478a Mugshot</span>
 
-[![Pce Pce Dm32](./img/Pce-pce-dm32.png)](./img/Pce-pce-dm32.png "Pce Pce Dm32"){ .glightbox data-gallery="hardware-support" }
+[![Pce Pce Dm32](./img/Pce-pce-dm32.jpg)](./img/Pce-pce-dm32.png "Pce Pce Dm32"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Pce Pce Dm32</span>
 
-[![Rdtech Tc66c Mugshot](./img/Rdtech-tc66c-mugshot.png)](./img/Rdtech-tc66c-mugshot.png "Rdtech Tc66c Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Rdtech Tc66c Mugshot](./img/Rdtech-tc66c-mugshot.jpg)](./img/Rdtech-tc66c-mugshot.png "Rdtech Tc66c Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Rdtech Tc66c Mugshot</span>
 
-[![Ht Usbee Dxpro Mugshot](./img/Ht_usbee_dxpro_mugshot.png)](./img/Ht_usbee_dxpro_mugshot.png "Ht Usbee Dxpro Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Ht Usbee Dxpro Mugshot](./img/Ht_usbee_dxpro_mugshot.jpg)](./img/Ht_usbee_dxpro_mugshot.png "Ht Usbee Dxpro Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Ht Usbee Dxpro Mugshot</span>
 
-[![Peaktech 4390 Mugshot](./img/Peaktech_4390_mugshot.png)](./img/Peaktech_4390_mugshot.png "Peaktech 4390 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Peaktech 4390 Mugshot](./img/Peaktech_4390_mugshot.jpg)](./img/Peaktech_4390_mugshot.png "Peaktech 4390 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Peaktech 4390 Mugshot</span>
 
-[![Rs Hmp4040 Mugshot](./img/Rs_hmp4040_mugshot.png)](./img/Rs_hmp4040_mugshot.png "Rs Hmp4040 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Rs Hmp4040 Mugshot](./img/Rs_hmp4040_mugshot.jpg)](./img/Rs_hmp4040_mugshot.png "Rs Hmp4040 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Rs Hmp4040 Mugshot</span>
 
-[![Hantek Dso 5200a Device Front](./img/Hantek_dso-5200a_device_front.png)](./img/Hantek_dso-5200a_device_front.png "Hantek Dso 5200a Device Front"){ .glightbox data-gallery="hardware-support" }
+[![Hantek Dso 5200a Device Front](./img/Hantek_dso-5200a_device_front.jpg)](./img/Hantek_dso-5200a_device_front.png "Hantek Dso 5200a Device Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Hantek Dso 5200a Device Front</span>
 
-[![Conrad Digi 35 Cpu Logo](./img/Conrad_digi_35_cpu_logo.png)](./img/Conrad_digi_35_cpu_logo.png "Conrad Digi 35 Cpu Logo"){ .glightbox data-gallery="hardware-support" }
+[![Conrad Digi 35 Cpu Logo](./img/Conrad_digi_35_cpu_logo.jpg)](./img/Conrad_digi_35_cpu_logo.png "Conrad Digi 35 Cpu Logo"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Conrad Digi 35 Cpu Logo</span>
 
-[![Pce Pce 222 Front](./img/Pce_pce-222_front.png)](./img/Pce_pce-222_front.png "Pce Pce 222 Front"){ .glightbox data-gallery="hardware-support" }
+[![Pce Pce 222 Front](./img/Pce_pce-222_front.jpg)](./img/Pce_pce-222_front.png "Pce Pce 222 Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Pce Pce 222 Front</span>
 
 [![Hp 6632b Mugshot](./img/HP-6632B_mugshot.png)](./img/HP-6632B_mugshot.png "Hp 6632b Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Hp 6632b Mugshot</span>
 
-[![Rigol Dm3068 Front](./img/Rigol_DM3068_front.png)](./img/Rigol_DM3068_front.png "Rigol Dm3068 Front"){ .glightbox data-gallery="hardware-support" }
+[![Rigol Dm3068 Front](./img/Rigol_DM3068_front.jpg)](./img/Rigol_DM3068_front.png "Rigol Dm3068 Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Rigol Dm3068 Front</span>
 
-[![Gmc Metrahit 14a Logo](./img/Gmc_metrahit_14a_logo.png)](./img/Gmc_metrahit_14a_logo.png "Gmc Metrahit 14a Logo"){ .glightbox data-gallery="hardware-support" }
+[![Gmc Metrahit 14a Logo](./img/Gmc_metrahit_14a_logo.jpg)](./img/Gmc_metrahit_14a_logo.png "Gmc Metrahit 14a Logo"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Gmc Metrahit 14a Logo</span>
 
-[![Itech It8511plus Frontpanel](./img/Itech_It8511plus_frontpanel.png)](./img/Itech_It8511plus_frontpanel.png "Itech It8511plus Frontpanel"){ .glightbox data-gallery="hardware-support" }
+[![Itech It8511plus Frontpanel](./img/Itech_It8511plus_frontpanel.jpg)](./img/Itech_It8511plus_frontpanel.png "Itech It8511plus Frontpanel"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Itech It8511plus Frontpanel</span>
 
-[![Armfly Ax Pro](./img/Armfly_ax_pro.png)](./img/Armfly_ax_pro.png "Armfly Ax Pro"){ .glightbox data-gallery="hardware-support" }
+[![Armfly Ax Pro](./img/Armfly_ax_pro.jpg)](./img/Armfly_ax_pro.png "Armfly Ax Pro"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Armfly Ax Pro</span>
 
-[![Voltcraft Dl 161s](./img/Voltcraft_DL-161S.png)](./img/Voltcraft_DL-161S.png "Voltcraft Dl 161s"){ .glightbox data-gallery="hardware-support" }
+[![Voltcraft Dl 161s](./img/Voltcraft_DL-161S.jpg)](./img/Voltcraft_DL-161S.png "Voltcraft Dl 161s"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Voltcraft Dl 161s</span>
 
-[![Bm829s Mugshot](./img/Bm829s-mugshot.png)](./img/Bm829s-mugshot.png "Bm829s Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Bm829s Mugshot](./img/Bm829s-mugshot.jpg)](./img/Bm829s-mugshot.png "Bm829s Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Bm829s Mugshot</span>
 
-[![Rs 22 805 Front](./img/Rs_22-805_front.png)](./img/Rs_22-805_front.png "Rs 22 805 Front"){ .glightbox data-gallery="hardware-support" }
+[![Rs 22 805 Front](./img/Rs_22-805_front.jpg)](./img/Rs_22-805_front.png "Rs 22 805 Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Rs 22 805 Front</span>
 
-[![Polabs Poscope Basic2](./img/Polabs_poscope_basic2.png)](./img/Polabs_poscope_basic2.png "Polabs Poscope Basic2"){ .glightbox data-gallery="hardware-support" }
+[![Polabs Poscope Basic2](./img/Polabs_poscope_basic2.jpg)](./img/Polabs_poscope_basic2.png "Polabs Poscope Basic2"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Polabs Poscope Basic2</span>
 
-[![Fluke 45 Mugshot](./img/Fluke_45_mugshot.png)](./img/Fluke_45_mugshot.png "Fluke 45 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Fluke 45 Mugshot](./img/Fluke_45_mugshot.jpg)](./img/Fluke_45_mugshot.png "Fluke 45 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Fluke 45 Mugshot</span>
 
-[![Va Va40b Mugshot](./img/Va_va40b_mugshot.png)](./img/Va_va40b_mugshot.png "Va Va40b Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Va Va40b Mugshot](./img/Va_va40b_mugshot.jpg)](./img/Va_va40b_mugshot.png "Va Va40b Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Va Va40b Mugshot</span>
 
 [![Sigrok Logo No Text Transparent 512](./img/Sigrok_logo_no_text_transparent_512.png)](./img/Sigrok_logo_no_text_transparent_512.png "Sigrok Logo No Text Transparent 512"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Sigrok Logo No Text Transparent 512</span>
 
-[![Tenma 72 7745](./img/Tenma_72-7745.png)](./img/Tenma_72-7745.png "Tenma 72 7745"){ .glightbox data-gallery="hardware-support" }
+[![Tenma 72 7745](./img/Tenma_72-7745.jpg)](./img/Tenma_72-7745.png "Tenma 72 7745"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Tenma 72 7745</span>
 
-[![Zeroplus Logic Cube](./img/Zeroplus_Logic_Cube.png)](./img/Zeroplus_Logic_Cube.png "Zeroplus Logic Cube"){ .glightbox data-gallery="hardware-support" }
+[![Zeroplus Logic Cube](./img/Zeroplus_Logic_Cube.jpg)](./img/Zeroplus_Logic_Cube.png "Zeroplus Logic Cube"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Zeroplus Logic Cube</span>
 
-[![Rs 22 168 Mugshot](./img/Rs_22_168_mugshot.png)](./img/Rs_22_168_mugshot.png "Rs 22 168 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Rs 22 168 Mugshot](./img/Rs_22_168_mugshot.jpg)](./img/Rs_22_168_mugshot.png "Rs 22 168 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Rs 22 168 Mugshot</span>
 
-[![Xzl Studio Ax Mugshot](./img/Xzl_studio_ax_mugshot.png)](./img/Xzl_studio_ax_mugshot.png "Xzl Studio Ax Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Xzl Studio Ax Mugshot](./img/Xzl_studio_ax_mugshot.jpg)](./img/Xzl_studio_ax_mugshot.png "Xzl Studio Ax Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Xzl Studio Ax Mugshot</span>
 
 [![Instrustar Ids205a Casefront](./img/Instrustar-IDS205A_CaseFront.jpg)](./img/Instrustar-IDS205A_CaseFront.jpg "Instrustar Ids205a Casefront"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Instrustar Ids205a Casefront</span>
 
-[![Siglent Sdg1010 Device Front 8116](./img/Siglent_sdg1010_device_front_8116.png)](./img/Siglent_sdg1010_device_front_8116.png "Siglent Sdg1010 Device Front 8116"){ .glightbox data-gallery="hardware-support" }
+[![Siglent Sdg1010 Device Front 8116](./img/Siglent_sdg1010_device_front_8116.jpg)](./img/Siglent_sdg1010_device_front_8116.png "Siglent Sdg1010 Device Front 8116"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Siglent Sdg1010 Device Front 8116</span>
 
-[![Hantek 1008c](./img/Hantek_1008C.png)](./img/Hantek_1008C.png "Hantek 1008c"){ .glightbox data-gallery="hardware-support" }
+[![Hantek 1008c](./img/Hantek_1008C.jpg)](./img/Hantek_1008C.png "Hantek 1008c"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Hantek 1008c</span>
 
-[![Hantek Dso2250 Mugshot](./img/Hantek_dso2250_mugshot.png)](./img/Hantek_dso2250_mugshot.png "Hantek Dso2250 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Hantek Dso2250 Mugshot](./img/Hantek_dso2250_mugshot.jpg)](./img/Hantek_dso2250_mugshot.png "Hantek Dso2250 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Hantek Dso2250 Mugshot</span>
 
-[![Voltcraft Vc 950 01 Front](./img/Voltcraft_VC-950_-_01_-_Front.png)](./img/Voltcraft_VC-950_-_01_-_Front.png "Voltcraft Vc 950 01 Front"){ .glightbox data-gallery="hardware-support" }
+[![Voltcraft Vc 950 01 Front](./img/Voltcraft_VC-950_-_01_-_Front.jpg)](./img/Voltcraft_VC-950_-_01_-_Front.png "Voltcraft Vc 950 01 Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Voltcraft Vc 950 01 Front</span>
 
-[![Mic 98583](./img/Mic_98583.png)](./img/Mic_98583.png "Mic 98583"){ .glightbox data-gallery="hardware-support" }
+[![Mic 98583](./img/Mic_98583.jpg)](./img/Mic_98583.png "Mic 98583"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Mic 98583</span>
 
-[![Ikalogic Scanalogic2](./img/Ikalogic_scanalogic2.png)](./img/Ikalogic_scanalogic2.png "Ikalogic Scanalogic2"){ .glightbox data-gallery="hardware-support" }
+[![Ikalogic Scanalogic2](./img/Ikalogic_scanalogic2.jpg)](./img/Ikalogic_scanalogic2.png "Ikalogic Scanalogic2"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Ikalogic Scanalogic2</span>
 
-[![Gwinstek Gpd 3303s](./img/Gwinstek-gpd-3303s.png)](./img/Gwinstek-gpd-3303s.png "Gwinstek Gpd 3303s"){ .glightbox data-gallery="hardware-support" }
+[![Gwinstek Gpd 3303s](./img/Gwinstek-gpd-3303s.jpg)](./img/Gwinstek-gpd-3303s.png "Gwinstek Gpd 3303s"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Gwinstek Gpd 3303s</span>
 
-[![Digilent Analog Discovery](./img/Digilent_analog_discovery.png)](./img/Digilent_analog_discovery.png "Digilent Analog Discovery"){ .glightbox data-gallery="hardware-support" }
+[![Digilent Analog Discovery](./img/Digilent_analog_discovery.jpg)](./img/Digilent_analog_discovery.png "Digilent Analog Discovery"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Digilent Analog Discovery</span>
 
-[![Ideofy La 08](./img/Ideofy_la_08.png)](./img/Ideofy_la_08.png "Ideofy La 08"){ .glightbox data-gallery="hardware-support" }
+[![Ideofy La 08](./img/Ideofy_la_08.jpg)](./img/Ideofy_la_08.png "Ideofy La 08"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Ideofy La 08</span>
 
-[![Escort 179 Device Front](./img/Escort_179_device_front.png)](./img/Escort_179_device_front.png "Escort 179 Device Front"){ .glightbox data-gallery="hardware-support" }
+[![Escort 179 Device Front](./img/Escort_179_device_front.jpg)](./img/Escort_179_device_front.png "Escort 179 Device Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Escort 179 Device Front</span>
 
-[![Voltcraft Dl 160s](./img/Voltcraft_dl_160s.png)](./img/Voltcraft_dl_160s.png "Voltcraft Dl 160s"){ .glightbox data-gallery="hardware-support" }
+[![Voltcraft Dl 160s](./img/Voltcraft_dl_160s.jpg)](./img/Voltcraft_dl_160s.png "Voltcraft Dl 160s"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Voltcraft Dl 160s</span>
 
-[![Openbench Logic Sniffer Front](./img/Openbench_logic_sniffer_front.png)](./img/Openbench_logic_sniffer_front.png "Openbench Logic Sniffer Front"){ .glightbox data-gallery="hardware-support" }
+[![Openbench Logic Sniffer Front](./img/Openbench_logic_sniffer_front.jpg)](./img/Openbench_logic_sniffer_front.png "Openbench Logic Sniffer Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Openbench Logic Sniffer Front</span>
 
 [![Envox Eez Bb3 Enclosure Prototype](./img/Envox_eez_bb3_enclosure_prototype.jpg)](./img/Envox_eez_bb3_enclosure_prototype.jpg "Envox Eez Bb3 Enclosure Prototype"){ .glightbox data-gallery="hardware-support" }
@@ -2842,94 +2842,94 @@ If you own any other logic analyzers, oscilloscopes, multimeters, dataloggers, .
 [![Dreamsourcelab Dscope C20p Front](./img/Dreamsourcelab_dscope_c20p_front.jpg)](./img/Dreamsourcelab_dscope_c20p_front.jpg "Dreamsourcelab Dscope C20p Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Dreamsourcelab Dscope C20p Front</span>
 
-[![Voltcraft Vc96 Mugshot](./img/Voltcraft_vc96_mugshot.png)](./img/Voltcraft_vc96_mugshot.png "Voltcraft Vc96 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Voltcraft Vc96 Mugshot](./img/Voltcraft_vc96_mugshot.jpg)](./img/Voltcraft_vc96_mugshot.png "Voltcraft Vc96 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Voltcraft Vc96 Mugshot</span>
 
-[![Voltcraft Vc820 Device](./img/Voltcraft_vc820_device.png)](./img/Voltcraft_vc820_device.png "Voltcraft Vc820 Device"){ .glightbox data-gallery="hardware-support" }
+[![Voltcraft Vc820 Device](./img/Voltcraft_vc820_device.jpg)](./img/Voltcraft_vc820_device.png "Voltcraft Vc820 Device"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Voltcraft Vc820 Device</span>
 
-[![Agilent 33120a Front](./img/Agilent_33120A_Front.png)](./img/Agilent_33120A_Front.png "Agilent 33120a Front"){ .glightbox data-gallery="hardware-support" }
+[![Agilent 33120a Front](./img/Agilent_33120A_Front.jpg)](./img/Agilent_33120A_Front.png "Agilent 33120a Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Agilent 33120a Front</span>
 
-[![Mastech Ms8250d Mugshot](./img/Mastech_ms8250d_mugshot.png)](./img/Mastech_ms8250d_mugshot.png "Mastech Ms8250d Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Mastech Ms8250d Mugshot](./img/Mastech_ms8250d_mugshot.jpg)](./img/Mastech_ms8250d_mugshot.png "Mastech Ms8250d Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Mastech Ms8250d Mugshot</span>
 
-[![Gossen Metrahit 30m](./img/Gossen_metrahit_30m.png)](./img/Gossen_metrahit_30m.png "Gossen Metrahit 30m"){ .glightbox data-gallery="hardware-support" }
+[![Gossen Metrahit 30m](./img/Gossen_metrahit_30m.jpg)](./img/Gossen_metrahit_30m.png "Gossen Metrahit 30m"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Gossen Metrahit 30m</span>
 
-[![Ni Gpib Enet](./img/NI_GPIB-ENET.png)](./img/NI_GPIB-ENET.png "Ni Gpib Enet"){ .glightbox data-gallery="hardware-support" }
+[![Ni Gpib Enet](./img/NI_GPIB-ENET.jpg)](./img/NI_GPIB-ENET.png "Ni Gpib Enet"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Ni Gpib Enet</span>
 
-[![Voltcraft Vc870 Mugshot](./img/Voltcraft_vc870_mugshot.png)](./img/Voltcraft_vc870_mugshot.png "Voltcraft Vc870 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Voltcraft Vc870 Mugshot](./img/Voltcraft_vc870_mugshot.jpg)](./img/Voltcraft_vc870_mugshot.png "Voltcraft Vc870 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Voltcraft Vc870 Mugshot</span>
 
-[![Testo 435 4](./img/Testo_435-4.png)](./img/Testo_435-4.png "Testo 435 4"){ .glightbox data-gallery="hardware-support" }
+[![Testo 435 4](./img/Testo_435-4.jpg)](./img/Testo_435-4.png "Testo 435 4"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Testo 435 4</span>
 
-[![Peaktech 4380 Mugshot](./img/Peaktech_4380_mugshot.png)](./img/Peaktech_4380_mugshot.png "Peaktech 4380 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Peaktech 4380 Mugshot](./img/Peaktech_4380_mugshot.jpg)](./img/Peaktech_4380_mugshot.png "Peaktech 4380 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Peaktech 4380 Mugshot</span>
 
-[![Prologix Usb](./img/Prologix-usb.png)](./img/Prologix-usb.png "Prologix Usb"){ .glightbox data-gallery="hardware-support" }
+[![Prologix Usb](./img/Prologix-usb.jpg)](./img/Prologix-usb.png "Prologix Usb"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Prologix Usb</span>
 
-[![Dds120 Mugshot](./img/Dds120_mugshot.png)](./img/Dds120_mugshot.png "Dds120 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Dds120 Mugshot](./img/Dds120_mugshot.jpg)](./img/Dds120_mugshot.png "Dds120 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Dds120 Mugshot</span>
 
-[![Rigol Vs5202d](./img/Rigol_VS5202D.png)](./img/Rigol_VS5202D.png "Rigol Vs5202d"){ .glightbox data-gallery="hardware-support" }
+[![Rigol Vs5202d](./img/Rigol_VS5202D.jpg)](./img/Rigol_VS5202D.png "Rigol Vs5202d"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Rigol Vs5202d</span>
 
-[![Victor 70c](./img/Victor_70C.png)](./img/Victor_70C.png "Victor 70c"){ .glightbox data-gallery="hardware-support" }
+[![Victor 70c](./img/Victor_70C.jpg)](./img/Victor_70C.png "Victor 70c"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Victor 70c</span>
 
-[![Voltcraft K204](./img/Voltcraft_k204.png)](./img/Voltcraft_k204.png "Voltcraft K204"){ .glightbox data-gallery="hardware-support" }
+[![Voltcraft K204](./img/Voltcraft_k204.jpg)](./img/Voltcraft_k204.png "Voltcraft K204"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Voltcraft K204</span>
 
-[![Per Vices Noctar](./img/Per_vices_noctar.png)](./img/Per_vices_noctar.png "Per Vices Noctar"){ .glightbox data-gallery="hardware-support" }
+[![Per Vices Noctar](./img/Per_vices_noctar.jpg)](./img/Per_vices_noctar.png "Per Vices Noctar"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Per Vices Noctar</span>
 
-[![Gdm 9061 Frontpanel](./img/Gdm-9061_frontpanel.png)](./img/Gdm-9061_frontpanel.png "Gdm 9061 Frontpanel"){ .glightbox data-gallery="hardware-support" }
+[![Gdm 9061 Frontpanel](./img/Gdm-9061_frontpanel.jpg)](./img/Gdm-9061_frontpanel.png "Gdm 9061 Frontpanel"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Gdm 9061 Frontpanel</span>
 
-[![Hp 59306a Mugshot](./img/HP_59306A-mugshot.png)](./img/HP_59306A-mugshot.png "Hp 59306a Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Hp 59306a Mugshot](./img/HP_59306A-mugshot.jpg)](./img/HP_59306A-mugshot.png "Hp 59306a Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Hp 59306a Mugshot</span>
 
-[![Escort 19](./img/Escort_19.png)](./img/Escort_19.png "Escort 19"){ .glightbox data-gallery="hardware-support" }
+[![Escort 19](./img/Escort_19.jpg)](./img/Escort_19.png "Escort 19"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Escort 19</span>
 
-[![Agilent U1732b](./img/Agilent_U1732B.png)](./img/Agilent_U1732B.png "Agilent U1732b"){ .glightbox data-gallery="hardware-support" }
+[![Agilent U1732b](./img/Agilent_U1732B.jpg)](./img/Agilent_U1732B.png "Agilent U1732b"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Agilent U1732b</span>
 
 [![Actaris A14c5 Teleinfo](./img/Actaris_a14c5_teleinfo.png)](./img/Actaris_a14c5_teleinfo.png "Actaris A14c5 Teleinfo"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Actaris A14c5 Teleinfo</span>
 
-[![Armfly Mini Logic](./img/ARMFLY_MINI_LOGIC.png)](./img/ARMFLY_MINI_LOGIC.png "Armfly Mini Logic"){ .glightbox data-gallery="hardware-support" }
+[![Armfly Mini Logic](./img/ARMFLY_MINI_LOGIC.jpg)](./img/ARMFLY_MINI_LOGIC.png "Armfly Mini Logic"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Armfly Mini Logic</span>
 
-[![Mcupro Logic16 Overview](./img/Mcupro_Logic16_overview.png)](./img/Mcupro_Logic16_overview.png "Mcupro Logic16 Overview"){ .glightbox data-gallery="hardware-support" }
+[![Mcupro Logic16 Overview](./img/Mcupro_Logic16_overview.jpg)](./img/Mcupro_Logic16_overview.png "Mcupro Logic16 Overview"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Mcupro Logic16 Overview</span>
 
-[![Mic 98581](./img/Mic_98581.png)](./img/Mic_98581.png "Mic 98581"){ .glightbox data-gallery="hardware-support" }
+[![Mic 98581](./img/Mic_98581.jpg)](./img/Mic_98581.png "Mic 98581"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Mic 98581</span>
 
-[![Devantech Eth008b Mugshot](./img/Devantech-eth008b-mugshot.png)](./img/Devantech-eth008b-mugshot.png "Devantech Eth008b Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Devantech Eth008b Mugshot](./img/Devantech-eth008b-mugshot.jpg)](./img/Devantech-eth008b-mugshot.png "Devantech Eth008b Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Devantech Eth008b Mugshot</span>
 
-[![Fluke Scopemeter123](./img/Fluke_scopemeter123.png)](./img/Fluke_scopemeter123.png "Fluke Scopemeter123"){ .glightbox data-gallery="hardware-support" }
+[![Fluke Scopemeter123](./img/Fluke_scopemeter123.jpg)](./img/Fluke_scopemeter123.png "Fluke Scopemeter123"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Fluke Scopemeter123</span>
 
-[![Peaktech 4370 Device Front](./img/Peaktech_4370_device_front.png)](./img/Peaktech_4370_device_front.png "Peaktech 4370 Device Front"){ .glightbox data-gallery="hardware-support" }
+[![Peaktech 4370 Device Front](./img/Peaktech_4370_device_front.jpg)](./img/Peaktech_4370_device_front.png "Peaktech 4370 Device Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Peaktech 4370 Device Front</span>
 
-[![Digitek Dt4000zc Device Front](./img/Digitek_dt4000zc_device_front.png)](./img/Digitek_dt4000zc_device_front.png "Digitek Dt4000zc Device Front"){ .glightbox data-gallery="hardware-support" }
+[![Digitek Dt4000zc Device Front](./img/Digitek_dt4000zc_device_front.jpg)](./img/Digitek_dt4000zc_device_front.png "Digitek Dt4000zc Device Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Digitek Dt4000zc Device Front</span>
 
 [![Agilent 82357a Top Cover Removed](./img/Agilent_82357a_top_cover_removed.jpg)](./img/Agilent_82357a_top_cover_removed.jpg "Agilent 82357a Top Cover Removed"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Agilent 82357a Top Cover Removed</span>
 
-[![Rding Temper Gold Device Front](./img/Rding_temper_gold_device_front.png)](./img/Rding_temper_gold_device_front.png "Rding Temper Gold Device Front"){ .glightbox data-gallery="hardware-support" }
+[![Rding Temper Gold Device Front](./img/Rding_temper_gold_device_front.jpg)](./img/Rding_temper_gold_device_front.png "Rding Temper Gold Device Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Rding Temper Gold Device Front</span>
 
-[![Beiming S82357](./img/Beiming_s82357.png)](./img/Beiming_s82357.png "Beiming S82357"){ .glightbox data-gallery="hardware-support" }
+[![Beiming S82357](./img/Beiming_s82357.jpg)](./img/Beiming_s82357.png "Beiming S82357"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Beiming S82357</span>
 
 [![Owon P4603](./img/Owon_P4603.JPG)](./img/Owon_P4603.JPG "Owon P4603"){ .glightbox data-gallery="hardware-support" }
@@ -2938,25 +2938,25 @@ If you own any other logic analyzers, oscilloscopes, multimeters, dataloggers, .
 [![Hantek Idso1070a](./img/Hantek_iDSO1070A.JPG)](./img/Hantek_iDSO1070A.JPG "Hantek Idso1070a"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Hantek Idso1070a</span>
 
-[![Peaktech 3330 Mugshot](./img/Peaktech_3330_mugshot.png)](./img/Peaktech_3330_mugshot.png "Peaktech 3330 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Peaktech 3330 Mugshot](./img/Peaktech_3330_mugshot.jpg)](./img/Peaktech_3330_mugshot.png "Peaktech 3330 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Peaktech 3330 Mugshot</span>
 
-[![800px Mastech M9803r Device Front](./img/800px-Mastech_m9803r_device_front.png)](./img/800px-Mastech_m9803r_device_front.png "800px Mastech M9803r Device Front"){ .glightbox data-gallery="hardware-support" }
+[![800px Mastech M9803r Device Front](./img/800px-Mastech_m9803r_device_front.jpg)](./img/800px-Mastech_m9803r_device_front.png "800px Mastech M9803r Device Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">800px Mastech M9803r Device Front</span>
 
-[![Velleman Pcsu1000](./img/Velleman_PCSU1000.png)](./img/Velleman_PCSU1000.png "Velleman Pcsu1000"){ .glightbox data-gallery="hardware-support" }
+[![Velleman Pcsu1000](./img/Velleman_PCSU1000.jpg)](./img/Velleman_PCSU1000.png "Velleman Pcsu1000"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Velleman Pcsu1000</span>
 
-[![Metrix Mx56c](./img/Metrix_mx56c.png)](./img/Metrix_mx56c.png "Metrix Mx56c"){ .glightbox data-gallery="hardware-support" }
+[![Metrix Mx56c](./img/Metrix_mx56c.jpg)](./img/Metrix_mx56c.png "Metrix Mx56c"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Metrix Mx56c</span>
 
-[![Tp4000zc Front](./img/Tp4000zc_front.png)](./img/Tp4000zc_front.png "Tp4000zc Front"){ .glightbox data-gallery="hardware-support" }
+[![Tp4000zc Front](./img/Tp4000zc_front.jpg)](./img/Tp4000zc_front.png "Tp4000zc Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Tp4000zc Front</span>
 
 [![Gmc Metrahit 29s Logo](./img/Gmc_metrahit_29s_logo.png)](./img/Gmc_metrahit_29s_logo.png "Gmc Metrahit 29s Logo"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Gmc Metrahit 29s Logo</span>
 
-[![Bm859s Front Sleeve](./img/Bm859s-front-sleeve.png)](./img/Bm859s-front-sleeve.png "Bm859s Front Sleeve"){ .glightbox data-gallery="hardware-support" }
+[![Bm859s Front Sleeve](./img/Bm859s-front-sleeve.jpg)](./img/Bm859s-front-sleeve.png "Bm859s Front Sleeve"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Bm859s Front Sleeve</span>
 
 [![Beaglelogic](./img/BeagleLogic.jpg)](./img/BeagleLogic.jpg "Beaglelogic"){ .glightbox data-gallery="hardware-support" }
@@ -2965,121 +2965,121 @@ If you own any other logic analyzers, oscilloscopes, multimeters, dataloggers, .
 [![Img 20191206 105430](./img/IMG_20191206_105430.jpg)](./img/IMG_20191206_105430.jpg "Img 20191206 105430"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Img 20191206 105430</span>
 
-[![Voltcraft Dl 140th](./img/Voltcraft_dl-140th.png)](./img/Voltcraft_dl-140th.png "Voltcraft Dl 140th"){ .glightbox data-gallery="hardware-support" }
+[![Voltcraft Dl 140th](./img/Voltcraft_dl-140th.jpg)](./img/Voltcraft_dl-140th.png "Voltcraft Dl 140th"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Voltcraft Dl 140th</span>
 
-[![Meilhaus Mephisto Scope1](./img/Meilhaus_mephisto_scope1.png)](./img/Meilhaus_mephisto_scope1.png "Meilhaus Mephisto Scope1"){ .glightbox data-gallery="hardware-support" }
+[![Meilhaus Mephisto Scope1](./img/Meilhaus_mephisto_scope1.jpg)](./img/Meilhaus_mephisto_scope1.png "Meilhaus Mephisto Scope1"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Meilhaus Mephisto Scope1</span>
 
-[![Colead Sl 5868p](./img/Colead_SL-5868P.png)](./img/Colead_SL-5868P.png "Colead Sl 5868p"){ .glightbox data-gallery="hardware-support" }
+[![Colead Sl 5868p](./img/Colead_SL-5868P.jpg)](./img/Colead_SL-5868P.png "Colead Sl 5868p"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Colead Sl 5868p</span>
 
 [![Rs55ii](./img/Rs55ii.png)](./img/Rs55ii.png "Rs55ii"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Rs55ii</span>
 
-[![Uni T Ut81b Mugshot](./img/Uni-t-ut81b_mugshot.png)](./img/Uni-t-ut81b_mugshot.png "Uni T Ut81b Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Uni T Ut81b Mugshot](./img/Uni-t-ut81b_mugshot.jpg)](./img/Uni-t-ut81b_mugshot.png "Uni T Ut81b Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Uni T Ut81b Mugshot</span>
 
-[![Tenma 72 7730](./img/Tenma_72-7730.png)](./img/Tenma_72-7730.png "Tenma 72 7730"){ .glightbox data-gallery="hardware-support" }
+[![Tenma 72 7730](./img/Tenma_72-7730.jpg)](./img/Tenma_72-7730.png "Tenma 72 7730"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Tenma 72 7730</span>
 
-[![Ni Usb 6008](./img/Ni_usb_6008.png)](./img/Ni_usb_6008.png "Ni Usb 6008"){ .glightbox data-gallery="hardware-support" }
+[![Ni Usb 6008](./img/Ni_usb_6008.jpg)](./img/Ni_usb_6008.png "Ni Usb 6008"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Ni Usb 6008</span>
 
-[![Tektronix Tla5204 1000](./img/Tektronix_TLA5204_1000.png)](./img/Tektronix_TLA5204_1000.png "Tektronix Tla5204 1000"){ .glightbox data-gallery="hardware-support" }
+[![Tektronix Tla5204 1000](./img/Tektronix_TLA5204_1000.jpg)](./img/Tektronix_TLA5204_1000.png "Tektronix Tla5204 1000"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Tektronix Tla5204 1000</span>
 
-[![Chroma 61604 Front](./img/Chroma_61604_front.png)](./img/Chroma_61604_front.png "Chroma 61604 Front"){ .glightbox data-gallery="hardware-support" }
+[![Chroma 61604 Front](./img/Chroma_61604_front.jpg)](./img/Chroma_61604_front.png "Chroma 61604 Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Chroma 61604 Front</span>
 
-[![Pcsensor Temper1k2](./img/Pcsensor_temper1k2.png)](./img/Pcsensor_temper1k2.png "Pcsensor Temper1k2"){ .glightbox data-gallery="hardware-support" }
+[![Pcsensor Temper1k2](./img/Pcsensor_temper1k2.jpg)](./img/Pcsensor_temper1k2.png "Pcsensor Temper1k2"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Pcsensor Temper1k2</span>
 
-[![Rs Pro S2 01 Front](./img/RS_PRO_S2_-_01_-_Front.png)](./img/RS_PRO_S2_-_01_-_Front.png "Rs Pro S2 01 Front"){ .glightbox data-gallery="hardware-support" }
+[![Rs Pro S2 01 Front](./img/RS_PRO_S2_-_01_-_Front.jpg)](./img/RS_PRO_S2_-_01_-_Front.png "Rs Pro S2 01 Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Rs Pro S2 01 Front</span>
 
-[![Tektronix Tds2024b Mugshot](./img/Tektronix_tds2024b_mugshot.png)](./img/Tektronix_tds2024b_mugshot.png "Tektronix Tds2024b Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Tektronix Tds2024b Mugshot](./img/Tektronix_tds2024b_mugshot.jpg)](./img/Tektronix_tds2024b_mugshot.png "Tektronix Tds2024b Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Tektronix Tds2024b Mugshot</span>
 
-[![Focussz Fosc21 Mugshot](./img/Focussz_fosc21_mugshot.png)](./img/Focussz_fosc21_mugshot.png "Focussz Fosc21 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Focussz Fosc21 Mugshot](./img/Focussz_fosc21_mugshot.jpg)](./img/Focussz_fosc21_mugshot.png "Focussz Fosc21 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Focussz Fosc21 Mugshot</span>
 
-[![Metex M4650cr Mugshot](./img/Metex_m4650cr_mugshot.png)](./img/Metex_m4650cr_mugshot.png "Metex M4650cr Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Metex M4650cr Mugshot](./img/Metex_m4650cr_mugshot.jpg)](./img/Metex_m4650cr_mugshot.png "Metex M4650cr Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Metex M4650cr Mugshot</span>
 
-[![Manson Hcs3202](./img/Manson_hcs3202.png)](./img/Manson_hcs3202.png "Manson Hcs3202"){ .glightbox data-gallery="hardware-support" }
+[![Manson Hcs3202](./img/Manson_hcs3202.jpg)](./img/Manson_hcs3202.png "Manson Hcs3202"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Manson Hcs3202</span>
 
-[![Tenma 72 7732](./img/Tenma_72-7732.png)](./img/Tenma_72-7732.png "Tenma 72 7732"){ .glightbox data-gallery="hardware-support" }
+[![Tenma 72 7732](./img/Tenma_72-7732.jpg)](./img/Tenma_72-7732.png "Tenma 72 7732"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Tenma 72 7732</span>
 
-[![Picoscope 3206](./img/Picoscope_3206.png)](./img/Picoscope_3206.png "Picoscope 3206"){ .glightbox data-gallery="hardware-support" }
+[![Picoscope 3206](./img/Picoscope_3206.jpg)](./img/Picoscope_3206.png "Picoscope 3206"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Picoscope 3206</span>
 
-[![Rigol Dp832](./img/Rigol_DP832.png)](./img/Rigol_DP832.png "Rigol Dp832"){ .glightbox data-gallery="hardware-support" }
+[![Rigol Dp832](./img/Rigol_DP832.jpg)](./img/Rigol_DP832.png "Rigol Dp832"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Rigol Dp832</span>
 
 [![Hanmatek Hm305p Front](./img/Hanmatek_HM305P_front.JPG)](./img/Hanmatek_HM305P_front.JPG "Hanmatek Hm305p Front"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Hanmatek Hm305p Front</span>
 
-[![Ics 488 Usb](./img/ICS_488-USB.png)](./img/ICS_488-USB.png "Ics 488 Usb"){ .glightbox data-gallery="hardware-support" }
+[![Ics 488 Usb](./img/ICS_488-USB.jpg)](./img/ICS_488-USB.png "Ics 488 Usb"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Ics 488 Usb</span>
 
-[![Jtagulator Transparent](./img/Jtagulator-transparent.png)](./img/Jtagulator-transparent.png "Jtagulator Transparent"){ .glightbox data-gallery="hardware-support" }
+[![Jtagulator Transparent](./img/Jtagulator-transparent.jpg)](./img/Jtagulator-transparent.png "Jtagulator Transparent"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Jtagulator Transparent</span>
 
-[![Bm525s Mugshot](./img/Bm525s-mugshot.png)](./img/Bm525s-mugshot.png "Bm525s Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Bm525s Mugshot](./img/Bm525s-mugshot.jpg)](./img/Bm525s-mugshot.png "Bm525s Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Bm525s Mugshot</span>
 
-[![Mastech Ms8250b Mugshot](./img/Mastech_ms8250b_mugshot.png)](./img/Mastech_ms8250b_mugshot.png "Mastech Ms8250b Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Mastech Ms8250b Mugshot](./img/Mastech_ms8250b_mugshot.jpg)](./img/Mastech_ms8250b_mugshot.png "Mastech Ms8250b Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Mastech Ms8250b Mugshot</span>
 
-[![Minila Parport](./img/Minila_parport.png)](./img/Minila_parport.png "Minila Parport"){ .glightbox data-gallery="hardware-support" }
+[![Minila Parport](./img/Minila_parport.jpg)](./img/Minila_parport.png "Minila Parport"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Minila Parport</span>
 
-[![Peaktech 2170 Mugshot](./img/Peaktech_2170_mugshot.png)](./img/Peaktech_2170_mugshot.png "Peaktech 2170 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Peaktech 2170 Mugshot](./img/Peaktech_2170_mugshot.jpg)](./img/Peaktech_2170_mugshot.png "Peaktech 2170 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Peaktech 2170 Mugshot</span>
 
-[![El Usb Co](./img/EL-USB-CO.png)](./img/EL-USB-CO.png "El Usb Co"){ .glightbox data-gallery="hardware-support" }
+[![El Usb Co](./img/EL-USB-CO.jpg)](./img/EL-USB-CO.png "El Usb Co"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">El Usb Co</span>
 
-[![Icstation Icse012a Mugshot](./img/ICStation_ICSE012A-mugshot.png)](./img/ICStation_ICSE012A-mugshot.png "Icstation Icse012a Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Icstation Icse012a Mugshot](./img/ICStation_ICSE012A-mugshot.jpg)](./img/ICStation_ICSE012A-mugshot.png "Icstation Icse012a Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Icstation Icse012a Mugshot</span>
 
-[![Maynuo M9812 Mugshot](./img/Maynuo_m9812_mugshot.png)](./img/Maynuo_m9812_mugshot.png "Maynuo M9812 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Maynuo M9812 Mugshot](./img/Maynuo_m9812_mugshot.jpg)](./img/Maynuo_m9812_mugshot.png "Maynuo M9812 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Maynuo M9812 Mugshot</span>
 
-[![Hantek 6022be Mugshot](./img/Hantek_6022be_mugshot.png)](./img/Hantek_6022be_mugshot.png "Hantek 6022be Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Hantek 6022be Mugshot](./img/Hantek_6022be_mugshot.jpg)](./img/Hantek_6022be_mugshot.png "Hantek 6022be Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Hantek 6022be Mugshot</span>
 
-[![Rs Hmo1002](./img/RS_HMO1002.png)](./img/RS_HMO1002.png "Rs Hmo1002"){ .glightbox data-gallery="hardware-support" }
+[![Rs Hmo1002](./img/RS_HMO1002.jpg)](./img/RS_HMO1002.png "Rs Hmo1002"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Rs Hmo1002</span>
 
-[![Asix Sigma 2](./img/ASIX_SIGMA_2.png)](./img/ASIX_SIGMA_2.png "Asix Sigma 2"){ .glightbox data-gallery="hardware-support" }
+[![Asix Sigma 2](./img/ASIX_SIGMA_2.jpg)](./img/ASIX_SIGMA_2.png "Asix Sigma 2"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Asix Sigma 2</span>
 
-[![Sysclk Sla5032 Mugshot](./img/Sysclk_sla5032_mugshot.png)](./img/Sysclk_sla5032_mugshot.png "Sysclk Sla5032 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Sysclk Sla5032 Mugshot](./img/Sysclk_sla5032_mugshot.jpg)](./img/Sysclk_sla5032_mugshot.png "Sysclk Sla5032 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Sysclk Sla5032 Mugshot</span>
 
-[![Mcu123 Saleae Logic Clone](./img/Mcu123_saleae_logic_clone.png)](./img/Mcu123_saleae_logic_clone.png "Mcu123 Saleae Logic Clone"){ .glightbox data-gallery="hardware-support" }
+[![Mcu123 Saleae Logic Clone](./img/Mcu123_saleae_logic_clone.jpg)](./img/Mcu123_saleae_logic_clone.png "Mcu123 Saleae Logic Clone"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Mcu123 Saleae Logic Clone</span>
 
-[![Yixingdianzi Mdso](./img/YiXingDianZi-MDSO.png)](./img/YiXingDianZi-MDSO.png "Yixingdianzi Mdso"){ .glightbox data-gallery="hardware-support" }
+[![Yixingdianzi Mdso](./img/YiXingDianZi-MDSO.jpg)](./img/YiXingDianZi-MDSO.png "Yixingdianzi Mdso"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Yixingdianzi Mdso</span>
 
-[![Agilent U1232a](./img/Agilent_U1232A.png)](./img/Agilent_U1232A.png "Agilent U1232a"){ .glightbox data-gallery="hardware-support" }
+[![Agilent U1232a](./img/Agilent_U1232A.jpg)](./img/Agilent_U1232A.png "Agilent U1232a"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Agilent U1232a</span>
 
-[![Agilent 66312a Mugshot](./img/Agilent-66312a-mugshot.png)](./img/Agilent-66312a-mugshot.png "Agilent 66312a Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Agilent 66312a Mugshot](./img/Agilent-66312a-mugshot.jpg)](./img/Agilent-66312a-mugshot.png "Agilent 66312a Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Agilent 66312a Mugshot</span>
 
-[![Norma Dm950](./img/Norma_dm950.png)](./img/Norma_dm950.png "Norma Dm950"){ .glightbox data-gallery="hardware-support" }
+[![Norma Dm950](./img/Norma_dm950.jpg)](./img/Norma_dm950.png "Norma Dm950"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Norma Dm950</span>
 
-[![Uni T Ut372 Mugshot](./img/Uni-t_ut372_mugshot.png)](./img/Uni-t_ut372_mugshot.png "Uni T Ut372 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Uni T Ut372 Mugshot](./img/Uni-t_ut372_mugshot.jpg)](./img/Uni-t_ut372_mugshot.png "Uni T Ut372 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Uni T Ut372 Mugshot</span>
 
-[![Mastech Ms6514 Mugshot](./img/MASTECH_MS6514_mugshot.png)](./img/MASTECH_MS6514_mugshot.png "Mastech Ms6514 Mugshot"){ .glightbox data-gallery="hardware-support" }
+[![Mastech Ms6514 Mugshot](./img/MASTECH_MS6514_mugshot.jpg)](./img/MASTECH_MS6514_mugshot.png "Mastech Ms6514 Mugshot"){ .glightbox data-gallery="hardware-support" }
 <span class="caption">Mastech Ms6514 Mugshot</span>
 
 [![Vktech Thumb](./img/VKTECH_thumb.jpg)](./img/VKTECH_thumb.jpg "Vktech Thumb"){ .glightbox data-gallery="hardware-support" }

@@ -6,7 +6,7 @@ title: HP 3325A
 
 <div class="infobox" markdown>
 
-![HP 3325A](./img/Hp_3325a_front.png){ .infobox-image }
+![HP 3325A](./img/Hp_3325a_front.jpg){ .infobox-image }
 
 ### HP 3325A
 
@@ -50,7 +50,7 @@ mrnuke had a 3325A, but he had to get rid of it before he could implement sigrok
 
 <div class="photo-grid" markdown>
 
-[![Hp 3325a Front](./img/Hp_3325a_front.png)](./img/Hp_3325a_front.png "Hp 3325a Front"){ .glightbox data-gallery="hp-3325a" }
+[![Hp 3325a Front](./img/Hp_3325a_front.jpg)](./img/Hp_3325a_front.png "Hp 3325a Front"){ .glightbox data-gallery="hp-3325a" }
 <span class="caption">Hp 3325a Front</span>
 
 [![Hp 3325a Gpib Addr Ctl](./img/Hp_3325a_gpib_addr_ctl.jpg)](./img/Hp_3325a_gpib_addr_ctl.jpg "Hp 3325a Gpib Addr Ctl"){ .glightbox data-gallery="hp-3325a" }

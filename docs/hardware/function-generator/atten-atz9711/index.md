@@ -6,7 +6,7 @@ title: ATTEN ATZ9711
 
 <div class="infobox" markdown>
 
-![ATTEN ATZ9711](./img/Atten_ATZ9711.png){ .infobox-image }
+![ATTEN ATZ9711](./img/Atten_ATZ9711.jpg){ .infobox-image }
 
 ### ATTEN ATZ9711
 
@@ -33,7 +33,7 @@ TODO.
 
 <div class="photo-grid" markdown>
 
-[![Atten Atz9711](./img/Atten_ATZ9711.png)](./img/Atten_ATZ9711.png "Atten Atz9711"){ .glightbox data-gallery="atten-atz9711" }
+[![Atten Atz9711](./img/Atten_ATZ9711.jpg)](./img/Atten_ATZ9711.png "Atten Atz9711"){ .glightbox data-gallery="atten-atz9711" }
 <span class="caption">Atten Atz9711</span>
 
 [![Atten Atz9711 Back](./img/Atten_ATZ9711_back.jpg)](./img/Atten_ATZ9711_back.jpg "Atten Atz9711 Back"){ .glightbox data-gallery="atten-atz9711" }

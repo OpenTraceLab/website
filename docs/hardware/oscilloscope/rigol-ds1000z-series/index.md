@@ -6,7 +6,7 @@ title: Rigol DS1000Z series
 
 <div class="infobox" markdown>
 
-![Rigol DS1000Z series](./img/Rigol_DS1074Z_front.png){ .infobox-image }
+![Rigol DS1000Z series](./img/Rigol_DS1074Z_front.jpg){ .infobox-image }
 
 ### Rigol DS1000Z series
 
@@ -51,7 +51,7 @@ If you're getting persistent command errors when attempting to capture via Ether
 
 <div class="photo-grid" markdown>
 
-[![Rigol Ds1074z Front](./img/Rigol_DS1074Z_front.png)](./img/Rigol_DS1074Z_front.png "Rigol Ds1074z Front"){ .glightbox data-gallery="rigol-ds1000z-series" }
+[![Rigol Ds1074z Front](./img/Rigol_DS1074Z_front.jpg)](./img/Rigol_DS1074Z_front.png "Rigol Ds1074z Front"){ .glightbox data-gallery="rigol-ds1000z-series" }
 <span class="caption">Rigol Ds1074z Front</span>
 
 </div>

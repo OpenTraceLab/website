@@ -41,7 +41,7 @@ The **HSA Logic** is a USB-based, 8-channel logic analyzer with 6.25 MHz samplin
 [![Hsa Logic Back](./img/Hsa-logic_back.jpg)](./img/Hsa-logic_back.jpg "Hsa Logic Back"){ .glightbox data-gallery="hsa-logic" }
 <span class="caption">Hsa Logic Back</span>
 
-[![Hsa Logic](./img/Hsa-logic.png)](./img/Hsa-logic.png "Hsa Logic"){ .glightbox data-gallery="hsa-logic" }
+[![Hsa Logic](./img/Hsa-logic.jpg)](./img/Hsa-logic.png "Hsa Logic"){ .glightbox data-gallery="hsa-logic" }
 <span class="caption">Hsa Logic</span>
 
 [![Hsa Logic Front](./img/Hsa-logic_front.jpg)](./img/Hsa-logic_front.jpg "Hsa Logic Front"){ .glightbox data-gallery="hsa-logic" }

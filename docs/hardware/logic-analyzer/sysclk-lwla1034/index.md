@@ -54,7 +54,7 @@ The not-installed 10-pin connector between the USB socket and the large capacito
 [![Sysclk Lwla1034 Cypress Sram](./img/Sysclk_lwla1034_cypress_sram.jpg)](./img/Sysclk_lwla1034_cypress_sram.jpg "Sysclk Lwla1034 Cypress Sram"){ .glightbox data-gallery="sysclk-lwla1034" }
 <span class="caption">Sysclk Lwla1034 Cypress Sram</span>
 
-[![Sysclk Lwla1034 Mugshot](./img/Sysclk_lwla1034_mugshot.png)](./img/Sysclk_lwla1034_mugshot.png "Sysclk Lwla1034 Mugshot"){ .glightbox data-gallery="sysclk-lwla1034" }
+[![Sysclk Lwla1034 Mugshot](./img/Sysclk_lwla1034_mugshot.jpg)](./img/Sysclk_lwla1034_mugshot.png "Sysclk Lwla1034 Mugshot"){ .glightbox data-gallery="sysclk-lwla1034" }
 <span class="caption">Sysclk Lwla1034 Mugshot</span>
 
 [![Sysclk Lwla1034 Device Usb](./img/Sysclk_lwla1034_device_usb.jpg)](./img/Sysclk_lwla1034_device_usb.jpg "Sysclk Lwla1034 Device Usb"){ .glightbox data-gallery="sysclk-lwla1034" }

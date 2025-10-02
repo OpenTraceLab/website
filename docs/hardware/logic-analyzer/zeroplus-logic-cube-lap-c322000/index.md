@@ -6,7 +6,7 @@ title: ZEROPLUS Logic Cube LAP-C(322000)
 
 <div class="infobox" markdown>
 
-![ZEROPLUS Logic Cube LAP-C(322000)](./img/Zeroplus_Logic_Cube.png){ .infobox-image }
+![ZEROPLUS Logic Cube LAP-C(322000)](./img/Zeroplus_Logic_Cube.jpg){ .infobox-image }
 
 ### ZEROPLUS Logic Cube LAP-C(322000)
 
@@ -40,7 +40,7 @@ See [ZEROPLUS_Logic_Cube_LAP-C_series#Hardware](https://sigrok.org/wiki/ZEROPLUS
 
 <div class="photo-grid" markdown>
 
-[![Zeroplus Logic Cube](./img/Zeroplus_Logic_Cube.png)](./img/Zeroplus_Logic_Cube.png "Zeroplus Logic Cube"){ .glightbox data-gallery="zeroplus-logic-cube-lap-c322000" }
+[![Zeroplus Logic Cube](./img/Zeroplus_Logic_Cube.jpg)](./img/Zeroplus_Logic_Cube.png "Zeroplus Logic Cube"){ .glightbox data-gallery="zeroplus-logic-cube-lap-c322000" }
 <span class="caption">Zeroplus Logic Cube</span>
 
 </div>

@@ -6,7 +6,7 @@ title: Joy-IT JDS6600
 
 <div class="infobox" markdown>
 
-![Joy-IT JDS6600](./img/Jds6600-back-no-jack.png){ .infobox-image }
+![Joy-IT JDS6600](./img/Jds6600-back-no-jack.jpg){ .infobox-image }
 
 ### Joy-IT JDS6600
 
@@ -49,31 +49,31 @@ AD8xx chips, Youtube reviews and teardowns for MHS suggest AD603 (variable gain 
 
 <div class="photo-grid" markdown>
 
-[![Jds6600 Back No Jack](./img/Jds6600-back-no-jack.png)](./img/Jds6600-back-no-jack.png "Jds6600 Back No Jack"){ .glightbox data-gallery="joy-it-jds6600" }
+[![Jds6600 Back No Jack](./img/Jds6600-back-no-jack.jpg)](./img/Jds6600-back-no-jack.png "Jds6600 Back No Jack"){ .glightbox data-gallery="joy-it-jds6600" }
 <span class="caption">Jds6600 Back No Jack</span>
 
-[![Jds6600 Inside Boards Overview](./img/Jds6600-inside-boards-overview.png)](./img/Jds6600-inside-boards-overview.png "Jds6600 Inside Boards Overview"){ .glightbox data-gallery="joy-it-jds6600" }
+[![Jds6600 Inside Boards Overview](./img/Jds6600-inside-boards-overview.jpg)](./img/Jds6600-inside-boards-overview.png "Jds6600 Inside Boards Overview"){ .glightbox data-gallery="joy-it-jds6600" }
 <span class="caption">Jds6600 Inside Boards Overview</span>
 
-[![Jds6600 Front Gui](./img/Jds6600-front-gui.png)](./img/Jds6600-front-gui.png "Jds6600 Front Gui"){ .glightbox data-gallery="joy-it-jds6600" }
+[![Jds6600 Front Gui](./img/Jds6600-front-gui.jpg)](./img/Jds6600-front-gui.png "Jds6600 Front Gui"){ .glightbox data-gallery="joy-it-jds6600" }
 <span class="caption">Jds6600 Front Gui</span>
 
-[![Jds6600 Display Controller](./img/Jds6600-display-controller.png)](./img/Jds6600-display-controller.png "Jds6600 Display Controller"){ .glightbox data-gallery="joy-it-jds6600" }
+[![Jds6600 Display Controller](./img/Jds6600-display-controller.jpg)](./img/Jds6600-display-controller.png "Jds6600 Display Controller"){ .glightbox data-gallery="joy-it-jds6600" }
 <span class="caption">Jds6600 Display Controller</span>
 
-[![Jds6600 Front No Jack](./img/Jds6600-front-no-jack.png)](./img/Jds6600-front-no-jack.png "Jds6600 Front No Jack"){ .glightbox data-gallery="joy-it-jds6600" }
+[![Jds6600 Front No Jack](./img/Jds6600-front-no-jack.jpg)](./img/Jds6600-front-no-jack.png "Jds6600 Front No Jack"){ .glightbox data-gallery="joy-it-jds6600" }
 <span class="caption">Jds6600 Front No Jack</span>
 
-[![Jds6600 Back Suspect Idc Pinout](./img/Jds6600-back-suspect-idc-pinout.png)](./img/Jds6600-back-suspect-idc-pinout.png "Jds6600 Back Suspect Idc Pinout"){ .glightbox data-gallery="joy-it-jds6600" }
+[![Jds6600 Back Suspect Idc Pinout](./img/Jds6600-back-suspect-idc-pinout.jpg)](./img/Jds6600-back-suspect-idc-pinout.png "Jds6600 Back Suspect Idc Pinout"){ .glightbox data-gallery="joy-it-jds6600" }
 <span class="caption">Jds6600 Back Suspect Idc Pinout</span>
 
-[![Jds6600 Mugshot](./img/Jds6600-mugshot.png)](./img/Jds6600-mugshot.png "Jds6600 Mugshot"){ .glightbox data-gallery="joy-it-jds6600" }
+[![Jds6600 Mugshot](./img/Jds6600-mugshot.jpg)](./img/Jds6600-mugshot.png "Jds6600 Mugshot"){ .glightbox data-gallery="joy-it-jds6600" }
 <span class="caption">Jds6600 Mugshot</span>
 
-[![Jds6600 Pcb Top Digital](./img/Jds6600-pcb-top-digital.png)](./img/Jds6600-pcb-top-digital.png "Jds6600 Pcb Top Digital"){ .glightbox data-gallery="joy-it-jds6600" }
+[![Jds6600 Pcb Top Digital](./img/Jds6600-pcb-top-digital.jpg)](./img/Jds6600-pcb-top-digital.png "Jds6600 Pcb Top Digital"){ .glightbox data-gallery="joy-it-jds6600" }
 <span class="caption">Jds6600 Pcb Top Digital</span>
 
-[![Jds6600 Pcb Top Analog](./img/Jds6600-pcb-top-analog.png)](./img/Jds6600-pcb-top-analog.png "Jds6600 Pcb Top Analog"){ .glightbox data-gallery="joy-it-jds6600" }
+[![Jds6600 Pcb Top Analog](./img/Jds6600-pcb-top-analog.jpg)](./img/Jds6600-pcb-top-analog.png "Jds6600 Pcb Top Analog"){ .glightbox data-gallery="joy-it-jds6600" }
 <span class="caption">Jds6600 Pcb Top Analog</span>
 
 </div>

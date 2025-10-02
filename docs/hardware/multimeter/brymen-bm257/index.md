@@ -6,7 +6,7 @@ title: Brymen BM257
 
 <div class="infobox" markdown>
 
-![Brymen BM257](./img/Brymen_BM257.png){ .infobox-image }
+![Brymen BM257](./img/Brymen_BM257.jpg){ .infobox-image }
 
 ### Brymen BM257
 
@@ -39,7 +39,7 @@ The **Brymen BM257** is a 6000 counts CAT II (1000V) / CAT III (600V) / CAT IV (
 
 <div class="photo-grid" markdown>
 
-[![Brymen Bm257](./img/Brymen_BM257.png)](./img/Brymen_BM257.png "Brymen Bm257"){ .glightbox data-gallery="brymen-bm257" }
+[![Brymen Bm257](./img/Brymen_BM257.jpg)](./img/Brymen_BM257.png "Brymen Bm257"){ .glightbox data-gallery="brymen-bm257" }
 <span class="caption">Brymen Bm257</span>
 
 [![Bm 257 04](./img/BM-257-04.jpg)](./img/BM-257-04.jpg "Bm 257 04"){ .glightbox data-gallery="brymen-bm257" }

@@ -39,7 +39,7 @@ title: Hantek DSO-220
 [![Hantek Dso 220 Inner Case](./img/Hantek_DSO-220_Inner_Case.jpg)](./img/Hantek_DSO-220_Inner_Case.jpg "Hantek Dso 220 Inner Case"){ .glightbox data-gallery="hantek-dso-220" }
 <span class="caption">Hantek Dso 220 Inner Case</span>
 
-[![Voltcraft Dso 220 Usb](./img/Voltcraft_dso-220_usb.png)](./img/Voltcraft_dso-220_usb.png "Voltcraft Dso 220 Usb"){ .glightbox data-gallery="hantek-dso-220" }
+[![Voltcraft Dso 220 Usb](./img/Voltcraft_dso-220_usb.jpg)](./img/Voltcraft_dso-220_usb.png "Voltcraft Dso 220 Usb"){ .glightbox data-gallery="hantek-dso-220" }
 <span class="caption">Voltcraft Dso 220 Usb</span>
 
 [![Hantek Dso 220 Pcb Markings](./img/Hantek_DSO-220_PCB_Markings.jpg)](./img/Hantek_DSO-220_PCB_Markings.jpg "Hantek Dso 220 Pcb Markings"){ .glightbox data-gallery="hantek-dso-220" }

@@ -6,7 +6,7 @@ title: GW Instek GDM-8255A
 
 <div class="infobox" markdown>
 
-![GW Instek GDM-8255A](./img/Gdm-8251a_frontpanel.png){ .infobox-image }
+![GW Instek GDM-8255A](./img/Gdm-8251a_frontpanel.jpg){ .infobox-image }
 
 ### GW Instek GDM-8255A
 
@@ -49,7 +49,7 @@ The **GW Instek GDM-8255A** is a 5.5 digits (199999 counts) bench digital multim
 
 <div class="photo-grid" markdown>
 
-[![Gdm 8251a Frontpanel](./img/Gdm-8251a_frontpanel.png)](./img/Gdm-8251a_frontpanel.png "Gdm 8251a Frontpanel"){ .glightbox data-gallery="gw-instek-gdm-8255a" }
+[![Gdm 8251a Frontpanel](./img/Gdm-8251a_frontpanel.jpg)](./img/Gdm-8251a_frontpanel.png "Gdm 8251a Frontpanel"){ .glightbox data-gallery="gw-instek-gdm-8255a" }
 <span class="caption">Gdm 8251a Frontpanel</span>
 
 </div>

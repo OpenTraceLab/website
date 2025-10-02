@@ -6,7 +6,7 @@ title: Victor 86C
 
 <div class="infobox" markdown>
 
-![Victor 86C](./img/Victor_86c_device_front.png){ .infobox-image }
+![Victor 86C](./img/Victor_86c_device_front.jpg){ .infobox-image }
 
 ### Victor 86C
 
@@ -43,7 +43,7 @@ See [Victor 86C/Info](https://sigrok.org/wiki/Victor_86C/Info) for more details 
 
 <div class="photo-grid" markdown>
 
-[![Victor 86c Device Front](./img/Victor_86c_device_front.png)](./img/Victor_86c_device_front.png "Victor 86c Device Front"){ .glightbox data-gallery="victor-86c" }
+[![Victor 86c Device Front](./img/Victor_86c_device_front.jpg)](./img/Victor_86c_device_front.png "Victor 86c Device Front"){ .glightbox data-gallery="victor-86c" }
 <span class="caption">Victor 86c Device Front</span>
 
 </div>

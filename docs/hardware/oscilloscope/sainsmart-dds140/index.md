@@ -27,7 +27,7 @@ title: SainSmart DDS140
 [![Saintsmart Dds140 Signal Generator Device Top](./img/Saintsmart_dds140_-_signal_generator_-_device_top.jpg)](./img/Saintsmart_dds140_-_signal_generator_-_device_top.jpg "Saintsmart Dds140 Signal Generator Device Top"){ .glightbox data-gallery="sainsmart-dds140" }
 <span class="caption">Saintsmart Dds140 Signal Generator Device Top</span>
 
-[![Sainsmart Dds140 Mugshot](./img/Sainsmart_dds140_mugshot.png)](./img/Sainsmart_dds140_mugshot.png "Sainsmart Dds140 Mugshot"){ .glightbox data-gallery="sainsmart-dds140" }
+[![Sainsmart Dds140 Mugshot](./img/Sainsmart_dds140_mugshot.jpg)](./img/Sainsmart_dds140_mugshot.png "Sainsmart Dds140 Mugshot"){ .glightbox data-gallery="sainsmart-dds140" }
 <span class="caption">Sainsmart Dds140 Mugshot</span>
 
 [![Saintsmart Dds140 Logic Analyzer Device Top](./img/Saintsmart_dds140_-_logic_analyzer_-_device_top.jpg)](./img/Saintsmart_dds140_-_logic_analyzer_-_device_top.jpg "Saintsmart Dds140 Logic Analyzer Device Top"){ .glightbox data-gallery="sainsmart-dds140" }

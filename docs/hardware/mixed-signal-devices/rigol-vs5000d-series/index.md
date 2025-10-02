@@ -6,7 +6,7 @@ title: Rigol VS5000D series
 
 <div class="infobox" markdown>
 
-![Rigol VS5000D series](./img/Rigol_VS5202D.png){ .infobox-image }
+![Rigol VS5000D series](./img/Rigol_VS5202D.jpg){ .infobox-image }
 
 ### Rigol VS5000D series
 
@@ -21,7 +21,7 @@ title: Rigol VS5000D series
 
 <div class="photo-grid" markdown>
 
-[![Rigol Vs5202d](./img/Rigol_VS5202D.png)](./img/Rigol_VS5202D.png "Rigol Vs5202d"){ .glightbox data-gallery="rigol-vs5000d-series" }
+[![Rigol Vs5202d](./img/Rigol_VS5202D.jpg)](./img/Rigol_VS5202D.png "Rigol Vs5202d"){ .glightbox data-gallery="rigol-vs5000d-series" }
 <span class="caption">Rigol Vs5202d</span>
 
 </div>

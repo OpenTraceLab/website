@@ -64,7 +64,7 @@ See [MCU123 Saleae Logic clone/Info](https://sigrok.org/wiki/MCU123_Saleae_Logic
 [![Mcu123 Saleae Logic Clone Pcb Top](./img/Mcu123_saleae_logic_clone_pcb_top.jpg)](./img/Mcu123_saleae_logic_clone_pcb_top.jpg "Mcu123 Saleae Logic Clone Pcb Top"){ .glightbox data-gallery="mcu123-saleae-logic-clone" }
 <span class="caption">Mcu123 Saleae Logic Clone Pcb Top</span>
 
-[![Mcu123 Saleae Logic Clone](./img/Mcu123_saleae_logic_clone.png)](./img/Mcu123_saleae_logic_clone.png "Mcu123 Saleae Logic Clone"){ .glightbox data-gallery="mcu123-saleae-logic-clone" }
+[![Mcu123 Saleae Logic Clone](./img/Mcu123_saleae_logic_clone.jpg)](./img/Mcu123_saleae_logic_clone.png "Mcu123 Saleae Logic Clone"){ .glightbox data-gallery="mcu123-saleae-logic-clone" }
 <span class="caption">Mcu123 Saleae Logic Clone</span>
 
 </div>

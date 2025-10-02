@@ -47,7 +47,7 @@ See [Mooshim Engineering Mooshimeter/Info](https://sigrok.org/wiki/Mooshim_Engin
 [![Mooshimeter Connection Side](./img/Mooshimeter_Connection_Side.jpg)](./img/Mooshimeter_Connection_Side.jpg "Mooshimeter Connection Side"){ .glightbox data-gallery="mooshim-engineering-mooshimeter" }
 <span class="caption">Mooshimeter Connection Side</span>
 
-[![Mooshimeter Mugshot](./img/Mooshimeter_mugshot.png)](./img/Mooshimeter_mugshot.png "Mooshimeter Mugshot"){ .glightbox data-gallery="mooshim-engineering-mooshimeter" }
+[![Mooshimeter Mugshot](./img/Mooshimeter_mugshot.jpg)](./img/Mooshimeter_mugshot.png "Mooshimeter Mugshot"){ .glightbox data-gallery="mooshim-engineering-mooshimeter" }
 <span class="caption">Mooshimeter Mugshot</span>
 
 [![Mooshimeter Pcb Bottom](./img/Mooshimeter_pcb_bottom.jpg)](./img/Mooshimeter_pcb_bottom.jpg "Mooshimeter Pcb Bottom"){ .glightbox data-gallery="mooshim-engineering-mooshimeter" }

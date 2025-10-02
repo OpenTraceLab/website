@@ -48,7 +48,7 @@ See [Braintechnology USB-LPS/Info](https://sigrok.org/wiki/Braintechnology_USB-L
 [![Braintechnology Usb Lps Pcb Front](./img/Braintechnology_usb_lps_pcb_front.jpg)](./img/Braintechnology_usb_lps_pcb_front.jpg "Braintechnology Usb Lps Pcb Front"){ .glightbox data-gallery="braintechnology-usb-lps" }
 <span class="caption">Braintechnology Usb Lps Pcb Front</span>
 
-[![Braintechnology Usb Lps](./img/Braintechnology_usb_lps.png)](./img/Braintechnology_usb_lps.png "Braintechnology Usb Lps"){ .glightbox data-gallery="braintechnology-usb-lps" }
+[![Braintechnology Usb Lps](./img/Braintechnology_usb_lps.jpg)](./img/Braintechnology_usb_lps.png "Braintechnology Usb Lps"){ .glightbox data-gallery="braintechnology-usb-lps" }
 <span class="caption">Braintechnology Usb Lps</span>
 
 [![Braintechnology Usb Lps Pcb Back](./img/Braintechnology_usb_lps_pcb_back.jpg)](./img/Braintechnology_usb_lps_pcb_back.jpg "Braintechnology Usb Lps Pcb Back"){ .glightbox data-gallery="braintechnology-usb-lps" }

@@ -6,7 +6,7 @@ title: Digitek DT8000
 
 <div class="infobox" markdown>
 
-![Digitek DT8000](./img/Digitek_dt8000.png){ .infobox-image }
+![Digitek DT8000](./img/Digitek_dt8000.jpg){ .infobox-image }
 
 ### Digitek DT8000
 
@@ -32,7 +32,7 @@ TODO.
 
 <div class="photo-grid" markdown>
 
-[![Digitek Dt8000](./img/Digitek_dt8000.png)](./img/Digitek_dt8000.png "Digitek Dt8000"){ .glightbox data-gallery="digitek-dt8000" }
+[![Digitek Dt8000](./img/Digitek_dt8000.jpg)](./img/Digitek_dt8000.png "Digitek Dt8000"){ .glightbox data-gallery="digitek-dt8000" }
 <span class="caption">Digitek Dt8000</span>
 
 </div>

@@ -6,7 +6,7 @@ title: Fluke/Philips PM2800 series
 
 <div class="infobox" markdown>
 
-![Fluke/Philips PM2800 series](./img/Philips_PM2813.png){ .infobox-image }
+![Fluke/Philips PM2800 series](./img/Philips_PM2813.jpg){ .infobox-image }
 
 ### Fluke/Philips PM2800 series
 
@@ -39,7 +39,7 @@ These power supplies have also been sold under the Fluke brand.
 
 <div class="photo-grid" markdown>
 
-[![Philips Pm2813](./img/Philips_PM2813.png)](./img/Philips_PM2813.png "Philips Pm2813"){ .glightbox data-gallery="fluke-philips-pm2800-series" }
+[![Philips Pm2813](./img/Philips_PM2813.jpg)](./img/Philips_PM2813.png "Philips Pm2813"){ .glightbox data-gallery="fluke-philips-pm2800-series" }
 <span class="caption">Philips Pm2813</span>
 
 [![Philips Pm2813 Back](./img/Philips_PM2813_back.jpg)](./img/Philips_PM2813_back.jpg "Philips Pm2813 Back"){ .glightbox data-gallery="fluke-philips-pm2800-series" }

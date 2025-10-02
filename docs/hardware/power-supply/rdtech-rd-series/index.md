@@ -6,7 +6,7 @@ title: RDTech RD series
 
 <div class="infobox" markdown>
 
-![RDTech RD series](./img/RD6006_frontpanel.png){ .infobox-image }
+![RDTech RD series](./img/RD6006_frontpanel.jpg){ .infobox-image }
 
 ### RDTech RD series
 
@@ -70,7 +70,7 @@ WLAN access is currently not supported by the sigrok driver. Its operation is ye
 
 <div class="photo-grid" markdown>
 
-[![Rd6006 Frontpanel](./img/RD6006_frontpanel.png)](./img/RD6006_frontpanel.png "Rd6006 Frontpanel"){ .glightbox data-gallery="rdtech-rd-series" }
+[![Rd6006 Frontpanel](./img/RD6006_frontpanel.jpg)](./img/RD6006_frontpanel.png "Rd6006 Frontpanel"){ .glightbox data-gallery="rdtech-rd-series" }
 <span class="caption">Rd6006 Frontpanel</span>
 
 [![Rd6006 Detail](./img/Rd6006_detail.jpg)](./img/Rd6006_detail.jpg "Rd6006 Detail"){ .glightbox data-gallery="rdtech-rd-series" }

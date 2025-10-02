@@ -6,7 +6,7 @@ title: SparkFun 70C
 
 <div class="infobox" markdown>
 
-![SparkFun 70C](./img/Sparkfun_70c_mugshot.png){ .infobox-image }
+![SparkFun 70C](./img/Sparkfun_70c_mugshot.jpg){ .infobox-image }
 
 ### SparkFun 70C
 
@@ -43,7 +43,7 @@ It appears to be heavily based on the [Victor 70C](https://sigrok.org/wiki/Victo
 
 <div class="photo-grid" markdown>
 
-[![Sparkfun 70c Mugshot](./img/Sparkfun_70c_mugshot.png)](./img/Sparkfun_70c_mugshot.png "Sparkfun 70c Mugshot"){ .glightbox data-gallery="sparkfun-70c" }
+[![Sparkfun 70c Mugshot](./img/Sparkfun_70c_mugshot.jpg)](./img/Sparkfun_70c_mugshot.png "Sparkfun 70c Mugshot"){ .glightbox data-gallery="sparkfun-70c" }
 <span class="caption">Sparkfun 70c Mugshot</span>
 
 </div>

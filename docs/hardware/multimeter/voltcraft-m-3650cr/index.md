@@ -62,7 +62,7 @@ It came into the market 1991 and is a rebadged Metex M-3650CR.
 [![Metex Voltcraft M 3650cr 8](./img/Metex_Voltcraft_M-3650CR_8.JPG)](./img/Metex_Voltcraft_M-3650CR_8.JPG "Metex Voltcraft M 3650cr 8"){ .glightbox data-gallery="voltcraft-m-3650cr" }
 <span class="caption">Metex Voltcraft M 3650cr 8</span>
 
-[![Voltcraft M 3650cr](./img/Voltcraft_m-3650cr.png)](./img/Voltcraft_m-3650cr.png "Voltcraft M 3650cr"){ .glightbox data-gallery="voltcraft-m-3650cr" }
+[![Voltcraft M 3650cr](./img/Voltcraft_m-3650cr.jpg)](./img/Voltcraft_m-3650cr.png "Voltcraft M 3650cr"){ .glightbox data-gallery="voltcraft-m-3650cr" }
 <span class="caption">Voltcraft M 3650cr</span>
 
 [![Metex Voltcraft M 3650cr 1](./img/Metex_Voltcraft_M-3650CR_1.JPG)](./img/Metex_Voltcraft_M-3650CR_1.JPG "Metex Voltcraft M 3650cr 1"){ .glightbox data-gallery="voltcraft-m-3650cr" }

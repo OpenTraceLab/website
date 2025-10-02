@@ -6,7 +6,7 @@ title: Tondaj SL-814
 
 <div class="infobox" markdown>
 
-![Tondaj SL-814](./img/Tondaj_sl-814.png){ .infobox-image }
+![Tondaj SL-814](./img/Tondaj_sl-814.jpg){ .infobox-image }
 
 ### Tondaj SL-814
 
@@ -51,7 +51,7 @@ See [Tondaj SL-814/Info](https://sigrok.org/wiki/Tondaj_SL-814/Info) for more de
 
 <div class="photo-grid" markdown>
 
-[![Tondaj Sl 814](./img/Tondaj_sl-814.png)](./img/Tondaj_sl-814.png "Tondaj Sl 814"){ .glightbox data-gallery="tondaj-sl-814" }
+[![Tondaj Sl 814](./img/Tondaj_sl-814.jpg)](./img/Tondaj_sl-814.png "Tondaj Sl 814"){ .glightbox data-gallery="tondaj-sl-814" }
 <span class="caption">Tondaj Sl 814</span>
 
 [![Tondaj Sl 814 Holtek Ht1621b](./img/Tondaj_sl-814_holtek_ht1621b.jpg)](./img/Tondaj_sl-814_holtek_ht1621b.jpg "Tondaj Sl 814 Holtek Ht1621b"){ .glightbox data-gallery="tondaj-sl-814" }

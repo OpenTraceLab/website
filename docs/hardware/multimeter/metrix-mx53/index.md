@@ -6,7 +6,7 @@ title: Metrix MX53
 
 <div class="infobox" markdown>
 
-![Metrix MX53](./img/Metrix_mx53.png){ .infobox-image }
+![Metrix MX53](./img/Metrix_mx53.jpg){ .infobox-image }
 
 ### Metrix MX53
 
@@ -32,7 +32,7 @@ TODO.
 
 <div class="photo-grid" markdown>
 
-[![Metrix Mx53](./img/Metrix_mx53.png)](./img/Metrix_mx53.png "Metrix Mx53"){ .glightbox data-gallery="metrix-mx53" }
+[![Metrix Mx53](./img/Metrix_mx53.jpg)](./img/Metrix_mx53.png "Metrix Mx53"){ .glightbox data-gallery="metrix-mx53" }
 <span class="caption">Metrix Mx53</span>
 
 </div>

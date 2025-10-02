@@ -6,7 +6,7 @@ title: Pico Technology PicoScope 5203
 
 <div class="infobox" markdown>
 
-![Pico Technology PicoScope 5203](./img/Picoscope_5203.png){ .infobox-image }
+![Pico Technology PicoScope 5203](./img/Picoscope_5203.jpg){ .infobox-image }
 
 ### Pico Technology PicoScope 5203
 
@@ -21,7 +21,7 @@ title: Pico Technology PicoScope 5203
 
 <div class="photo-grid" markdown>
 
-[![Picoscope 5203](./img/Picoscope_5203.png)](./img/Picoscope_5203.png "Picoscope 5203"){ .glightbox data-gallery="pico-technology-picoscope-5203" }
+[![Picoscope 5203](./img/Picoscope_5203.jpg)](./img/Picoscope_5203.png "Picoscope 5203"){ .glightbox data-gallery="pico-technology-picoscope-5203" }
 <span class="caption">Picoscope 5203</span>
 
 [![Picoscope 5203 Pcb Top](./img/Picoscope_5203_pcb_top.jpg)](./img/Picoscope_5203_pcb_top.jpg "Picoscope 5203 Pcb Top"){ .glightbox data-gallery="pico-technology-picoscope-5203" }

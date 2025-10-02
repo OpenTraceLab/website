@@ -6,7 +6,7 @@ title: Brymen BM829s
 
 <div class="infobox" markdown>
 
-![Brymen BM829s](./img/Bm829s-display-segments.png){ .infobox-image }
+![Brymen BM829s](./img/Bm829s-display-segments.jpg){ .infobox-image }
 
 ### Brymen BM829s
 
@@ -29,16 +29,16 @@ The **Brymen BM829s** is a 10000 counts, dual display, CAT IV (1000V), handheld 
 
 <div class="photo-grid" markdown>
 
-[![Bm829s Display Segments](./img/Bm829s-display-segments.png)](./img/Bm829s-display-segments.png "Bm829s Display Segments"){ .glightbox data-gallery="brymen-bm829s" }
+[![Bm829s Display Segments](./img/Bm829s-display-segments.jpg)](./img/Bm829s-display-segments.png "Bm829s Display Segments"){ .glightbox data-gallery="brymen-bm829s" }
 <span class="caption">Bm829s Display Segments</span>
 
-[![Bm829s Box Front](./img/Bm829s-box-front.png)](./img/Bm829s-box-front.png "Bm829s Box Front"){ .glightbox data-gallery="brymen-bm829s" }
+[![Bm829s Box Front](./img/Bm829s-box-front.jpg)](./img/Bm829s-box-front.png "Bm829s Box Front"){ .glightbox data-gallery="brymen-bm829s" }
 <span class="caption">Bm829s Box Front</span>
 
-[![Bm829s Manual](./img/Bm829s-manual.png)](./img/Bm829s-manual.png "Bm829s Manual"){ .glightbox data-gallery="brymen-bm829s" }
+[![Bm829s Manual](./img/Bm829s-manual.jpg)](./img/Bm829s-manual.png "Bm829s Manual"){ .glightbox data-gallery="brymen-bm829s" }
 <span class="caption">Bm829s Manual</span>
 
-[![Bm829s Mugshot](./img/Bm829s-mugshot.png)](./img/Bm829s-mugshot.png "Bm829s Mugshot"){ .glightbox data-gallery="brymen-bm829s" }
+[![Bm829s Mugshot](./img/Bm829s-mugshot.jpg)](./img/Bm829s-mugshot.png "Bm829s Mugshot"){ .glightbox data-gallery="brymen-bm829s" }
 <span class="caption">Bm829s Mugshot</span>
 
 </div>

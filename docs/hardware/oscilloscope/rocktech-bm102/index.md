@@ -27,7 +27,7 @@ title: Rocktech BM102
 [![Rocktech Bm102 Ams1117 3.3](./img/Rocktech_bm102_ams1117-3.3.jpg)](./img/Rocktech_bm102_ams1117-3.3.jpg "Rocktech Bm102 Ams1117 3.3"){ .glightbox data-gallery="rocktech-bm102" }
 <span class="caption">Rocktech Bm102 Ams1117 3.3</span>
 
-[![Rocktech Bm102 Mugshot](./img/Rocktech_bm102_mugshot.png)](./img/Rocktech_bm102_mugshot.png "Rocktech Bm102 Mugshot"){ .glightbox data-gallery="rocktech-bm102" }
+[![Rocktech Bm102 Mugshot](./img/Rocktech_bm102_mugshot.jpg)](./img/Rocktech_bm102_mugshot.png "Rocktech Bm102 Mugshot"){ .glightbox data-gallery="rocktech-bm102" }
 <span class="caption">Rocktech Bm102 Mugshot</span>
 
 [![Rocktech Bm102 Cypress Fx2](./img/Rocktech_bm102_cypress_fx2.jpg)](./img/Rocktech_bm102_cypress_fx2.jpg "Rocktech Bm102 Cypress Fx2"){ .glightbox data-gallery="rocktech-bm102" }

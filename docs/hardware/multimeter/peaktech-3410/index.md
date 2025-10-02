@@ -6,7 +6,7 @@ title: PeakTech 3410
 
 <div class="infobox" markdown>
 
-![PeakTech 3410](./img/Metex_me-31.png){ .infobox-image }
+![PeakTech 3410](./img/Metex_me-31.jpg){ .infobox-image }
 
 ### PeakTech 3410
 
@@ -37,7 +37,7 @@ TODO.
 
 <div class="photo-grid" markdown>
 
-[![Metex Me 31](./img/Metex_me-31.png)](./img/Metex_me-31.png "Metex Me 31"){ .glightbox data-gallery="peaktech-3410" }
+[![Metex Me 31](./img/Metex_me-31.jpg)](./img/Metex_me-31.png "Metex Me 31"){ .glightbox data-gallery="peaktech-3410" }
 <span class="caption">Metex Me 31</span>
 
 [![Metex Me 31 Mugshot](./img/Metex_me-31_mugshot.jpg)](./img/Metex_me-31_mugshot.jpg "Metex Me 31 Mugshot"){ .glightbox data-gallery="peaktech-3410" }

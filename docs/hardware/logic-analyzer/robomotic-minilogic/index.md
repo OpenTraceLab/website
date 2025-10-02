@@ -51,7 +51,7 @@ See [Robomotic MiniLogic/Info](https://sigrok.org/wiki/Robomotic_MiniLogic/Info)
 [![Robomotic Minilogic](./img/Robomotic_minilogic.jpg)](./img/Robomotic_minilogic.jpg "Robomotic Minilogic"){ .glightbox data-gallery="robomotic-minilogic" }
 <span class="caption">Robomotic Minilogic</span>
 
-[![Robomotic Minilogic](./img/Robomotic_minilogic.png)](./img/Robomotic_minilogic.png "Robomotic Minilogic"){ .glightbox data-gallery="robomotic-minilogic" }
+[![Robomotic Minilogic](./img/Robomotic_minilogic.jpg)](./img/Robomotic_minilogic.png "Robomotic Minilogic"){ .glightbox data-gallery="robomotic-minilogic" }
 <span class="caption">Robomotic Minilogic</span>
 
 [![Robomotic Minilogic Back](./img/Robomotic_minilogic_back.jpg)](./img/Robomotic_minilogic_back.jpg "Robomotic Minilogic Back"){ .glightbox data-gallery="robomotic-minilogic" }

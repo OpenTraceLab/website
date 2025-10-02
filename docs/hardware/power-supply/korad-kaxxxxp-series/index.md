@@ -6,7 +6,7 @@ title: Korad KAxxxxP series
 
 <div class="infobox" markdown>
 
-![Korad KAxxxxP series](./img/Velleman_ps3005d_mugshot.png){ .infobox-image }
+![Korad KAxxxxP series](./img/Velleman_ps3005d_mugshot.jpg){ .infobox-image }
 
 ### Korad KAxxxxP series
 
@@ -85,7 +85,7 @@ During a PC connection, the front control buttons and the scrollwheel are blocke
 
 <div class="photo-grid" markdown>
 
-[![Velleman Ps3005d Mugshot](./img/Velleman_ps3005d_mugshot.png)](./img/Velleman_ps3005d_mugshot.png "Velleman Ps3005d Mugshot"){ .glightbox data-gallery="korad-kaxxxxp-series" }
+[![Velleman Ps3005d Mugshot](./img/Velleman_ps3005d_mugshot.jpg)](./img/Velleman_ps3005d_mugshot.png "Velleman Ps3005d Mugshot"){ .glightbox data-gallery="korad-kaxxxxp-series" }
 <span class="caption">Velleman Ps3005d Mugshot</span>
 
 </div>

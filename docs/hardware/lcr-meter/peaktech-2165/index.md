@@ -6,7 +6,7 @@ title: Peaktech 2165
 
 <div class="infobox" markdown>
 
-![Peaktech 2165](./img/Vc4080-cable-ir-port.png){ .infobox-image }
+![Peaktech 2165](./img/Vc4080-cable-ir-port.jpg){ .infobox-image }
 
 ### Peaktech 2165
 
@@ -43,25 +43,25 @@ USB to IR cable:
 
 <div class="photo-grid" markdown>
 
-[![Vc4080 Cable Ir Port](./img/Vc4080-cable-ir-port.png)](./img/Vc4080-cable-ir-port.png "Vc4080 Cable Ir Port"){ .glightbox data-gallery="peaktech-2165" }
+[![Vc4080 Cable Ir Port](./img/Vc4080-cable-ir-port.jpg)](./img/Vc4080-cable-ir-port.png "Vc4080 Cable Ir Port"){ .glightbox data-gallery="peaktech-2165" }
 <span class="caption">Vc4080 Cable Ir Port</span>
 
-[![Peaktech2165 Front](./img/Peaktech2165-front.png)](./img/Peaktech2165-front.png "Peaktech2165 Front"){ .glightbox data-gallery="peaktech-2165" }
+[![Peaktech2165 Front](./img/Peaktech2165-front.jpg)](./img/Peaktech2165-front.png "Peaktech2165 Front"){ .glightbox data-gallery="peaktech-2165" }
 <span class="caption">Peaktech2165 Front</span>
 
-[![Vc4080 Pcb Top](./img/Vc4080-pcb-top.png)](./img/Vc4080-pcb-top.png "Vc4080 Pcb Top"){ .glightbox data-gallery="peaktech-2165" }
+[![Vc4080 Pcb Top](./img/Vc4080-pcb-top.jpg)](./img/Vc4080-pcb-top.png "Vc4080 Pcb Top"){ .glightbox data-gallery="peaktech-2165" }
 <span class="caption">Vc4080 Pcb Top</span>
 
-[![Vc4080 Inside Overview](./img/Vc4080-inside-overview.png)](./img/Vc4080-inside-overview.png "Vc4080 Inside Overview"){ .glightbox data-gallery="peaktech-2165" }
+[![Vc4080 Inside Overview](./img/Vc4080-inside-overview.jpg)](./img/Vc4080-inside-overview.png "Vc4080 Inside Overview"){ .glightbox data-gallery="peaktech-2165" }
 <span class="caption">Vc4080 Inside Overview</span>
 
-[![Vc4080 Pcb Top Zoom Mcu Adc](./img/Vc4080-pcb-top-zoom-mcu-adc.png)](./img/Vc4080-pcb-top-zoom-mcu-adc.png "Vc4080 Pcb Top Zoom Mcu Adc"){ .glightbox data-gallery="peaktech-2165" }
+[![Vc4080 Pcb Top Zoom Mcu Adc](./img/Vc4080-pcb-top-zoom-mcu-adc.jpg)](./img/Vc4080-pcb-top-zoom-mcu-adc.png "Vc4080 Pcb Top Zoom Mcu Adc"){ .glightbox data-gallery="peaktech-2165" }
 <span class="caption">Vc4080 Pcb Top Zoom Mcu Adc</span>
 
-[![Vc4080 Display All Segments](./img/Vc4080-display-all-segments.png)](./img/Vc4080-display-all-segments.png "Vc4080 Display All Segments"){ .glightbox data-gallery="peaktech-2165" }
+[![Vc4080 Display All Segments](./img/Vc4080-display-all-segments.jpg)](./img/Vc4080-display-all-segments.png "Vc4080 Display All Segments"){ .glightbox data-gallery="peaktech-2165" }
 <span class="caption">Vc4080 Display All Segments</span>
 
-[![Vc4080 Case Dc Ir](./img/Vc4080-case-dc-ir.png)](./img/Vc4080-case-dc-ir.png "Vc4080 Case Dc Ir"){ .glightbox data-gallery="peaktech-2165" }
+[![Vc4080 Case Dc Ir](./img/Vc4080-case-dc-ir.jpg)](./img/Vc4080-case-dc-ir.png "Vc4080 Case Dc Ir"){ .glightbox data-gallery="peaktech-2165" }
 <span class="caption">Vc4080 Case Dc Ir</span>
 
 </div>

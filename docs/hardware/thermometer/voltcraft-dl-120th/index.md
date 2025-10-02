@@ -42,7 +42,7 @@ title: Voltcraft DL-120TH
 [![Voltcraft Dl 120th Pcb Bottom](./img/Voltcraft_dl-120th_pcb_bottom.jpg)](./img/Voltcraft_dl-120th_pcb_bottom.jpg "Voltcraft Dl 120th Pcb Bottom"){ .glightbox data-gallery="voltcraft-dl-120th" }
 <span class="caption">Voltcraft Dl 120th Pcb Bottom</span>
 
-[![Voltcraft Dl 120th](./img/Voltcraft_dl-120th.png)](./img/Voltcraft_dl-120th.png "Voltcraft Dl 120th"){ .glightbox data-gallery="voltcraft-dl-120th" }
+[![Voltcraft Dl 120th](./img/Voltcraft_dl-120th.jpg)](./img/Voltcraft_dl-120th.png "Voltcraft Dl 120th"){ .glightbox data-gallery="voltcraft-dl-120th" }
 <span class="caption">Voltcraft Dl 120th</span>
 
 [![Voltcraft Dl 120th Device Bottom](./img/Voltcraft_dl-120th_device_bottom.jpg)](./img/Voltcraft_dl-120th_device_bottom.jpg "Voltcraft Dl 120th Device Bottom"){ .glightbox data-gallery="voltcraft-dl-120th" }

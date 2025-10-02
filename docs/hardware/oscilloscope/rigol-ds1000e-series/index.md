@@ -6,7 +6,7 @@ title: Rigol DS1000E series
 
 <div class="infobox" markdown>
 
-![Rigol DS1000E series](./img/Rigol_DS1052E.png){ .infobox-image }
+![Rigol DS1000E series](./img/Rigol_DS1052E.jpg){ .infobox-image }
 
 ### Rigol DS1000E series
 
@@ -59,7 +59,7 @@ All devices in the series support both [USBTMC](https://sigrok.org/wiki/USBTMC) 
 
 <div class="photo-grid" markdown>
 
-[![Rigol Ds1052e](./img/Rigol_DS1052E.png)](./img/Rigol_DS1052E.png "Rigol Ds1052e"){ .glightbox data-gallery="rigol-ds1000e-series" }
+[![Rigol Ds1052e](./img/Rigol_DS1052E.jpg)](./img/Rigol_DS1052E.png "Rigol Ds1052e"){ .glightbox data-gallery="rigol-ds1000e-series" }
 <span class="caption">Rigol Ds1052e</span>
 
 </div>

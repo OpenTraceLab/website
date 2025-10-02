@@ -57,7 +57,7 @@ See [ZEROPLUS Logic Cube LAP-C series](https://sigrok.org/wiki/ZEROPLUS_Logic_Cu
 [![Logian 16l Package](./img/Logian-16L-Package.jpg)](./img/Logian-16L-Package.jpg "Logian 16l Package"){ .glightbox data-gallery="meilhaus-logian-16l" }
 <span class="caption">Logian 16l Package</span>
 
-[![Meilhaus Logian 16l Mugshot](./img/Meilhaus_logian_16l_mugshot.png)](./img/Meilhaus_logian_16l_mugshot.png "Meilhaus Logian 16l Mugshot"){ .glightbox data-gallery="meilhaus-logian-16l" }
+[![Meilhaus Logian 16l Mugshot](./img/Meilhaus_logian_16l_mugshot.jpg)](./img/Meilhaus_logian_16l_mugshot.png "Meilhaus Logian 16l Mugshot"){ .glightbox data-gallery="meilhaus-logian-16l" }
 <span class="caption">Meilhaus Logian 16l Mugshot</span>
 
 [![Logian 16l Bot](./img/Logian-16L-BOT.jpg)](./img/Logian-16L-BOT.jpg "Logian 16l Bot"){ .glightbox data-gallery="meilhaus-logian-16l" }

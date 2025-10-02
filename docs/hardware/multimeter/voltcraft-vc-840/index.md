@@ -53,7 +53,7 @@ The **Voltcraft VC-840** is a 4000 counts, CAT IV (600V) handheld digital multim
 [![Voltcraft Vc840 Device Back1](./img/Voltcraft_vc840_device_back1.jpg)](./img/Voltcraft_vc840_device_back1.jpg "Voltcraft Vc840 Device Back1"){ .glightbox data-gallery="voltcraft-vc-840" }
 <span class="caption">Voltcraft Vc840 Device Back1</span>
 
-[![Voltcraft Vc840 Device Front](./img/Voltcraft_vc840_device_front.png)](./img/Voltcraft_vc840_device_front.png "Voltcraft Vc840 Device Front"){ .glightbox data-gallery="voltcraft-vc-840" }
+[![Voltcraft Vc840 Device Front](./img/Voltcraft_vc840_device_front.jpg)](./img/Voltcraft_vc840_device_front.png "Voltcraft Vc840 Device Front"){ .glightbox data-gallery="voltcraft-vc-840" }
 <span class="caption">Voltcraft Vc840 Device Front</span>
 
 [![Voltcraft Vc840 Device Back2](./img/Voltcraft_vc840_device_back2.jpg)](./img/Voltcraft_vc840_device_back2.jpg "Voltcraft Vc840 Device Back2"){ .glightbox data-gallery="voltcraft-vc-840" }

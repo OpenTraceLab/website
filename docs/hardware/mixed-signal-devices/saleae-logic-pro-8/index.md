@@ -54,7 +54,7 @@ See [Saleae Logic Pro 8/Info](https://sigrok.org/wiki/Saleae_Logic_Pro_8/Info) f
 [![Saleae Logic Pro 8 Cysub3014](./img/Saleae_logic_pro_8-cysub3014.jpg)](./img/Saleae_logic_pro_8-cysub3014.jpg "Saleae Logic Pro 8 Cysub3014"){ .glightbox data-gallery="saleae-logic-pro-8" }
 <span class="caption">Saleae Logic Pro 8 Cysub3014</span>
 
-[![Saleae Logic Pro 8 Bottom](./img/Saleae_logic_pro_8-bottom.png)](./img/Saleae_logic_pro_8-bottom.png "Saleae Logic Pro 8 Bottom"){ .glightbox data-gallery="saleae-logic-pro-8" }
+[![Saleae Logic Pro 8 Bottom](./img/Saleae_logic_pro_8-bottom.jpg)](./img/Saleae_logic_pro_8-bottom.png "Saleae Logic Pro 8 Bottom"){ .glightbox data-gallery="saleae-logic-pro-8" }
 <span class="caption">Saleae Logic Pro 8 Bottom</span>
 
 [![Saleae Logic Pro 8 24c32a](./img/Saleae_logic_pro_8-24c32a.jpg)](./img/Saleae_logic_pro_8-24c32a.jpg "Saleae Logic Pro 8 24c32a"){ .glightbox data-gallery="saleae-logic-pro-8" }

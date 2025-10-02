@@ -6,7 +6,7 @@ title: Rigol DG800 Series
 
 <div class="infobox" markdown>
 
-![Rigol DG800 Series](./img/Rigol_DG811_frontpanel.png){ .infobox-image }
+![Rigol DG800 Series](./img/Rigol_DG811_frontpanel.jpg){ .infobox-image }
 
 ### Rigol DG800 Series
 
@@ -63,7 +63,7 @@ TODO
 
 <div class="photo-grid" markdown>
 
-[![Rigol Dg811 Frontpanel](./img/Rigol_DG811_frontpanel.png)](./img/Rigol_DG811_frontpanel.png "Rigol Dg811 Frontpanel"){ .glightbox data-gallery="rigol-dg800-series" }
+[![Rigol Dg811 Frontpanel](./img/Rigol_DG811_frontpanel.jpg)](./img/Rigol_DG811_frontpanel.png "Rigol Dg811 Frontpanel"){ .glightbox data-gallery="rigol-dg800-series" }
 <span class="caption">Rigol Dg811 Frontpanel</span>
 
 </div>

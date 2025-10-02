@@ -6,7 +6,7 @@ title: Velleman DVM4100
 
 <div class="infobox" markdown>
 
-![Velleman DVM4100](./img/DVM4100.png){ .infobox-image }
+![Velleman DVM4100](./img/DVM4100.jpg){ .infobox-image }
 
 ### Velleman DVM4100
 
@@ -44,7 +44,7 @@ The Velleman DVM4100 model looks identical to the [PeakTech 3415](https://sigrok
 
 <div class="photo-grid" markdown>
 
-[![Dvm4100](./img/DVM4100.png)](./img/DVM4100.png "Dvm4100"){ .glightbox data-gallery="velleman-dvm4100" }
+[![Dvm4100](./img/DVM4100.jpg)](./img/DVM4100.png "Dvm4100"){ .glightbox data-gallery="velleman-dvm4100" }
 <span class="caption">Dvm4100</span>
 
 [![Dvm4100 Ir](./img/DVM4100_IR.jpg)](./img/DVM4100_IR.jpg "Dvm4100 Ir"){ .glightbox data-gallery="velleman-dvm4100" }

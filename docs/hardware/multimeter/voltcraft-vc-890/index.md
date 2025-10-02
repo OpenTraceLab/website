@@ -56,7 +56,7 @@ See [Voltcraft VC-890/Info](https://sigrok.org/wiki/Voltcraft_VC-890/Info) for m
 [![Voltcraft Vc890 Device Battery](./img/Voltcraft_vc890_device_battery.jpg)](./img/Voltcraft_vc890_device_battery.jpg "Voltcraft Vc890 Device Battery"){ .glightbox data-gallery="voltcraft-vc-890" }
 <span class="caption">Voltcraft Vc890 Device Battery</span>
 
-[![Voltcraft Vc890 Mugshot](./img/Voltcraft_vc890_mugshot.png)](./img/Voltcraft_vc890_mugshot.png "Voltcraft Vc890 Mugshot"){ .glightbox data-gallery="voltcraft-vc-890" }
+[![Voltcraft Vc890 Mugshot](./img/Voltcraft_vc890_mugshot.jpg)](./img/Voltcraft_vc890_mugshot.png "Voltcraft Vc890 Mugshot"){ .glightbox data-gallery="voltcraft-vc-890" }
 <span class="caption">Voltcraft Vc890 Mugshot</span>
 
 [![Voltcraft Vc890 Device Back](./img/Voltcraft_vc890_device_back.jpg)](./img/Voltcraft_vc890_device_back.jpg "Voltcraft Vc890 Device Back"){ .glightbox data-gallery="voltcraft-vc-890" }

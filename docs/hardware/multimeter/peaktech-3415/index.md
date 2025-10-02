@@ -6,7 +6,7 @@ title: PeakTech 3415
 
 <div class="infobox" markdown>
 
-![PeakTech 3415](./img/Peaktech3415_top.png){ .infobox-image }
+![PeakTech 3415](./img/Peaktech3415_top.jpg){ .infobox-image }
 
 ### PeakTech 3415
 
@@ -39,7 +39,7 @@ See [PeakTech 3415/Info](https://sigrok.org/wiki/PeakTech_3415/Info) for more de
 
 <div class="photo-grid" markdown>
 
-[![Peaktech3415 Top](./img/Peaktech3415_top.png)](./img/Peaktech3415_top.png "Peaktech3415 Top"){ .glightbox data-gallery="peaktech-3415" }
+[![Peaktech3415 Top](./img/Peaktech3415_top.jpg)](./img/Peaktech3415_top.png "Peaktech3415 Top"){ .glightbox data-gallery="peaktech-3415" }
 <span class="caption">Peaktech3415 Top</span>
 
 [![Peaktech3415 Cable](./img/Peaktech3415_cable.JPG)](./img/Peaktech3415_cable.JPG "Peaktech3415 Cable"){ .glightbox data-gallery="peaktech-3415" }

@@ -6,7 +6,7 @@ title: Tektronix TDS2000B series
 
 <div class="infobox" markdown>
 
-![Tektronix TDS2000B series](./img/Tektronix_tds2024b_mugshot.png){ .infobox-image }
+![Tektronix TDS2000B series](./img/Tektronix_tds2024b_mugshot.jpg){ .infobox-image }
 
 ### Tektronix TDS2000B series
 
@@ -50,7 +50,7 @@ The device uses [USBTMC](https://sigrok.org/wiki/USBTMC) and a SCPI command set 
 
 <div class="photo-grid" markdown>
 
-[![Tektronix Tds2024b Mugshot](./img/Tektronix_tds2024b_mugshot.png)](./img/Tektronix_tds2024b_mugshot.png "Tektronix Tds2024b Mugshot"){ .glightbox data-gallery="tektronix-tds2000b-series" }
+[![Tektronix Tds2024b Mugshot](./img/Tektronix_tds2024b_mugshot.jpg)](./img/Tektronix_tds2024b_mugshot.png "Tektronix Tds2024b Mugshot"){ .glightbox data-gallery="tektronix-tds2000b-series" }
 <span class="caption">Tektronix Tds2024b Mugshot</span>
 
 </div>

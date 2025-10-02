@@ -47,7 +47,7 @@ See [UNI-T UT81B/Info](https://sigrok.org/wiki/UNI-T_UT81B/Info) for more detail
 [![Ut81b Usb Puck](./img/Ut81b-usb-puck.jpg)](./img/Ut81b-usb-puck.jpg "Ut81b Usb Puck"){ .glightbox data-gallery="uni-t-ut81b" }
 <span class="caption">Ut81b Usb Puck</span>
 
-[![Uni T Ut81b Mugshot](./img/Uni-t-ut81b_mugshot.png)](./img/Uni-t-ut81b_mugshot.png "Uni T Ut81b Mugshot"){ .glightbox data-gallery="uni-t-ut81b" }
+[![Uni T Ut81b Mugshot](./img/Uni-t-ut81b_mugshot.jpg)](./img/Uni-t-ut81b_mugshot.png "Uni T Ut81b Mugshot"){ .glightbox data-gallery="uni-t-ut81b" }
 <span class="caption">Uni T Ut81b Mugshot</span>
 
 </div>

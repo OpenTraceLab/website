@@ -48,7 +48,7 @@ title: PoLabs PoScope Basic2
 [![Polabs Poscope Basic2 Ti Hc74](./img/Polabs_poscope_basic2_ti_hc74.jpg)](./img/Polabs_poscope_basic2_ti_hc74.jpg "Polabs Poscope Basic2 Ti Hc74"){ .glightbox data-gallery="polabs-poscope-basic2" }
 <span class="caption">Polabs Poscope Basic2 Ti Hc74</span>
 
-[![Polabs Poscope Basic2](./img/Polabs_poscope_basic2.png)](./img/Polabs_poscope_basic2.png "Polabs Poscope Basic2"){ .glightbox data-gallery="polabs-poscope-basic2" }
+[![Polabs Poscope Basic2](./img/Polabs_poscope_basic2.jpg)](./img/Polabs_poscope_basic2.png "Polabs Poscope Basic2"){ .glightbox data-gallery="polabs-poscope-basic2" }
 <span class="caption">Polabs Poscope Basic2</span>
 
 [![Polabs Poscope Basic2 Ad8544](./img/Polabs_poscope_basic2_ad8544.jpg)](./img/Polabs_poscope_basic2_ad8544.jpg "Polabs Poscope Basic2 Ad8544"){ .glightbox data-gallery="polabs-poscope-basic2" }

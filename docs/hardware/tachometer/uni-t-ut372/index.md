@@ -43,7 +43,7 @@ The unit includes a built in laser pointer for aiming at a reflective target, an
 [![Ut372 Back](./img/UT372_back.jpg)](./img/UT372_back.jpg "Ut372 Back"){ .glightbox data-gallery="uni-t-ut372" }
 <span class="caption">Ut372 Back</span>
 
-[![Uni T Ut372 Mugshot](./img/Uni-t_ut372_mugshot.png)](./img/Uni-t_ut372_mugshot.png "Uni T Ut372 Mugshot"){ .glightbox data-gallery="uni-t-ut372" }
+[![Uni T Ut372 Mugshot](./img/Uni-t_ut372_mugshot.jpg)](./img/Uni-t_ut372_mugshot.png "Uni T Ut372 Mugshot"){ .glightbox data-gallery="uni-t-ut372" }
 <span class="caption">Uni T Ut372 Mugshot</span>
 
 </div>

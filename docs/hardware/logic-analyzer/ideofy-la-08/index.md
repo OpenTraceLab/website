@@ -43,7 +43,7 @@ See [Ideofy LA-08/Info](https://sigrok.org/wiki/Ideofy_LA-08/Info) for more deta
 [![Ideofy La 08 Mugshot](./img/Ideofy_la-08_mugshot.jpg)](./img/Ideofy_la-08_mugshot.jpg "Ideofy La 08 Mugshot"){ .glightbox data-gallery="ideofy-la-08" }
 <span class="caption">Ideofy La 08 Mugshot</span>
 
-[![Ideofy La 08](./img/Ideofy_la_08.png)](./img/Ideofy_la_08.png "Ideofy La 08"){ .glightbox data-gallery="ideofy-la-08" }
+[![Ideofy La 08](./img/Ideofy_la_08.jpg)](./img/Ideofy_la_08.png "Ideofy La 08"){ .glightbox data-gallery="ideofy-la-08" }
 <span class="caption">Ideofy La 08</span>
 
 </div>

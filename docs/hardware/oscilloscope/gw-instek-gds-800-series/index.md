@@ -6,7 +6,7 @@ title: GW Instek GDS-800 series
 
 <div class="infobox" markdown>
 
-![GW Instek GDS-800 series](./img/Voltcraft_dso-6060c_mugshot.png){ .infobox-image }
+![GW Instek GDS-800 series](./img/Voltcraft_dso-6060c_mugshot.jpg){ .infobox-image }
 
 ### GW Instek GDS-800 series
 
@@ -53,7 +53,7 @@ The device's protocol is publically documented in the [GDS-800 series programmin
 
 <div class="photo-grid" markdown>
 
-[![Voltcraft Dso 6060c Mugshot](./img/Voltcraft_dso-6060c_mugshot.png)](./img/Voltcraft_dso-6060c_mugshot.png "Voltcraft Dso 6060c Mugshot"){ .glightbox data-gallery="gw-instek-gds-800-series" }
+[![Voltcraft Dso 6060c Mugshot](./img/Voltcraft_dso-6060c_mugshot.jpg)](./img/Voltcraft_dso-6060c_mugshot.png "Voltcraft Dso 6060c Mugshot"){ .glightbox data-gallery="gw-instek-gds-800-series" }
 <span class="caption">Voltcraft Dso 6060c Mugshot</span>
 
 </div>

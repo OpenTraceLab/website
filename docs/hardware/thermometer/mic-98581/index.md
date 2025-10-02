@@ -78,7 +78,7 @@ title: MIC 98581
 [![Mic 98581 Ti Msp430](./img/Mic_98581_ti_msp430.jpg)](./img/Mic_98581_ti_msp430.jpg "Mic 98581 Ti Msp430"){ .glightbox data-gallery="mic-98581" }
 <span class="caption">Mic 98581 Ti Msp430</span>
 
-[![Mic 98581](./img/Mic_98581.png)](./img/Mic_98581.png "Mic 98581"){ .glightbox data-gallery="mic-98581" }
+[![Mic 98581](./img/Mic_98581.jpg)](./img/Mic_98581.png "Mic 98581"){ .glightbox data-gallery="mic-98581" }
 <span class="caption">Mic 98581</span>
 
 [![Mic 98581 Pcb Closeup2](./img/Mic_98581_pcb_closeup2.jpg)](./img/Mic_98581_pcb_closeup2.jpg "Mic 98581 Pcb Closeup2"){ .glightbox data-gallery="mic-98581" }

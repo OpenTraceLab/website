@@ -6,7 +6,7 @@ title: Manson HCS-3xxx series
 
 <div class="infobox" markdown>
 
-![Manson HCS-3xxx series](./img/Manson_hcs3202.png){ .infobox-image }
+![Manson HCS-3xxx series](./img/Manson_hcs3202.jpg){ .infobox-image }
 
 ### Manson HCS-3xxx series
 
@@ -90,7 +90,7 @@ Some versions of the protocol description in manuals are incomplete or even erro
 
 <div class="photo-grid" markdown>
 
-[![Manson Hcs3202](./img/Manson_hcs3202.png)](./img/Manson_hcs3202.png "Manson Hcs3202"){ .glightbox data-gallery="manson-hcs-3xxx-series" }
+[![Manson Hcs3202](./img/Manson_hcs3202.jpg)](./img/Manson_hcs3202.png "Manson Hcs3202"){ .glightbox data-gallery="manson-hcs-3xxx-series" }
 <span class="caption">Manson Hcs3202</span>
 
 </div>

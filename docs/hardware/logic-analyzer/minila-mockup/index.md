@@ -6,7 +6,7 @@ title: MiniLA Mockup
 
 <div class="infobox" markdown>
 
-![MiniLA Mockup](./img/Minila_mockup.png){ .infobox-image }
+![MiniLA Mockup](./img/Minila_mockup.jpg){ .infobox-image }
 
 ### MiniLA Mockup
 
@@ -21,7 +21,7 @@ title: MiniLA Mockup
 
 <div class="photo-grid" markdown>
 
-[![Minila Mockup](./img/Minila_mockup.png)](./img/Minila_mockup.png "Minila Mockup"){ .glightbox data-gallery="minila-mockup" }
+[![Minila Mockup](./img/Minila_mockup.jpg)](./img/Minila_mockup.png "Minila Mockup"){ .glightbox data-gallery="minila-mockup" }
 <span class="caption">Minila Mockup</span>
 
 </div>

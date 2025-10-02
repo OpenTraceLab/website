@@ -35,7 +35,7 @@ TODO.
 [![Voltcraft 3850d Front](./img/Voltcraft_3850D_front.jpg)](./img/Voltcraft_3850D_front.jpg "Voltcraft 3850d Front"){ .glightbox data-gallery="voltcraft-m-3850d" }
 <span class="caption">Voltcraft 3850d Front</span>
 
-[![Voltcraft M 3650d Transparent](./img/Voltcraft_M-3650D_transparent.png)](./img/Voltcraft_M-3650D_transparent.png "Voltcraft M 3650d Transparent"){ .glightbox data-gallery="voltcraft-m-3850d" }
+[![Voltcraft M 3650d Transparent](./img/Voltcraft_M-3650D_transparent.jpg)](./img/Voltcraft_M-3650D_transparent.png "Voltcraft M 3650d Transparent"){ .glightbox data-gallery="voltcraft-m-3850d" }
 <span class="caption">Voltcraft M 3650d Transparent</span>
 
 [![Voltcraft 3850d Open Back](./img/Voltcraft_3850D_open_back.jpg)](./img/Voltcraft_3850D_open_back.jpg "Voltcraft 3850d Open Back"){ .glightbox data-gallery="voltcraft-m-3850d" }

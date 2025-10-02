@@ -6,7 +6,7 @@ title: UNI-T UT181A
 
 <div class="infobox" markdown>
 
-![UNI-T UT181A](./img/Ut181a-pcb-mcu.png){ .infobox-image }
+![UNI-T UT181A](./img/Ut181a-pcb-mcu.jpg){ .infobox-image }
 
 ### UNI-T UT181A
 
@@ -49,13 +49,13 @@ Users need to enable communication in the meter's menu system before starting th
 
 <div class="photo-grid" markdown>
 
-[![Ut181a Pcb Mcu](./img/Ut181a-pcb-mcu.png)](./img/Ut181a-pcb-mcu.png "Ut181a Pcb Mcu"){ .glightbox data-gallery="uni-t-ut181a" }
+[![Ut181a Pcb Mcu](./img/Ut181a-pcb-mcu.jpg)](./img/Ut181a-pcb-mcu.png "Ut181a Pcb Mcu"){ .glightbox data-gallery="uni-t-ut181a" }
 <span class="caption">Ut181a Pcb Mcu</span>
 
-[![Uni T Ut181a Mugshot](./img/Uni-t-ut181a_mugshot.png)](./img/Uni-t-ut181a_mugshot.png "Uni T Ut181a Mugshot"){ .glightbox data-gallery="uni-t-ut181a" }
+[![Uni T Ut181a Mugshot](./img/Uni-t-ut181a_mugshot.jpg)](./img/Uni-t-ut181a_mugshot.png "Uni T Ut181a Mugshot"){ .glightbox data-gallery="uni-t-ut181a" }
 <span class="caption">Uni T Ut181a Mugshot</span>
 
-[![Ut181a Pcb Dmm Mcu](./img/Ut181a-pcb-dmm-mcu.png)](./img/Ut181a-pcb-dmm-mcu.png "Ut181a Pcb Dmm Mcu"){ .glightbox data-gallery="uni-t-ut181a" }
+[![Ut181a Pcb Dmm Mcu](./img/Ut181a-pcb-dmm-mcu.jpg)](./img/Ut181a-pcb-dmm-mcu.png "Ut181a Pcb Dmm Mcu"){ .glightbox data-gallery="uni-t-ut181a" }
 <span class="caption">Ut181a Pcb Dmm Mcu</span>
 
 </div>

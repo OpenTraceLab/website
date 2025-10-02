@@ -50,7 +50,7 @@ See [Acute PKLA-1216/Info](https://sigrok.org/wiki/Acute_PKLA-1216/Info) for mor
 [![Acute Pkla1216 Acute Aqc20256q208 7](./img/Acute_pkla1216_acute_aqc20256q208_7.jpg)](./img/Acute_pkla1216_acute_aqc20256q208_7.jpg "Acute Pkla1216 Acute Aqc20256q208 7"){ .glightbox data-gallery="acute-pkla-1216" }
 <span class="caption">Acute Pkla1216 Acute Aqc20256q208 7</span>
 
-[![Acute Pkla1216](./img/Acute_pkla1216.png)](./img/Acute_pkla1216.png "Acute Pkla1216"){ .glightbox data-gallery="acute-pkla-1216" }
+[![Acute Pkla1216](./img/Acute_pkla1216.jpg)](./img/Acute_pkla1216.png "Acute Pkla1216"){ .glightbox data-gallery="acute-pkla-1216" }
 <span class="caption">Acute Pkla1216</span>
 
 [![Acute Pkla1216 Front](./img/Acute_pkla1216_front.jpg)](./img/Acute_pkla1216_front.jpg "Acute Pkla1216 Front"){ .glightbox data-gallery="acute-pkla-1216" }

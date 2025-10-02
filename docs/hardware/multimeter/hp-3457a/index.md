@@ -96,7 +96,7 @@ sigrok-cli --driver=hp-3457a:conn=libgpib/hp3457a \
 [![Hp 3457a Rev6 Mains Input And Transformer](./img/Hp_3457a_rev6_mains_input_and_transformer.jpg)](./img/Hp_3457a_rev6_mains_input_and_transformer.jpg "Hp 3457a Rev6 Mains Input And Transformer"){ .glightbox data-gallery="hp-3457a" }
 <span class="caption">Hp 3457a Rev6 Mains Input And Transformer</span>
 
-[![Hp 3457a Sigrok Teaser](./img/HP_3457a_sigrok_teaser.png)](./img/HP_3457a_sigrok_teaser.png "Hp 3457a Sigrok Teaser"){ .glightbox data-gallery="hp-3457a" }
+[![Hp 3457a Sigrok Teaser](./img/HP_3457a_sigrok_teaser.jpg)](./img/HP_3457a_sigrok_teaser.png "Hp 3457a Sigrok Teaser"){ .glightbox data-gallery="hp-3457a" }
 <span class="caption">Hp 3457a Sigrok Teaser</span>
 
 [![Hp 3457a Rev6 Analog Section Relays](./img/Hp_3457a_rev6_analog_section_relays.jpg)](./img/Hp_3457a_rev6_analog_section_relays.jpg "Hp 3457a Rev6 Analog Section Relays"){ .glightbox data-gallery="hp-3457a" }

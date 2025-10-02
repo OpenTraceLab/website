@@ -61,7 +61,7 @@ See [IKALOGIC Scanalogic-2/Info](https://sigrok.org/wiki/IKALOGIC_Scanalogic-2/I
 [![Ikalogic Scanalogic2 Pcb Soldered Front Rev2](./img/Ikalogic_scanalogic2_pcb_soldered_front_rev2.jpg)](./img/Ikalogic_scanalogic2_pcb_soldered_front_rev2.jpg "Ikalogic Scanalogic2 Pcb Soldered Front Rev2"){ .glightbox data-gallery="ikalogic-scanalogic-2" }
 <span class="caption">Ikalogic Scanalogic2 Pcb Soldered Front Rev2</span>
 
-[![Ikalogic Scanalogic2](./img/Ikalogic_scanalogic2.png)](./img/Ikalogic_scanalogic2.png "Ikalogic Scanalogic2"){ .glightbox data-gallery="ikalogic-scanalogic-2" }
+[![Ikalogic Scanalogic2](./img/Ikalogic_scanalogic2.jpg)](./img/Ikalogic_scanalogic2.png "Ikalogic Scanalogic2"){ .glightbox data-gallery="ikalogic-scanalogic-2" }
 <span class="caption">Ikalogic Scanalogic2</span>
 
 [![Ikalogic Scanalogic2 Guide Back](./img/Ikalogic_scanalogic2_guide_back.jpg)](./img/Ikalogic_scanalogic2_guide_back.jpg "Ikalogic Scanalogic2 Guide Back"){ .glightbox data-gallery="ikalogic-scanalogic-2" }

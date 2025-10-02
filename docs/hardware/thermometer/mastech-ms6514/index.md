@@ -53,10 +53,10 @@ The device sends temperature measurements at approximately 2 Hz to the host.
 [![Mastech Ms6514 Pcb Back 3](./img/MASTECH_MS6514_PCB_back_3.jpg)](./img/MASTECH_MS6514_PCB_back_3.jpg "Mastech Ms6514 Pcb Back 3"){ .glightbox data-gallery="mastech-ms6514" }
 <span class="caption">Mastech Ms6514 Pcb Back 3</span>
 
-[![Mastech Ms6514 Front](./img/MASTECH_MS6514_front.png)](./img/MASTECH_MS6514_front.png "Mastech Ms6514 Front"){ .glightbox data-gallery="mastech-ms6514" }
+[![Mastech Ms6514 Front](./img/MASTECH_MS6514_front.jpg)](./img/MASTECH_MS6514_front.png "Mastech Ms6514 Front"){ .glightbox data-gallery="mastech-ms6514" }
 <span class="caption">Mastech Ms6514 Front</span>
 
-[![Mastech Ms6514 Mugshot](./img/MASTECH_MS6514_mugshot.png)](./img/MASTECH_MS6514_mugshot.png "Mastech Ms6514 Mugshot"){ .glightbox data-gallery="mastech-ms6514" }
+[![Mastech Ms6514 Mugshot](./img/MASTECH_MS6514_mugshot.jpg)](./img/MASTECH_MS6514_mugshot.png "Mastech Ms6514 Mugshot"){ .glightbox data-gallery="mastech-ms6514" }
 <span class="caption">Mastech Ms6514 Mugshot</span>
 
 </div>

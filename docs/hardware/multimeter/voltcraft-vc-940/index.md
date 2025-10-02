@@ -6,7 +6,7 @@ title: Voltcraft VC-940
 
 <div class="infobox" markdown>
 
-![Voltcraft VC-940](./img/Voltcraft_vc940.png){ .infobox-image }
+![Voltcraft VC-940](./img/Voltcraft_vc940.jpg){ .infobox-image }
 
 ### Voltcraft VC-940
 
@@ -51,7 +51,7 @@ See [UNI-T UT71x series](https://sigrok.org/wiki/UNI-T_UT71x_series) for informa
 
 <div class="photo-grid" markdown>
 
-[![Voltcraft Vc940](./img/Voltcraft_vc940.png)](./img/Voltcraft_vc940.png "Voltcraft Vc940"){ .glightbox data-gallery="voltcraft-vc-940" }
+[![Voltcraft Vc940](./img/Voltcraft_vc940.jpg)](./img/Voltcraft_vc940.png "Voltcraft Vc940"){ .glightbox data-gallery="voltcraft-vc-940" }
 <span class="caption">Voltcraft Vc940</span>
 
 [![Voltcraft Vc940 Pcb Bottom](./img/Voltcraft_vc940_pcb_bottom.jpg)](./img/Voltcraft_vc940_pcb_bottom.jpg "Voltcraft Vc940 Pcb Bottom"){ .glightbox data-gallery="voltcraft-vc-940" }

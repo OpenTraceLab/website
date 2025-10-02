@@ -6,7 +6,7 @@ title: PeakTech 4390A
 
 <div class="infobox" markdown>
 
-![PeakTech 4390A](./img/Peaktech_4390a_metex_m-3860m_mugshot.png){ .infobox-image }
+![PeakTech 4390A](./img/Peaktech_4390a_metex_m-3860m_mugshot.jpg){ .infobox-image }
 
 ### PeakTech 4390A
 
@@ -61,7 +61,7 @@ This is a rebadged [Metex M-3860M](https://web.archive.org/web/20090221062027/ht
 
 <div class="photo-grid" markdown>
 
-[![Peaktech 4390a Metex M 3860m Mugshot](./img/Peaktech_4390a_metex_m-3860m_mugshot.png)](./img/Peaktech_4390a_metex_m-3860m_mugshot.png "Peaktech 4390a Metex M 3860m Mugshot"){ .glightbox data-gallery="peaktech-4390a" }
+[![Peaktech 4390a Metex M 3860m Mugshot](./img/Peaktech_4390a_metex_m-3860m_mugshot.jpg)](./img/Peaktech_4390a_metex_m-3860m_mugshot.png "Peaktech 4390a Metex M 3860m Mugshot"){ .glightbox data-gallery="peaktech-4390a" }
 <span class="caption">Peaktech 4390a Metex M 3860m Mugshot</span>
 
 [![Peaktech 4390a Metex M 3860m Pcb Small Bottom](./img/Peaktech_4390A_Metex_M-3860M_-_PCB_Small_Bottom.jpg)](./img/Peaktech_4390A_Metex_M-3860M_-_PCB_Small_Bottom.jpg "Peaktech 4390a Metex M 3860m Pcb Small Bottom"){ .glightbox data-gallery="peaktech-4390a" }

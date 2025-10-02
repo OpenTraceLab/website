@@ -54,7 +54,7 @@ See [ARMFLY Mini-Logic/Info](https://sigrok.org/wiki/ARMFLY_Mini-Logic/Info) for
 [![Armfly Mini Logic Pcb Back](./img/ARMFLY_Mini-Logic_PCB_BACK.JPG)](./img/ARMFLY_Mini-Logic_PCB_BACK.JPG "Armfly Mini Logic Pcb Back"){ .glightbox data-gallery="armfly-mini-logic" }
 <span class="caption">Armfly Mini Logic Pcb Back</span>
 
-[![Armfly Mini Logic](./img/ARMFLY_MINI_LOGIC.png)](./img/ARMFLY_MINI_LOGIC.png "Armfly Mini Logic"){ .glightbox data-gallery="armfly-mini-logic" }
+[![Armfly Mini Logic](./img/ARMFLY_MINI_LOGIC.jpg)](./img/ARMFLY_MINI_LOGIC.png "Armfly Mini Logic"){ .glightbox data-gallery="armfly-mini-logic" }
 <span class="caption">Armfly Mini Logic</span>
 
 [![Armfly Mini Logic Pcb](./img/ARMFLY_MINI_LOGIC_PCB.JPG)](./img/ARMFLY_MINI_LOGIC_PCB.JPG "Armfly Mini Logic Pcb"){ .glightbox data-gallery="armfly-mini-logic" }

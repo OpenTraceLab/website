@@ -6,7 +6,7 @@ title: RadioShack 22-805
 
 <div class="infobox" markdown>
 
-![RadioShack 22-805](./img/Rs_22-805_front.png){ .infobox-image }
+![RadioShack 22-805](./img/Rs_22-805_front.jpg){ .infobox-image }
 
 ### RadioShack 22-805
 
@@ -33,7 +33,7 @@ TODO.
 
 <div class="photo-grid" markdown>
 
-[![Rs 22 805 Front](./img/Rs_22-805_front.png)](./img/Rs_22-805_front.png "Rs 22 805 Front"){ .glightbox data-gallery="radioshack-22-805" }
+[![Rs 22 805 Front](./img/Rs_22-805_front.jpg)](./img/Rs_22-805_front.png "Rs 22 805 Front"){ .glightbox data-gallery="radioshack-22-805" }
 <span class="caption">Rs 22 805 Front</span>
 
 </div>

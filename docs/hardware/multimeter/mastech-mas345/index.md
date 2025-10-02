@@ -91,7 +91,7 @@ Example:
 [![Mastech Mas345 Pcb Front2](./img/Mastech_mas345_pcb_front2.jpg)](./img/Mastech_mas345_pcb_front2.jpg "Mastech Mas345 Pcb Front2"){ .glightbox data-gallery="mastech-mas345" }
 <span class="caption">Mastech Mas345 Pcb Front2</span>
 
-[![Mastech Mas345 Device Front](./img/Mastech_mas345_device_front.png)](./img/Mastech_mas345_device_front.png "Mastech Mas345 Device Front"){ .glightbox data-gallery="mastech-mas345" }
+[![Mastech Mas345 Device Front](./img/Mastech_mas345_device_front.jpg)](./img/Mastech_mas345_device_front.png "Mastech Mas345 Device Front"){ .glightbox data-gallery="mastech-mas345" }
 <span class="caption">Mastech Mas345 Device Front</span>
 
 [![Mastech Mas345 Pcb Bottom2](./img/Mastech_mas345_pcb_bottom2.jpg)](./img/Mastech_mas345_pcb_bottom2.jpg "Mastech Mas345 Pcb Bottom2"){ .glightbox data-gallery="mastech-mas345" }

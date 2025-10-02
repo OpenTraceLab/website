@@ -51,16 +51,16 @@ The typical host connection is a USB based serial port. Tunneling of this serial
 [![Bitscope Bs10 Pcb Top](./img/BitScope_BS10_PCB_top.jpg)](./img/BitScope_BS10_PCB_top.jpg "Bitscope Bs10 Pcb Top"){ .glightbox data-gallery="bitscope-bs10" }
 <span class="caption">Bitscope Bs10 Pcb Top</span>
 
-[![Bitscope Bs10](./img/BitScope_BS10.png)](./img/BitScope_BS10.png "Bitscope Bs10"){ .glightbox data-gallery="bitscope-bs10" }
+[![Bitscope Bs10](./img/BitScope_BS10.jpg)](./img/BitScope_BS10.png "Bitscope Bs10"){ .glightbox data-gallery="bitscope-bs10" }
 <span class="caption">Bitscope Bs10</span>
 
-[![Bitscope Bs10 Bottom](./img/BitScope_BS10_bottom.png)](./img/BitScope_BS10_bottom.png "Bitscope Bs10 Bottom"){ .glightbox data-gallery="bitscope-bs10" }
+[![Bitscope Bs10 Bottom](./img/BitScope_BS10_bottom.jpg)](./img/BitScope_BS10_bottom.png "Bitscope Bs10 Bottom"){ .glightbox data-gallery="bitscope-bs10" }
 <span class="caption">Bitscope Bs10 Bottom</span>
 
 [![Bitscope Bs10 Pcb Bottom](./img/BitScope_BS10_PCB_bottom.jpg)](./img/BitScope_BS10_PCB_bottom.jpg "Bitscope Bs10 Pcb Bottom"){ .glightbox data-gallery="bitscope-bs10" }
 <span class="caption">Bitscope Bs10 Pcb Bottom</span>
 
-[![Bitscope Bs10 Back](./img/BitScope_BS10_back.png)](./img/BitScope_BS10_back.png "Bitscope Bs10 Back"){ .glightbox data-gallery="bitscope-bs10" }
+[![Bitscope Bs10 Back](./img/BitScope_BS10_back.jpg)](./img/BitScope_BS10_back.png "Bitscope Bs10 Back"){ .glightbox data-gallery="bitscope-bs10" }
 <span class="caption">Bitscope Bs10 Back</span>
 
 </div>

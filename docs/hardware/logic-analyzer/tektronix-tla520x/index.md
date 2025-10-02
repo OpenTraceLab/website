@@ -6,7 +6,7 @@ title: Tektronix TLA520X
 
 <div class="infobox" markdown>
 
-![Tektronix TLA520X](./img/Tektronix_TLA5204_1000.png){ .infobox-image }
+![Tektronix TLA520X](./img/Tektronix_TLA5204_1000.jpg){ .infobox-image }
 
 ### Tektronix TLA520X
 
@@ -82,7 +82,7 @@ The VME acquisition card requires matching firmware to the version of the applic
 
 <div class="photo-grid" markdown>
 
-[![Tektronix Tla5204 1000](./img/Tektronix_TLA5204_1000.png)](./img/Tektronix_TLA5204_1000.png "Tektronix Tla5204 1000"){ .glightbox data-gallery="tektronix-tla520x" }
+[![Tektronix Tla5204 1000](./img/Tektronix_TLA5204_1000.jpg)](./img/Tektronix_TLA5204_1000.png "Tektronix Tla5204 1000"){ .glightbox data-gallery="tektronix-tla520x" }
 <span class="caption">Tektronix Tla5204 1000</span>
 
 </div>

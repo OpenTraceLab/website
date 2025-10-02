@@ -57,7 +57,7 @@ See [RockyLogic_Ant8/Info](https://sigrok.org/wiki/RockyLogic_Ant8/Info) for mor
 [![Rockylogic Ant8 Pcb Front](./img/Rockylogic_ant8_pcb_front.jpg)](./img/Rockylogic_ant8_pcb_front.jpg "Rockylogic Ant8 Pcb Front"){ .glightbox data-gallery="rockylogic-ant8" }
 <span class="caption">Rockylogic Ant8 Pcb Front</span>
 
-[![Rockylogic Ant8](./img/Rockylogic_ant8.png)](./img/Rockylogic_ant8.png "Rockylogic Ant8"){ .glightbox data-gallery="rockylogic-ant8" }
+[![Rockylogic Ant8](./img/Rockylogic_ant8.jpg)](./img/Rockylogic_ant8.png "Rockylogic Ant8"){ .glightbox data-gallery="rockylogic-ant8" }
 <span class="caption">Rockylogic Ant8</span>
 
 [![Rockylogic Ant8 Xilinx Spartan Xc2s30 Fpga](./img/Rockylogic_ant8_xilinx_spartan_xc2s30_fpga.jpg)](./img/Rockylogic_ant8_xilinx_spartan_xc2s30_fpga.jpg "Rockylogic Ant8 Xilinx Spartan Xc2s30 Fpga"){ .glightbox data-gallery="rockylogic-ant8" }

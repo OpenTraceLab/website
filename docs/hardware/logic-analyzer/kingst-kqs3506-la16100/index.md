@@ -85,7 +85,7 @@ The **J3** pin header is a JTAG connector wired to the CPLD (it is **not** addit
 [![Kingst Kqs3506 La16100 Input Stage1](./img/Kingst_kqs3506_la16100_input_stage1.jpg)](./img/Kingst_kqs3506_la16100_input_stage1.jpg "Kingst Kqs3506 La16100 Input Stage1"){ .glightbox data-gallery="kingst-kqs3506-la16100" }
 <span class="caption">Kingst Kqs3506 La16100 Input Stage1</span>
 
-[![Kingst Kqs3506 La16100](./img/Kingst_kqs3506_la16100.png)](./img/Kingst_kqs3506_la16100.png "Kingst Kqs3506 La16100"){ .glightbox data-gallery="kingst-kqs3506-la16100" }
+[![Kingst Kqs3506 La16100](./img/Kingst_kqs3506_la16100.jpg)](./img/Kingst_kqs3506_la16100.png "Kingst Kqs3506 La16100"){ .glightbox data-gallery="kingst-kqs3506-la16100" }
 <span class="caption">Kingst Kqs3506 La16100</span>
 
 [![Kingst Kqs3506 La16100 Device Usb](./img/Kingst_kqs3506_la16100_device_usb.jpg)](./img/Kingst_kqs3506_la16100_device_usb.jpg "Kingst Kqs3506 La16100 Device Usb"){ .glightbox data-gallery="kingst-kqs3506-la16100" }

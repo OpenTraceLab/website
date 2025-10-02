@@ -6,7 +6,7 @@ title: Voltcraft DL-161S
 
 <div class="infobox" markdown>
 
-![Voltcraft DL-161S](./img/Voltcraft_DL-161S.png){ .infobox-image }
+![Voltcraft DL-161S](./img/Voltcraft_DL-161S.jpg){ .infobox-image }
 
 ### Voltcraft DL-161S
 
@@ -38,7 +38,7 @@ TODO
 
 <div class="photo-grid" markdown>
 
-[![Voltcraft Dl 161s](./img/Voltcraft_DL-161S.png)](./img/Voltcraft_DL-161S.png "Voltcraft Dl 161s"){ .glightbox data-gallery="voltcraft-dl-161s" }
+[![Voltcraft Dl 161s](./img/Voltcraft_DL-161S.jpg)](./img/Voltcraft_DL-161S.png "Voltcraft Dl 161s"){ .glightbox data-gallery="voltcraft-dl-161s" }
 <span class="caption">Voltcraft Dl 161s</span>
 
 </div>

@@ -85,7 +85,7 @@ This is a rebadged [CEM DT-173](http://www.cem-instruments.com/en/pro/pro-290.ht
 [![Voltcraft Dl 160s Pcb Main Top](./img/Voltcraft_dl-160s_pcb_main_top.jpg)](./img/Voltcraft_dl-160s_pcb_main_top.jpg "Voltcraft Dl 160s Pcb Main Top"){ .glightbox data-gallery="voltcraft-dl-160s" }
 <span class="caption">Voltcraft Dl 160s Pcb Main Top</span>
 
-[![Voltcraft Dl 160s](./img/Voltcraft_dl_160s.png)](./img/Voltcraft_dl_160s.png "Voltcraft Dl 160s"){ .glightbox data-gallery="voltcraft-dl-160s" }
+[![Voltcraft Dl 160s](./img/Voltcraft_dl_160s.jpg)](./img/Voltcraft_dl_160s.png "Voltcraft Dl 160s"){ .glightbox data-gallery="voltcraft-dl-160s" }
 <span class="caption">Voltcraft Dl 160s</span>
 
 [![Voltcraft Dl 160s Tl062c 2](./img/Voltcraft_dl-160s_tl062c_2.jpg)](./img/Voltcraft_dl-160s_tl062c_2.jpg "Voltcraft Dl 160s Tl062c 2"){ .glightbox data-gallery="voltcraft-dl-160s" }

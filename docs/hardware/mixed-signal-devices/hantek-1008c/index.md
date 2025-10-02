@@ -56,16 +56,16 @@ more recent board revision ("Mini DSO V1.00.14 // 2018-11")
 [![Hantek 1008c Bottom](./img/Hantek_1008C_bottom.jpg)](./img/Hantek_1008C_bottom.jpg "Hantek 1008c Bottom"){ .glightbox data-gallery="hantek-1008c" }
 <span class="caption">Hantek 1008c Bottom</span>
 
-[![Hantek 1008c Pcb Ch123](./img/Hantek-1008c-pcb-ch123.png)](./img/Hantek-1008c-pcb-ch123.png "Hantek 1008c Pcb Ch123"){ .glightbox data-gallery="hantek-1008c" }
+[![Hantek 1008c Pcb Ch123](./img/Hantek-1008c-pcb-ch123.jpg)](./img/Hantek-1008c-pcb-ch123.png "Hantek 1008c Pcb Ch123"){ .glightbox data-gallery="hantek-1008c" }
 <span class="caption">Hantek 1008c Pcb Ch123</span>
 
-[![Hantek 1008c Pcb Bottom](./img/Hantek-1008c-pcb-bottom.png)](./img/Hantek-1008c-pcb-bottom.png "Hantek 1008c Pcb Bottom"){ .glightbox data-gallery="hantek-1008c" }
+[![Hantek 1008c Pcb Bottom](./img/Hantek-1008c-pcb-bottom.jpg)](./img/Hantek-1008c-pcb-bottom.png "Hantek 1008c Pcb Bottom"){ .glightbox data-gallery="hantek-1008c" }
 <span class="caption">Hantek 1008c Pcb Bottom</span>
 
 [![Hantek 1008c Pcb Bottom](./img/Hantek_1008C_pcb_bottom.jpg)](./img/Hantek_1008C_pcb_bottom.jpg "Hantek 1008c Pcb Bottom"){ .glightbox data-gallery="hantek-1008c" }
 <span class="caption">Hantek 1008c Pcb Bottom</span>
 
-[![Hantek 1008c Pcb Reg Mcu Gen](./img/Hantek-1008c-pcb-reg-mcu-gen.png)](./img/Hantek-1008c-pcb-reg-mcu-gen.png "Hantek 1008c Pcb Reg Mcu Gen"){ .glightbox data-gallery="hantek-1008c" }
+[![Hantek 1008c Pcb Reg Mcu Gen](./img/Hantek-1008c-pcb-reg-mcu-gen.jpg)](./img/Hantek-1008c-pcb-reg-mcu-gen.png "Hantek 1008c Pcb Reg Mcu Gen"){ .glightbox data-gallery="hantek-1008c" }
 <span class="caption">Hantek 1008c Pcb Reg Mcu Gen</span>
 
 [![Hantek 1008c Ic Hc244sj](./img/Hantek_1008C_IC_hc244sj.jpg)](./img/Hantek_1008C_IC_hc244sj.jpg "Hantek 1008c Ic Hc244sj"){ .glightbox data-gallery="hantek-1008c" }
@@ -77,7 +77,7 @@ more recent board revision ("Mini DSO V1.00.14 // 2018-11")
 [![Hantek 1008c Pcb Top](./img/Hantek_1008C_pcb_top.jpg)](./img/Hantek_1008C_pcb_top.jpg "Hantek 1008c Pcb Top"){ .glightbox data-gallery="hantek-1008c" }
 <span class="caption">Hantek 1008c Pcb Top</span>
 
-[![Hantek 1008c Case Blinds 1](./img/Hantek-1008c-case-blinds-1.png)](./img/Hantek-1008c-case-blinds-1.png "Hantek 1008c Case Blinds 1"){ .glightbox data-gallery="hantek-1008c" }
+[![Hantek 1008c Case Blinds 1](./img/Hantek-1008c-case-blinds-1.jpg)](./img/Hantek-1008c-case-blinds-1.png "Hantek 1008c Case Blinds 1"){ .glightbox data-gallery="hantek-1008c" }
 <span class="caption">Hantek 1008c Case Blinds 1</span>
 
 [![Hantek 1008c Pcb Mounted](./img/Hantek_1008C_pcb_mounted.jpg)](./img/Hantek_1008C_pcb_mounted.jpg "Hantek 1008c Pcb Mounted"){ .glightbox data-gallery="hantek-1008c" }
@@ -101,7 +101,7 @@ more recent board revision ("Mini DSO V1.00.14 // 2018-11")
 [![Hantek 1008c Input Frontend](./img/Hantek_1008C_input_frontend.jpg)](./img/Hantek_1008C_input_frontend.jpg "Hantek 1008c Input Frontend"){ .glightbox data-gallery="hantek-1008c" }
 <span class="caption">Hantek 1008c Input Frontend</span>
 
-[![Hantek 1008c Case Blinds 2](./img/Hantek-1008c-case-blinds-2.png)](./img/Hantek-1008c-case-blinds-2.png "Hantek 1008c Case Blinds 2"){ .glightbox data-gallery="hantek-1008c" }
+[![Hantek 1008c Case Blinds 2](./img/Hantek-1008c-case-blinds-2.jpg)](./img/Hantek-1008c-case-blinds-2.png "Hantek 1008c Case Blinds 2"){ .glightbox data-gallery="hantek-1008c" }
 <span class="caption">Hantek 1008c Case Blinds 2</span>
 
 [![Hantek 1008c Ic Hc595](./img/Hantek_1008C_IC_hc595.jpg)](./img/Hantek_1008C_IC_hc595.jpg "Hantek 1008c Ic Hc595"){ .glightbox data-gallery="hantek-1008c" }
@@ -110,10 +110,10 @@ more recent board revision ("Mini DSO V1.00.14 // 2018-11")
 [![Hantek 1008c Top Cover](./img/Hantek_1008C_top_cover.jpg)](./img/Hantek_1008C_top_cover.jpg "Hantek 1008c Top Cover"){ .glightbox data-gallery="hantek-1008c" }
 <span class="caption">Hantek 1008c Top Cover</span>
 
-[![Hantek 1008c](./img/Hantek_1008C.png)](./img/Hantek_1008C.png "Hantek 1008c"){ .glightbox data-gallery="hantek-1008c" }
+[![Hantek 1008c](./img/Hantek_1008C.jpg)](./img/Hantek_1008C.png "Hantek 1008c"){ .glightbox data-gallery="hantek-1008c" }
 <span class="caption">Hantek 1008c</span>
 
-[![Hantek 1008c Pcb Ch78](./img/Hantek-1008c-pcb-ch78.png)](./img/Hantek-1008c-pcb-ch78.png "Hantek 1008c Pcb Ch78"){ .glightbox data-gallery="hantek-1008c" }
+[![Hantek 1008c Pcb Ch78](./img/Hantek-1008c-pcb-ch78.jpg)](./img/Hantek-1008c-pcb-ch78.png "Hantek 1008c Pcb Ch78"){ .glightbox data-gallery="hantek-1008c" }
 <span class="caption">Hantek 1008c Pcb Ch78</span>
 
 [![Hantek 1008c Ic Ti25avg](./img/Hantek_1008C_IC_ti25avg.jpg)](./img/Hantek_1008C_IC_ti25avg.jpg "Hantek 1008c Ic Ti25avg"){ .glightbox data-gallery="hantek-1008c" }
@@ -122,13 +122,13 @@ more recent board revision ("Mini DSO V1.00.14 // 2018-11")
 [![Hantek 1008c Back](./img/Hantek_1008C_back.jpg)](./img/Hantek_1008C_back.jpg "Hantek 1008c Back"){ .glightbox data-gallery="hantek-1008c" }
 <span class="caption">Hantek 1008c Back</span>
 
-[![Hantek 1008c Pcb Ch3456](./img/Hantek-1008c-pcb-ch3456.png)](./img/Hantek-1008c-pcb-ch3456.png "Hantek 1008c Pcb Ch3456"){ .glightbox data-gallery="hantek-1008c" }
+[![Hantek 1008c Pcb Ch3456](./img/Hantek-1008c-pcb-ch3456.jpg)](./img/Hantek-1008c-pcb-ch3456.png "Hantek 1008c Pcb Ch3456"){ .glightbox data-gallery="hantek-1008c" }
 <span class="caption">Hantek 1008c Pcb Ch3456</span>
 
 [![Hantek 1008c Front Input](./img/Hantek_1008C_front_input.jpg)](./img/Hantek_1008C_front_input.jpg "Hantek 1008c Front Input"){ .glightbox data-gallery="hantek-1008c" }
 <span class="caption">Hantek 1008c Front Input</span>
 
-[![Hantek 1008c Pcb Top](./img/Hantek-1008c-pcb-top.png)](./img/Hantek-1008c-pcb-top.png "Hantek 1008c Pcb Top"){ .glightbox data-gallery="hantek-1008c" }
+[![Hantek 1008c Pcb Top](./img/Hantek-1008c-pcb-top.jpg)](./img/Hantek-1008c-pcb-top.png "Hantek 1008c Pcb Top"){ .glightbox data-gallery="hantek-1008c" }
 <span class="caption">Hantek 1008c Pcb Top</span>
 
 [![Hantek 1008c V 1 00 4](./img/Hantek_1008C_v_1_00_4.jpg)](./img/Hantek_1008C_v_1_00_4.jpg "Hantek 1008c V 1 00 4"){ .glightbox data-gallery="hantek-1008c" }

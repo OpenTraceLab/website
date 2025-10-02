@@ -76,7 +76,7 @@ It seems there have been at least two different revisions of the multimeter (or 
 [![Mastech Va18b Package Back](./img/Mastech_va18b_package_back.jpg)](./img/Mastech_va18b_package_back.jpg "Mastech Va18b Package Back"){ .glightbox data-gallery="vamp;a-va18b" }
 <span class="caption">Mastech Va18b Package Back</span>
 
-[![Va Va18b](./img/Va_va18b.png)](./img/Va_va18b.png "Va Va18b"){ .glightbox data-gallery="vamp;a-va18b" }
+[![Va Va18b](./img/Va_va18b.jpg)](./img/Va_va18b.png "Va Va18b"){ .glightbox data-gallery="vamp;a-va18b" }
 <span class="caption">Va Va18b</span>
 
 [![Mastech Va18b Crystal](./img/Mastech_va18b_crystal.jpg)](./img/Mastech_va18b_crystal.jpg "Mastech Va18b Crystal"){ .glightbox data-gallery="vamp;a-va18b" }

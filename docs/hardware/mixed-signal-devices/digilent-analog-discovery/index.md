@@ -36,7 +36,7 @@ title: Digilent Analog Discovery
 [![Digilent Analog Discovery](./img/Digilent_analog-discovery.jpg)](./img/Digilent_analog-discovery.jpg "Digilent Analog Discovery"){ .glightbox data-gallery="digilent-analog-discovery" }
 <span class="caption">Digilent Analog Discovery</span>
 
-[![Digilent Analog Discovery](./img/Digilent_analog_discovery.png)](./img/Digilent_analog_discovery.png "Digilent Analog Discovery"){ .glightbox data-gallery="digilent-analog-discovery" }
+[![Digilent Analog Discovery](./img/Digilent_analog_discovery.jpg)](./img/Digilent_analog_discovery.png "Digilent Analog Discovery"){ .glightbox data-gallery="digilent-analog-discovery" }
 <span class="caption">Digilent Analog Discovery</span>
 
 [![Digilent Analog Discovery Pcb Front](./img/Digilent_analog-discovery_pcb_front.jpg)](./img/Digilent_analog-discovery_pcb_front.jpg "Digilent Analog Discovery Pcb Front"){ .glightbox data-gallery="digilent-analog-discovery" }

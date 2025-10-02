@@ -6,7 +6,7 @@ title: APPA 107
 
 <div class="infobox" markdown>
 
-![APPA 107](./img/Appa_107.png){ .infobox-image }
+![APPA 107](./img/Appa_107.jpg){ .infobox-image }
 
 ### APPA 107
 
@@ -35,7 +35,7 @@ TODO.
 
 <div class="photo-grid" markdown>
 
-[![Appa 107](./img/Appa_107.png)](./img/Appa_107.png "Appa 107"){ .glightbox data-gallery="appa-107" }
+[![Appa 107](./img/Appa_107.jpg)](./img/Appa_107.png "Appa 107"){ .glightbox data-gallery="appa-107" }
 <span class="caption">Appa 107</span>
 
 </div>

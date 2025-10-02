@@ -185,7 +185,7 @@ Based on that numbers, with backlight off the device should be able to surpass t
 [![Rs Pro S2 Teardown 03](./img/RS_PRO_S2_-_Teardown_-_03.jpg)](./img/RS_PRO_S2_-_Teardown_-_03.jpg "Rs Pro S2 Teardown 03"){ .glightbox data-gallery="rs-pro-s2" }
 <span class="caption">Rs Pro S2 Teardown 03</span>
 
-[![Rs Pro S2 02 Smuview](./img/RS_PRO_S2_-_02_-_SmuView.png)](./img/RS_PRO_S2_-_02_-_SmuView.png "Rs Pro S2 02 Smuview"){ .glightbox data-gallery="rs-pro-s2" }
+[![Rs Pro S2 02 Smuview](./img/RS_PRO_S2_-_02_-_SmuView.jpg)](./img/RS_PRO_S2_-_02_-_SmuView.png "Rs Pro S2 02 Smuview"){ .glightbox data-gallery="rs-pro-s2" }
 <span class="caption">Rs Pro S2 02 Smuview</span>
 
 [![Rs Pro S2 05 Rear](./img/RS_PRO_S2_-_05_-_Rear.jpg)](./img/RS_PRO_S2_-_05_-_Rear.jpg "Rs Pro S2 05 Rear"){ .glightbox data-gallery="rs-pro-s2" }
@@ -227,7 +227,7 @@ Based on that numbers, with backlight off the device should be able to surpass t
 [![Rs Pro S2 Teardown 09](./img/RS_PRO_S2_-_Teardown_-_09.jpg)](./img/RS_PRO_S2_-_Teardown_-_09.jpg "Rs Pro S2 Teardown 09"){ .glightbox data-gallery="rs-pro-s2" }
 <span class="caption">Rs Pro S2 Teardown 09</span>
 
-[![Rs Pro S2 01 Front](./img/RS_PRO_S2_-_01_-_Front.png)](./img/RS_PRO_S2_-_01_-_Front.png "Rs Pro S2 01 Front"){ .glightbox data-gallery="rs-pro-s2" }
+[![Rs Pro S2 01 Front](./img/RS_PRO_S2_-_01_-_Front.jpg)](./img/RS_PRO_S2_-_01_-_Front.png "Rs Pro S2 01 Front"){ .glightbox data-gallery="rs-pro-s2" }
 <span class="caption">Rs Pro S2 01 Front</span>
 
 [![Rs Pro S2 Teardown 12](./img/RS_PRO_S2_-_Teardown_-_12.jpg)](./img/RS_PRO_S2_-_Teardown_-_12.jpg "Rs Pro S2 Teardown 12"){ .glightbox data-gallery="rs-pro-s2" }

@@ -37,7 +37,7 @@ TODO.
 [![Rigol Dm3068 Back](./img/Rigol_DM3068_back.jpg)](./img/Rigol_DM3068_back.jpg "Rigol Dm3068 Back"){ .glightbox data-gallery="rigol-dm3068" }
 <span class="caption">Rigol Dm3068 Back</span>
 
-[![Rigol Dm3068 Front](./img/Rigol_DM3068_front.png)](./img/Rigol_DM3068_front.png "Rigol Dm3068 Front"){ .glightbox data-gallery="rigol-dm3068" }
+[![Rigol Dm3068 Front](./img/Rigol_DM3068_front.jpg)](./img/Rigol_DM3068_front.png "Rigol Dm3068 Front"){ .glightbox data-gallery="rigol-dm3068" }
 <span class="caption">Rigol Dm3068 Front</span>
 
 [![Rigol Dm3068 Front](./img/Rigol_DM3068_front.jpg)](./img/Rigol_DM3068_front.jpg "Rigol Dm3068 Front"){ .glightbox data-gallery="rigol-dm3068" }

@@ -42,7 +42,7 @@ title: Velleman WFS210
 [![Vellemanwfs210 Pcb Bottom](./img/VellemanWFS210-pcb-bottom.JPG)](./img/VellemanWFS210-pcb-bottom.JPG "Vellemanwfs210 Pcb Bottom"){ .glightbox data-gallery="velleman-wfs210" }
 <span class="caption">Vellemanwfs210 Pcb Bottom</span>
 
-[![Vellemanwfs210](./img/VellemanWFS210.png)](./img/VellemanWFS210.png "Vellemanwfs210"){ .glightbox data-gallery="velleman-wfs210" }
+[![Vellemanwfs210](./img/VellemanWFS210.jpg)](./img/VellemanWFS210.png "Vellemanwfs210"){ .glightbox data-gallery="velleman-wfs210" }
 <span class="caption">Vellemanwfs210</span>
 
 [![Vellemanwfs210 Screen](./img/VellemanWFS210-screen.jpg)](./img/VellemanWFS210-screen.jpg "Vellemanwfs210 Screen"){ .glightbox data-gallery="velleman-wfs210" }

@@ -6,7 +6,7 @@ title: ChronoVu LA16
 
 <div class="infobox" markdown>
 
-![ChronoVu LA16](./img/Chronovu_la16.png){ .infobox-image }
+![ChronoVu LA16](./img/Chronovu_la16.jpg){ .infobox-image }
 
 ### ChronoVu LA16
 
@@ -44,7 +44,7 @@ Many thanks to the vendor ([ChronoVu](http://www.chronovu.com/)) for freely prov
 
 <div class="photo-grid" markdown>
 
-[![Chronovu La16](./img/Chronovu_la16.png)](./img/Chronovu_la16.png "Chronovu La16"){ .glightbox data-gallery="chronovu-la16" }
+[![Chronovu La16](./img/Chronovu_la16.jpg)](./img/Chronovu_la16.png "Chronovu La16"){ .glightbox data-gallery="chronovu-la16" }
 <span class="caption">Chronovu La16</span>
 
 </div>

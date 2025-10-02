@@ -42,7 +42,7 @@ title: MIC 98583
 [![Mic 98583 Device Back](./img/Mic_98583_device_back.jpg)](./img/Mic_98583_device_back.jpg "Mic 98583 Device Back"){ .glightbox data-gallery="mic-98583" }
 <span class="caption">Mic 98583 Device Back</span>
 
-[![Mic 98583](./img/Mic_98583.png)](./img/Mic_98583.png "Mic 98583"){ .glightbox data-gallery="mic-98583" }
+[![Mic 98583](./img/Mic_98583.jpg)](./img/Mic_98583.png "Mic 98583"){ .glightbox data-gallery="mic-98583" }
 <span class="caption">Mic 98583</span>
 
 [![Mic 98583 Package Contents](./img/Mic_98583_package_contents.jpg)](./img/Mic_98583_package_contents.jpg "Mic 98583 Package Contents"){ .glightbox data-gallery="mic-98583" }

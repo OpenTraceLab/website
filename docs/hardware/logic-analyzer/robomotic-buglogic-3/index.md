@@ -48,7 +48,7 @@ See [Robomotic BugLogic 3/Info](https://sigrok.org/wiki/Robomotic_BugLogic_3/Inf
 [![Robomotic Buglogic3](./img/Robomotic_buglogic3.jpg)](./img/Robomotic_buglogic3.jpg "Robomotic Buglogic3"){ .glightbox data-gallery="robomotic-buglogic-3" }
 <span class="caption">Robomotic Buglogic3</span>
 
-[![Robomotic Buglogic3](./img/Robomotic_buglogic3.png)](./img/Robomotic_buglogic3.png "Robomotic Buglogic3"){ .glightbox data-gallery="robomotic-buglogic-3" }
+[![Robomotic Buglogic3](./img/Robomotic_buglogic3.jpg)](./img/Robomotic_buglogic3.png "Robomotic Buglogic3"){ .glightbox data-gallery="robomotic-buglogic-3" }
 <span class="caption">Robomotic Buglogic3</span>
 
 </div>

@@ -36,7 +36,7 @@ TODO.
 [![Pce Pce Dm32 Mugshot](./img/Pce-pce-dm32_mugshot.jpg)](./img/Pce-pce-dm32_mugshot.jpg "Pce Pce Dm32 Mugshot"){ .glightbox data-gallery="pce-pce-dm32" }
 <span class="caption">Pce Pce Dm32 Mugshot</span>
 
-[![Pce Pce Dm32](./img/Pce-pce-dm32.png)](./img/Pce-pce-dm32.png "Pce Pce Dm32"){ .glightbox data-gallery="pce-pce-dm32" }
+[![Pce Pce Dm32](./img/Pce-pce-dm32.jpg)](./img/Pce-pce-dm32.png "Pce Pce Dm32"){ .glightbox data-gallery="pce-pce-dm32" }
 <span class="caption">Pce Pce Dm32</span>
 
 </div>

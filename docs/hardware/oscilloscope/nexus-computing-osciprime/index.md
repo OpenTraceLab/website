@@ -24,7 +24,7 @@ title: Nexus-Computing OsciPrime
 [![Osciprime Pcb](./img/OsciPrime_PCB.jpg)](./img/OsciPrime_PCB.jpg "Osciprime Pcb"){ .glightbox data-gallery="nexus-computing-osciprime" }
 <span class="caption">Osciprime Pcb</span>
 
-[![Osciprime](./img/OsciPrime.png)](./img/OsciPrime.png "Osciprime"){ .glightbox data-gallery="nexus-computing-osciprime" }
+[![Osciprime](./img/OsciPrime.jpg)](./img/OsciPrime.png "Osciprime"){ .glightbox data-gallery="nexus-computing-osciprime" }
 <span class="caption">Osciprime</span>
 
 [![Osciprime Pcb Back](./img/OsciPrime_PCB_back.jpg)](./img/OsciPrime_PCB_back.jpg "Osciprime Pcb Back"){ .glightbox data-gallery="nexus-computing-osciprime" }

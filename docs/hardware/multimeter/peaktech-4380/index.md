@@ -48,13 +48,13 @@ This is a rebadged Metex M-3860D multimeter.
 [![Peaktech 4380 Software](./img/PeakTech_4380_software.jpg)](./img/PeakTech_4380_software.jpg "Peaktech 4380 Software"){ .glightbox data-gallery="peaktech-4380" }
 <span class="caption">Peaktech 4380 Software</span>
 
-[![Peaktech 4380 Full Front](./img/PeakTech_4380_full_front.png)](./img/PeakTech_4380_full_front.png "Peaktech 4380 Full Front"){ .glightbox data-gallery="peaktech-4380" }
+[![Peaktech 4380 Full Front](./img/PeakTech_4380_full_front.jpg)](./img/PeakTech_4380_full_front.png "Peaktech 4380 Full Front"){ .glightbox data-gallery="peaktech-4380" }
 <span class="caption">Peaktech 4380 Full Front</span>
 
 [![Peaktech 4380 Pcb Stacked](./img/PeakTech_4380_PCB_stacked.jpg)](./img/PeakTech_4380_PCB_stacked.jpg "Peaktech 4380 Pcb Stacked"){ .glightbox data-gallery="peaktech-4380" }
 <span class="caption">Peaktech 4380 Pcb Stacked</span>
 
-[![Peaktech 4380 Mugshot](./img/Peaktech_4380_mugshot.png)](./img/Peaktech_4380_mugshot.png "Peaktech 4380 Mugshot"){ .glightbox data-gallery="peaktech-4380" }
+[![Peaktech 4380 Mugshot](./img/Peaktech_4380_mugshot.jpg)](./img/Peaktech_4380_mugshot.png "Peaktech 4380 Mugshot"){ .glightbox data-gallery="peaktech-4380" }
 <span class="caption">Peaktech 4380 Mugshot</span>
 
 [![Peaktech 4380 Display](./img/PeakTech_4380_Display.jpg)](./img/PeakTech_4380_Display.jpg "Peaktech 4380 Display"){ .glightbox data-gallery="peaktech-4380" }

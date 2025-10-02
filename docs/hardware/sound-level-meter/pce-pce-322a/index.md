@@ -6,7 +6,7 @@ title: PCE PCE-322A
 
 <div class="infobox" markdown>
 
-![PCE PCE-322A](./img/PCE-322A.png){ .infobox-image }
+![PCE PCE-322A](./img/PCE-322A.jpg){ .infobox-image }
 
 ### PCE PCE-322A
 
@@ -36,7 +36,7 @@ TODO
 
 <div class="photo-grid" markdown>
 
-[![Pce 322a](./img/PCE-322A.png)](./img/PCE-322A.png "Pce 322a"){ .glightbox data-gallery="pce-pce-322a" }
+[![Pce 322a](./img/PCE-322A.jpg)](./img/PCE-322A.png "Pce 322a"){ .glightbox data-gallery="pce-pce-322a" }
 <span class="caption">Pce 322a</span>
 
 [![Pce 322a Back](./img/PCE-322A_back.jpg)](./img/PCE-322A_back.jpg "Pce 322a Back"){ .glightbox data-gallery="pce-pce-322a" }

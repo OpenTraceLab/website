@@ -66,7 +66,7 @@ Hardware/firmware constraints:
 [![Microchip Pickit2 Pcb Front](./img/Microchip_pickit2_pcb_front.jpg)](./img/Microchip_pickit2_pcb_front.jpg "Microchip Pickit2 Pcb Front"){ .glightbox data-gallery="microchip-pickit2" }
 <span class="caption">Microchip Pickit2 Pcb Front</span>
 
-[![Microchip Pickit2](./img/Microchip_pickit2.png)](./img/Microchip_pickit2.png "Microchip Pickit2"){ .glightbox data-gallery="microchip-pickit2" }
+[![Microchip Pickit2](./img/Microchip_pickit2.jpg)](./img/Microchip_pickit2.png "Microchip Pickit2"){ .glightbox data-gallery="microchip-pickit2" }
 <span class="caption">Microchip Pickit2</span>
 
 [![Microchip Pickit2 Device Back](./img/Microchip_pickit2_device_back.jpg)](./img/Microchip_pickit2_device_back.jpg "Microchip Pickit2 Device Back"){ .glightbox data-gallery="microchip-pickit2" }

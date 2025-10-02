@@ -6,7 +6,7 @@ title: RockyLogic Ant18e
 
 <div class="infobox" markdown>
 
-![RockyLogic Ant18e](./img/Ant18e-front2.png){ .infobox-image }
+![RockyLogic Ant18e](./img/Ant18e-front2.jpg){ .infobox-image }
 
 ### RockyLogic Ant18e
 
@@ -39,16 +39,16 @@ See [RockyLogic_Ant18e/Info](https://sigrok.org/wiki/RockyLogic_Ant18e/Info) for
 
 <div class="photo-grid" markdown>
 
-[![Ant18e Front2](./img/Ant18e-front2.png)](./img/Ant18e-front2.png "Ant18e Front2"){ .glightbox data-gallery="rockylogic-ant18e" }
+[![Ant18e Front2](./img/Ant18e-front2.jpg)](./img/Ant18e-front2.png "Ant18e Front2"){ .glightbox data-gallery="rockylogic-ant18e" }
 <span class="caption">Ant18e Front2</span>
 
 [![Ant18e Closed](./img/Ant18e_closed.jpg)](./img/Ant18e_closed.jpg "Ant18e Closed"){ .glightbox data-gallery="rockylogic-ant18e" }
 <span class="caption">Ant18e Closed</span>
 
-[![Ant18e Back2](./img/Ant18e-back2.png)](./img/Ant18e-back2.png "Ant18e Back2"){ .glightbox data-gallery="rockylogic-ant18e" }
+[![Ant18e Back2](./img/Ant18e-back2.jpg)](./img/Ant18e-back2.png "Ant18e Back2"){ .glightbox data-gallery="rockylogic-ant18e" }
 <span class="caption">Ant18e Back2</span>
 
-[![Rockylogic Ant18e](./img/RockyLogic_Ant18e.png)](./img/RockyLogic_Ant18e.png "Rockylogic Ant18e"){ .glightbox data-gallery="rockylogic-ant18e" }
+[![Rockylogic Ant18e](./img/RockyLogic_Ant18e.jpg)](./img/RockyLogic_Ant18e.png "Rockylogic Ant18e"){ .glightbox data-gallery="rockylogic-ant18e" }
 <span class="caption">Rockylogic Ant18e</span>
 
 </div>

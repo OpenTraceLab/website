@@ -27,7 +27,7 @@ title: Pico Technology PicoScope 2203
 [![Picoscope 2203 Back](./img/Picoscope_2203_back.jpg)](./img/Picoscope_2203_back.jpg "Picoscope 2203 Back"){ .glightbox data-gallery="pico-technology-picoscope-2203" }
 <span class="caption">Picoscope 2203 Back</span>
 
-[![Picoscope 2203](./img/Picoscope_2203.png)](./img/Picoscope_2203.png "Picoscope 2203"){ .glightbox data-gallery="pico-technology-picoscope-2203" }
+[![Picoscope 2203](./img/Picoscope_2203.jpg)](./img/Picoscope_2203.png "Picoscope 2203"){ .glightbox data-gallery="pico-technology-picoscope-2203" }
 <span class="caption">Picoscope 2203</span>
 
 [![Picoscope 2203 Pcb Back](./img/Picoscope_2203_pcb_back.jpg)](./img/Picoscope_2203_pcb_back.jpg "Picoscope 2203 Pcb Back"){ .glightbox data-gallery="pico-technology-picoscope-2203" }

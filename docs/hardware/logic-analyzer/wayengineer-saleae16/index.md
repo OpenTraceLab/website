@@ -53,7 +53,7 @@ See [WayEngineer Saleae16/Info](https://sigrok.org/wiki/WayEngineer_Saleae16/Inf
 [![Wayengineer Saleae16 Pcb Top](./img/Wayengineer_saleae16_pcb_top.jpg)](./img/Wayengineer_saleae16_pcb_top.jpg "Wayengineer Saleae16 Pcb Top"){ .glightbox data-gallery="wayengineer-saleae16" }
 <span class="caption">Wayengineer Saleae16 Pcb Top</span>
 
-[![Wayengineer Saleae16](./img/Wayengineer_saleae16.png)](./img/Wayengineer_saleae16.png "Wayengineer Saleae16"){ .glightbox data-gallery="wayengineer-saleae16" }
+[![Wayengineer Saleae16](./img/Wayengineer_saleae16.jpg)](./img/Wayengineer_saleae16.png "Wayengineer Saleae16"){ .glightbox data-gallery="wayengineer-saleae16" }
 <span class="caption">Wayengineer Saleae16</span>
 
 [![Wayengineer Saleae16 Device Usb](./img/Wayengineer_saleae16_device_usb.jpg)](./img/Wayengineer_saleae16_device_usb.jpg "Wayengineer Saleae16 Device Usb"){ .glightbox data-gallery="wayengineer-saleae16" }

@@ -129,7 +129,7 @@ The **J3** pin header is a JTAG connector wired to the FPGA. The pins are (from 
 [![Saleae Logic16 Cypress Fx2lp](./img/Saleae_logic16_cypress_fx2lp.jpg)](./img/Saleae_logic16_cypress_fx2lp.jpg "Saleae Logic16 Cypress Fx2lp"){ .glightbox data-gallery="saleae-logic16" }
 <span class="caption">Saleae Logic16 Cypress Fx2lp</span>
 
-[![Saleae Logic16 Bottom](./img/Saleae_Logic16_bottom.png)](./img/Saleae_Logic16_bottom.png "Saleae Logic16 Bottom"){ .glightbox data-gallery="saleae-logic16" }
+[![Saleae Logic16 Bottom](./img/Saleae_Logic16_bottom.jpg)](./img/Saleae_Logic16_bottom.png "Saleae Logic16 Bottom"){ .glightbox data-gallery="saleae-logic16" }
 <span class="caption">Saleae Logic16 Bottom</span>
 
 [![Saleae Logic16 Pcb Bottom](./img/Saleae_Logic16_PCB_bottom.jpg)](./img/Saleae_Logic16_PCB_bottom.jpg "Saleae Logic16 Pcb Bottom"){ .glightbox data-gallery="saleae-logic16" }

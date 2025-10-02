@@ -58,7 +58,7 @@ The case has four **Torx T2** screws you need to remove in order to be able to o
 [![Saleae Logic Collection](./img/Saleae_logic_collection.jpg)](./img/Saleae_logic_collection.jpg "Saleae Logic Collection"){ .glightbox data-gallery="saleae-logic" }
 <span class="caption">Saleae Logic Collection</span>
 
-[![Saleae Logic](./img/Saleae_Logic.png)](./img/Saleae_Logic.png "Saleae Logic"){ .glightbox data-gallery="saleae-logic" }
+[![Saleae Logic](./img/Saleae_Logic.jpg)](./img/Saleae_Logic.png "Saleae Logic"){ .glightbox data-gallery="saleae-logic" }
 <span class="caption">Saleae Logic</span>
 
 [![Saleae Logic Opened](./img/Saleae_logic_opened.jpg)](./img/Saleae_logic_opened.jpg "Saleae Logic Opened"){ .glightbox data-gallery="saleae-logic" }

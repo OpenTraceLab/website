@@ -51,7 +51,7 @@ title: Hantek DSO-2250
 [![Dso2250 Buffer](./img/Dso2250-buffer.jpg)](./img/Dso2250-buffer.jpg "Dso2250 Buffer"){ .glightbox data-gallery="hantek-dso-2250" }
 <span class="caption">Dso2250 Buffer</span>
 
-[![Hantek Dso2250 Mugshot](./img/Hantek_dso2250_mugshot.png)](./img/Hantek_dso2250_mugshot.png "Hantek Dso2250 Mugshot"){ .glightbox data-gallery="hantek-dso-2250" }
+[![Hantek Dso2250 Mugshot](./img/Hantek_dso2250_mugshot.jpg)](./img/Hantek_dso2250_mugshot.png "Hantek Dso2250 Mugshot"){ .glightbox data-gallery="hantek-dso-2250" }
 <span class="caption">Hantek Dso2250 Mugshot</span>
 
 [![Dso2250 Probe Inputs](./img/Dso2250-probe-inputs.jpg)](./img/Dso2250-probe-inputs.jpg "Dso2250 Probe Inputs"){ .glightbox data-gallery="hantek-dso-2250" }

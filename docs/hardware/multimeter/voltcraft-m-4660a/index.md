@@ -6,7 +6,7 @@ title: Voltcraft M-4660A
 
 <div class="infobox" markdown>
 
-![Voltcraft M-4660A](./img/Voltcraft_m4660a_device_front.png){ .infobox-image }
+![Voltcraft M-4660A](./img/Voltcraft_m4660a_device_front.jpg){ .infobox-image }
 
 ### Voltcraft M-4660A
 
@@ -34,7 +34,7 @@ TODO.
 
 <div class="photo-grid" markdown>
 
-[![Voltcraft M4660a Device Front](./img/Voltcraft_m4660a_device_front.png)](./img/Voltcraft_m4660a_device_front.png "Voltcraft M4660a Device Front"){ .glightbox data-gallery="voltcraft-m-4660a" }
+[![Voltcraft M4660a Device Front](./img/Voltcraft_m4660a_device_front.jpg)](./img/Voltcraft_m4660a_device_front.png "Voltcraft M4660a Device Front"){ .glightbox data-gallery="voltcraft-m-4660a" }
 <span class="caption">Voltcraft M4660a Device Front</span>
 
 </div>

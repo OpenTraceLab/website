@@ -6,7 +6,7 @@ title: BBC Goertz Metrawatt M2110
 
 <div class="infobox" markdown>
 
-![BBC Goertz Metrawatt M2110](./img/Bbc_gm_m2110_mugshot.png){ .infobox-image }
+![BBC Goertz Metrawatt M2110](./img/Bbc_gm_m2110_mugshot.jpg){ .infobox-image }
 
 ### BBC Goertz Metrawatt M2110
 
@@ -52,7 +52,7 @@ The manufacturer is called [Gossen Metrawatt](https://sigrok.org/wiki/Gossen_Met
 
 <div class="photo-grid" markdown>
 
-[![Bbc Gm M2110 Mugshot](./img/Bbc_gm_m2110_mugshot.png)](./img/Bbc_gm_m2110_mugshot.png "Bbc Gm M2110 Mugshot"){ .glightbox data-gallery="bbc-goertz-metrawatt-m2110" }
+[![Bbc Gm M2110 Mugshot](./img/Bbc_gm_m2110_mugshot.jpg)](./img/Bbc_gm_m2110_mugshot.png "Bbc Gm M2110 Mugshot"){ .glightbox data-gallery="bbc-goertz-metrawatt-m2110" }
 <span class="caption">Bbc Gm M2110 Mugshot</span>
 
 [![Bbcg M2110 6](./img/Bbcg_m2110_6.JPG)](./img/Bbcg_m2110_6.JPG "Bbcg M2110 6"){ .glightbox data-gallery="bbc-goertz-metrawatt-m2110" }

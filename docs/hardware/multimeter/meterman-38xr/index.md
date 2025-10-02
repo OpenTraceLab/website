@@ -6,7 +6,7 @@ title: Meterman 38XR
 
 <div class="infobox" markdown>
 
-![Meterman 38XR](./img/Meterman-38xr-pcb.png){ .infobox-image }
+![Meterman 38XR](./img/Meterman-38xr-pcb.jpg){ .infobox-image }
 
 ### Meterman 38XR
 
@@ -35,16 +35,16 @@ TODO.
 
 <div class="photo-grid" markdown>
 
-[![Meterman 38xr Pcb](./img/Meterman-38xr-pcb.png)](./img/Meterman-38xr-pcb.png "Meterman 38xr Pcb"){ .glightbox data-gallery="meterman-38xr" }
+[![Meterman 38xr Pcb](./img/Meterman-38xr-pcb.jpg)](./img/Meterman-38xr-pcb.png "Meterman 38xr Pcb"){ .glightbox data-gallery="meterman-38xr" }
 <span class="caption">Meterman 38xr Pcb</span>
 
-[![Meterman 38xr Back](./img/Meterman-38xr-back.png)](./img/Meterman-38xr-back.png "Meterman 38xr Back"){ .glightbox data-gallery="meterman-38xr" }
+[![Meterman 38xr Back](./img/Meterman-38xr-back.jpg)](./img/Meterman-38xr-back.png "Meterman 38xr Back"){ .glightbox data-gallery="meterman-38xr" }
 <span class="caption">Meterman 38xr Back</span>
 
-[![Meterman 38xr](./img/Meterman-38xr.png)](./img/Meterman-38xr.png "Meterman 38xr"){ .glightbox data-gallery="meterman-38xr" }
+[![Meterman 38xr](./img/Meterman-38xr.jpg)](./img/Meterman-38xr.png "Meterman 38xr"){ .glightbox data-gallery="meterman-38xr" }
 <span class="caption">Meterman 38xr</span>
 
-[![Meterman 38xr Front](./img/Meterman-38xr-front.png)](./img/Meterman-38xr-front.png "Meterman 38xr Front"){ .glightbox data-gallery="meterman-38xr" }
+[![Meterman 38xr Front](./img/Meterman-38xr-front.jpg)](./img/Meterman-38xr-front.png "Meterman 38xr Front"){ .glightbox data-gallery="meterman-38xr" }
 <span class="caption">Meterman 38xr Front</span>
 
 </div>

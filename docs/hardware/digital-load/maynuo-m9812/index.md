@@ -6,7 +6,7 @@ title: Maynuo M9812
 
 <div class="infobox" markdown>
 
-![Maynuo M9812](./img/Maynuo_m9812_mugshot.png){ .infobox-image }
+![Maynuo M9812](./img/Maynuo_m9812_mugshot.jpg){ .infobox-image }
 
 ### Maynuo M9812
 
@@ -73,7 +73,7 @@ VFD controller + panel:
 
 <div class="photo-grid" markdown>
 
-[![Maynuo M9812 Mugshot](./img/Maynuo_m9812_mugshot.png)](./img/Maynuo_m9812_mugshot.png "Maynuo M9812 Mugshot"){ .glightbox data-gallery="maynuo-m9812" }
+[![Maynuo M9812 Mugshot](./img/Maynuo_m9812_mugshot.jpg)](./img/Maynuo_m9812_mugshot.png "Maynuo M9812 Mugshot"){ .glightbox data-gallery="maynuo-m9812" }
 <span class="caption">Maynuo M9812 Mugshot</span>
 
 </div>

@@ -6,7 +6,7 @@ title: Brymen BM857
 
 <div class="infobox" markdown>
 
-![Brymen BM857](./img/Bm859s-front.png){ .infobox-image }
+![Brymen BM857](./img/Bm859s-front.jpg){ .infobox-image }
 
 ### Brymen BM857
 
@@ -49,7 +49,7 @@ Higher end models support dual temperature sensors and difference mode, and the 
 
 <div class="photo-grid" markdown>
 
-[![Bm859s Front](./img/Bm859s-front.png)](./img/Bm859s-front.png "Bm859s Front"){ .glightbox data-gallery="brymen-bm857" }
+[![Bm859s Front](./img/Bm859s-front.jpg)](./img/Bm859s-front.png "Bm859s Front"){ .glightbox data-gallery="brymen-bm857" }
 <span class="caption">Bm859s Front</span>
 
 [![Bm857 Mcu 2blcdc](./img/Bm857_mcu_2Blcdc.jpg)](./img/Bm857_mcu_2Blcdc.jpg "Bm857 Mcu 2blcdc"){ .glightbox data-gallery="brymen-bm857" }
@@ -73,7 +73,7 @@ Higher end models support dual temperature sensors and difference mode, and the 
 [![Bm857 Upperpcb Bottom](./img/Bm857_upperpcb_bottom.jpg)](./img/Bm857_upperpcb_bottom.jpg "Bm857 Upperpcb Bottom"){ .glightbox data-gallery="brymen-bm857" }
 <span class="caption">Bm857 Upperpcb Bottom</span>
 
-[![Bm857 Front Noholster](./img/Bm857_front_noholster.png)](./img/Bm857_front_noholster.png "Bm857 Front Noholster"){ .glightbox data-gallery="brymen-bm857" }
+[![Bm857 Front Noholster](./img/Bm857_front_noholster.jpg)](./img/Bm857_front_noholster.png "Bm857 Front Noholster"){ .glightbox data-gallery="brymen-bm857" }
 <span class="caption">Bm857 Front Noholster</span>
 
 [![Bm857 Lowerpcb Top](./img/Bm857_lowerpcb_top.jpg)](./img/Bm857_lowerpcb_top.jpg "Bm857 Lowerpcb Top"){ .glightbox data-gallery="brymen-bm857" }
@@ -85,7 +85,7 @@ Higher end models support dual temperature sensors and difference mode, and the 
 [![Bm857 Ics 2](./img/Bm857_ICs_2.jpg)](./img/Bm857_ICs_2.jpg "Bm857 Ics 2"){ .glightbox data-gallery="brymen-bm857" }
 <span class="caption">Bm857 Ics 2</span>
 
-[![Bm857 Box Left](./img/Bm857_box_left.png)](./img/Bm857_box_left.png "Bm857 Box Left"){ .glightbox data-gallery="brymen-bm857" }
+[![Bm857 Box Left](./img/Bm857_box_left.jpg)](./img/Bm857_box_left.png "Bm857 Box Left"){ .glightbox data-gallery="brymen-bm857" }
 <span class="caption">Bm857 Box Left</span>
 
 [![Bm857 Cover Back](./img/Bm857_cover_back.jpg)](./img/Bm857_cover_back.jpg "Bm857 Cover Back"){ .glightbox data-gallery="brymen-bm857" }
@@ -97,7 +97,7 @@ Higher end models support dual temperature sensors and difference mode, and the 
 [![Bm857 Inside Backside](./img/Bm857_inside_backside.jpg)](./img/Bm857_inside_backside.jpg "Bm857 Inside Backside"){ .glightbox data-gallery="brymen-bm857" }
 <span class="caption">Bm857 Inside Backside</span>
 
-[![Bm 857 Mugshot 500000](./img/Bm_857_mugshot_500000.png)](./img/Bm_857_mugshot_500000.png "Bm 857 Mugshot 500000"){ .glightbox data-gallery="brymen-bm857" }
+[![Bm 857 Mugshot 500000](./img/Bm_857_mugshot_500000.jpg)](./img/Bm_857_mugshot_500000.png "Bm 857 Mugshot 500000"){ .glightbox data-gallery="brymen-bm857" }
 <span class="caption">Bm 857 Mugshot 500000</span>
 
 [![Bm857 Hv Slots](./img/Bm857_hv_slots.jpg)](./img/Bm857_hv_slots.jpg "Bm857 Hv Slots"){ .glightbox data-gallery="brymen-bm857" }
@@ -109,7 +109,7 @@ Higher end models support dual temperature sensors and difference mode, and the 
 [![Bm857 Mcu 2blcdc 2](./img/Bm857_mcu_2Blcdc_2.jpg)](./img/Bm857_mcu_2Blcdc_2.jpg "Bm857 Mcu 2blcdc 2"){ .glightbox data-gallery="brymen-bm857" }
 <span class="caption">Bm857 Mcu 2blcdc 2</span>
 
-[![Bm859s Display Segments](./img/Bm859s-display-segments.png)](./img/Bm859s-display-segments.png "Bm859s Display Segments"){ .glightbox data-gallery="brymen-bm857" }
+[![Bm859s Display Segments](./img/Bm859s-display-segments.jpg)](./img/Bm859s-display-segments.png "Bm859s Display Segments"){ .glightbox data-gallery="brymen-bm857" }
 <span class="caption">Bm859s Display Segments</span>
 
 [![Bm857 Back Noholster](./img/Bm857_back_noholster.jpg)](./img/Bm857_back_noholster.jpg "Bm857 Back Noholster"){ .glightbox data-gallery="brymen-bm857" }
@@ -121,10 +121,10 @@ Higher end models support dual temperature sensors and difference mode, and the 
 [![Bm857 Package Contents](./img/Bm857_package_contents.jpg)](./img/Bm857_package_contents.jpg "Bm857 Package Contents"){ .glightbox data-gallery="brymen-bm857" }
 <span class="caption">Bm857 Package Contents</span>
 
-[![Bm859s Box Front](./img/Bm859s-box-front.png)](./img/Bm859s-box-front.png "Bm859s Box Front"){ .glightbox data-gallery="brymen-bm857" }
+[![Bm859s Box Front](./img/Bm859s-box-front.jpg)](./img/Bm859s-box-front.png "Bm859s Box Front"){ .glightbox data-gallery="brymen-bm857" }
 <span class="caption">Bm859s Box Front</span>
 
-[![Bm859s Manual](./img/Bm859s-manual.png)](./img/Bm859s-manual.png "Bm859s Manual"){ .glightbox data-gallery="brymen-bm857" }
+[![Bm859s Manual](./img/Bm859s-manual.jpg)](./img/Bm859s-manual.png "Bm859s Manual"){ .glightbox data-gallery="brymen-bm857" }
 <span class="caption">Bm859s Manual</span>
 
 [![Bm857 Opened](./img/Bm857_opened.jpg)](./img/Bm857_opened.jpg "Bm857 Opened"){ .glightbox data-gallery="brymen-bm857" }
@@ -139,7 +139,7 @@ Higher end models support dual temperature sensors and difference mode, and the 
 [![Brymen Br85x Dmm Hookup All](./img/Brymen_br85x_dmm_hookup_all.jpg)](./img/Brymen_br85x_dmm_hookup_all.jpg "Brymen Br85x Dmm Hookup All"){ .glightbox data-gallery="brymen-bm857" }
 <span class="caption">Brymen Br85x Dmm Hookup All</span>
 
-[![Bm859s Front Sleeve](./img/Bm859s-front-sleeve.png)](./img/Bm859s-front-sleeve.png "Bm859s Front Sleeve"){ .glightbox data-gallery="brymen-bm857" }
+[![Bm859s Front Sleeve](./img/Bm859s-front-sleeve.jpg)](./img/Bm859s-front-sleeve.png "Bm859s Front Sleeve"){ .glightbox data-gallery="brymen-bm857" }
 <span class="caption">Bm859s Front Sleeve</span>
 
 [![Bm857 Ics](./img/Bm857_ICs.jpg)](./img/Bm857_ICs.jpg "Bm857 Ics"){ .glightbox data-gallery="brymen-bm857" }

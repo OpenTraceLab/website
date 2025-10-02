@@ -37,10 +37,10 @@ It comes with power and temperature probes, turning it into an advanced all-in-o
 [![Acme Probe Temp](./img/Acme-probe-temp.png)](./img/Acme-probe-temp.png "Acme Probe Temp"){ .glightbox data-gallery="baylibre-acme" }
 <span class="caption">Acme Probe Temp</span>
 
-[![Acme](./img/Acme.png)](./img/Acme.png "Acme"){ .glightbox data-gallery="baylibre-acme" }
+[![Acme](./img/Acme.jpg)](./img/Acme.png "Acme"){ .glightbox data-gallery="baylibre-acme" }
 <span class="caption">Acme</span>
 
-[![Acme Poster](./img/Acme-poster.png)](./img/Acme-poster.png "Acme Poster"){ .glightbox data-gallery="baylibre-acme" }
+[![Acme Poster](./img/Acme-poster.jpg)](./img/Acme-poster.png "Acme Poster"){ .glightbox data-gallery="baylibre-acme" }
 <span class="caption">Acme Poster</span>
 
 [![Acme Probe He10](./img/Acme-probe-he10.png)](./img/Acme-probe-he10.png "Acme Probe He10"){ .glightbox data-gallery="baylibre-acme" }

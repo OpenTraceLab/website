@@ -73,7 +73,7 @@ The manufacturer name isn't stated anywhere on the device, package or manual. Th
 [![Va40b Bag Open](./img/VA40B_bag_open.JPG)](./img/VA40B_bag_open.JPG "Va40b Bag Open"){ .glightbox data-gallery="vamp;a-va40b" }
 <span class="caption">Va40b Bag Open</span>
 
-[![Va Va40b Mugshot](./img/Va_va40b_mugshot.png)](./img/Va_va40b_mugshot.png "Va Va40b Mugshot"){ .glightbox data-gallery="vamp;a-va40b" }
+[![Va Va40b Mugshot](./img/Va_va40b_mugshot.jpg)](./img/Va_va40b_mugshot.png "Va Va40b Mugshot"){ .glightbox data-gallery="vamp;a-va40b" }
 <span class="caption">Va Va40b Mugshot</span>
 
 [![Va40b Bag](./img/VA40B_bag.JPG)](./img/VA40B_bag.JPG "Va40b Bag"){ .glightbox data-gallery="vamp;a-va40b" }

@@ -50,7 +50,7 @@ In 2012 it was still possible to request the schematics from [Conrad Electronic]
 [![Hungchang Dso2100 Pcb Bottom](./img/HungChang_DSO2100_PCB_bottom.jpg)](./img/HungChang_DSO2100_PCB_bottom.jpg "Hungchang Dso2100 Pcb Bottom"){ .glightbox data-gallery="hung-chang-dso-2100" }
 <span class="caption">Hungchang Dso2100 Pcb Bottom</span>
 
-[![Hung Chang Dso 2100 Mugshot](./img/Hung_chang_dso_2100_mugshot.png)](./img/Hung_chang_dso_2100_mugshot.png "Hung Chang Dso 2100 Mugshot"){ .glightbox data-gallery="hung-chang-dso-2100" }
+[![Hung Chang Dso 2100 Mugshot](./img/Hung_chang_dso_2100_mugshot.jpg)](./img/Hung_chang_dso_2100_mugshot.png "Hung Chang Dso 2100 Mugshot"){ .glightbox data-gallery="hung-chang-dso-2100" }
 <span class="caption">Hung Chang Dso 2100 Mugshot</span>
 
 [![Hungchang Dso2100 Pcb Top](./img/HungChang_DSO2100_PCB_top.jpg)](./img/HungChang_DSO2100_PCB_top.jpg "Hungchang Dso2100 Pcb Top"){ .glightbox data-gallery="hung-chang-dso-2100" }

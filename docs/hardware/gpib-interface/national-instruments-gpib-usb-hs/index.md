@@ -36,7 +36,7 @@ title: National Instruments GPIB-USB-HS
 [![Ni Gpib Usb Hs Pcb Nxp Lvc245a](./img/NI_GPIB-USB-HS_PCB_NXP_LVC245A.jpg)](./img/NI_GPIB-USB-HS_PCB_NXP_LVC245A.jpg "Ni Gpib Usb Hs Pcb Nxp Lvc245a"){ .glightbox data-gallery="national-instruments-gpib-usb-hs" }
 <span class="caption">Ni Gpib Usb Hs Pcb Nxp Lvc245a</span>
 
-[![Ni Gpib Usb Hs](./img/NI_GPIB-USB-HS.png)](./img/NI_GPIB-USB-HS.png "Ni Gpib Usb Hs"){ .glightbox data-gallery="national-instruments-gpib-usb-hs" }
+[![Ni Gpib Usb Hs](./img/NI_GPIB-USB-HS.jpg)](./img/NI_GPIB-USB-HS.png "Ni Gpib Usb Hs"){ .glightbox data-gallery="national-instruments-gpib-usb-hs" }
 <span class="caption">Ni Gpib Usb Hs</span>
 
 [![Ni Gpib Usb Hs Pcb Cy7c1399bn](./img/NI_GPIB-USB-HS_PCB_CY7C1399BN.jpg)](./img/NI_GPIB-USB-HS_PCB_CY7C1399BN.jpg "Ni Gpib Usb Hs Pcb Cy7c1399bn"){ .glightbox data-gallery="national-instruments-gpib-usb-hs" }

@@ -51,13 +51,13 @@ See [Hantek 4032L/Info](https://sigrok.org/wiki/Hantek_4032L/Info) for more deta
 [![Hantek 4032l Device Bottom](./img/Hantek_4032l_device_bottom.jpg)](./img/Hantek_4032l_device_bottom.jpg "Hantek 4032l Device Bottom"){ .glightbox data-gallery="hantek-4032l" }
 <span class="caption">Hantek 4032l Device Bottom</span>
 
-[![Hantek4032l Boxusbside](./img/Hantek4032L_BoxUsbSide.png)](./img/Hantek4032L_BoxUsbSide.png "Hantek4032l Boxusbside"){ .glightbox data-gallery="hantek-4032l" }
+[![Hantek4032l Boxusbside](./img/Hantek4032L_BoxUsbSide.jpg)](./img/Hantek4032L_BoxUsbSide.png "Hantek4032l Boxusbside"){ .glightbox data-gallery="hantek-4032l" }
 <span class="caption">Hantek4032l Boxusbside</span>
 
-[![Hantek 4032l Mugshot](./img/Hantek_4032l_mugshot.png)](./img/Hantek_4032l_mugshot.png "Hantek 4032l Mugshot"){ .glightbox data-gallery="hantek-4032l" }
+[![Hantek 4032l Mugshot](./img/Hantek_4032l_mugshot.jpg)](./img/Hantek_4032l_mugshot.png "Hantek 4032l Mugshot"){ .glightbox data-gallery="hantek-4032l" }
 <span class="caption">Hantek 4032l Mugshot</span>
 
-[![Hantek4032l Pcbbottom](./img/Hantek4032L_PcbBottom.png)](./img/Hantek4032L_PcbBottom.png "Hantek4032l Pcbbottom"){ .glightbox data-gallery="hantek-4032l" }
+[![Hantek4032l Pcbbottom](./img/Hantek4032L_PcbBottom.jpg)](./img/Hantek4032L_PcbBottom.png "Hantek4032l Pcbbottom"){ .glightbox data-gallery="hantek-4032l" }
 <span class="caption">Hantek4032l Pcbbottom</span>
 
 [![Hantek 4032l Mornsun A0512s 1wr2](./img/Hantek_4032l_mornsun_a0512s-1wr2.jpg)](./img/Hantek_4032l_mornsun_a0512s-1wr2.jpg "Hantek 4032l Mornsun A0512s 1wr2"){ .glightbox data-gallery="hantek-4032l" }
@@ -81,7 +81,7 @@ See [Hantek 4032L/Info](https://sigrok.org/wiki/Hantek_4032L/Info) for more deta
 [![Hantek 4032l Tps51116](./img/Hantek_4032l_tps51116.jpg)](./img/Hantek_4032l_tps51116.jpg "Hantek 4032l Tps51116"){ .glightbox data-gallery="hantek-4032l" }
 <span class="caption">Hantek 4032l Tps51116</span>
 
-[![Hantek4032l Pcbtop](./img/Hantek4032L_PcbTop.png)](./img/Hantek4032L_PcbTop.png "Hantek4032l Pcbtop"){ .glightbox data-gallery="hantek-4032l" }
+[![Hantek4032l Pcbtop](./img/Hantek4032L_PcbTop.jpg)](./img/Hantek4032L_PcbTop.png "Hantek4032l Pcbtop"){ .glightbox data-gallery="hantek-4032l" }
 <span class="caption">Hantek4032l Pcbtop</span>
 
 [![Hantek 4032l Micron Ddr2 Sdram2](./img/Hantek_4032l_micron_ddr2_sdram2.jpg)](./img/Hantek_4032l_micron_ddr2_sdram2.jpg "Hantek 4032l Micron Ddr2 Sdram2"){ .glightbox data-gallery="hantek-4032l" }
@@ -99,7 +99,7 @@ See [Hantek 4032L/Info](https://sigrok.org/wiki/Hantek_4032L/Info) for more deta
 [![Hantek 4032l 50mhz Crystal](./img/Hantek_4032l_50mhz_crystal.jpg)](./img/Hantek_4032l_50mhz_crystal.jpg "Hantek 4032l 50mhz Crystal"){ .glightbox data-gallery="hantek-4032l" }
 <span class="caption">Hantek 4032l 50mhz Crystal</span>
 
-[![Hantek4032l Boxsideview](./img/Hantek4032L_BoxSideView.png)](./img/Hantek4032L_BoxSideView.png "Hantek4032l Boxsideview"){ .glightbox data-gallery="hantek-4032l" }
+[![Hantek4032l Boxsideview](./img/Hantek4032L_BoxSideView.jpg)](./img/Hantek4032L_BoxSideView.png "Hantek4032l Boxsideview"){ .glightbox data-gallery="hantek-4032l" }
 <span class="caption">Hantek4032l Boxsideview</span>
 
 [![Hantek 4032l Unknown Chips1](./img/Hantek_4032l_unknown_chips1.jpg)](./img/Hantek_4032l_unknown_chips1.jpg "Hantek 4032l Unknown Chips1"){ .glightbox data-gallery="hantek-4032l" }
@@ -111,13 +111,13 @@ See [Hantek 4032L/Info](https://sigrok.org/wiki/Hantek_4032L/Info) for more deta
 [![Hantek 4032l Pcb Bottom](./img/Hantek_4032l_pcb_bottom.jpg)](./img/Hantek_4032l_pcb_bottom.jpg "Hantek 4032l Pcb Bottom"){ .glightbox data-gallery="hantek-4032l" }
 <span class="caption">Hantek 4032l Pcb Bottom</span>
 
-[![Hantek4032l Boxportside](./img/Hantek4032L_BoxPortSide.png)](./img/Hantek4032L_BoxPortSide.png "Hantek4032l Boxportside"){ .glightbox data-gallery="hantek-4032l" }
+[![Hantek4032l Boxportside](./img/Hantek4032L_BoxPortSide.jpg)](./img/Hantek4032L_BoxPortSide.png "Hantek4032l Boxportside"){ .glightbox data-gallery="hantek-4032l" }
 <span class="caption">Hantek4032l Boxportside</span>
 
 [![Hantek 4032l Micron Ddr2 Sdram1](./img/Hantek_4032l_micron_ddr2_sdram1.jpg)](./img/Hantek_4032l_micron_ddr2_sdram1.jpg "Hantek 4032l Micron Ddr2 Sdram1"){ .glightbox data-gallery="hantek-4032l" }
 <span class="caption">Hantek 4032l Micron Ddr2 Sdram1</span>
 
-[![Hantek4032l Boxiso](./img/Hantek4032L_BoxIso.png)](./img/Hantek4032L_BoxIso.png "Hantek4032l Boxiso"){ .glightbox data-gallery="hantek-4032l" }
+[![Hantek4032l Boxiso](./img/Hantek4032L_BoxIso.jpg)](./img/Hantek4032L_BoxIso.png "Hantek4032l Boxiso"){ .glightbox data-gallery="hantek-4032l" }
 <span class="caption">Hantek4032l Boxiso</span>
 
 [![Hantek 4032l Package](./img/Hantek_4032l_package.jpg)](./img/Hantek_4032l_package.jpg "Hantek 4032l Package"){ .glightbox data-gallery="hantek-4032l" }

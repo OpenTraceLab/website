@@ -37,7 +37,7 @@ See [Agilent 33120A/Info](https://sigrok.org/wiki/Agilent_33120A/Info) for more 
 [![Agilent 33120a Back](./img/Agilent_33120A_Back.jpg)](./img/Agilent_33120A_Back.jpg "Agilent 33120a Back"){ .glightbox data-gallery="agilent-33120a" }
 <span class="caption">Agilent 33120a Back</span>
 
-[![Agilent 33120a Front](./img/Agilent_33120A_Front.png)](./img/Agilent_33120A_Front.png "Agilent 33120a Front"){ .glightbox data-gallery="agilent-33120a" }
+[![Agilent 33120a Front](./img/Agilent_33120A_Front.jpg)](./img/Agilent_33120A_Front.png "Agilent 33120a Front"){ .glightbox data-gallery="agilent-33120a" }
 <span class="caption">Agilent 33120a Front</span>
 
 </div>

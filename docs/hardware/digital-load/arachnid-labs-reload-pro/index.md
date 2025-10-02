@@ -6,7 +6,7 @@ title: Arachnid Labs Reload Pro
 
 <div class="infobox" markdown>
 
-![Arachnid Labs Reload Pro](./img/Arachnid_Labs_ReLoad_Pro_-_Mugshot.png){ .infobox-image }
+![Arachnid Labs Reload Pro](./img/Arachnid_Labs_ReLoad_Pro_-_Mugshot.jpg){ .infobox-image }
 
 ### Arachnid Labs Reload Pro
 
@@ -35,7 +35,7 @@ See [Arachnid Labs Reload Pro/Info](https://sigrok.org/wiki/Arachnid_Labs_Reload
 
 <div class="photo-grid" markdown>
 
-[![Arachnid Labs Reload Pro Mugshot](./img/Arachnid_Labs_ReLoad_Pro_-_Mugshot.png)](./img/Arachnid_Labs_ReLoad_Pro_-_Mugshot.png "Arachnid Labs Reload Pro Mugshot"){ .glightbox data-gallery="arachnid-labs-reload-pro" }
+[![Arachnid Labs Reload Pro Mugshot](./img/Arachnid_Labs_ReLoad_Pro_-_Mugshot.jpg)](./img/Arachnid_Labs_ReLoad_Pro_-_Mugshot.png "Arachnid Labs Reload Pro Mugshot"){ .glightbox data-gallery="arachnid-labs-reload-pro" }
 <span class="caption">Arachnid Labs Reload Pro Mugshot</span>
 
 [![Arachnid Labs Reload Pro Pcb Top 1](./img/Arachnid_Labs_ReLoad_Pro_-_PCB_Top_1.jpg)](./img/Arachnid_Labs_ReLoad_Pro_-_PCB_Top_1.jpg "Arachnid Labs Reload Pro Pcb Top 1"){ .glightbox data-gallery="arachnid-labs-reload-pro" }

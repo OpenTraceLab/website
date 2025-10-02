@@ -6,7 +6,7 @@ title: UNI-T UT61C
 
 <div class="infobox" markdown>
 
-![UNI-T UT61C](./img/Uni-t_ut61c_mugshot.png){ .infobox-image }
+![UNI-T UT61C](./img/Uni-t_ut61c_mugshot.jpg){ .infobox-image }
 
 ### UNI-T UT61C
 
@@ -47,7 +47,7 @@ See [Device cables#UNI-T_UT-D04](https://sigrok.org/wiki/Device_cables#UNI-T_UT-
 
 <div class="photo-grid" markdown>
 
-[![Uni T Ut61c Mugshot](./img/Uni-t_ut61c_mugshot.png)](./img/Uni-t_ut61c_mugshot.png "Uni T Ut61c Mugshot"){ .glightbox data-gallery="uni-t-ut61c" }
+[![Uni T Ut61c Mugshot](./img/Uni-t_ut61c_mugshot.jpg)](./img/Uni-t_ut61c_mugshot.png "Uni T Ut61c Mugshot"){ .glightbox data-gallery="uni-t-ut61c" }
 <span class="caption">Uni T Ut61c Mugshot</span>
 
 </div>

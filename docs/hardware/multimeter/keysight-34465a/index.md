@@ -6,7 +6,7 @@ title: Keysight 34465A
 
 <div class="infobox" markdown>
 
-![Keysight 34465A](./img/Keysight-34465a-back.png){ .infobox-image }
+![Keysight 34465A](./img/Keysight-34465a-back.jpg){ .infobox-image }
 
 ### Keysight 34465A
 
@@ -37,13 +37,13 @@ TODO
 
 <div class="photo-grid" markdown>
 
-[![Keysight 34465a Back](./img/Keysight-34465a-back.png)](./img/Keysight-34465a-back.png "Keysight 34465a Back"){ .glightbox data-gallery="keysight-34465a" }
+[![Keysight 34465a Back](./img/Keysight-34465a-back.jpg)](./img/Keysight-34465a-back.png "Keysight 34465a Back"){ .glightbox data-gallery="keysight-34465a" }
 <span class="caption">Keysight 34465a Back</span>
 
-[![Keysight 34465a Mugshot](./img/Keysight-34465a-mugshot.png)](./img/Keysight-34465a-mugshot.png "Keysight 34465a Mugshot"){ .glightbox data-gallery="keysight-34465a" }
+[![Keysight 34465a Mugshot](./img/Keysight-34465a-mugshot.jpg)](./img/Keysight-34465a-mugshot.png "Keysight 34465a Mugshot"){ .glightbox data-gallery="keysight-34465a" }
 <span class="caption">Keysight 34465a Mugshot</span>
 
-[![Keysight 34465a Front](./img/Keysight-34465a-front.png)](./img/Keysight-34465a-front.png "Keysight 34465a Front"){ .glightbox data-gallery="keysight-34465a" }
+[![Keysight 34465a Front](./img/Keysight-34465a-front.jpg)](./img/Keysight-34465a-front.png "Keysight 34465a Front"){ .glightbox data-gallery="keysight-34465a" }
 <span class="caption">Keysight 34465a Front</span>
 
 </div>

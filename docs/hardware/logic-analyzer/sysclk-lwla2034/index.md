@@ -6,7 +6,7 @@ title: Sysclk LWLA2034
 
 <div class="infobox" markdown>
 
-![Sysclk LWLA2034](./img/Sysclk_lwla2034_mugshot.png){ .infobox-image }
+![Sysclk LWLA2034](./img/Sysclk_lwla2034_mugshot.jpg){ .infobox-image }
 
 ### Sysclk LWLA2034
 
@@ -37,7 +37,7 @@ TODO.
 
 <div class="photo-grid" markdown>
 
-[![Sysclk Lwla2034 Mugshot](./img/Sysclk_lwla2034_mugshot.png)](./img/Sysclk_lwla2034_mugshot.png "Sysclk Lwla2034 Mugshot"){ .glightbox data-gallery="sysclk-lwla2034" }
+[![Sysclk Lwla2034 Mugshot](./img/Sysclk_lwla2034_mugshot.jpg)](./img/Sysclk_lwla2034_mugshot.png "Sysclk Lwla2034 Mugshot"){ .glightbox data-gallery="sysclk-lwla2034" }
 <span class="caption">Sysclk Lwla2034 Mugshot</span>
 
 [![Sysclk Lwla2034 Pcb Ksy A0515s 1w 1230](./img/Sysclk_lwla2034_pcb_ksy_a0515s_1w_1230.jpg)](./img/Sysclk_lwla2034_pcb_ksy_a0515s_1w_1230.jpg "Sysclk Lwla2034 Pcb Ksy A0515s 1w 1230"){ .glightbox data-gallery="sysclk-lwla2034" }

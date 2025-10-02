@@ -6,7 +6,7 @@ title: XMOS XTAG-2
 
 <div class="infobox" markdown>
 
-![XMOS XTAG-2](./img/Xmos_xtag2.png){ .infobox-image }
+![XMOS XTAG-2](./img/Xmos_xtag2.jpg){ .infobox-image }
 
 ### XMOS XTAG-2
 
@@ -42,10 +42,10 @@ The secondary chip is an [SMSC HS Usb 2.0 transceiver](http://ww1.microchip.com/
 
 <div class="photo-grid" markdown>
 
-[![Xmos Xtag2](./img/Xmos_xtag2.png)](./img/Xmos_xtag2.png "Xmos Xtag2"){ .glightbox data-gallery="xmos-xtag-2" }
+[![Xmos Xtag2](./img/Xmos_xtag2.jpg)](./img/Xmos_xtag2.png "Xmos Xtag2"){ .glightbox data-gallery="xmos-xtag-2" }
 <span class="caption">Xmos Xtag2</span>
 
-[![Xtag 2 Front](./img/Xtag-2_front.png)](./img/Xtag-2_front.png "Xtag 2 Front"){ .glightbox data-gallery="xmos-xtag-2" }
+[![Xtag 2 Front](./img/Xtag-2_front.jpg)](./img/Xtag-2_front.png "Xtag 2 Front"){ .glightbox data-gallery="xmos-xtag-2" }
 <span class="caption">Xtag 2 Front</span>
 
 </div>

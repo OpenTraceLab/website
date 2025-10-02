@@ -30,10 +30,10 @@ The **HP 3478A** is a bench multimeter with GPIB connectivity.
 [![Hp 3478a Back](./img/HP_3478A_back.jpg)](./img/HP_3478A_back.jpg "Hp 3478a Back"){ .glightbox data-gallery="hp-3478a" }
 <span class="caption">Hp 3478a Back</span>
 
-[![Hp3478a Mugshot](./img/Hp3478a_mugshot.png)](./img/Hp3478a_mugshot.png "Hp3478a Mugshot"){ .glightbox data-gallery="hp-3478a" }
+[![Hp3478a Mugshot](./img/Hp3478a_mugshot.jpg)](./img/Hp3478a_mugshot.png "Hp3478a Mugshot"){ .glightbox data-gallery="hp-3478a" }
 <span class="caption">Hp3478a Mugshot</span>
 
-[![Hp 3478a](./img/HP_3478A.png)](./img/HP_3478A.png "Hp 3478a"){ .glightbox data-gallery="hp-3478a" }
+[![Hp 3478a](./img/HP_3478A.jpg)](./img/HP_3478A.png "Hp 3478a"){ .glightbox data-gallery="hp-3478a" }
 <span class="caption">Hp 3478a</span>
 
 </div>

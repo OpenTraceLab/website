@@ -45,7 +45,7 @@ See [LeCroy LogicStudio/Info](https://sigrok.org/wiki/LeCroy_LogicStudio/Info) f
 [![Lecroy Logicstudio Fpga](./img/Lecroy-logicstudio-fpga.jpg)](./img/Lecroy-logicstudio-fpga.jpg "Lecroy Logicstudio Fpga"){ .glightbox data-gallery="lecroy-logicstudio" }
 <span class="caption">Lecroy Logicstudio Fpga</span>
 
-[![Lecroy Logicstudio16 Mugshot](./img/Lecroy_logicstudio16_mugshot.png)](./img/Lecroy_logicstudio16_mugshot.png "Lecroy Logicstudio16 Mugshot"){ .glightbox data-gallery="lecroy-logicstudio" }
+[![Lecroy Logicstudio16 Mugshot](./img/Lecroy_logicstudio16_mugshot.jpg)](./img/Lecroy_logicstudio16_mugshot.png "Lecroy Logicstudio16 Mugshot"){ .glightbox data-gallery="lecroy-logicstudio" }
 <span class="caption">Lecroy Logicstudio16 Mugshot</span>
 
 [![Lecroy Logicstudio Usb](./img/Lecroy-logicstudio-usb.jpg)](./img/Lecroy-logicstudio-usb.jpg "Lecroy Logicstudio Usb"){ .glightbox data-gallery="lecroy-logicstudio" }

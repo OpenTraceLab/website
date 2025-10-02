@@ -119,7 +119,7 @@ The *printer cable* has got a power connector (10-16 V DC, 50 mA; coaxial power 
 [![Norma Dm950 8](./img/Norma_DM950_8.JPG)](./img/Norma_DM950_8.JPG "Norma Dm950 8"){ .glightbox data-gallery="norma-dm950" }
 <span class="caption">Norma Dm950 8</span>
 
-[![Norma Dm950](./img/Norma_dm950.png)](./img/Norma_dm950.png "Norma Dm950"){ .glightbox data-gallery="norma-dm950" }
+[![Norma Dm950](./img/Norma_dm950.jpg)](./img/Norma_dm950.png "Norma Dm950"){ .glightbox data-gallery="norma-dm950" }
 <span class="caption">Norma Dm950</span>
 
 </div>

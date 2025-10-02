@@ -6,7 +6,7 @@ title: Agilent 34401A
 
 <div class="infobox" markdown>
 
-![Agilent 34401A](./img/Agilent_34401A_-_front.png){ .infobox-image }
+![Agilent 34401A](./img/Agilent_34401A_-_front.jpg){ .infobox-image }
 
 ### Agilent 34401A
 
@@ -28,10 +28,10 @@ The **HP 34401A** / **Agilent 34401A** is a 6.5 digits CAT II (300V) bench multi
 
 <div class="photo-grid" markdown>
 
-[![Agilent 34401a Front](./img/Agilent_34401A_-_front.png)](./img/Agilent_34401A_-_front.png "Agilent 34401a Front"){ .glightbox data-gallery="agilent-34401a" }
+[![Agilent 34401a Front](./img/Agilent_34401A_-_front.jpg)](./img/Agilent_34401A_-_front.png "Agilent 34401a Front"){ .glightbox data-gallery="agilent-34401a" }
 <span class="caption">Agilent 34401a Front</span>
 
-[![Agilent 34401a Back](./img/Agilent_34401A_-_back.png)](./img/Agilent_34401A_-_back.png "Agilent 34401a Back"){ .glightbox data-gallery="agilent-34401a" }
+[![Agilent 34401a Back](./img/Agilent_34401A_-_back.jpg)](./img/Agilent_34401A_-_back.png "Agilent 34401a Back"){ .glightbox data-gallery="agilent-34401a" }
 <span class="caption">Agilent 34401a Back</span>
 
 </div>

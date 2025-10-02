@@ -115,7 +115,7 @@ TODO.
 [![Gossen Metrahit 30m Device Top](./img/Gossen_metrahit_30m_device_top.jpg)](./img/Gossen_metrahit_30m_device_top.jpg "Gossen Metrahit 30m Device Top"){ .glightbox data-gallery="gossen-metrawatt-metrahit-30m" }
 <span class="caption">Gossen Metrahit 30m Device Top</span>
 
-[![Gossen Metrahit 30m](./img/Gossen_metrahit_30m.png)](./img/Gossen_metrahit_30m.png "Gossen Metrahit 30m"){ .glightbox data-gallery="gossen-metrawatt-metrahit-30m" }
+[![Gossen Metrahit 30m](./img/Gossen_metrahit_30m.jpg)](./img/Gossen_metrahit_30m.png "Gossen Metrahit 30m"){ .glightbox data-gallery="gossen-metrawatt-metrahit-30m" }
 <span class="caption">Gossen Metrahit 30m</span>
 
 [![Gossen Metrahit 30m Chip Microchip Mc14lc5004](./img/Gossen_metrahit_30m_chip_microchip_mc14lc5004.jpg)](./img/Gossen_metrahit_30m_chip_microchip_mc14lc5004.jpg "Gossen Metrahit 30m Chip Microchip Mc14lc5004"){ .glightbox data-gallery="gossen-metrawatt-metrahit-30m" }

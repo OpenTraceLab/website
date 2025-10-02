@@ -62,7 +62,7 @@ See [ARMFLY AX-Pro/Info](https://sigrok.org/wiki/ARMFLY_AX-Pro/Info) for some mo
 [![Ax Pro](./img/AX-Pro.JPG)](./img/AX-Pro.JPG "Ax Pro"){ .glightbox data-gallery="armfly-ax-pro" }
 <span class="caption">Ax Pro</span>
 
-[![Armfly Ax Pro](./img/Armfly_ax_pro.png)](./img/Armfly_ax_pro.png "Armfly Ax Pro"){ .glightbox data-gallery="armfly-ax-pro" }
+[![Armfly Ax Pro](./img/Armfly_ax_pro.jpg)](./img/Armfly_ax_pro.png "Armfly Ax Pro"){ .glightbox data-gallery="armfly-ax-pro" }
 <span class="caption">Armfly Ax Pro</span>
 
 </div>

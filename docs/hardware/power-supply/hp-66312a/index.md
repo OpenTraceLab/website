@@ -46,7 +46,7 @@ The device uses the same SCPI command set over both the RS232 and GPIB ports. Th
 [![Agilent 66312a Front](./img/Agilent-66312a-front.jpg)](./img/Agilent-66312a-front.jpg "Agilent 66312a Front"){ .glightbox data-gallery="hp-66312a" }
 <span class="caption">Agilent 66312a Front</span>
 
-[![Agilent 66312a Mugshot](./img/Agilent-66312a-mugshot.png)](./img/Agilent-66312a-mugshot.png "Agilent 66312a Mugshot"){ .glightbox data-gallery="hp-66312a" }
+[![Agilent 66312a Mugshot](./img/Agilent-66312a-mugshot.jpg)](./img/Agilent-66312a-mugshot.png "Agilent 66312a Mugshot"){ .glightbox data-gallery="hp-66312a" }
 <span class="caption">Agilent 66312a Mugshot</span>
 
 </div>

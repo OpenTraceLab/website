@@ -94,7 +94,7 @@ Three LEDs (USB/green, COM/blue, and RUN/red) are on the board.
 [![Noname Xl Logic16 100m Device Usb](./img/Noname_xl_logic16_100m_device_usb.jpg)](./img/Noname_xl_logic16_100m_device_usb.jpg "Noname Xl Logic16 100m Device Usb"){ .glightbox data-gallery="noname-xl-logic16-100m" }
 <span class="caption">Noname Xl Logic16 100m Device Usb</span>
 
-[![Noname Xl Logic16 100m Mugshot](./img/Noname_xl_logic16_100m_mugshot.png)](./img/Noname_xl_logic16_100m_mugshot.png "Noname Xl Logic16 100m Mugshot"){ .glightbox data-gallery="noname-xl-logic16-100m" }
+[![Noname Xl Logic16 100m Mugshot](./img/Noname_xl_logic16_100m_mugshot.jpg)](./img/Noname_xl_logic16_100m_mugshot.png "Noname Xl Logic16 100m Mugshot"){ .glightbox data-gallery="noname-xl-logic16-100m" }
 <span class="caption">Noname Xl Logic16 100m Mugshot</span>
 
 [![Xl Logic16 100m External](./img/Xl-logic16-100m-external.jpg)](./img/Xl-logic16-100m-external.jpg "Xl Logic16 100m External"){ .glightbox data-gallery="noname-xl-logic16-100m" }

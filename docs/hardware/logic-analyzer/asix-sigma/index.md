@@ -67,7 +67,7 @@ Notice that the device's firmware supports quite complex hardware triggers, but 
 [![Asix Sigma 2 Pcb Bottom](./img/ASIX_SIGMA_2_PCB_bottom.jpg)](./img/ASIX_SIGMA_2_PCB_bottom.jpg "Asix Sigma 2 Pcb Bottom"){ .glightbox data-gallery="asix-sigma" }
 <span class="caption">Asix Sigma 2 Pcb Bottom</span>
 
-[![Asix Sigma 2](./img/ASIX_SIGMA_2.png)](./img/ASIX_SIGMA_2.png "Asix Sigma 2"){ .glightbox data-gallery="asix-sigma" }
+[![Asix Sigma 2](./img/ASIX_SIGMA_2.jpg)](./img/ASIX_SIGMA_2.png "Asix Sigma 2"){ .glightbox data-gallery="asix-sigma" }
 <span class="caption">Asix Sigma 2</span>
 
 </div>

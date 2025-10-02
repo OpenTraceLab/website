@@ -46,7 +46,7 @@ The **Metex M-3850M** is a 4000 counts true rns, handheld digital multimeter wit
 [![Metex M3850m Front](./img/Metex_M3850M_front.jpg)](./img/Metex_M3850M_front.jpg "Metex M3850m Front"){ .glightbox data-gallery="metex-m-3850m" }
 <span class="caption">Metex M3850m Front</span>
 
-[![Metex M3850m Mugshot](./img/Metex_M3850M_mugshot.png)](./img/Metex_M3850M_mugshot.png "Metex M3850m Mugshot"){ .glightbox data-gallery="metex-m-3850m" }
+[![Metex M3850m Mugshot](./img/Metex_M3850M_mugshot.jpg)](./img/Metex_M3850M_mugshot.png "Metex M3850m Mugshot"){ .glightbox data-gallery="metex-m-3850m" }
 <span class="caption">Metex M3850m Mugshot</span>
 
 [![Metex M3850m Back](./img/Metex_M3850M_back.jpg)](./img/Metex_M3850M_back.jpg "Metex M3850m Back"){ .glightbox data-gallery="metex-m-3850m" }

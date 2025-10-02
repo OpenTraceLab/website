@@ -6,7 +6,7 @@ title: dcttech usbrelay
 
 <div class="infobox" markdown>
 
-![dcttech usbrelay](./img/Dcttech-usbrelay2-top.png){ .infobox-image }
+![dcttech usbrelay](./img/Dcttech-usbrelay2-top.jpg){ .infobox-image }
 
 ### dcttech usbrelay
 
@@ -31,22 +31,22 @@ See [ Info](https://sigrok.org/wiki/Dcttech_usbrelay/Info) for USB details.
 
 <div class="photo-grid" markdown>
 
-[![Dcttech Usbrelay2 Top](./img/Dcttech-usbrelay2-top.png)](./img/Dcttech-usbrelay2-top.png "Dcttech Usbrelay2 Top"){ .glightbox data-gallery="dcttech-usbrelay" }
+[![Dcttech Usbrelay2 Top](./img/Dcttech-usbrelay2-top.jpg)](./img/Dcttech-usbrelay2-top.png "Dcttech Usbrelay2 Top"){ .glightbox data-gallery="dcttech-usbrelay" }
 <span class="caption">Dcttech Usbrelay2 Top</span>
 
-[![Dcttech Usbrelay Mugshot](./img/Dcttech_usbrelay_mugshot.png)](./img/Dcttech_usbrelay_mugshot.png "Dcttech Usbrelay Mugshot"){ .glightbox data-gallery="dcttech-usbrelay" }
+[![Dcttech Usbrelay Mugshot](./img/Dcttech_usbrelay_mugshot.jpg)](./img/Dcttech_usbrelay_mugshot.png "Dcttech Usbrelay Mugshot"){ .glightbox data-gallery="dcttech-usbrelay" }
 <span class="caption">Dcttech Usbrelay Mugshot</span>
 
-[![Dcttech Usbrelay4 Bot](./img/Dcttech-usbrelay4-bot.png)](./img/Dcttech-usbrelay4-bot.png "Dcttech Usbrelay4 Bot"){ .glightbox data-gallery="dcttech-usbrelay" }
+[![Dcttech Usbrelay4 Bot](./img/Dcttech-usbrelay4-bot.jpg)](./img/Dcttech-usbrelay4-bot.png "Dcttech Usbrelay4 Bot"){ .glightbox data-gallery="dcttech-usbrelay" }
 <span class="caption">Dcttech Usbrelay4 Bot</span>
 
-[![Dcttech Usbrelay Diy](./img/Dcttech-usbrelay-diy.png)](./img/Dcttech-usbrelay-diy.png "Dcttech Usbrelay Diy"){ .glightbox data-gallery="dcttech-usbrelay" }
+[![Dcttech Usbrelay Diy](./img/Dcttech-usbrelay-diy.jpg)](./img/Dcttech-usbrelay-diy.png "Dcttech Usbrelay Diy"){ .glightbox data-gallery="dcttech-usbrelay" }
 <span class="caption">Dcttech Usbrelay Diy</span>
 
-[![Dcttech Usbrelay4 Top](./img/Dcttech-usbrelay4-top.png)](./img/Dcttech-usbrelay4-top.png "Dcttech Usbrelay4 Top"){ .glightbox data-gallery="dcttech-usbrelay" }
+[![Dcttech Usbrelay4 Top](./img/Dcttech-usbrelay4-top.jpg)](./img/Dcttech-usbrelay4-top.png "Dcttech Usbrelay4 Top"){ .glightbox data-gallery="dcttech-usbrelay" }
 <span class="caption">Dcttech Usbrelay4 Top</span>
 
-[![Dcttech Usbrelay2 Bot](./img/Dcttech-usbrelay2-bot.png)](./img/Dcttech-usbrelay2-bot.png "Dcttech Usbrelay2 Bot"){ .glightbox data-gallery="dcttech-usbrelay" }
+[![Dcttech Usbrelay2 Bot](./img/Dcttech-usbrelay2-bot.jpg)](./img/Dcttech-usbrelay2-bot.png "Dcttech Usbrelay2 Bot"){ .glightbox data-gallery="dcttech-usbrelay" }
 <span class="caption">Dcttech Usbrelay2 Bot</span>
 
 </div>

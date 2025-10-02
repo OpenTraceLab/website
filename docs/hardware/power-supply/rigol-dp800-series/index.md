@@ -6,7 +6,7 @@ title: Rigol DP800 series
 
 <div class="infobox" markdown>
 
-![Rigol DP800 series](./img/Rigol_DP832_back.png){ .infobox-image }
+![Rigol DP800 series](./img/Rigol_DP832_back.jpg){ .infobox-image }
 
 ### Rigol DP800 series
 
@@ -37,10 +37,10 @@ See [Rigol DP800 series/Info](https://sigrok.org/wiki/Rigol_DP800_series/Info) f
 
 <div class="photo-grid" markdown>
 
-[![Rigol Dp832 Back](./img/Rigol_DP832_back.png)](./img/Rigol_DP832_back.png "Rigol Dp832 Back"){ .glightbox data-gallery="rigol-dp800-series" }
+[![Rigol Dp832 Back](./img/Rigol_DP832_back.jpg)](./img/Rigol_DP832_back.png "Rigol Dp832 Back"){ .glightbox data-gallery="rigol-dp800-series" }
 <span class="caption">Rigol Dp832 Back</span>
 
-[![Rigol Dp832](./img/Rigol_DP832.png)](./img/Rigol_DP832.png "Rigol Dp832"){ .glightbox data-gallery="rigol-dp800-series" }
+[![Rigol Dp832](./img/Rigol_DP832.jpg)](./img/Rigol_DP832.png "Rigol Dp832"){ .glightbox data-gallery="rigol-dp800-series" }
 <span class="caption">Rigol Dp832</span>
 
 </div>

@@ -131,7 +131,7 @@ EEPROM - connected to both (!) CY7C68013A processors
 [![Xzl Studio Dx Usb](./img/XZL_Studio-DX_usb.jpg)](./img/XZL_Studio-DX_usb.jpg "Xzl Studio Dx Usb"){ .glightbox data-gallery="xzl_studio-dx" }
 <span class="caption">Xzl Studio Dx Usb</span>
 
-[![Xzl Studio Dx Mugshot](./img/Xzl_studio-dx_mugshot.png)](./img/Xzl_studio-dx_mugshot.png "Xzl Studio Dx Mugshot"){ .glightbox data-gallery="xzl_studio-dx" }
+[![Xzl Studio Dx Mugshot](./img/Xzl_studio-dx_mugshot.jpg)](./img/Xzl_studio-dx_mugshot.png "Xzl Studio Dx Mugshot"){ .glightbox data-gallery="xzl_studio-dx" }
 <span class="caption">Xzl Studio Dx Mugshot</span>
 
 [![Xzl Studio Dx Pcb Down](./img/XZL_Studio-DX_pcb_down.jpg)](./img/XZL_Studio-DX_pcb_down.jpg "Xzl Studio Dx Pcb Down"){ .glightbox data-gallery="xzl_studio-dx" }

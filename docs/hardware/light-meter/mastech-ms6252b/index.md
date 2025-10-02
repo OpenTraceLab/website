@@ -36,7 +36,7 @@ title: MASTECH MS6252B
 [![Mastech Ms6252b Led1](./img/Mastech_ms6252b_led1.jpg)](./img/Mastech_ms6252b_led1.jpg "Mastech Ms6252b Led1"){ .glightbox data-gallery="mastech-ms6252b" }
 <span class="caption">Mastech Ms6252b Led1</span>
 
-[![Mastech Ms6252b](./img/Mastech_ms6252b.png)](./img/Mastech_ms6252b.png "Mastech Ms6252b"){ .glightbox data-gallery="mastech-ms6252b" }
+[![Mastech Ms6252b](./img/Mastech_ms6252b.jpg)](./img/Mastech_ms6252b.png "Mastech Ms6252b"){ .glightbox data-gallery="mastech-ms6252b" }
 <span class="caption">Mastech Ms6252b</span>
 
 [![Mastech Ms6252b Pcb Usb2](./img/Mastech_ms6252b_pcb_usb2.jpg)](./img/Mastech_ms6252b_pcb_usb2.jpg "Mastech Ms6252b Pcb Usb2"){ .glightbox data-gallery="mastech-ms6252b" }

@@ -6,7 +6,7 @@ title: MASTECH MS8250D
 
 <div class="infobox" markdown>
 
-![MASTECH MS8250D](./img/Mastech_ms8250d_mugshot.png){ .infobox-image }
+![MASTECH MS8250D](./img/Mastech_ms8250d_mugshot.jpg){ .infobox-image }
 
 ### MASTECH MS8250D
 
@@ -37,7 +37,7 @@ See [MASTECH MS8250D/Info](https://sigrok.org/wiki/MASTECH_MS8250D/Info) for mor
 
 <div class="photo-grid" markdown>
 
-[![Mastech Ms8250d Mugshot](./img/Mastech_ms8250d_mugshot.png)](./img/Mastech_ms8250d_mugshot.png "Mastech Ms8250d Mugshot"){ .glightbox data-gallery="mastech-ms8250d" }
+[![Mastech Ms8250d Mugshot](./img/Mastech_ms8250d_mugshot.jpg)](./img/Mastech_ms8250d_mugshot.png "Mastech Ms8250d Mugshot"){ .glightbox data-gallery="mastech-ms8250d" }
 <span class="caption">Mastech Ms8250d Mugshot</span>
 
 [![P1040388](./img/P1040388.jpg)](./img/P1040388.jpg "P1040388"){ .glightbox data-gallery="mastech-ms8250d" }

@@ -56,7 +56,7 @@ See [UNI-T UT71x series](https://sigrok.org/wiki/UNI-T_UT71x_series) for informa
 [![Voltcraft Vc920 Pcb Top](./img/Voltcraft_vc920_pcb_top.jpg)](./img/Voltcraft_vc920_pcb_top.jpg "Voltcraft Vc920 Pcb Top"){ .glightbox data-gallery="voltcraft-vc-920" }
 <span class="caption">Voltcraft Vc920 Pcb Top</span>
 
-[![Voltcraft Vc920](./img/Voltcraft_vc920.png)](./img/Voltcraft_vc920.png "Voltcraft Vc920"){ .glightbox data-gallery="voltcraft-vc-920" }
+[![Voltcraft Vc920](./img/Voltcraft_vc920.jpg)](./img/Voltcraft_vc920.png "Voltcraft Vc920"){ .glightbox data-gallery="voltcraft-vc-920" }
 <span class="caption">Voltcraft Vc920</span>
 
 </div>

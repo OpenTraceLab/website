@@ -52,7 +52,7 @@ See [Device cables#UNI-T_UT-D04](https://sigrok.org/wiki/Device_cables#UNI-T_UT-
 [![Tecpel Dmm8061 Device Back](./img/Tecpel_dmm8061_device_back.jpg)](./img/Tecpel_dmm8061_device_back.jpg "Tecpel Dmm8061 Device Back"){ .glightbox data-gallery="tecpel-dmm-8061" }
 <span class="caption">Tecpel Dmm8061 Device Back</span>
 
-[![Tecpel Dmm8061](./img/Tecpel_dmm8061.png)](./img/Tecpel_dmm8061.png "Tecpel Dmm8061"){ .glightbox data-gallery="tecpel-dmm-8061" }
+[![Tecpel Dmm8061](./img/Tecpel_dmm8061.jpg)](./img/Tecpel_dmm8061.png "Tecpel Dmm8061"){ .glightbox data-gallery="tecpel-dmm-8061" }
 <span class="caption">Tecpel Dmm8061</span>
 
 [![Tecpel Dmm8061 Device Front](./img/Tecpel_dmm8061_device_front.jpg)](./img/Tecpel_dmm8061_device_front.jpg "Tecpel Dmm8061 Device Front"){ .glightbox data-gallery="tecpel-dmm-8061" }

@@ -51,7 +51,7 @@ See [LabNation SmartScope/Info](https://sigrok.org/wiki/LabNation_SmartScope/Inf
 [![Lab Nation Smartscope Pcb Analog Frontend](./img/Lab_nation_smartscope_pcb_analog_frontend.jpg)](./img/Lab_nation_smartscope_pcb_analog_frontend.jpg "Lab Nation Smartscope Pcb Analog Frontend"){ .glightbox data-gallery="labnation-smartscope" }
 <span class="caption">Lab Nation Smartscope Pcb Analog Frontend</span>
 
-[![Lab Nation Smartscope Mugshot](./img/Lab_nation_smartscope_mugshot.png)](./img/Lab_nation_smartscope_mugshot.png "Lab Nation Smartscope Mugshot"){ .glightbox data-gallery="labnation-smartscope" }
+[![Lab Nation Smartscope Mugshot](./img/Lab_nation_smartscope_mugshot.jpg)](./img/Lab_nation_smartscope_mugshot.png "Lab Nation Smartscope Mugshot"){ .glightbox data-gallery="labnation-smartscope" }
 <span class="caption">Lab Nation Smartscope Mugshot</span>
 
 [![Lab Nation Smartscope Device Top](./img/Lab_nation_smartscope_device_top.jpg)](./img/Lab_nation_smartscope_device_top.jpg "Lab Nation Smartscope Device Top"){ .glightbox data-gallery="labnation-smartscope" }
