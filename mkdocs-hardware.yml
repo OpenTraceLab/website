@@ -65,6 +65,12 @@ plugins:
       touch_navigation: true
       loop: false
 
+extra_css:
+  - stylesheets/logo-size.css
+  - stylesheets/infobox.css
+  - stylesheets/gallery.css
+  - stylesheets/hw-table.css
+
 extra_javascript:
   - js/hw-filter.js
 

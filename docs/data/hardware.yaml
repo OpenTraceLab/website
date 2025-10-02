@@ -11,7 +11,7 @@ categories:
     Model: USB-6008
     Status: unknown
     Page: daq/ni-usb-6008/
-    Image: /website/hardware/daq/ni-usb-6008/img/Ni_usb_6008.png
+    Image: /website/hardware/daq/ni-usb-6008/img/Ni_usb_6008.jpg
 - id: datalogger
   title: Datalogger
   columns:
@@ -44,7 +44,7 @@ categories:
     Model: CO-20
     Status: unknown
     Page: datalogger/voltcraft-co-20/
-    Image: /website/hardware/datalogger/voltcraft-co-20/img/Voltcraft_co-20.png
+    Image: /website/hardware/datalogger/voltcraft-co-20/img/Voltcraft_co-20.jpg
 - id: digital-load
   title: Digital Load
   columns:
@@ -57,7 +57,7 @@ categories:
     Model: Pro
     Status: supported
     Page: digital-load/arachnid-labs-reload-pro/
-    Image: /website/hardware/digital-load/arachnid-labs-reload-pro/img/Arachnid_Labs_ReLoad_Pro_-_Mugshot.png
+    Image: /website/hardware/digital-load/arachnid-labs-reload-pro/img/Arachnid_Labs_ReLoad_Pro_-_Mugshot.jpg
   - Vendor: ATORCH
     Model: DL24MP-150W Purple
     Status: supported
@@ -67,17 +67,17 @@ categories:
     Model: IT8500 series
     Status: supported
     Page: digital-load/itech-it8500-series/
-    Image: /website/hardware/digital-load/itech-it8500-series/img/Itech_It8511plus_frontpanel.png
+    Image: /website/hardware/digital-load/itech-it8500-series/img/Itech_It8511plus_frontpanel.jpg
   - Vendor: Maynuo
     Model: M9812
     Status: supported
     Page: digital-load/maynuo-m9812/
-    Image: /website/hardware/digital-load/maynuo-m9812/img/Maynuo_m9812_mugshot.png
+    Image: /website/hardware/digital-load/maynuo-m9812/img/Maynuo_m9812_mugshot.jpg
   - Vendor: ZKETECH
     Model: EBD-USB
     Status: supported
     Page: digital-load/zketech-ebd-usb/
-    Image: /website/hardware/digital-load/zketech-ebd-usb/img/Ztetech-ebd-usb_2B.png
+    Image: /website/hardware/digital-load/zketech-ebd-usb/img/Ztetech-ebd-usb_2B.jpg
 - id: energy-meter
   title: Energy Meter
   columns:
@@ -105,7 +105,7 @@ categories:
     Model: TC66C
     Status: supported
     Page: energy-meter/rdtech-tc66c/
-    Image: /website/hardware/energy-meter/rdtech-tc66c/img/Rdtech-tc66c-parts-moon.png
+    Image: /website/hardware/energy-meter/rdtech-tc66c/img/Rdtech-tc66c-parts-moon.jpg
   - Vendor: RDTech UM
     Model: series
     Status: supported
@@ -123,7 +123,7 @@ categories:
     Model: 5350B
     Status: unknown
     Page: frequency-counter/hp-5350b/
-    Image: /website/hardware/frequency-counter/hp-5350b/img/HP_5350B.png
+    Image: /website/hardware/frequency-counter/hp-5350b/img/HP_5350B.jpg
 - id: function-generator
   title: Function Generators
   columns:
@@ -141,7 +141,7 @@ categories:
     Model: ATZ9711
     Status: planned
     Page: function-generator/atten-atz9711/
-    Image: /website/hardware/function-generator/atten-atz9711/img/Atten_ATZ9711.png
+    Image: /website/hardware/function-generator/atten-atz9711/img/Atten_ATZ9711.jpg
   - Vendor: Unknown
     Model: BG7TBL
     Status: planned
@@ -156,12 +156,12 @@ categories:
     Model: 3325A
     Status: abandoned
     Page: function-generator/hp-3325a/
-    Image: /website/hardware/function-generator/hp-3325a/img/Hp_3325a_front.png
+    Image: /website/hardware/function-generator/hp-3325a/img/Hp_3325a_front.jpg
   - Vendor: Joy-IT
     Model: JDS6600
     Status: supported
     Page: function-generator/joy-it-jds6600/
-    Image: /website/hardware/function-generator/joy-it-jds6600/img/Jds6600-back-no-jack.png
+    Image: /website/hardware/function-generator/joy-it-jds6600/img/Jds6600-back-no-jack.jpg
   - Vendor: MHINSTEK
     Model: MHS-5200A
     Status: in progress
@@ -176,12 +176,12 @@ categories:
     Model: DG1000z Series
     Status: supported
     Page: function-generator/rigol-dg1000z-series/
-    Image: /website/hardware/function-generator/rigol-dg1000z-series/img/Dg1000z_series.png
+    Image: /website/hardware/function-generator/rigol-dg1000z-series/img/Dg1000z_series.jpg
   - Vendor: Rigol
     Model: DG800 Series
     Status: supported
     Page: function-generator/rigol-dg800-series/
-    Image: /website/hardware/function-generator/rigol-dg800-series/img/Rigol_DG811_frontpanel.png
+    Image: /website/hardware/function-generator/rigol-dg800-series/img/Rigol_DG811_frontpanel.jpg
   - Vendor: Rigol
     Model: DG900 Series
     Status: supported
@@ -217,7 +217,7 @@ categories:
     Model: AR488
     Status: unknown
     Page: gpib-interface/ar488/
-    Image: /website/hardware/gpib-interface/ar488/img/Ar488-artag-pcb-top.png
+    Image: /website/hardware/gpib-interface/ar488/img/Ar488-artag-pcb-top.jpg
   - Vendor: Beiming
     Model: S82357
     Status: unknown
@@ -278,7 +278,7 @@ categories:
     Model: DE-5000
     Status: supported
     Page: lcr-meter/der-ee-de-5000/
-    Image: /website/hardware/lcr-meter/der-ee-de-5000/img/DER_EE_DE-5000.png
+    Image: /website/hardware/lcr-meter/der-ee-de-5000/img/DER_EE_DE-5000.jpg
   - Vendor: MASTECH
     Model: MS5308
     Status: supported
@@ -287,17 +287,17 @@ categories:
     Model: '2165'
     Status: supported
     Page: lcr-meter/peaktech-2165/
-    Image: /website/hardware/lcr-meter/peaktech-2165/img/Vc4080-cable-ir-port.png
+    Image: /website/hardware/lcr-meter/peaktech-2165/img/Vc4080-cable-ir-port.jpg
   - Vendor: PeakTech
     Model: '2170'
     Status: supported
     Page: lcr-meter/peaktech-2170/
-    Image: /website/hardware/lcr-meter/peaktech-2170/img/P2170_device_back.png
+    Image: /website/hardware/lcr-meter/peaktech-2170/img/P2170_device_back.jpg
   - Vendor: UNI-T
     Model: UT612
     Status: supported
     Page: lcr-meter/uni-t-ut612/
-    Image: /website/hardware/lcr-meter/uni-t-ut612/img/Ut612-usb-bob-top.png
+    Image: /website/hardware/lcr-meter/uni-t-ut612/img/Ut612-usb-bob-top.jpg
   - Vendor: Voltcraft
     Model: '4080'
     Status: supported
@@ -361,7 +361,7 @@ categories:
     Model: OMEGA
     Status: supported
     Page: logic-analyzer/asix-omega/
-    Image: /website/hardware/logic-analyzer/asix-omega/img/ASIX_Omega.png
+    Image: /website/hardware/logic-analyzer/asix-omega/img/ASIX_Omega.jpg
     Channels: '16'
     Samplerate: 200MHz @ 16ch, 400MHz @ 8ch
   - Vendor: ASIX
@@ -403,7 +403,7 @@ categories:
     Model: LA16
     Status: supported
     Page: logic-analyzer/chronovu-la16/
-    Image: /website/hardware/logic-analyzer/chronovu-la16/img/Chronovu_la16.png
+    Image: /website/hardware/logic-analyzer/chronovu-la16/img/Chronovu_la16.jpg
     Channels: '16'
     Samplerate: 200MHz
   - Vendor: ChronoVu
@@ -430,14 +430,14 @@ categories:
     Model: SX
     Status: supported
     Page: logic-analyzer/cwav-usbee-sx/
-    Image: /website/hardware/logic-analyzer/cwav-usbee-sx/img/Cwav_usbee_sx.png
+    Image: /website/hardware/logic-analyzer/cwav-usbee-sx/img/Cwav_usbee_sx.jpg
     Channels: '8'
     Samplerate: 24MHz
   - Vendor: Dangerous Prototypes
     Model: Buspirate
     Status: supported
     Page: logic-analyzer/dangerous-prototypes-buspirate/
-    Image: /website/hardware/logic-analyzer/dangerous-prototypes-buspirate/img/Buspirate_v3.png
+    Image: /website/hardware/logic-analyzer/dangerous-prototypes-buspirate/img/Buspirate_v3.jpg
     Channels: '5'
     Samplerate: 1MHz
   - Vendor: Dangerous Prototypes USB IR
@@ -507,7 +507,7 @@ categories:
     Model: One
     Status: supported
     Page: logic-analyzer/greatfet-one/
-    Image: /website/hardware/logic-analyzer/greatfet-one/img/Greatfet_mugshot.png
+    Image: /website/hardware/logic-analyzer/greatfet-one/img/Greatfet_mugshot.jpg
     Channels: 8/4/2/1
     Samplerate: 40.8/68/102/204MHz max
   - Vendor: Hantek
@@ -528,7 +528,7 @@ categories:
     Model: HCTEST0006
     Status: supported
     Page: logic-analyzer/hobby-components-hctest0006/
-    Image: /website/hardware/logic-analyzer/hobby-components-hctest0006/img/Hobby_components_hctest0006_mugshot.png
+    Image: /website/hardware/logic-analyzer/hobby-components-hctest0006/img/Hobby_components_hctest0006_mugshot.jpg
     Channels: '8'
     Samplerate: 24MHz
   - Vendor: HSA
@@ -584,7 +584,7 @@ categories:
     Model: LA5016
     Status: supported
     Page: logic-analyzer/kingst-la5016/
-    Image: /website/hardware/logic-analyzer/kingst-la5016/img/Kingst-la5016-size-compared.png
+    Image: /website/hardware/logic-analyzer/kingst-la5016/img/Kingst-la5016-size-compared.jpg
     Channels: '16'
     Samplerate: 500MHz max.
   - Vendor: Kingst
@@ -598,7 +598,7 @@ categories:
     Model: Board
     Status: supported
     Page: logic-analyzer/lcsoft-mini-board/
-    Image: /website/hardware/logic-analyzer/lcsoft-mini-board/img/Lcsoft-miniboard-front.png
+    Image: /website/hardware/logic-analyzer/lcsoft-mini-board/img/Lcsoft-miniboard-front.jpg
     Channels: 8/16
     Samplerate: 24MHz
   - Vendor: LeCroy
@@ -619,7 +619,7 @@ categories:
     Model: Shrimp
     Status: supported
     Page: logic-analyzer/logic-shrimp/
-    Image: /website/hardware/logic-analyzer/logic-shrimp/img/Logic-shrimp-front.png
+    Image: /website/hardware/logic-analyzer/logic-shrimp/img/Logic-shrimp-front.jpg
     Channels: '4'
     Samplerate: 20MHz
   - Vendor: Unknown
@@ -661,14 +661,14 @@ categories:
     Model: MiniLA
     Status: planned
     Page: logic-analyzer/minila/
-    Image: /website/hardware/logic-analyzer/minila/img/Minila_parport.png
+    Image: /website/hardware/logic-analyzer/minila/img/Minila_parport.jpg
     Channels: '32'
     Samplerate: 100MHz
   - Vendor: MiniLA
     Model: Mockup
     Status: unknown
     Page: logic-analyzer/minila-mockup/
-    Image: /website/hardware/logic-analyzer/minila-mockup/img/Minila_mockup.png
+    Image: /website/hardware/logic-analyzer/minila-mockup/img/Minila_mockup.jpg
     Channels: ''
     Samplerate: ''
   - Vendor: Noname
@@ -696,7 +696,7 @@ categories:
     Model: Sniffer
     Status: supported
     Page: logic-analyzer/openbench-logic-sniffer/
-    Image: /website/hardware/logic-analyzer/openbench-logic-sniffer/img/Ols_buffer.png
+    Image: /website/hardware/logic-analyzer/openbench-logic-sniffer/img/Ols_buffer.jpg
     Channels: '32'
     Samplerate: 200MHz
   - Vendor: Prist
@@ -724,7 +724,7 @@ categories:
     Model: Ant18e
     Status: planned
     Page: logic-analyzer/rockylogic-ant18e/
-    Image: /website/hardware/logic-analyzer/rockylogic-ant18e/img/Ant18e-front2.png
+    Image: /website/hardware/logic-analyzer/rockylogic-ant18e/img/Ant18e-front2.jpg
     Channels: '18'
     Samplerate: 1GHz
   - Vendor: RockyLogic
@@ -738,7 +738,7 @@ categories:
     Model: OLS
     Status: supported
     Page: logic-analyzer/saanlima-pipistrello-ols/
-    Image: /website/hardware/logic-analyzer/saanlima-pipistrello-ols/img/Saanlima_Pipistrello-OLS.png
+    Image: /website/hardware/logic-analyzer/saanlima-pipistrello-ols/img/Saanlima_Pipistrello-OLS.jpg
     Channels: '32'
     Samplerate: 0-100MHz
   - Vendor: Saleae
@@ -780,7 +780,7 @@ categories:
     Model: LWLA2034
     Status: planned
     Page: logic-analyzer/sysclk-lwla2034/
-    Image: /website/hardware/logic-analyzer/sysclk-lwla2034/img/Sysclk_lwla2034_mugshot.png
+    Image: /website/hardware/logic-analyzer/sysclk-lwla2034/img/Sysclk_lwla2034_mugshot.jpg
     Channels: '34'
     Samplerate: 200MHz
   - Vendor: Sysclk
@@ -801,7 +801,7 @@ categories:
     Model: TLA520X
     Status: planned
     Page: logic-analyzer/tektronix-tla520x/
-    Image: /website/hardware/logic-analyzer/tektronix-tla520x/img/Tektronix_TLA5204_1000.png
+    Image: /website/hardware/logic-analyzer/tektronix-tla520x/img/Tektronix_TLA5204_1000.jpg
     Channels: 32/64/96/128
     Samplerate: Asynchronous 2Ghz @ 32/64/96/128ch, MagniVu 8Ghz @ 32/64/96/128ch
   - Vendor: VKTECH saleae
@@ -822,7 +822,7 @@ categories:
     Model: XTAG-2
     Status: planned
     Page: logic-analyzer/xmos-xtag-2/
-    Image: /website/hardware/logic-analyzer/xmos-xtag-2/img/Xmos_xtag2.png
+    Image: /website/hardware/logic-analyzer/xmos-xtag-2/img/Xmos_xtag2.jpg
     Channels: ????
     Samplerate: 50MHz @ 2ch, 16MHz @ 7ch
   - Vendor: ZEROPLUS
@@ -843,14 +843,14 @@ categories:
     Model: Logic Cube LAP-C(322000)
     Status: supported
     Page: logic-analyzer/zeroplus-logic-cube-lap-c322000/
-    Image: /website/hardware/logic-analyzer/zeroplus-logic-cube-lap-c322000/img/Zeroplus_Logic_Cube.png
+    Image: /website/hardware/logic-analyzer/zeroplus-logic-cube-lap-c322000/img/Zeroplus_Logic_Cube.jpg
     Channels: '32'
     Samplerate: 200MHz
   - Vendor: ZLG
     Model: LA1032
     Status: unknown
     Page: logic-analyzer/zlg-la1032/
-    Image: /website/hardware/logic-analyzer/zlg-la1032/img/Zlg_la1032.png
+    Image: /website/hardware/logic-analyzer/zlg-la1032/img/Zlg_la1032.jpg
     Channels: ''
     Samplerate: ''
 - id: mixed-signal-devices
@@ -865,7 +865,7 @@ categories:
     Model: MSO7104A
     Status: unknown
     Page: mixed-signal-devices/agilent-mso7104a/
-    Image: /website/hardware/mixed-signal-devices/agilent-mso7104a/img/Agilent_MSO7104A.png
+    Image: /website/hardware/mixed-signal-devices/agilent-mso7104a/img/Agilent_MSO7104A.jpg
   - Vendor: ARMFLY
     Model: AX-Pro
     Status: supported
@@ -900,7 +900,7 @@ categories:
     Model: USBee-AxPro
     Status: supported
     Page: mixed-signal-devices/ht-usbee-axpro/
-    Image: /website/hardware/mixed-signal-devices/ht-usbee-axpro/img/Ht_usbee_axpro_v5_mugshot.png
+    Image: /website/hardware/mixed-signal-devices/ht-usbee-axpro/img/Ht_usbee_axpro_v5_mugshot.jpg
   - Vendor: HT
     Model: USBee-DxPro
     Status: planned
@@ -915,7 +915,7 @@ categories:
     Model: series
     Status: supported
     Page: mixed-signal-devices/lecroy-oscilloscope-series/
-    Image: /website/hardware/mixed-signal-devices/lecroy-oscilloscope-series/img/LeCroy_WaveSurfer_24Xs-A_front.png
+    Image: /website/hardware/mixed-signal-devices/lecroy-oscilloscope-series/img/LeCroy_WaveSurfer_24Xs-A_front.jpg
   - Vendor: Link Instruments
     Model: MSO-19
     Status: unknown
@@ -950,7 +950,7 @@ categories:
     Model: DS1000D series
     Status: supported
     Page: mixed-signal-devices/rigol-ds1000d-series/
-    Image: /website/hardware/mixed-signal-devices/rigol-ds1000d-series/img/Rigol_DS1052E.png
+    Image: /website/hardware/mixed-signal-devices/rigol-ds1000d-series/img/Rigol_DS1052E.jpg
   - Vendor: Rigol
     Model: DS4000 series
     Status: supported
@@ -964,7 +964,7 @@ categories:
     Model: VS5000D series
     Status: unknown
     Page: mixed-signal-devices/rigol-vs5000d-series/
-    Image: /website/hardware/mixed-signal-devices/rigol-vs5000d-series/img/Rigol_VS5202D.png
+    Image: /website/hardware/mixed-signal-devices/rigol-vs5000d-series/img/Rigol_VS5202D.jpg
   - Vendor: Unknown
     Model: Rohde&amp;Schwarz HMO 3000 series
     Status: supported
@@ -992,12 +992,12 @@ categories:
     Model: SDS1000X series
     Status: supported
     Page: mixed-signal-devices/siglent-sds1000x-series/
-    Image: /website/hardware/mixed-signal-devices/siglent-sds1000x-series/img/Siglent_SDS1202X-E_back.png
+    Image: /website/hardware/mixed-signal-devices/siglent-sds1000x-series/img/Siglent_SDS1202X-E_back.jpg
   - Vendor: Siglent
     Model: SDS2000X series
     Status: supported
     Page: mixed-signal-devices/siglent-sds2000x-series/
-    Image: /website/hardware/mixed-signal-devices/siglent-sds2000x-series/img/Sds2304x-mugshot.png
+    Image: /website/hardware/mixed-signal-devices/siglent-sds2000x-series/img/Sds2304x-mugshot.jpg
   - Vendor: Sysclk
     Model: AX-Pro
     Status: supported
@@ -1017,7 +1017,7 @@ categories:
     Model: DLM2000 series
     Status: supported
     Page: mixed-signal-devices/yokogawa-dlm2000-series/
-    Image: /website/hardware/mixed-signal-devices/yokogawa-dlm2000-series/img/Yokogawa_DLM2000_front.png
+    Image: /website/hardware/mixed-signal-devices/yokogawa-dlm2000-series/img/Yokogawa_DLM2000_front.jpg
 - id: multimeter
   title: Multimeters
   columns:
@@ -1030,13 +1030,13 @@ categories:
     Model: 34401A
     Status: supported
     Page: multimeter/agilent-34401a/
-    Image: /website/hardware/multimeter/agilent-34401a/img/Agilent_34401A_-_front.png
+    Image: /website/hardware/multimeter/agilent-34401a/img/Agilent_34401A_-_front.jpg
     Digits: ''
   - Vendor: Agilent
     Model: 34405A
     Status: supported
     Page: multimeter/agilent-34405a/
-    Image: /website/hardware/multimeter/agilent-34405a/img/Agilent_34405A.png
+    Image: /website/hardware/multimeter/agilent-34405a/img/Agilent_34405A.jpg
     Digits: ''
   - Vendor: Agilent
     Model: U12xxx series
@@ -1047,7 +1047,7 @@ categories:
     Model: '107'
     Status: in progress
     Page: multimeter/appa-107/
-    Image: /website/hardware/multimeter/appa-107/img/Appa_107.png
+    Image: /website/hardware/multimeter/appa-107/img/Appa_107.jpg
     Digits: ''
   - Vendor: APPA
     Model: Multimeters
@@ -1058,7 +1058,7 @@ categories:
     Model: M2110
     Status: supported
     Page: multimeter/bbc-goertz-metrawatt-m2110/
-    Image: /website/hardware/multimeter/bbc-goertz-metrawatt-m2110/img/Bbc_gm_m2110_mugshot.png
+    Image: /website/hardware/multimeter/bbc-goertz-metrawatt-m2110/img/Bbc_gm_m2110_mugshot.jpg
     Digits: ''
   - Vendor: BENNING MM
     Model: '12'
@@ -1070,7 +1070,7 @@ categories:
     Model: BM257
     Status: supported
     Page: multimeter/brymen-bm257/
-    Image: /website/hardware/multimeter/brymen-bm257/img/Brymen_BM257.png
+    Image: /website/hardware/multimeter/brymen-bm257/img/Brymen_BM257.jpg
     Digits: ''
   - Vendor: Brymen
     Model: BM257s
@@ -1082,19 +1082,19 @@ categories:
     Model: BM525s
     Status: supported
     Page: multimeter/brymen-bm525s/
-    Image: /website/hardware/multimeter/brymen-bm525s/img/Bm525s-manual.png
+    Image: /website/hardware/multimeter/brymen-bm525s/img/Bm525s-manual.jpg
     Digits: ''
   - Vendor: Brymen
     Model: BM829s
     Status: supported
     Page: multimeter/brymen-bm829s/
-    Image: /website/hardware/multimeter/brymen-bm829s/img/Bm829s-display-segments.png
+    Image: /website/hardware/multimeter/brymen-bm829s/img/Bm829s-display-segments.jpg
     Digits: ''
   - Vendor: Brymen
     Model: BM857
     Status: supported
     Page: multimeter/brymen-bm857/
-    Image: /website/hardware/multimeter/brymen-bm857/img/Bm859s-front.png
+    Image: /website/hardware/multimeter/brymen-bm857/img/Bm859s-front.jpg
     Digits: ''
   - Vendor: Brymen
     Model: BM859s
@@ -1116,31 +1116,31 @@ categories:
     Model: DT4000ZC
     Status: supported
     Page: multimeter/digitek-dt4000zc/
-    Image: /website/hardware/multimeter/digitek-dt4000zc/img/Digitek_dt4000zc_device_front.png
+    Image: /website/hardware/multimeter/digitek-dt4000zc/img/Digitek_dt4000zc_device_front.jpg
     Digits: ''
   - Vendor: Digitek
     Model: DT8000
     Status: planned
     Page: multimeter/digitek-dt8000/
-    Image: /website/hardware/multimeter/digitek-dt8000/img/Digitek_dt8000.png
+    Image: /website/hardware/multimeter/digitek-dt8000/img/Digitek_dt8000.jpg
     Digits: ''
   - Vendor: Digitek
     Model: DT80000
     Status: planned
     Page: multimeter/digitek-dt80000/
-    Image: /website/hardware/multimeter/digitek-dt80000/img/Digitek_dt80000.png
+    Image: /website/hardware/multimeter/digitek-dt80000/img/Digitek_dt80000.jpg
     Digits: ''
   - Vendor: EEVBlog
     Model: 121GW
     Status: supported
     Page: multimeter/eevblog-121gw/
-    Image: /website/hardware/multimeter/eevblog-121gw/img/Eevblog_121gw_mugshot.png
+    Image: /website/hardware/multimeter/eevblog-121gw/img/Eevblog_121gw_mugshot.jpg
     Digits: ''
   - Vendor: Escort
     Model: '179'
     Status: planned
     Page: multimeter/escort-179/
-    Image: /website/hardware/multimeter/escort-179/img/Escort_179_device_front.png
+    Image: /website/hardware/multimeter/escort-179/img/Escort_179_device_front.jpg
     Digits: ''
   - Vendor: Fluke
     Model: 187/189
@@ -1233,13 +1233,13 @@ categories:
     Model: GDM-8255A
     Status: supported
     Page: multimeter/gw-instek-gdm-8255a/
-    Image: /website/hardware/multimeter/gw-instek-gdm-8255a/img/Gdm-8251a_frontpanel.png
+    Image: /website/hardware/multimeter/gw-instek-gdm-8255a/img/Gdm-8251a_frontpanel.jpg
     Digits: ''
   - Vendor: GW Instek
     Model: GDM-9060
     Status: supported
     Page: multimeter/gw-instek-gdm-9060/
-    Image: /website/hardware/multimeter/gw-instek-gdm-9060/img/Gdm-9061_frontpanel.png
+    Image: /website/hardware/multimeter/gw-instek-gdm-9060/img/Gdm-9061_frontpanel.jpg
     Digits: ''
   - Vendor: GW Instek
     Model: GDM-9061
@@ -1281,13 +1281,13 @@ categories:
     Model: 34465A
     Status: supported
     Page: multimeter/keysight-34465a/
-    Image: /website/hardware/multimeter/keysight-34465a/img/Keysight-34465a-back.png
+    Image: /website/hardware/multimeter/keysight-34465a/img/Keysight-34465a-back.jpg
     Digits: ''
   - Vendor: MASTECH
     Model: M9803R
     Status: planned
     Page: multimeter/mastech-m9803r/
-    Image: /website/hardware/multimeter/mastech-m9803r/img/800px-Mastech_m9803r_device_front.png
+    Image: /website/hardware/multimeter/mastech-m9803r/img/800px-Mastech_m9803r_device_front.jpg
     Digits: ''
   - Vendor: MASTECH
     Model: MAS345
@@ -1311,13 +1311,13 @@ categories:
     Model: MS8250D
     Status: supported
     Page: multimeter/mastech-ms8250d/
-    Image: /website/hardware/multimeter/mastech-ms8250d/img/Mastech_ms8250d_mugshot.png
+    Image: /website/hardware/multimeter/mastech-ms8250d/img/Mastech_ms8250d_mugshot.jpg
     Digits: ''
   - Vendor: Meterman
     Model: 38XR
     Status: supported
     Page: multimeter/meterman-38xr/
-    Image: /website/hardware/multimeter/meterman-38xr/img/Meterman-38xr-pcb.png
+    Image: /website/hardware/multimeter/meterman-38xr/img/Meterman-38xr-pcb.jpg
     Digits: ''
   - Vendor: Metex
     Model: M-3850M
@@ -1341,19 +1341,19 @@ categories:
     Model: ME-31
     Status: supported
     Page: multimeter/metex-me-31/
-    Image: /website/hardware/multimeter/metex-me-31/img/Metex_me-31.png
+    Image: /website/hardware/multimeter/metex-me-31/img/Metex_me-31.jpg
     Digits: ''
   - Vendor: Metrix
     Model: MX53
     Status: planned
     Page: multimeter/metrix-mx53/
-    Image: /website/hardware/multimeter/metrix-mx53/img/Metrix_mx53.png
+    Image: /website/hardware/multimeter/metrix-mx53/img/Metrix_mx53.jpg
     Digits: ''
   - Vendor: Metrix
     Model: MX56C
     Status: supported
     Page: multimeter/metrix-mx56c/
-    Image: /website/hardware/multimeter/metrix-mx56c/img/Mx56c-batt-compart-covers.png
+    Image: /website/hardware/multimeter/metrix-mx56c/img/Mx56c-batt-compart-covers.jpg
     Digits: ''
   - Vendor: Mooshim Engineering
     Model: Mooshimeter
@@ -1383,31 +1383,31 @@ categories:
     Model: '3330'
     Status: supported
     Page: multimeter/peaktech-3330/
-    Image: /website/hardware/multimeter/peaktech-3330/img/P3330_front_holster.png
+    Image: /website/hardware/multimeter/peaktech-3330/img/P3330_front_holster.jpg
     Digits: ''
   - Vendor: PeakTech
     Model: '3410'
     Status: supported
     Page: multimeter/peaktech-3410/
-    Image: /website/hardware/multimeter/peaktech-3410/img/Metex_me-31.png
+    Image: /website/hardware/multimeter/peaktech-3410/img/Metex_me-31.jpg
     Digits: ''
   - Vendor: PeakTech
     Model: '3415'
     Status: supported
     Page: multimeter/peaktech-3415/
-    Image: /website/hardware/multimeter/peaktech-3415/img/Peaktech3415_top.png
+    Image: /website/hardware/multimeter/peaktech-3415/img/Peaktech3415_top.jpg
     Digits: ''
   - Vendor: PeakTech
     Model: '3442'
     Status: planned
     Page: multimeter/peaktech-3442/
-    Image: /website/hardware/multimeter/peaktech-3442/img/Peaktech-3442-bta-4-pcb.png
+    Image: /website/hardware/multimeter/peaktech-3442/img/Peaktech-3442-bta-4-pcb.jpg
     Digits: ''
   - Vendor: PeakTech
     Model: '4370'
     Status: supported
     Page: multimeter/peaktech-4370/
-    Image: /website/hardware/multimeter/peaktech-4370/img/Peaktech_4370_device_front.png
+    Image: /website/hardware/multimeter/peaktech-4370/img/Peaktech_4370_device_front.jpg
     Digits: ''
   - Vendor: PeakTech
     Model: '4380'
@@ -1419,13 +1419,13 @@ categories:
     Model: '4390'
     Status: planned
     Page: multimeter/peaktech-4390/
-    Image: /website/hardware/multimeter/peaktech-4390/img/Dmm.png
+    Image: /website/hardware/multimeter/peaktech-4390/img/Dmm.jpg
     Digits: ''
   - Vendor: PeakTech
     Model: 4390A
     Status: supported
     Page: multimeter/peaktech-4390a/
-    Image: /website/hardware/multimeter/peaktech-4390a/img/Peaktech_4390a_metex_m-3860m_mugshot.png
+    Image: /website/hardware/multimeter/peaktech-4390a/img/Peaktech_4390a_metex_m-3860m_mugshot.jpg
     Digits: ''
   - Vendor: Protek
     Model: '6500'
@@ -1443,7 +1443,7 @@ categories:
     Model: 22-805
     Status: supported
     Page: multimeter/radioshack-22-805/
-    Image: /website/hardware/multimeter/radioshack-22-805/img/Rs_22-805_front.png
+    Image: /website/hardware/multimeter/radioshack-22-805/img/Rs_22-805_front.jpg
     Digits: ''
   - Vendor: RadioShack
     Model: 22-812
@@ -1467,7 +1467,7 @@ categories:
     Model: B1026
     Status: supported
     Page: multimeter/siemens-b1026/
-    Image: /website/hardware/multimeter/siemens-b1026/img/Siemens_b1026_4.png
+    Image: /website/hardware/multimeter/siemens-b1026/img/Siemens_b1026_4.jpg
     Digits: ''
   - Vendor: Siemens
     Model: B1105
@@ -1485,7 +1485,7 @@ categories:
     Model: 70C
     Status: supported
     Page: multimeter/sparkfun-70c/
-    Image: /website/hardware/multimeter/sparkfun-70c/img/Sparkfun_70c_mugshot.png
+    Image: /website/hardware/multimeter/sparkfun-70c/img/Sparkfun_70c_mugshot.jpg
     Digits: ''
   - Vendor: Tecpel
     Model: DMM-8061
@@ -1533,13 +1533,13 @@ categories:
     Model: 72-9380A
     Status: supported
     Page: multimeter/tenma-72-9380a/
-    Image: /website/hardware/multimeter/tenma-72-9380a/img/Tenma_72-9380A.png
+    Image: /website/hardware/multimeter/tenma-72-9380a/img/Tenma_72-9380A.jpg
     Digits: ''
   - Vendor: UNI-T
     Model: UT181A
     Status: supported
     Page: multimeter/uni-t-ut181a/
-    Image: /website/hardware/multimeter/uni-t-ut181a/img/Ut181a-pcb-mcu.png
+    Image: /website/hardware/multimeter/uni-t-ut181a/img/Ut181a-pcb-mcu.jpg
     Digits: ''
   - Vendor: UNI-T
     Model: UT60E
@@ -1551,13 +1551,13 @@ categories:
     Model: UT61B
     Status: supported
     Page: multimeter/uni-t-ut61b/
-    Image: /website/hardware/multimeter/uni-t-ut61b/img/Uni-t_ut61b_device.png
+    Image: /website/hardware/multimeter/uni-t-ut61b/img/Uni-t_ut61b_device.jpg
     Digits: ''
   - Vendor: UNI-T
     Model: UT61C
     Status: supported
     Page: multimeter/uni-t-ut61c/
-    Image: /website/hardware/multimeter/uni-t-ut61c/img/Uni-t_ut61c_mugshot.png
+    Image: /website/hardware/multimeter/uni-t-ut61c/img/Uni-t_ut61c_mugshot.jpg
     Digits: ''
   - Vendor: UNI-T
     Model: UT61D
@@ -1599,7 +1599,7 @@ categories:
     Model: DVM4100
     Status: supported
     Page: multimeter/velleman-dvm4100/
-    Image: /website/hardware/multimeter/velleman-dvm4100/img/DVM4100.png
+    Image: /website/hardware/multimeter/velleman-dvm4100/img/DVM4100.jpg
     Digits: ''
   - Vendor: Victor
     Model: 70C
@@ -1611,7 +1611,7 @@ categories:
     Model: 86C
     Status: supported
     Page: multimeter/victor-86c/
-    Image: /website/hardware/multimeter/victor-86c/img/Victor_86c_device_front.png
+    Image: /website/hardware/multimeter/victor-86c/img/Victor_86c_device_front.jpg
     Digits: ''
   - Vendor: Voltcraft
     Model: M-3650CR
@@ -1623,7 +1623,7 @@ categories:
     Model: M-3650D
     Status: supported
     Page: multimeter/voltcraft-m-3650d/
-    Image: /website/hardware/multimeter/voltcraft-m-3650d/img/Voltcraft_M-3650D_transparent.png
+    Image: /website/hardware/multimeter/voltcraft-m-3650d/img/Voltcraft_M-3650D_transparent.jpg
     Digits: ''
   - Vendor: Voltcraft
     Model: M-3850D
@@ -1635,19 +1635,19 @@ categories:
     Model: M-3890DT
     Status: planned
     Page: multimeter/voltcraft-m-3890dt/
-    Image: /website/hardware/multimeter/voltcraft-m-3890dt/img/Voltcraft_m3890dt_usb.png
+    Image: /website/hardware/multimeter/voltcraft-m-3890dt/img/Voltcraft_m3890dt_usb.jpg
     Digits: ''
   - Vendor: Voltcraft
     Model: M-4650CR
     Status: supported
     Page: multimeter/voltcraft-m-4650cr/
-    Image: /website/hardware/multimeter/voltcraft-m-4650cr/img/Voltcraft_m4650cr.png
+    Image: /website/hardware/multimeter/voltcraft-m-4650cr/img/Voltcraft_m4650cr.jpg
     Digits: ''
   - Vendor: Voltcraft
     Model: M-4660A
     Status: planned
     Page: multimeter/voltcraft-m-4660a/
-    Image: /website/hardware/multimeter/voltcraft-m-4660a/img/Voltcraft_m4660a_device_front.png
+    Image: /website/hardware/multimeter/voltcraft-m-4660a/img/Voltcraft_m4660a_device_front.jpg
     Digits: ''
   - Vendor: Voltcraft
     Model: ME-42
@@ -1677,7 +1677,7 @@ categories:
     Model: VC-870
     Status: supported
     Page: multimeter/voltcraft-vc-870/
-    Image: /website/hardware/multimeter/voltcraft-vc-870/img/Voltcraft_vc870_mugshot.png
+    Image: /website/hardware/multimeter/voltcraft-vc-870/img/Voltcraft_vc870_mugshot.jpg
     Digits: ''
   - Vendor: Voltcraft
     Model: VC-890
@@ -1695,7 +1695,7 @@ categories:
     Model: VC-940
     Status: supported
     Page: multimeter/voltcraft-vc-940/
-    Image: /website/hardware/multimeter/voltcraft-vc-940/img/Voltcraft_vc940.png
+    Image: /website/hardware/multimeter/voltcraft-vc-940/img/Voltcraft_vc940.jpg
     Digits: ''
   - Vendor: Voltcraft
     Model: VC-950
@@ -1721,17 +1721,17 @@ categories:
     Model: usbrelay
     Status: supported
     Page: multiplexer/dcttech-usbrelay/
-    Image: /website/hardware/multiplexer/dcttech-usbrelay/img/Dcttech-usbrelay2-top.png
+    Image: /website/hardware/multiplexer/dcttech-usbrelay/img/Dcttech-usbrelay2-top.jpg
   - Vendor: Devantech
     Model: ETH008
     Status: supported
     Page: multiplexer/devantech-eth008/
-    Image: /website/hardware/multiplexer/devantech-eth008/img/Devantech-eth008b-mugshot.png
+    Image: /website/hardware/multiplexer/devantech-eth008/img/Devantech-eth008b-mugshot.jpg
   - Vendor: Gembird
     Model: silvershield
     Status: planned
     Page: multiplexer/gembird-silvershield/
-    Image: /website/hardware/multiplexer/gembird-silvershield/img/Gembird-silvershield-controller-top.png
+    Image: /website/hardware/multiplexer/gembird-silvershield/img/Gembird-silvershield-controller-top.jpg
   - Vendor: HP
     Model: 59306A
     Status: supported
@@ -1754,7 +1754,7 @@ categories:
     Model: DSO1000 series
     Status: supported
     Page: oscilloscope/agilent-dso1000-series/
-    Image: /website/hardware/oscilloscope/agilent-dso1000-series/img/Agilent_DSO1014A.png
+    Image: /website/hardware/oscilloscope/agilent-dso1000-series/img/Agilent_DSO1014A.jpg
     Channels: 2-4 (depending on model)
     Bandwidth: ''
   - Vendor: DreamSourceLab DScope
@@ -1795,14 +1795,14 @@ categories:
     Model: Instek GDS-800 series
     Status: supported
     Page: oscilloscope/gw-instek-gds-800-series/
-    Image: /website/hardware/oscilloscope/gw-instek-gds-800-series/img/Voltcraft_dso-6060c_mugshot.png
+    Image: /website/hardware/oscilloscope/gw-instek-gds-800-series/img/Voltcraft_dso-6060c_mugshot.jpg
     Channels: '2'
     Bandwidth: ''
   - Vendor: Hameg HMO compact
     Model: series
     Status: supported
     Page: oscilloscope/hameg-hmo-compact-series/
-    Image: /website/hardware/oscilloscope/hameg-hmo-compact-series/img/Hameg_HMO2024.png
+    Image: /website/hardware/oscilloscope/hameg-hmo-compact-series/img/Hameg_HMO2024.jpg
     Channels: 2-4 analog, 8 digital
     Bandwidth: ''
   - Vendor: Hantek
@@ -1961,35 +1961,35 @@ categories:
     Model: '5203'
     Status: unknown
     Page: oscilloscope/pico-technology-picoscope-5203/
-    Image: /website/hardware/oscilloscope/pico-technology-picoscope-5203/img/Picoscope_5203.png
+    Image: /website/hardware/oscilloscope/pico-technology-picoscope-5203/img/Picoscope_5203.jpg
     Channels: ''
     Bandwidth: ''
   - Vendor: Rigol
     Model: DS1000E series
     Status: supported
     Page: oscilloscope/rigol-ds1000e-series/
-    Image: /website/hardware/oscilloscope/rigol-ds1000e-series/img/Rigol_DS1052E.png
+    Image: /website/hardware/oscilloscope/rigol-ds1000e-series/img/Rigol_DS1052E.jpg
     Channels: 2 analog (all models), 16 digital (D models only)
     Bandwidth: ''
   - Vendor: Rigol
     Model: DS1000Z series
     Status: supported
     Page: oscilloscope/rigol-ds1000z-series/
-    Image: /website/hardware/oscilloscope/rigol-ds1000z-series/img/Rigol_DS1074Z_front.png
+    Image: /website/hardware/oscilloscope/rigol-ds1000z-series/img/Rigol_DS1074Z_front.jpg
     Channels: '4'
     Bandwidth: ''
   - Vendor: Rigol
     Model: DS2000 series
     Status: supported
     Page: oscilloscope/rigol-ds2000-series/
-    Image: /website/hardware/oscilloscope/rigol-ds2000-series/img/Rigol-ds2072_mugshot.png
+    Image: /website/hardware/oscilloscope/rigol-ds2000-series/img/Rigol-ds2072_mugshot.jpg
     Channels: '2'
     Bandwidth: ''
   - Vendor: Rigol
     Model: VS5000 series
     Status: unknown
     Page: oscilloscope/rigol-vs5000-series/
-    Image: /website/hardware/oscilloscope/rigol-vs5000-series/img/Rigol_VS5202D.png
+    Image: /website/hardware/oscilloscope/rigol-vs5000-series/img/Rigol_VS5202D.jpg
     Channels: ''
     Bandwidth: ''
   - Vendor: Rocktech
@@ -2023,14 +2023,14 @@ categories:
     Model: TDS2000B series
     Status: in progress
     Page: oscilloscope/tektronix-tds2000b-series/
-    Image: /website/hardware/oscilloscope/tektronix-tds2000b-series/img/Tektronix_tds2024b_mugshot.png
+    Image: /website/hardware/oscilloscope/tektronix-tds2000b-series/img/Tektronix_tds2024b_mugshot.jpg
     Channels: 2-4 (depending on model)
     Bandwidth: ''
   - Vendor: UNI-T
     Model: UTD2042C
     Status: unknown
     Page: oscilloscope/uni-t-utd2042c/
-    Image: /website/hardware/oscilloscope/uni-t-utd2042c/img/UNI-T_UTD2042C_back.png
+    Image: /website/hardware/oscilloscope/uni-t-utd2042c/img/UNI-T_UTD2042C_back.jpg
     Channels: ''
     Bandwidth: ''
   - Vendor: Velleman
@@ -2080,12 +2080,12 @@ categories:
     Model: PPS3203T-3S
     Status: supported
     Page: power-supply/atten-pps3203t-3s/
-    Image: /website/hardware/power-supply/atten-pps3203t-3s/img/Atten_PPS3203T-3S.png
+    Image: /website/hardware/power-supply/atten-pps3203t-3s/img/Atten_PPS3203T-3S.jpg
   - Vendor: Chroma
     Model: '61604'
     Status: supported
     Page: power-supply/chroma-61604/
-    Image: /website/hardware/power-supply/chroma-61604/img/Chroma_61604_front_wide_format.png
+    Image: /website/hardware/power-supply/chroma-61604/img/Chroma_61604_front_wide_format.jpg
   - Vendor: Conrad
     Model: DIGI 35 CPU
     Status: supported
@@ -2114,12 +2114,12 @@ categories:
     Model: Fluke/Philips PM2800 series
     Status: supported
     Page: power-supply/fluke-philips-pm2800-series/
-    Image: /website/hardware/power-supply/fluke-philips-pm2800-series/img/Philips_PM2813.png
+    Image: /website/hardware/power-supply/fluke-philips-pm2800-series/img/Philips_PM2813.jpg
   - Vendor: GW Instek GPD
     Model: series
     Status: supported
     Page: power-supply/gw-instek-gpd-series/
-    Image: /website/hardware/power-supply/gw-instek-gpd-series/img/Gwinstek-gpd-3303s.png
+    Image: /website/hardware/power-supply/gw-instek-gpd-series/img/Gwinstek-gpd-3303s.jpg
   - Vendor: Hanmatek
     Model: HM305P
     Status: in progress
@@ -2139,17 +2139,17 @@ categories:
     Model: series
     Status: supported
     Page: power-supply/korad-kaxxxxp-series/
-    Image: /website/hardware/power-supply/korad-kaxxxxp-series/img/Velleman_ps3005d_mugshot.png
+    Image: /website/hardware/power-supply/korad-kaxxxxp-series/img/Velleman_ps3005d_mugshot.jpg
   - Vendor: Manson
     Model: HCS-3xxx series
     Status: supported
     Page: power-supply/manson-hcs-3xxx-series/
-    Image: /website/hardware/power-supply/manson-hcs-3xxx-series/img/Manson_hcs3202.png
+    Image: /website/hardware/power-supply/manson-hcs-3xxx-series/img/Manson_hcs3202.jpg
   - Vendor: Motech
     Model: LPS-301
     Status: supported
     Page: power-supply/motech-lps-301/
-    Image: /website/hardware/power-supply/motech-lps-301/img/Motech_LPS-301_1.png
+    Image: /website/hardware/power-supply/motech-lps-301/img/Motech_LPS-301_1.jpg
   - Vendor: Owon
     Model: P4000 series
     Status: supported
@@ -2159,17 +2159,17 @@ categories:
     Model: series
     Status: supported
     Page: power-supply/rdtech-dps-series/
-    Image: /website/hardware/power-supply/rdtech-dps-series/img/Rdtech-dps.png
+    Image: /website/hardware/power-supply/rdtech-dps-series/img/Rdtech-dps.jpg
   - Vendor: RDTech RD
     Model: series
     Status: supported
     Page: power-supply/rdtech-rd-series/
-    Image: /website/hardware/power-supply/rdtech-rd-series/img/RD6006_frontpanel.png
+    Image: /website/hardware/power-supply/rdtech-rd-series/img/RD6006_frontpanel.jpg
   - Vendor: Rigol
     Model: DP800 series
     Status: supported
     Page: power-supply/rigol-dp800-series/
-    Image: /website/hardware/power-supply/rigol-dp800-series/img/Rigol_DP832_back.png
+    Image: /website/hardware/power-supply/rigol-dp800-series/img/Rigol_DP832_back.jpg
   - Vendor: RockSeed
     Model: RS310P
     Status: in progress
@@ -2179,12 +2179,12 @@ categories:
     Model: Rohde&amp;Schwarz HMC 8043
     Status: supported
     Page: power-supply/rohde-schwarz-hmc-8043/
-    Image: /website/hardware/power-supply/rohde-schwarz-hmc-8043/img/Rs_hmc8043_mugshot.png
+    Image: /website/hardware/power-supply/rohde-schwarz-hmc-8043/img/Rs_hmc8043_mugshot.jpg
   - Vendor: Unknown
     Model: Rohde&amp;Schwarz HMP 4000 series
     Status: supported
     Page: power-supply/rohde-schwarz-hmp-4000-series/
-    Image: /website/hardware/power-supply/rohde-schwarz-hmp-4000-series/img/Rs_hmp4040_front.png
+    Image: /website/hardware/power-supply/rohde-schwarz-hmp-4000-series/img/Rs_hmp4040_front.jpg
   - Vendor: Siglent
     Model: SPD3303 series
     Status: in progress
@@ -2206,7 +2206,7 @@ categories:
     Model: series
     Status: supported
     Page: scale/kern-scale-series/
-    Image: /website/hardware/scale/kern-scale-series/img/Kern_ew-6200-2nm_mugshot.png
+    Image: /website/hardware/scale/kern-scale-series/img/Kern_ew-6200-2nm_mugshot.jpg
 - id: sound-level-meter
   title: Sound Level Meter
   columns:
@@ -2238,17 +2238,17 @@ categories:
     Model: KC-330B
     Status: supported
     Page: sound-level-meter/kecheng-kc-330b/
-    Image: /website/hardware/sound-level-meter/kecheng-kc-330b/img/Kecheng_KC-330B.png
+    Image: /website/hardware/sound-level-meter/kecheng-kc-330b/img/Kecheng_KC-330B.jpg
   - Vendor: PCE
     Model: PCE-322A
     Status: supported
     Page: sound-level-meter/pce-pce-322a/
-    Image: /website/hardware/sound-level-meter/pce-pce-322a/img/PCE-322A.png
+    Image: /website/hardware/sound-level-meter/pce-pce-322a/img/PCE-322A.jpg
   - Vendor: Tondaj
     Model: SL-814
     Status: supported
     Page: sound-level-meter/tondaj-sl-814/
-    Image: /website/hardware/sound-level-meter/tondaj-sl-814/img/Tondaj_sl-814.png
+    Image: /website/hardware/sound-level-meter/tondaj-sl-814/img/Tondaj_sl-814.jpg
 - id: spectrum-analyzer
   title: Spectrum Analyzer
   columns:
@@ -2290,7 +2290,7 @@ categories:
     Model: RC-3
     Status: unknown
     Page: thermometer/elitech-rc-3/
-    Image: /website/hardware/thermometer/elitech-rc-3/img/Elitech_rc3.png
+    Image: /website/hardware/thermometer/elitech-rc-3/img/Elitech_rc3.jpg
   - Vendor: Escort
     Model: '19'
     Status: planned
@@ -2300,7 +2300,7 @@ categories:
     Model: EL-USB-2
     Status: unknown
     Page: thermometer/lascar-electronics-el-usb-2/
-    Image: /website/hardware/thermometer/lascar-electronics-el-usb-2/img/EL-USB-2.png
+    Image: /website/hardware/thermometer/lascar-electronics-el-usb-2/img/EL-USB-2.jpg
   - Vendor: MASTECH
     Model: MS6514
     Status: supported
@@ -2360,7 +2360,7 @@ categories:
     Model: DL-140TH
     Status: unknown
     Page: thermometer/voltcraft-dl-140th/
-    Image: /website/hardware/thermometer/voltcraft-dl-140th/img/Voltcraft_dl-140th.png
+    Image: /website/hardware/thermometer/voltcraft-dl-140th/img/Voltcraft_dl-140th.jpg
   - Vendor: Voltcraft
     Model: DL-160S
     Status: planned
@@ -2370,7 +2370,7 @@ categories:
     Model: DL-161S
     Status: planned
     Page: thermometer/voltcraft-dl-161s/
-    Image: /website/hardware/thermometer/voltcraft-dl-161s/img/Voltcraft_DL-161S.png
+    Image: /website/hardware/thermometer/voltcraft-dl-161s/img/Voltcraft_DL-161S.jpg
   - Vendor: Voltcraft
     Model: K204
     Status: unknown
