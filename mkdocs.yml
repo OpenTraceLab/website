@@ -101,9 +101,6 @@ markdown_extensions:
 plugins:
   - search
   - macros
-  - mike:
-      alias_type: copy         # nice default, keeps old versions intact
-      version_selector: true   # show selector in header if theme supports it
   - glightbox:
       auto_caption: true       # automatically create captions for images
       touch_navigation: true   # enable touch navigation for images
@@ -120,8 +117,6 @@ validation:
     not_found: ignore
 
 extra:
-  version:
-    provider: mike             # tell Material to use mike's versions
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/OpenTraceLab

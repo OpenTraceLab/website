@@ -1,0 +1,547 @@
+1) Go through events one by one and fix them
+
+Run if [[ $GITHUB_REF == refs/tags/v* ]]; then
+INFO    -  [macros] - Found local Python module 'main' in: /home/runner/work/website/website
+INFO    -  [macros] - Found external Python module 'main' in: /home/runner/work/website/website
+INFO    -  [macros] - Functions found: define_env,on_pre_page_macros,on_post_page_macros,on_post_build
+INFO    -  [macros] - Config variables: ['extra', 'config', 'environment', 'plugin', 'git', 'version', 'social', 'macros', 'filters', 'filters_builtin']
+INFO    -  [macros] - Config macros: ['context', 'macros_info', 'now', 'fix_url', 'load_yaml', 'hardware_tables']
+INFO    -  [macros] - Config filters: ['pretty', 'relative_url']
+INFO    -  Cleaning site directory
+INFO    -  Building documentation to directory: /home/runner/work/website/website/site
+WARNING -  A reference to 'api/opentracecapture-c/index.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to '../api/opentraceview/index.html' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to '../api/opentracedecode/index.html' is included in the 'nav' configuration, which is not found in the documentation files.
+INFO    -  Doc file 'api/opentracecapture-cxx/index.md' contains an unrecognized relative link 'Classes/index_classes/', it was left as is.
+INFO    -  Doc file 'api/opentracecapture-cxx/index.md' contains an unrecognized relative link 'Namespaces/index_namespaces/', it was left as is.
+INFO    -  Doc file 'api/opentracecapture-cxx/index.md' contains an unrecognized relative link 'Files/index_files/', it was left as is.
+INFO    -  Doc file 'api/opentracecapture-cxx/index.md' contains an unrecognized relative link 'Modules/index_groups/', it was left as is.
+INFO    -  Doc file 'community/contributing.md' contains an unrecognized relative link '../../api/', it was left as is.
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../daq/ni-usb-6008/', it was left as is. Did you mean 'daq/ni-usb-6008/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../datalogger/gsg-indoor-air-monitor/', it was left as is. Did you mean 'datalogger/gsg-indoor-air-monitor/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../datalogger/lascar-electronics-el-usb-co/', it was left as is. Did you mean 'datalogger/lascar-electronics-el-usb-co/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../datalogger/maul-studio-i/', it was left as is. Did you mean 'datalogger/maul-studio-i/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../datalogger/testo-435-4/', it was left as is. Did you mean 'datalogger/testo-435-4/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../datalogger/voltcraft-co-20/', it was left as is. Did you mean 'datalogger/voltcraft-co-20/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../digital-load/arachnid-labs-reload-pro/', it was left as is. Did you mean 'digital-load/arachnid-labs-reload-pro/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../digital-load/atorch-dl24mp-150w-purple/', it was left as is. Did you mean 'digital-load/atorch-dl24mp-150w-purple/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../digital-load/itech-it8500-series/', it was left as is. Did you mean 'digital-load/itech-it8500-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../digital-load/maynuo-m9812/', it was left as is. Did you mean 'digital-load/maynuo-m9812/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../digital-load/zketech-ebd-usb/', it was left as is. Did you mean 'digital-load/zketech-ebd-usb/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../energy-meter/atorch-j7-c/', it was left as is. Did you mean 'energy-meter/atorch-j7-c/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../energy-meter/baylibre-acme/', it was left as is. Did you mean 'energy-meter/baylibre-acme/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../energy-meter/edf-teleinfo/', it was left as is. Did you mean 'energy-meter/edf-teleinfo/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../energy-meter/rdtech-tc66c/', it was left as is. Did you mean 'energy-meter/rdtech-tc66c/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../energy-meter/rdtech-um-series/', it was left as is. Did you mean 'energy-meter/rdtech-um-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../frequency-counter/hp-5350b/', it was left as is. Did you mean 'frequency-counter/hp-5350b/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../function-generator/agilent-33120a/', it was left as is. Did you mean 'function-generator/agilent-33120a/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../function-generator/atten-atz9711/', it was left as is. Did you mean 'function-generator/atten-atz9711/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../function-generator/bg7tbl/', it was left as is. Did you mean 'function-generator/bg7tbl/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../function-generator/hantek-dds-3x25/', it was left as is. Did you mean 'function-generator/hantek-dds-3x25/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../function-generator/hp-3325a/', it was left as is. Did you mean 'function-generator/hp-3325a/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../function-generator/joy-it-jds6600/', it was left as is. Did you mean 'function-generator/joy-it-jds6600/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../function-generator/mhinstek-mhs-5200a/', it was left as is. Did you mean 'function-generator/mhinstek-mhs-5200a/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../function-generator/mhinstek-udb1xxxs/', it was left as is. Did you mean 'function-generator/mhinstek-udb1xxxs/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../function-generator/rigol-dg1000z-series/', it was left as is. Did you mean 'function-generator/rigol-dg1000z-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../function-generator/rigol-dg800-series/', it was left as is. Did you mean 'function-generator/rigol-dg800-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../function-generator/rigol-dg900-series/', it was left as is. Did you mean 'function-generator/rigol-dg900-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../function-generator/siglent-sdg1010/', it was left as is. Did you mean 'function-generator/siglent-sdg1010/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../function-generator/siglent-sdl10x0/', it was left as is. Did you mean 'function-generator/siglent-sdl10x0/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../function-generator/velleman-pcg10/', it was left as is. Did you mean 'function-generator/velleman-pcg10/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../gpib-interface/agilent-82357a/', it was left as is. Did you mean 'gpib-interface/agilent-82357a/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../gpib-interface/ar488/', it was left as is. Did you mean 'gpib-interface/ar488/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../gpib-interface/beiming-s82357/', it was left as is. Did you mean 'gpib-interface/beiming-s82357/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../gpib-interface/galvant-gpibusb/', it was left as is. Did you mean 'gpib-interface/galvant-gpibusb/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../gpib-interface/gpib-usb-82357b-clone/', it was left as is. Did you mean 'gpib-interface/gpib-usb-82357b-clone/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../gpib-interface/ics-488-usb/', it was left as is. Did you mean 'gpib-interface/ics-488-usb/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../gpib-interface/national-instruments-gpib-enet/', it was left as is. Did you mean 'gpib-interface/national-instruments-gpib-enet/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../gpib-interface/national-instruments-gpib-usb-hs/', it was left as is. Did you mean 'gpib-interface/national-instruments-gpib-usb-hs/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../gpib-interface/prologix-gpib-usb/', it was left as is. Did you mean 'gpib-interface/prologix-gpib-usb/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../hygrometer/silabs-si7005usb-dongle/', it was left as is. Did you mean 'hygrometer/silabs-si7005usb-dongle/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../lcr-meter/der-ee-de-5000/', it was left as is. Did you mean 'lcr-meter/der-ee-de-5000/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../lcr-meter/mastech-ms5308/', it was left as is. Did you mean 'lcr-meter/mastech-ms5308/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../lcr-meter/peaktech-2165/', it was left as is. Did you mean 'lcr-meter/peaktech-2165/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../lcr-meter/peaktech-2170/', it was left as is. Did you mean 'lcr-meter/peaktech-2170/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../lcr-meter/uni-t-ut612/', it was left as is. Did you mean 'lcr-meter/uni-t-ut612/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../lcr-meter/voltcraft-4080/', it was left as is. Did you mean 'lcr-meter/voltcraft-4080/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../light-meter/lutron-yk-2005lx/', it was left as is. Did you mean 'light-meter/lutron-yk-2005lx/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../light-meter/mastech-ms6252b/', it was left as is. Did you mean 'light-meter/mastech-ms6252b/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/128axc-based-usbee-ax-pro-clone/', it was left as is. Did you mean 'logic-analyzer/128axc-based-usbee-ax-pro-clone/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/acute-pkla-1216/', it was left as is. Did you mean 'logic-analyzer/acute-pkla-1216/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/arduino/', it was left as is. Did you mean 'logic-analyzer/arduino/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/armfly-mini-logic/', it was left as is. Did you mean 'logic-analyzer/armfly-mini-logic/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/asix-omega/', it was left as is. Did you mean 'logic-analyzer/asix-omega/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/asix-sigma/', it was left as is. Did you mean 'logic-analyzer/asix-sigma/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/az-delivery-logic-analyzer/', it was left as is. Did you mean 'logic-analyzer/az-delivery-logic-analyzer/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/beaglelogic/', it was left as is. Did you mean 'logic-analyzer/beaglelogic/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/braintechnology-usb-interface-v2x/', it was left as is. Did you mean 'logic-analyzer/braintechnology-usb-interface-v2x/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/braintechnology-usb-lps/', it was left as is. Did you mean 'logic-analyzer/braintechnology-usb-lps/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/chronovu-la16/', it was left as is. Did you mean 'logic-analyzer/chronovu-la16/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/chronovu-la8/', it was left as is. Did you mean 'logic-analyzer/chronovu-la8/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/codethink-interrogizer/', it was left as is. Did you mean 'logic-analyzer/codethink-interrogizer/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/cola/', it was left as is. Did you mean 'logic-analyzer/cola/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/cwav-usbee-sx/', it was left as is. Did you mean 'logic-analyzer/cwav-usbee-sx/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/dangerous-prototypes-buspirate/', it was left as is. Did you mean 'logic-analyzer/dangerous-prototypes-buspirate/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/dangerous-prototypes-usb-ir-toy/', it was left as is. Did you mean 'logic-analyzer/dangerous-prototypes-usb-ir-toy/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/dreamsourcelab-dslogic/', it was left as is. Did you mean 'logic-analyzer/dreamsourcelab-dslogic/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/dreamsourcelab-dslogic-basic/', it was left as is. Did you mean 'logic-analyzer/dreamsourcelab-dslogic-basic/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/dreamsourcelab-dslogic-plus/', it was left as is. Did you mean 'logic-analyzer/dreamsourcelab-dslogic-plus/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/dreamsourcelab-dslogic-pro/', it was left as is. Did you mean 'logic-analyzer/dreamsourcelab-dslogic-pro/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/dreamsourcelab-dslogic-u3pro16/', it was left as is. Did you mean 'logic-analyzer/dreamsourcelab-dslogic-u3pro16/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/ee-electronics-esla100/', it was left as is. Did you mean 'logic-analyzer/ee-electronics-esla100/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/ftdi-la/', it was left as is. Did you mean 'logic-analyzer/ftdi-la/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/grand-idea-studio-jtagulator/', it was left as is. Did you mean 'logic-analyzer/grand-idea-studio-jtagulator/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/greatfet-one/', it was left as is. Did you mean 'logic-analyzer/greatfet-one/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/hantek-4032l/', it was left as is. Did you mean 'logic-analyzer/hantek-4032l/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/hantek-6022bl/', it was left as is. Did you mean 'logic-analyzer/hantek-6022bl/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/hobby-components-hctest0006/', it was left as is. Did you mean 'logic-analyzer/hobby-components-hctest0006/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/hsa-logic/', it was left as is. Did you mean 'logic-analyzer/hsa-logic/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/ideofy-la-08/', it was left as is. Did you mean 'logic-analyzer/ideofy-la-08/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/ikalogic-scanalogic-2/', it was left as is. Did you mean 'logic-analyzer/ikalogic-scanalogic-2/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/ikalogic-scanaplus/', it was left as is. Did you mean 'logic-analyzer/ikalogic-scanaplus/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/intronix-logicport-la1034/', it was left as is. Did you mean 'logic-analyzer/intronix-logicport-la1034/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/kingst-kqs3506-la16100/', it was left as is. Did you mean 'logic-analyzer/kingst-kqs3506-la16100/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/kingst-la2016/', it was left as is. Did you mean 'logic-analyzer/kingst-la2016/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/kingst-la5016/', it was left as is. Did you mean 'logic-analyzer/kingst-la5016/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/kingst-la5032/', it was left as is. Did you mean 'logic-analyzer/kingst-la5032/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/lcsoft-mini-board/', it was left as is. Did you mean 'logic-analyzer/lcsoft-mini-board/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/lecroy-logicstudio/', it was left as is. Did you mean 'logic-analyzer/lecroy-logicstudio/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/link-instruments-la-5580/', it was left as is. Did you mean 'logic-analyzer/link-instruments-la-5580/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/logic-shrimp/', it was left as is. Did you mean 'logic-analyzer/logic-shrimp/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/mcu123-saleae-logic-clone/', it was left as is. Did you mean 'logic-analyzer/mcu123-saleae-logic-clone/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/mcu123-usbee-ax-pro-clone/', it was left as is. Did you mean 'logic-analyzer/mcu123-usbee-ax-pro-clone/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/mcupro-logic16-clone/', it was left as is. Did you mean 'logic-analyzer/mcupro-logic16-clone/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/meilhaus-logian-16l/', it was left as is. Did you mean 'logic-analyzer/meilhaus-logian-16l/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/microchip-pickit2/', it was left as is. Did you mean 'logic-analyzer/microchip-pickit2/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/minila/', it was left as is. Did you mean 'logic-analyzer/minila/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/minila-mockup/', it was left as is. Did you mean 'logic-analyzer/minila-mockup/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/noname-la16/', it was left as is. Did you mean 'logic-analyzer/noname-la16/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/noname-saleae-logic-clone/', it was left as is. Did you mean 'logic-analyzer/noname-saleae-logic-clone/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/noname-xl-logic16-100m/', it was left as is. Did you mean 'logic-analyzer/noname-xl-logic16-100m/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/openbench-logic-sniffer/', it was left as is. Did you mean 'logic-analyzer/openbench-logic-sniffer/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/prist-akip-9101/', it was left as is. Did you mean 'logic-analyzer/prist-akip-9101/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/robomotic-buglogic-3/', it was left as is. Did you mean 'logic-analyzer/robomotic-buglogic-3/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/robomotic-minilogic/', it was left as is. Did you mean 'logic-analyzer/robomotic-minilogic/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/rockylogic-ant18e/', it was left as is. Did you mean 'logic-analyzer/rockylogic-ant18e/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/rockylogic-ant8/', it was left as is. Did you mean 'logic-analyzer/rockylogic-ant8/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/saanlima-pipistrello-ols/', it was left as is. Did you mean 'logic-analyzer/saanlima-pipistrello-ols/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/saleae-logic/', it was left as is. Did you mean 'logic-analyzer/saleae-logic/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/saleae-logic16/', it was left as is. Did you mean 'logic-analyzer/saleae-logic16/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/sump-compatibles/', it was left as is. Did you mean 'logic-analyzer/sump-compatibles/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/sysclk-lwla1016/', it was left as is. Did you mean 'logic-analyzer/sysclk-lwla1016/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/sysclk-lwla1034/', it was left as is. Did you mean 'logic-analyzer/sysclk-lwla1034/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/sysclk-lwla2034/', it was left as is. Did you mean 'logic-analyzer/sysclk-lwla2034/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/sysclk-sla5032/', it was left as is. Did you mean 'logic-analyzer/sysclk-sla5032/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/techtools-digiview-dv1-100/', it was left as is. Did you mean 'logic-analyzer/techtools-digiview-dv1-100/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/tektronix-tla520x/', it was left as is. Did you mean 'logic-analyzer/tektronix-tla520x/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/vktech-saleae-clone/', it was left as is. Did you mean 'logic-analyzer/vktech-saleae-clone/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/wayengineer-saleae16/', it was left as is. Did you mean 'logic-analyzer/wayengineer-saleae16/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/xmos-xtag-2/', it was left as is. Did you mean 'logic-analyzer/xmos-xtag-2/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/zeroplus-lap-16128u/', it was left as is. Did you mean 'logic-analyzer/zeroplus-lap-16128u/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/zeroplus-logic-cube-lap-c16032/', it was left as is. Did you mean 'logic-analyzer/zeroplus-logic-cube-lap-c16032/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/zeroplus-logic-cube-lap-c322000/', it was left as is. Did you mean 'logic-analyzer/zeroplus-logic-cube-lap-c322000/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../logic-analyzer/zlg-la1032/', it was left as is. Did you mean 'logic-analyzer/zlg-la1032/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/agilent-mso7104a/', it was left as is. Did you mean 'mixed-signal-devices/agilent-mso7104a/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/armfly-ax-pro/', it was left as is. Did you mean 'mixed-signal-devices/armfly-ax-pro/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/bitscope-bs10/', it was left as is. Did you mean 'mixed-signal-devices/bitscope-bs10/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/digilent-analog-discovery/', it was left as is. Did you mean 'mixed-signal-devices/digilent-analog-discovery/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/ee-electronics-esla201a/', it was left as is. Did you mean 'mixed-signal-devices/ee-electronics-esla201a/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/hantek-1008c/', it was left as is. Did you mean 'mixed-signal-devices/hantek-1008c/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/hantek-dso3254a/', it was left as is. Did you mean 'mixed-signal-devices/hantek-dso3254a/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/ht-usbee-axpro/', it was left as is. Did you mean 'mixed-signal-devices/ht-usbee-axpro/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/ht-usbee-dxpro/', it was left as is. Did you mean 'mixed-signal-devices/ht-usbee-dxpro/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/labnation-smartscope/', it was left as is. Did you mean 'mixed-signal-devices/labnation-smartscope/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/lecroy-oscilloscope-series/', it was left as is. Did you mean 'mixed-signal-devices/lecroy-oscilloscope-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/link-instruments-mso-19/', it was left as is. Did you mean 'mixed-signal-devices/link-instruments-mso-19/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/meilhaus-mephisto-scope1/', it was left as is. Did you mean 'mixed-signal-devices/meilhaus-mephisto-scope1/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/noname-lht00su1/', it was left as is. Did you mean 'mixed-signal-devices/noname-lht00su1/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/pico-technology-picoscope-3205d-mso/', it was left as is. Did you mean 'mixed-signal-devices/pico-technology-picoscope-3205d-mso/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/polabs-poscope-basic2/', it was left as is. Did you mean 'mixed-signal-devices/polabs-poscope-basic2/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/quantasylum-qa100/', it was left as is. Did you mean 'mixed-signal-devices/quantasylum-qa100/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/rigol-ds1000d-series/', it was left as is. Did you mean 'mixed-signal-devices/rigol-ds1000d-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/rigol-ds4000-series/', it was left as is. Did you mean 'mixed-signal-devices/rigol-ds4000-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/rigol-mso5000-series/', it was left as is. Did you mean 'mixed-signal-devices/rigol-mso5000-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/rigol-vs5000d-series/', it was left as is. Did you mean 'mixed-signal-devices/rigol-vs5000d-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/rohde-schwarz-hmo-3000-series/', it was left as is. Did you mean 'mixed-signal-devices/rohde-schwarz-hmo-3000-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/rohde-schwarz-rt-series/', it was left as is. Did you mean 'mixed-signal-devices/rohde-schwarz-rt-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/saleae-logic-pro-16/', it was left as is. Did you mean 'mixed-signal-devices/saleae-logic-pro-16/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/saleae-logic-pro-8/', it was left as is. Did you mean 'mixed-signal-devices/saleae-logic-pro-8/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/saleae-logic8/', it was left as is. Did you mean 'mixed-signal-devices/saleae-logic8/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/siglent-sds1000x-series/', it was left as is. Did you mean 'mixed-signal-devices/siglent-sds1000x-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/siglent-sds2000x-series/', it was left as is. Did you mean 'mixed-signal-devices/siglent-sds2000x-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/sysclk-ax-pro/', it was left as is. Did you mean 'mixed-signal-devices/sysclk-ax-pro/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/xzl-studio-ax/', it was left as is. Did you mean 'mixed-signal-devices/xzl-studio-ax/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/xzl-studio-dx/', it was left as is. Did you mean 'mixed-signal-devices/xzl-studio-dx/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../mixed-signal-devices/yokogawa-dlm2000-series/', it was left as is. Did you mean 'mixed-signal-devices/yokogawa-dlm2000-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/agilent-34401a/', it was left as is. Did you mean 'multimeter/agilent-34401a/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/agilent-34405a/', it was left as is. Did you mean 'multimeter/agilent-34405a/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/agilent-u12xxx-series/', it was left as is. Did you mean 'multimeter/agilent-u12xxx-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/appa-107/', it was left as is. Did you mean 'multimeter/appa-107/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/appa-multimeters/', it was left as is. Did you mean 'multimeter/appa-multimeters/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/bbc-goertz-metrawatt-m2110/', it was left as is. Did you mean 'multimeter/bbc-goertz-metrawatt-m2110/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/benning-mm-12/', it was left as is. Did you mean 'multimeter/benning-mm-12/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/brymen-bm257/', it was left as is. Did you mean 'multimeter/brymen-bm257/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/brymen-bm257s/', it was left as is. Did you mean 'multimeter/brymen-bm257s/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/brymen-bm525s/', it was left as is. Did you mean 'multimeter/brymen-bm525s/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/brymen-bm829s/', it was left as is. Did you mean 'multimeter/brymen-bm829s/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/brymen-bm857/', it was left as is. Did you mean 'multimeter/brymen-bm857/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/brymen-bm859s/', it was left as is. Did you mean 'multimeter/brymen-bm859s/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/brymen-bm869/', it was left as is. Did you mean 'multimeter/brymen-bm869/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/cem-dt-987bt/', it was left as is. Did you mean 'multimeter/cem-dt-987bt/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/digitek-dt4000zc/', it was left as is. Did you mean 'multimeter/digitek-dt4000zc/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/digitek-dt8000/', it was left as is. Did you mean 'multimeter/digitek-dt8000/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/digitek-dt80000/', it was left as is. Did you mean 'multimeter/digitek-dt80000/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/eevblog-121gw/', it was left as is. Did you mean 'multimeter/eevblog-121gw/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/escort-179/', it was left as is. Did you mean 'multimeter/escort-179/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/fluke-187-189/', it was left as is. Did you mean 'multimeter/fluke-187-189/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/fluke-287-289/', it was left as is. Did you mean 'multimeter/fluke-287-289/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/fluke-45/', it was left as is. Did you mean 'multimeter/fluke-45/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/gossen-metrawatt-metrahit-14a/', it was left as is. Did you mean 'multimeter/gossen-metrawatt-metrahit-14a/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/gossen-metrawatt-metrahit-16i/', it was left as is. Did you mean 'multimeter/gossen-metrawatt-metrahit-16i/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/gossen-metrawatt-metrahit-18s/', it was left as is. Did you mean 'multimeter/gossen-metrawatt-metrahit-18s/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/gossen-metrawatt-metrahit-25s/', it was left as is. Did you mean 'multimeter/gossen-metrawatt-metrahit-25s/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/gossen-metrawatt-metrahit-28c/', it was left as is. Did you mean 'multimeter/gossen-metrawatt-metrahit-28c/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/gossen-metrawatt-metrahit-28s/', it was left as is. Did you mean 'multimeter/gossen-metrawatt-metrahit-28s/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/gossen-metrawatt-metrahit-29s/', it was left as is. Did you mean 'multimeter/gossen-metrawatt-metrahit-29s/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/gossen-metrawatt-metrahit-30m/', it was left as is. Did you mean 'multimeter/gossen-metrawatt-metrahit-30m/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/gossen-metrawatt-metrahit-x-tra/', it was left as is. Did you mean 'multimeter/gossen-metrawatt-metrahit-x-tra/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/gossen-metrawatt-t-com-kmm2002/', it was left as is. Did you mean 'multimeter/gossen-metrawatt-t-com-kmm2002/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/gw-instek-gdm-397/', it was left as is. Did you mean 'multimeter/gw-instek-gdm-397/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/gw-instek-gdm-8251a/', it was left as is. Did you mean 'multimeter/gw-instek-gdm-8251a/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/gw-instek-gdm-8255a/', it was left as is. Did you mean 'multimeter/gw-instek-gdm-8255a/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/gw-instek-gdm-9060/', it was left as is. Did you mean 'multimeter/gw-instek-gdm-9060/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/gw-instek-gdm-9061/', it was left as is. Did you mean 'multimeter/gw-instek-gdm-9061/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/hp-3457a/', it was left as is. Did you mean 'multimeter/hp-3457a/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/hp-3478a/', it was left as is. Did you mean 'multimeter/hp-3478a/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/ht-instruments-ht410/', it was left as is. Did you mean 'multimeter/ht-instruments-ht410/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/hyelec-ms8236/', it was left as is. Did you mean 'multimeter/hyelec-ms8236/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/iso-tech-idm103n/', it was left as is. Did you mean 'multimeter/iso-tech-idm103n/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/keysight-34465a/', it was left as is. Did you mean 'multimeter/keysight-34465a/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/mastech-m9803r/', it was left as is. Did you mean 'multimeter/mastech-m9803r/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/mastech-mas345/', it was left as is. Did you mean 'multimeter/mastech-mas345/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/mastech-ms2115b/', it was left as is. Did you mean 'multimeter/mastech-ms2115b/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/mastech-ms8250b/', it was left as is. Did you mean 'multimeter/mastech-ms8250b/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/mastech-ms8250d/', it was left as is. Did you mean 'multimeter/mastech-ms8250d/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/meterman-38xr/', it was left as is. Did you mean 'multimeter/meterman-38xr/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/metex-m-3850m/', it was left as is. Did you mean 'multimeter/metex-m-3850m/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/metex-m-4650cr/', it was left as is. Did you mean 'multimeter/metex-m-4650cr/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/metex-me-21/', it was left as is. Did you mean 'multimeter/metex-me-21/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/metex-me-31/', it was left as is. Did you mean 'multimeter/metex-me-31/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/metrix-mx53/', it was left as is. Did you mean 'multimeter/metrix-mx53/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/metrix-mx56c/', it was left as is. Did you mean 'multimeter/metrix-mx56c/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/mooshim-engineering-mooshimeter/', it was left as is. Did you mean 'multimeter/mooshim-engineering-mooshimeter/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/norma-dm950/', it was left as is. Did you mean 'multimeter/norma-dm950/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/owon-xdm2041/', it was left as is. Did you mean 'multimeter/owon-xdm2041/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/pce-pce-dm32/', it was left as is. Did you mean 'multimeter/pce-pce-dm32/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/peaktech-3330/', it was left as is. Did you mean 'multimeter/peaktech-3330/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/peaktech-3410/', it was left as is. Did you mean 'multimeter/peaktech-3410/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/peaktech-3415/', it was left as is. Did you mean 'multimeter/peaktech-3415/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/peaktech-3442/', it was left as is. Did you mean 'multimeter/peaktech-3442/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/peaktech-4370/', it was left as is. Did you mean 'multimeter/peaktech-4370/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/peaktech-4380/', it was left as is. Did you mean 'multimeter/peaktech-4380/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/peaktech-4390/', it was left as is. Did you mean 'multimeter/peaktech-4390/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/peaktech-4390a/', it was left as is. Did you mean 'multimeter/peaktech-4390a/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/protek-6500/', it was left as is. Did you mean 'multimeter/protek-6500/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/radioshack-22-168/', it was left as is. Did you mean 'multimeter/radioshack-22-168/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/radioshack-22-805/', it was left as is. Did you mean 'multimeter/radioshack-22-805/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/radioshack-22-812/', it was left as is. Did you mean 'multimeter/radioshack-22-812/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/rigol-dm3068/', it was left as is. Did you mean 'multimeter/rigol-dm3068/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/rs-pro-s2/', it was left as is. Did you mean 'multimeter/rs-pro-s2/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/siemens-b1026/', it was left as is. Did you mean 'multimeter/siemens-b1026/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/siemens-b1105/', it was left as is. Did you mean 'multimeter/siemens-b1105/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/siglent-sdm3055/', it was left as is. Did you mean 'multimeter/siglent-sdm3055/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/sparkfun-70c/', it was left as is. Did you mean 'multimeter/sparkfun-70c/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/tecpel-dmm-8061/', it was left as is. Did you mean 'multimeter/tecpel-dmm-8061/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/tekpower-tp4000zc/', it was left as is. Did you mean 'multimeter/tekpower-tp4000zc/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/tenma-72-1016/', it was left as is. Did you mean 'multimeter/tenma-72-1016/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/tenma-72-7730/', it was left as is. Did you mean 'multimeter/tenma-72-7730/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/tenma-72-7732/', it was left as is. Did you mean 'multimeter/tenma-72-7732/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/tenma-72-7745/', it was left as is. Did you mean 'multimeter/tenma-72-7745/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/tenma-72-7750/', it was left as is. Did you mean 'multimeter/tenma-72-7750/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/tenma-72-9380a/', it was left as is. Did you mean 'multimeter/tenma-72-9380a/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/uni-t-ut181a/', it was left as is. Did you mean 'multimeter/uni-t-ut181a/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/uni-t-ut60e/', it was left as is. Did you mean 'multimeter/uni-t-ut60e/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/uni-t-ut61b/', it was left as is. Did you mean 'multimeter/uni-t-ut61b/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/uni-t-ut61c/', it was left as is. Did you mean 'multimeter/uni-t-ut61c/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/uni-t-ut61d/', it was left as is. Did you mean 'multimeter/uni-t-ut61d/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/uni-t-ut61e/', it was left as is. Did you mean 'multimeter/uni-t-ut61e/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/uni-t-ut71c/', it was left as is. Did you mean 'multimeter/uni-t-ut71c/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/uni-t-ut81b/', it was left as is. Did you mean 'multimeter/uni-t-ut81b/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/v-a-va18b/', it was left as is. Did you mean 'multimeter/v-a-va18b/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/v-a-va40b/', it was left as is. Did you mean 'multimeter/v-a-va40b/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/velleman-dvm4100/', it was left as is. Did you mean 'multimeter/velleman-dvm4100/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/victor-70c/', it was left as is. Did you mean 'multimeter/victor-70c/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/victor-86c/', it was left as is. Did you mean 'multimeter/victor-86c/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/voltcraft-m-3650cr/', it was left as is. Did you mean 'multimeter/voltcraft-m-3650cr/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/voltcraft-m-3650d/', it was left as is. Did you mean 'multimeter/voltcraft-m-3650d/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/voltcraft-m-3850d/', it was left as is. Did you mean 'multimeter/voltcraft-m-3850d/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/voltcraft-m-3890dt/', it was left as is. Did you mean 'multimeter/voltcraft-m-3890dt/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/voltcraft-m-4650cr/', it was left as is. Did you mean 'multimeter/voltcraft-m-4650cr/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/voltcraft-m-4660a/', it was left as is. Did you mean 'multimeter/voltcraft-m-4660a/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/voltcraft-me-42/', it was left as is. Did you mean 'multimeter/voltcraft-me-42/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/voltcraft-vc-820/', it was left as is. Did you mean 'multimeter/voltcraft-vc-820/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/voltcraft-vc-830/', it was left as is. Did you mean 'multimeter/voltcraft-vc-830/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/voltcraft-vc-840/', it was left as is. Did you mean 'multimeter/voltcraft-vc-840/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/voltcraft-vc-870/', it was left as is. Did you mean 'multimeter/voltcraft-vc-870/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/voltcraft-vc-890/', it was left as is. Did you mean 'multimeter/voltcraft-vc-890/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/voltcraft-vc-920/', it was left as is. Did you mean 'multimeter/voltcraft-vc-920/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/voltcraft-vc-940/', it was left as is. Did you mean 'multimeter/voltcraft-vc-940/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/voltcraft-vc-950/', it was left as is. Did you mean 'multimeter/voltcraft-vc-950/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multimeter/voltcraft-vc-96/', it was left as is. Did you mean 'multimeter/voltcraft-vc-96/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multiplexer/dcttech-usbrelay/', it was left as is. Did you mean 'multiplexer/dcttech-usbrelay/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multiplexer/devantech-eth008/', it was left as is. Did you mean 'multiplexer/devantech-eth008/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multiplexer/gembird-silvershield/', it was left as is. Did you mean 'multiplexer/gembird-silvershield/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multiplexer/hp-59306a/', it was left as is. Did you mean 'multiplexer/hp-59306a/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../multiplexer/icstation-usbrelay/', it was left as is. Did you mean 'multiplexer/icstation-usbrelay/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/agilent-dso1000-series/', it was left as is. Did you mean 'oscilloscope/agilent-dso1000-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/dreamsourcelab-dscope-c20p/', it was left as is. Did you mean 'oscilloscope/dreamsourcelab-dscope-c20p/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/fluke-scopemeter-123/', it was left as is. Did you mean 'oscilloscope/fluke-scopemeter-123/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/fluke-scopemeter-199b/', it was left as is. Did you mean 'oscilloscope/fluke-scopemeter-199b/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/focussz-fosc21/', it was left as is. Did you mean 'oscilloscope/focussz-fosc21/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/gw-instek-gds-2000-series/', it was left as is. Did you mean 'oscilloscope/gw-instek-gds-2000-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/gw-instek-gds-800-series/', it was left as is. Did you mean 'oscilloscope/gw-instek-gds-800-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/hameg-hmo-compact-series/', it was left as is. Did you mean 'oscilloscope/hameg-hmo-compact-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/hantek-6022be/', it was left as is. Did you mean 'oscilloscope/hantek-6022be/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/hantek-6052be/', it was left as is. Did you mean 'oscilloscope/hantek-6052be/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/hantek-6254bd/', it was left as is. Did you mean 'oscilloscope/hantek-6254bd/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/hantek-dso-1200/', it was left as is. Did you mean 'oscilloscope/hantek-dso-1200/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/hantek-dso-2090/', it was left as is. Did you mean 'oscilloscope/hantek-dso-2090/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/hantek-dso-2100/', it was left as is. Did you mean 'oscilloscope/hantek-dso-2100/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/hantek-dso-220/', it was left as is. Did you mean 'oscilloscope/hantek-dso-220/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/hantek-dso-2250/', it was left as is. Did you mean 'oscilloscope/hantek-dso-2250/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/hantek-dso-5200a/', it was left as is. Did you mean 'oscilloscope/hantek-dso-5200a/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/hantek-idso1070/', it was left as is. Did you mean 'oscilloscope/hantek-idso1070/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/hantek-idso1070a/', it was left as is. Did you mean 'oscilloscope/hantek-idso1070a/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/hantek-pso2020/', it was left as is. Did you mean 'oscilloscope/hantek-pso2020/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/hung-chang-dso-2100/', it was left as is. Did you mean 'oscilloscope/hung-chang-dso-2100/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/incite-technology-usb-duxfast/', it was left as is. Did you mean 'oscilloscope/incite-technology-usb-duxfast/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/instrustar-isds205a/', it was left as is. Did you mean 'oscilloscope/instrustar-isds205a/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/loto-osc802/', it was left as is. Did you mean 'oscilloscope/loto-osc802/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/nexus-computing-osciprime/', it was left as is. Did you mean 'oscilloscope/nexus-computing-osciprime/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/owon-sds-series/', it was left as is. Did you mean 'oscilloscope/owon-sds-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/pico-technology-picoscope-2203/', it was left as is. Did you mean 'oscilloscope/pico-technology-picoscope-2203/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/pico-technology-picoscope-2204a/', it was left as is. Did you mean 'oscilloscope/pico-technology-picoscope-2204a/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/pico-technology-picoscope-2205/', it was left as is. Did you mean 'oscilloscope/pico-technology-picoscope-2205/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/pico-technology-picoscope-3206/', it was left as is. Did you mean 'oscilloscope/pico-technology-picoscope-3206/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/pico-technology-picoscope-5203/', it was left as is. Did you mean 'oscilloscope/pico-technology-picoscope-5203/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/rigol-ds1000e-series/', it was left as is. Did you mean 'oscilloscope/rigol-ds1000e-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/rigol-ds1000z-series/', it was left as is. Did you mean 'oscilloscope/rigol-ds1000z-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/rigol-ds2000-series/', it was left as is. Did you mean 'oscilloscope/rigol-ds2000-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/rigol-vs5000-series/', it was left as is. Did you mean 'oscilloscope/rigol-vs5000-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/rocktech-bm102/', it was left as is. Did you mean 'oscilloscope/rocktech-bm102/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/sainsmart-dds120/', it was left as is. Did you mean 'oscilloscope/sainsmart-dds120/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/sainsmart-dds140/', it was left as is. Did you mean 'oscilloscope/sainsmart-dds140/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/soundcard/', it was left as is. Did you mean 'oscilloscope/soundcard/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/tektronix-tds2000b-series/', it was left as is. Did you mean 'oscilloscope/tektronix-tds2000b-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/uni-t-utd2042c/', it was left as is. Did you mean 'oscilloscope/uni-t-utd2042c/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/velleman-pcsu1000/', it was left as is. Did you mean 'oscilloscope/velleman-pcsu1000/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/velleman-wfs210/', it was left as is. Did you mean 'oscilloscope/velleman-wfs210/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/voltcraft-dso-220/', it was left as is. Did you mean 'oscilloscope/voltcraft-dso-220/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/voltcraft-dso-3062c/', it was left as is. Did you mean 'oscilloscope/voltcraft-dso-3062c/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../oscilloscope/yixingdianzi-mdso/', it was left as is. Did you mean 'oscilloscope/yixingdianzi-mdso/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../power-supply/atten-pps3203t-3s/', it was left as is. Did you mean 'power-supply/atten-pps3203t-3s/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../power-supply/chroma-61604/', it was left as is. Did you mean 'power-supply/chroma-61604/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../power-supply/conrad-digi-35-cpu/', it was left as is. Did you mean 'power-supply/conrad-digi-35-cpu/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../power-supply/delta-elektronika-sm3300-series/', it was left as is. Did you mean 'power-supply/delta-elektronika-sm3300-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../power-supply/envox-eez-bench-box-3/', it was left as is. Did you mean 'power-supply/envox-eez-bench-box-3/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../power-supply/envox-eez-h24005/', it was left as is. Did you mean 'power-supply/envox-eez-h24005/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../power-supply/etommens-etm-xxxxp-series/', it was left as is. Did you mean 'power-supply/etommens-etm-xxxxp-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../power-supply/fluke-philips-pm2800-series/', it was left as is. Did you mean 'power-supply/fluke-philips-pm2800-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../power-supply/gw-instek-gpd-series/', it was left as is. Did you mean 'power-supply/gw-instek-gpd-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../power-supply/hanmatek-hm305p/', it was left as is. Did you mean 'power-supply/hanmatek-hm305p/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../power-supply/hp-66312a/', it was left as is. Did you mean 'power-supply/hp-66312a/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../power-supply/hp-6632b/', it was left as is. Did you mean 'power-supply/hp-6632b/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../power-supply/korad-kaxxxxp-series/', it was left as is. Did you mean 'power-supply/korad-kaxxxxp-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../power-supply/manson-hcs-3xxx-series/', it was left as is. Did you mean 'power-supply/manson-hcs-3xxx-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../power-supply/motech-lps-301/', it was left as is. Did you mean 'power-supply/motech-lps-301/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../power-supply/owon-p4000-series/', it was left as is. Did you mean 'power-supply/owon-p4000-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../power-supply/rdtech-dps-series/', it was left as is. Did you mean 'power-supply/rdtech-dps-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../power-supply/rdtech-rd-series/', it was left as is. Did you mean 'power-supply/rdtech-rd-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../power-supply/rigol-dp800-series/', it was left as is. Did you mean 'power-supply/rigol-dp800-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../power-supply/rockseed-rs310p/', it was left as is. Did you mean 'power-supply/rockseed-rs310p/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../power-supply/rohde-schwarz-hmc-8043/', it was left as is. Did you mean 'power-supply/rohde-schwarz-hmc-8043/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../power-supply/rohde-schwarz-hmp-4000-series/', it was left as is. Did you mean 'power-supply/rohde-schwarz-hmp-4000-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../power-supply/siglent-spd3303-series/', it was left as is. Did you mean 'power-supply/siglent-spd3303-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../power-supply/voltcraft-18220/', it was left as is. Did you mean 'power-supply/voltcraft-18220/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../scale/kern-scale-series/', it was left as is. Did you mean 'scale/kern-scale-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../sound-level-meter/agilent-u1732b/', it was left as is. Did you mean 'sound-level-meter/agilent-u1732b/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../sound-level-meter/bk-precision-879b/', it was left as is. Did you mean 'sound-level-meter/bk-precision-879b/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../sound-level-meter/cem-dt-8852/', it was left as is. Did you mean 'sound-level-meter/cem-dt-8852/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../sound-level-meter/colead-sl-5868p/', it was left as is. Did you mean 'sound-level-meter/colead-sl-5868p/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../sound-level-meter/kecheng-kc-330b/', it was left as is. Did you mean 'sound-level-meter/kecheng-kc-330b/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../sound-level-meter/pce-pce-322a/', it was left as is. Did you mean 'sound-level-meter/pce-pce-322a/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../sound-level-meter/tondaj-sl-814/', it was left as is. Did you mean 'sound-level-meter/tondaj-sl-814/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../spectrum-analyzer/siglent-ssa3000x-series/', it was left as is. Did you mean 'spectrum-analyzer/siglent-ssa3000x-series/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../tachometer/uni-t-ut372/', it was left as is. Did you mean 'tachometer/uni-t-ut372/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../thermometer/appa-55ii/', it was left as is. Did you mean 'thermometer/appa-55ii/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../thermometer/elitech-rc-3/', it was left as is. Did you mean 'thermometer/elitech-rc-3/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../thermometer/escort-19/', it was left as is. Did you mean 'thermometer/escort-19/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../thermometer/lascar-electronics-el-usb-2/', it was left as is. Did you mean 'thermometer/lascar-electronics-el-usb-2/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../thermometer/mastech-ms6514/', it was left as is. Did you mean 'thermometer/mastech-ms6514/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../thermometer/mic-98581/', it was left as is. Did you mean 'thermometer/mic-98581/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../thermometer/mic-98583/', it was left as is. Did you mean 'thermometer/mic-98583/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../thermometer/pax-instruments-t400/', it was left as is. Did you mean 'thermometer/pax-instruments-t400/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../thermometer/pce-pce-222/', it was left as is. Did you mean 'thermometer/pce-pce-222/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../thermometer/rding-temper/', it was left as is. Did you mean 'thermometer/rding-temper/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../thermometer/rding-temper-gold/', it was left as is. Did you mean 'thermometer/rding-temper-gold/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../thermometer/rding-temper1/', it was left as is. Did you mean 'thermometer/rding-temper1/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../thermometer/rding-temper1k2/', it was left as is. Did you mean 'thermometer/rding-temper1k2/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../thermometer/uni-t-ut325/', it was left as is. Did you mean 'thermometer/uni-t-ut325/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../thermometer/voltcraft-dl-120th/', it was left as is. Did you mean 'thermometer/voltcraft-dl-120th/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../thermometer/voltcraft-dl-140th/', it was left as is. Did you mean 'thermometer/voltcraft-dl-140th/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../thermometer/voltcraft-dl-160s/', it was left as is. Did you mean 'thermometer/voltcraft-dl-160s/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../thermometer/voltcraft-dl-161s/', it was left as is. Did you mean 'thermometer/voltcraft-dl-161s/index.md'?
+INFO    -  Doc file 'hardware/supported-hardware.md' contains an unrecognized relative link '../thermometer/voltcraft-k204/', it was left as is. Did you mean 'thermometer/voltcraft-k204/index.md'?
+INFO    -  Doc file 'hardware/digital-load/itech-it8500-series/index.md' contains an absolute link '/w/index.php?title=User:Tjko&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/function-generator/siglent-sdl10x0/index.md' contains an absolute link '/w/index.php?title=User:Spida&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/lcr-meter/mastech-ms5308/index.md' contains an absolute link '/w/index.php?title=MASTECH_MS5308/Info&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/logic-analyzer/128axc-based-usbee-ax-pro-clone/index.md' contains an absolute link '/w/index.php?title=CWAV_USBee_AX-Pro&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/logic-analyzer/armfly-mini-logic/index.md' contains an absolute link '/w/index.php?title=CWAV_USBee_AX-Pro&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/logic-analyzer/codethink-interrogizer/index.md' contains an absolute link '/w/index.php?title=Codethink_Interrogator/Info&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/logic-analyzer/dreamsourcelab-dslogic-u3pro16/index.md' contains an absolute link '/w/index.php?title=DreamSourceLab_DSLogic_U3Pro16/Info&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/logic-analyzer/kingst-la2016/index.md' contains an absolute link '/wimg/2/26/Kingst_LA2016_LA1016_Schematic.zip', it was left as is.
+INFO    -  Doc file 'hardware/logic-analyzer/kingst-la2016/index.md' contains an absolute link '/wimg/2/26/Kingst_LA2016_LA1016_Schematic.zip', it was left as is.
+INFO    -  Doc file 'hardware/logic-analyzer/mcu123-usbee-ax-pro-clone/index.md' contains an absolute link '/w/index.php?title=CWAV_USBee_AX-Pro&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/logic-analyzer/noname-saleae-logic-clone/index.md' contains an absolute link '/w/index.php?title=Noname_Saleae_Logic_clone/Info&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/logic-analyzer/techtools-digiview-dv1-100/index.md' contains an absolute link '/wimg/f/f3/Dv100pcap.zip', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/file-formats/index.md' contains an absolute link '/w/index.php?title=File_format:Analog&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/file-formats/index.md' contains an absolute link '/w/index.php?title=File_format:Ascii&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/file-formats/index.md' contains an absolute link '/w/index.php?title=File_format:Bits&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/file-formats/index.md' contains an absolute link '/w/index.php?title=File_format:Hex&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/file-formats/index.md' contains an absolute link '/w/index.php?title=File_format:Logicport&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/file-formats/index.md' contains an absolute link '/w/index.php?title=File_format:Ols&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/file-formats/index.md' contains an absolute link '/w/index.php?title=File_format:Raw_analog&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/file-formats/index.md' contains an absolute link '/w/index.php?title=File_format:Rigol_wfm&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/hardware-support/index.md' contains an absolute link '/w/index.php?title=Rohde%26Schwarz_HMO1002_series&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/hardware-support/index.md' contains an absolute link '/w/index.php?title=Rohde%26Schwarz_SME_series&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/hardware-support/index.md' contains an absolute link '/w/index.php?title=Per_Vices_Noctar&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/hardware-support/index.md' contains an absolute link '/w/index.php?title=Agilent_N5700_series&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/hardware-support/index.md' contains an absolute link '/w/index.php?title=BK_Precision_9310&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/hardware-support/index.md' contains an absolute link '/w/index.php?title=HP_661xC_series&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/hardware-support/index.md' contains an absolute link '/w/index.php?title=Rigol_DP700_series&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/page/index.md' contains an absolute link '/w/index.php?title=Rohde%26Schwarz_HMO1002_series&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/page/index.md' contains an absolute link '/w/index.php?title=Rohde%26Schwarz_SME_series&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/page/index.md' contains an absolute link '/w/index.php?title=Per_Vices_Noctar&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/page/index.md' contains an absolute link '/w/index.php?title=Agilent_N5700_series&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/page/index.md' contains an absolute link '/w/index.php?title=BK_Precision_9310&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/page/index.md' contains an absolute link '/w/index.php?title=HP_661xC_series&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/page/index.md' contains an absolute link '/w/index.php?title=Rigol_DP700_series&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Ad5626&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Ad79x0&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Ade77xx&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Adf435x&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Adxl345&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Amulet_ascii&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Atsha204a&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Avr_isp&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Can&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Cfp&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Cjtag&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Counter&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Dali&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Dmx512&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Ds1307&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Ds2408&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Ds243x&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Ds28ea00&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Dsi&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Edid&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Eeprom24xx&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Eeprom93xx&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Em4100&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Em4305&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Enc28j60&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Guess_bitrate&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Hdcp&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:I2cdemux&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:I2cfilter&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:I2s&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Ir_rc5&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Ir_rc6&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Jitter&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Jtag&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Jtag_ejtag&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Jtag_stm32&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Lfast&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Lin&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Lm75&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Ltc242x&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Ltc26x7&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Maple_bus&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Max7219&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Microwire&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Midi&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Mlx90614&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Mxc6225xu&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Nrf905&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Onewire_link&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Onewire_network&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Pca9571&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Ps2&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Rgb_led_ws281x&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Sda2506&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Sdcard_sd&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Sdcard_spi&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Seven_segment&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Sipi&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Ssi32&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:St25r39xx&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:St7735&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Swd&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Swim&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:T55xx&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Tca6408a&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Tdm_audio&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Timing&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Usb_packet&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Usb_power_delivery&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Usb_request&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Usb_signalling&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Wiegand&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:X2444m&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Xfp&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Pcf8814&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:Tmds&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=User:Mithro&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=Protocol_decoder:DDC/CI&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/protocol-decoders/index.md' contains an absolute link '/w/index.php?title=User:Chrysn&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/read/index.md' contains an absolute link '/w/index.php?title=Rohde%26Schwarz_HMO1002_series&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/read/index.md' contains an absolute link '/w/index.php?title=Rohde%26Schwarz_SME_series&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/read/index.md' contains an absolute link '/w/index.php?title=Per_Vices_Noctar&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/read/index.md' contains an absolute link '/w/index.php?title=Agilent_N5700_series&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/read/index.md' contains an absolute link '/w/index.php?title=BK_Precision_9310&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/read/index.md' contains an absolute link '/w/index.php?title=HP_661xC_series&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/misc-devices/read/index.md' contains an absolute link '/w/index.php?title=Rigol_DP700_series&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/mixed-signal-devices/armfly-ax-pro/index.md' contains an absolute link '/w/index.php?title=CWAV_USBee_AX-Pro&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/mixed-signal-devices/ee-electronics-esla201a/index.md' contains an absolute link '/w/index.php?title=CWAV_USBee_AX-Pro&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/mixed-signal-devices/ht-usbee-axpro/index.md' contains an absolute link '/w/index.php?title=CWAV_USBee_AX-Pro&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/mixed-signal-devices/ht-usbee-dxpro/index.md' contains an absolute link '/w/index.php?title=CWAV_USBee_DX&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/mixed-signal-devices/noname-lht00su1/index.md' contains an absolute link '/w/index.php?title=CWAV_USBee_AX-Pro&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/mixed-signal-devices/rohde-schwarz-hmo-3000-series/index.md' contains an absolute link '/w/index.php?title=Hameg_HO740&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/mixed-signal-devices/sysclk-ax-pro/index.md' contains an absolute link '/w/index.php?title=CWAV_USBee_AX-Pro&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/mixed-signal-devices/xzl-studio-ax/index.md' contains an absolute link '/w/index.php?title=CWAV_USBee_AX-Pro&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/mixed-signal-devices/xzl-studio-dx/index.md' contains an absolute link '/w/index.php?title=CWAV_USBee_DX&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/multimeter/gossen-metrawatt-metrahit-30m/index.md' contains an absolute link '/w/index.php?title=Gossen-Metrawatt_METRAHIT_30M/Info&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/multimeter/hyelec-ms8236/index.md' contains an absolute link '/w/index.php?title=HYELEC_MS8236/Info&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/oscilloscope/gw-instek-gds-2000-series/index.md' contains an absolute link '/w/index.php?title=User:Rsaxvc&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/oscilloscope/hameg-hmo-compact-series/index.md' contains an absolute link '/w/index.php?title=Hameg_HO740&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/oscilloscope/hantek-idso1070/index.md' contains an absolute link '/w/index.php?title=Hantek_iDSO1070/Info&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/oscilloscope/loto-osc802/index.md' contains an absolute link '/w/index.php?title=Loto_OSC802/Info&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/power-supply/hp-66312a/index.md' contains an absolute link '/w/index.php?title=HP_663xxx&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/power-supply/hp-6632b/index.md' contains an absolute link '/w/index.php?title=HP_663x&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'hardware/spectrum-analyzer/siglent-ssa3000x-series/index.md' contains an absolute link '/w/index.php?title=Siglent_SSA3000X_series/Info&action=edit&redlink=1', it was left as is.
+INFO    -  Doc file 'opentracecapture/overview.md' contains an unrecognized relative link '../../api/opentracecapture/', it was left as is.
+INFO    -  Doc file 'opentracecapture/overview.md' contains an unrecognized relative link '../../api/opentracecapture-cxx/', it was left as is. Did you mean '../api/opentracecapture-cxx/index.md'?
+INFO    -  Doc file 'opentracecapture/overview.md' contains an unrecognized relative link '../../api/opentracecapture-python/', it was left as is.
+INFO    -  Doc file 'opentracedecode/overview.md' contains an unrecognized relative link '../../api/opentracedecode/', it was left as is.
+INFO    -  Doc file 'opentracedecode/overview.md' contains an unrecognized relative link '../../api/opentracedecode/python/', it was left as is.
+INFO    -  Doc file 'hardware/energy-meter/rdtech-tc66c/index.md' contains a link '#Resources', but there is no such anchor on this page.
+INFO    -  Doc file 'hardware/multimeter/uni-t-ut81b/index.md' contains a link '#Resources', but there is no such anchor on this page.
+INFO    -  Documentation built in 10.58 seconds
+
+2) find all old python files
+
+3) Make a way forward for API docs 
+
+5) Remove the test 0.1.0 and cut a new release when above has been adressed.
+

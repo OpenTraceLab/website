@@ -38,25 +38,9 @@ jobs:
         git config user.name github-actions
         git config user.email github-actions@github.com
         
-    - name: Deploy versioned docs
+    - name: Deploy documentation
       run: |
-        if [[ $GITHUB_REF == refs/tags/v* ]]; then
-          VERSION=${GITHUB_REF#refs/tags/v}
-          mike deploy --config-file mkdocs-versioned.yml $VERSION latest --update-aliases --push
-        else
-          mike deploy --config-file mkdocs-versioned.yml dev --push
-        fi
-        
-    - name: Deploy hardware docs
-      run: |
-        mkdocs build --config-file mkdocs-hardware.yml --site-dir site-hardware
-        git checkout gh-pages
-        mkdir -p hardware
-        cp -r site-hardware/* hardware/
-        git add hardware/
-        git commit -m "Update hardware documentation" || echo "No changes to hardware docs"
-        git push origin gh-pages
-        git checkout main
+        mkdocs gh-deploy --force
         
   test:
     runs-on: ubuntu-latest
