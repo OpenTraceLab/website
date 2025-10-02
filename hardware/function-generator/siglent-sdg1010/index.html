@@ -1,0 +1,2351 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Open-source logic analysis — capture, view, and decode traces.">
+      
+      
+      
+        <link rel="canonical" href="https://opentracelab.github.io/website/hardware/function-generator/siglent-sdg1010/">
+      
+      
+      
+      
+      <link rel="icon" href="../../../assets/logo/opentracelab_icon_square.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.21">
+    
+    
+      
+        <title>Siglent SDG1010 - OpenTraceLab</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.2a3383ac.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../overrides/assets/styles/extra.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/logo-size.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/infobox.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/gallery.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/hw-table.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#siglent-sdg1010" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="OpenTraceLab" class="md-header__button md-logo" aria-label="OpenTraceLab" data-md-component="logo">
+      
+  <img src="../../../assets/logo/opentracelab_icon_square.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            OpenTraceLab
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Siglent SDG1010
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo" aria-label="Dark mode" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo" aria-label="Light mode" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/OpenTraceLab/website" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    OpenTraceLab/website
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../get-started/install/" class="md-tabs__link">
+          
+  
+  
+  Get started
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../opentracecapture/overview/" class="md-tabs__link">
+          
+  
+  
+  OpenTraceCapture
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../opentraceview/overview/" class="md-tabs__link">
+          
+  
+  
+  OpenTraceView
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../opentracedecode/overview/" class="md-tabs__link">
+          
+  
+  
+  OpenTraceDecode
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../opentracebroadcaster/overview/" class="md-tabs__link">
+          
+  
+  
+  OpenTraceBroadcaster
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../supported-hardware/" class="md-tabs__link">
+          
+  
+  
+  Hardware
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../community/contributing/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../about/mission/" class="md-tabs__link">
+          
+  
+  
+  About
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../legal/license/" class="md-tabs__link">
+          
+  
+  
+  Legal
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="OpenTraceLab" class="md-nav__button md-logo" aria-label="OpenTraceLab" data-md-component="logo">
+      
+  <img src="../../../assets/logo/opentracelab_icon_square.svg" alt="logo">
+
+    </a>
+    OpenTraceLab
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/OpenTraceLab/website" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    OpenTraceLab/website
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2">
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Get started
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Get started
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../get-started/install/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Install
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../get-started/capture-first-trace/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Capture your first trace
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../get-started/faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3">
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    OpenTraceCapture
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            OpenTraceCapture
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../opentracecapture/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../opentracecapture/driver-api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Driver API
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../api/opentracecapture-c/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    C API
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../api/opentracecapture-cxx/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    C++ API
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4">
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    OpenTraceView
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            OpenTraceView
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../opentraceview/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../opentraceview/architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Architecture
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../api/opentraceview/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    API
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5">
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    OpenTraceDecode
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            OpenTraceDecode
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../opentracedecode/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../opentracedecode/decoder-howto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Decoder HOWTO
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../opentracedecode/decoder-api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Decoder API
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../api/opentracedecode/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    API
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6">
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    OpenTraceBroadcaster
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            OpenTraceBroadcaster
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../opentracebroadcaster/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7">
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Hardware
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Hardware
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../supported-hardware/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Supported Devices
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8">
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../community/contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../community/code-of-conduct/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Code of Conduct
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../community/governance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Governance
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../community/testing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Testing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9">
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    About
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            About
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/mission/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mission
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/roadmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Roadmap
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10">
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Legal
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Legal
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../legal/license/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    License
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../legal/attribution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Attribution
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#siglent-sdg1010_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Siglent SDG1010
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hardware" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hardware
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#photos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Photos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Photos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#device" class="md-nav__link">
+    <span class="md-ellipsis">
+      Device
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#teardown" class="md-nav__link">
+    <span class="md-ellipsis">
+      Teardown
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#digital-parts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Digital parts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analog-parts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Analog parts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#display-frontpanel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Display / frontpanel
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#power-supply" class="md-nav__link">
+    <span class="md-ellipsis">
+      Power supply
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#protocol" class="md-nav__link">
+    <span class="md-ellipsis">
+      Protocol
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+  
+                  
+
+
+  
+    <a href="https://github.com/OpenTraceLab/website/edit/main/docs/hardware/function-generator/siglent-sdg1010/index.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75z"></path></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/OpenTraceLab/website/raw/main/docs/hardware/function-generator/siglent-sdg1010/index.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5 5 5 0 0 1 5-5 5 5 0 0 1 5 5 5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"></path></svg>
+    </a>
+  
+
+
+<h1 id="siglent-sdg1010">Siglent SDG1010<a class="headerlink" href="#siglent-sdg1010" title="Permanent link">¶</a></h1>
+<div class="infobox">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="img/Siglent_sdg1010_analog_ad_ocmp_ti_13eep3k_5166isz.jpg" data-title="Siglent SDG1010" data-desc-position="bottom"><img alt="Siglent SDG1010" class="infobox-image" src="img/Siglent_sdg1010_analog_ad_ocmp_ti_13eep3k_5166isz.jpg"></a></p>
+<h3 id="siglent-sdg1010_1">Siglent SDG1010<a class="headerlink" href="#siglent-sdg1010_1" title="Permanent link">¶</a></h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Status</strong></td>
+<td>planned</td>
+</tr>
+<tr>
+<td><strong>Frequency (sine)</strong></td>
+<td>10MHz</td>
+</tr>
+<tr>
+<td><strong>Frequency (square)</strong></td>
+<td>10MHz</td>
+</tr>
+<tr>
+<td><strong>Frequency (other)</strong></td>
+<td>5MHz (pulse), 300KHz (ramp)</td>
+</tr>
+<tr>
+<td><strong>Frequency (user)</strong></td>
+<td>5MHz</td>
+</tr>
+<tr>
+<td><strong>Waveforms</strong></td>
+<td>sine, square, pulse, ramp, noise, user</td>
+</tr>
+<tr>
+<td><strong>Waveform memory</strong></td>
+<td>16000 points</td>
+</tr>
+<tr>
+<td><strong>Modulation</strong></td>
+<td>AM, FM, PM, DSB-AM, FSK, ASK, PWM</td>
+</tr>
+<tr>
+<td><strong>Connectivity</strong></td>
+<td>USBTMC</td>
+</tr>
+<tr>
+<td><strong>Website</strong></td>
+<td><a href="http://siglent.com/en/product/detail3.aspx?id=100000001526838&amp;nodecode=119008003">siglent.com</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>The Siglent SDG1010 is a 10MHz function generator with USB connectivity.</p>
+<p>See <a href="https://sigrok.org/wiki/Siglent_SDG1010/Info">Siglent SDG1010/Info</a> for more details (such as <strong>lsusb -vvv</strong> output) about the device.</p>
+<h2 id="hardware">Hardware<a class="headerlink" href="#hardware" title="Permanent link">¶</a></h2>
+<p><strong>Digital</strong>:</p>
+<ul>
+<li><strong>...</strong>: XILINX SPARTAN-6 XC6SLX9 (marking: "XILINX SPARTAN-6 XC6SLX9 FTG256BIV1201 D4339091A 2C TAIWAN")</li>
+<li><strong>...</strong>: ISP13628D (marking: "ISP13628D 78535 8W D78132F")</li>
+<li><strong>...</strong>: Lattice MachXO LCMXO640C (marking: "Lattice MachXO LCMXO640C 3TN144C A211CC25")</li>
+<li><strong>...</strong>: Analog Devices ADSP-BF531 (markings: "Analog Devices ADSP-BF531 SBSTZ400 2310414.1 0.6 #1208 Blackfin")</li>
+<li><strong>...</strong>: Advanced Monolithic Systems AMS1117 (marking: "AMS1117 1125")</li>
+<li><strong>...</strong>: Hynix H57V1262GTR (marking: "Hynix H57V1262GTR-75C 209S N8FT1265Q2")</li>
+<li><strong>...</strong>: Spansion S29GL064N90TFIO4 (markings: "Spansion S29GL064N90TFIO4 124FF491 H (C)06 SPANSION")</li>
+<li>and lots more...</li>
+</ul>
+<p><strong>Analog</strong>:</p>
+<ul>
+<li><strong>14 bit, 165Msps digital to analog converter</strong>: <a href="http://web.archive.org/web/20000418160235/http://www.burr-brown.com/cgi-bin/WebObjects/BurrBrown.woa/wa/displayProductFolder?productName=DAC904">Burr-Brown DAC904E</a> (marking: "BB DAC904E 03C9JNK"), (<a href="http://www.datasheetcatalog.com/datasheets_pdf/D/A/C/9/DAC904.shtml">datasheet</a>)
+Burr-Brown was acquired by Texas Instruments in 2000. New TI URLs: <a href="http://www.ti.com/product/dac904">DAC904 product page</a>, <a href="http://www.ti.com/lit/gpn/dac904">TI datasheet</a>.</li>
+<li><strong>16 bit, high speed, low noise, voltage output, digital to analog converter </strong>: <a href="http://www.ti.com/product/dac8580">Texas Instruments DAC8580</a> (marking: "D8580I 09T A97S"), (<a href="http://www.ti.com/lit/gpn/dac8580">datasheet</a>)</li>
+<li><strong>Fixed 49.9 ohm impedance output</strong>. The real output voltage of the device is not necessarily the same as the indicated output voltage of the device because there is a 50 ohm resistor in series with the output. This is done so that the user can have adequate transmission line termination on a 50 ohm coaxial cable, as well as being a rudimentary short circuit protection mechanism. You can set in software the impedance of the load you are driving so that the displayed voltage settings match the voltage present in the load. In earlier firmware versions, there were High-Z and 50 ohm impedances available. In more recent firmware versions (which?) the user can select any impedance from 50 ohm to 1k ohm and high-Z. Note that this only affect the displayed value. The internal output impedance is still 50 ohms, and there is still a voltage drop across that resistor, a voltage drop.
+<div class="highlight"><pre><span></span><code>Ch1 can output up to 20V peak to peak (it goes from -10V to +10V), Ch2 can only go up to 6V pk-pk. Both have the fixed 49.9 ohm impedance, but because of the higher voltage output, Ch1 uses an array of 4 resistors, as seen on the images below. 
+</code></pre></div></li>
+</ul>
+<p><strong>Display/frontpanel</strong>:</p>
+<ul>
+<li>...</li>
+</ul>
+<p><strong>Power supply</strong>:</p>
+<ul>
+<li>...</li>
+</ul>
+<h2 id="photos">Photos<a class="headerlink" href="#photos" title="Permanent link">¶</a></h2>
+<div class="photo-grid">
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_ad_ocmp_ti_13eep3k_5166isz.jpg" title="Siglent Sdg1010 Analog Ad Ocmp Ti 13eep3k 5166isz"><img alt="Siglent Sdg1010 Analog Ad Ocmp Ti 13eep3k 5166isz" src="img/Siglent_sdg1010_analog_ad_ocmp_ti_13eep3k_5166isz.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog Ad Ocmp Ti 13eep3k 5166isz</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_backpanel_pcb.jpg" title="Siglent Sdg1010 Backpanel Pcb"><img alt="Siglent Sdg1010 Backpanel Pcb" src="img/Siglent_sdg1010_backpanel_pcb.jpg"></a>
+<span class="caption">Siglent Sdg1010 Backpanel Pcb</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_ft_b3g4a_5z.jpg" title="Siglent Sdg1010 Analog Ft B3g4a 5z"><img alt="Siglent Sdg1010 Analog Ft B3g4a 5z" src="img/Siglent_sdg1010_analog_ft_b3g4a_5z.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog Ft B3g4a 5z</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_cpld_conn_fpgarun.jpg" title="Siglent Sdg1010 Cpld Conn Fpgarun"><img alt="Siglent Sdg1010 Cpld Conn Fpgarun" src="img/Siglent_sdg1010_cpld_conn_fpgarun.jpg"></a>
+<span class="caption">Siglent Sdg1010 Cpld Conn Fpgarun</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_pcb_bottom.jpg" title="Siglent Sdg1010 Pcb Bottom"><img alt="Siglent Sdg1010 Pcb Bottom" src="img/Siglent_sdg1010_pcb_bottom.jpg"></a>
+<span class="caption">Siglent Sdg1010 Pcb Bottom</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_5166isz_3.jpg" title="Siglent Sdg1010 Analog 5166isz 3"><img alt="Siglent Sdg1010 Analog 5166isz 3" src="img/Siglent_sdg1010_analog_5166isz_3.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog 5166isz 3</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_screenshot.jpg" title="Siglent Sdg1010 Screenshot"><img alt="Siglent Sdg1010 Screenshot" src="img/Siglent_sdg1010_screenshot.jpg"></a>
+<span class="caption">Siglent Sdg1010 Screenshot</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_pcb_topright.jpg" title="Siglent Sdg1010 Analog Pcb Topright"><img alt="Siglent Sdg1010 Analog Pcb Topright" src="img/Siglent_sdg1010_analog_pcb_topright.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog Pcb Topright</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_powersupply_ti_tl431ac.jpg" title="Siglent Sdg1010 Powersupply Ti Tl431ac"><img alt="Siglent Sdg1010 Powersupply Ti Tl431ac" src="img/Siglent_sdg1010_powersupply_ti_tl431ac.jpg"></a>
+<span class="caption">Siglent Sdg1010 Powersupply Ti Tl431ac</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_display_frontpanel_top.jpg" title="Siglent Sdg1010 Display Frontpanel Top"><img alt="Siglent Sdg1010 Display Frontpanel Top" src="img/Siglent_sdg1010_display_frontpanel_top.jpg"></a>
+<span class="caption">Siglent Sdg1010 Display Frontpanel Top</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_ao4405.jpg" title="Siglent Sdg1010 Ao4405"><img alt="Siglent Sdg1010 Ao4405" src="img/Siglent_sdg1010_ao4405.jpg"></a>
+<span class="caption">Siglent Sdg1010 Ao4405</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_mic2941a.jpg" title="Siglent Sdg1010 Analog Mic2941a"><img alt="Siglent Sdg1010 Analog Mic2941a" src="img/Siglent_sdg1010_analog_mic2941a.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog Mic2941a</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_ti_16z.jpg" title="Siglent Sdg1010 Analog Ti 16z"><img alt="Siglent Sdg1010 Analog Ti 16z" src="img/Siglent_sdg1010_analog_ti_16z.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog Ti 16z</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_bnc.jpg" title="Siglent Sdg1010 Analog Bnc"><img alt="Siglent Sdg1010 Analog Bnc" src="img/Siglent_sdg1010_analog_bnc.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog Bnc</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_ti_ha04.jpg" title="Siglent Sdg1010 Ti Ha04"><img alt="Siglent Sdg1010 Ti Ha04" src="img/Siglent_sdg1010_ti_ha04.jpg"></a>
+<span class="caption">Siglent Sdg1010 Ti Ha04</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_device_powersupply_removed.jpg" title="Siglent Sdg1010 Device Powersupply Removed"><img alt="Siglent Sdg1010 Device Powersupply Removed" src="img/Siglent_sdg1010_device_powersupply_removed.jpg"></a>
+<span class="caption">Siglent Sdg1010 Device Powersupply Removed</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_device_backpanel_removed.jpg" title="Siglent Sdg1010 Device Backpanel Removed"><img alt="Siglent Sdg1010 Device Backpanel Removed" src="img/Siglent_sdg1010_device_backpanel_removed.jpg"></a>
+<span class="caption">Siglent Sdg1010 Device Backpanel Removed</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_device_open_bottom.jpg" title="Siglent Sdg1010 Device Open Bottom"><img alt="Siglent Sdg1010 Device Open Bottom" src="img/Siglent_sdg1010_device_open_bottom.jpg"></a>
+<span class="caption">Siglent Sdg1010 Device Open Bottom</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_display_frontpanel_keys.jpg" title="Siglent Sdg1010 Display Frontpanel Keys"><img alt="Siglent Sdg1010 Display Frontpanel Keys" src="img/Siglent_sdg1010_display_frontpanel_keys.jpg"></a>
+<span class="caption">Siglent Sdg1010 Display Frontpanel Keys</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_pcb_topleft.jpg" title="Siglent Sdg1010 Analog Pcb Topleft"><img alt="Siglent Sdg1010 Analog Pcb Topleft" src="img/Siglent_sdg1010_analog_pcb_topleft.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog Pcb Topleft</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_beeper.jpg" title="Siglent Sdg1010 Beeper"><img alt="Siglent Sdg1010 Beeper" src="img/Siglent_sdg1010_beeper.jpg"></a>
+<span class="caption">Siglent Sdg1010 Beeper</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_version_info.jpg" title="Siglent Sdg1010 Version Info"><img alt="Siglent Sdg1010 Version Info" src="img/Siglent_sdg1010_version_info.jpg"></a>
+<span class="caption">Siglent Sdg1010 Version Info</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_ti_lc244a.jpg" title="Siglent Sdg1010 Ti Lc244a"><img alt="Siglent Sdg1010 Ti Lc244a" src="img/Siglent_sdg1010_ti_lc244a.jpg"></a>
+<span class="caption">Siglent Sdg1010 Ti Lc244a</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_display_frontpanel_bottom.jpg" title="Siglent Sdg1010 Display Frontpanel Bottom"><img alt="Siglent Sdg1010 Display Frontpanel Bottom" src="img/Siglent_sdg1010_display_frontpanel_bottom.jpg"></a>
+<span class="caption">Siglent Sdg1010 Display Frontpanel Bottom</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_spansion_s29gl064n90tfio4.jpg" title="Siglent Sdg1010 Spansion S29gl064n90tfio4"><img alt="Siglent Sdg1010 Spansion S29gl064n90tfio4" src="img/Siglent_sdg1010_spansion_s29gl064n90tfio4.jpg"></a>
+<span class="caption">Siglent Sdg1010 Spansion S29gl064n90tfio4</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_device_backplastic_removed.jpg" title="Siglent Sdg1010 Device Backplastic Removed"><img alt="Siglent Sdg1010 Device Backplastic Removed" src="img/Siglent_sdg1010_device_backplastic_removed.jpg"></a>
+<span class="caption">Siglent Sdg1010 Device Backplastic Removed</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_ti_d85801.jpg" title="Siglent Sdg1010 Analog Ti D85801"><img alt="Siglent Sdg1010 Analog Ti D85801" src="img/Siglent_sdg1010_analog_ti_d85801.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog Ti D85801</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_i_28210_2.jpg" title="Siglent Sdg1010 Analog I 28210 2"><img alt="Siglent Sdg1010 Analog I 28210 2" src="img/Siglent_sdg1010_analog_i_28210_2.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog I 28210 2</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_on_7905ct.jpg" title="Siglent Sdg1010 Analog On 7905ct"><img alt="Siglent Sdg1010 Analog On 7905ct" src="img/Siglent_sdg1010_analog_on_7905ct.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog On 7905ct</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_device_open_top.jpg" title="Siglent Sdg1010 Device Open Top"><img alt="Siglent Sdg1010 Device Open Top" src="img/Siglent_sdg1010_device_open_top.jpg"></a>
+<span class="caption">Siglent Sdg1010 Device Open Top</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_fpga_jtag.jpg" title="Siglent Sdg1010 Fpga Jtag"><img alt="Siglent Sdg1010 Fpga Jtag" src="img/Siglent_sdg1010_fpga_jtag.jpg"></a>
+<span class="caption">Siglent Sdg1010 Fpga Jtag</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_dsp_jtag_uart.jpg" title="Siglent Sdg1010 Dsp Jtag Uart"><img alt="Siglent Sdg1010 Dsp Jtag Uart" src="img/Siglent_sdg1010_dsp_jtag_uart.jpg"></a>
+<span class="caption">Siglent Sdg1010 Dsp Jtag Uart</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_ti_tl072c_i_28210.jpg" title="Siglent Sdg1010 Analog Ti Tl072c I 28210"><img alt="Siglent Sdg1010 Analog Ti Tl072c I 28210" src="img/Siglent_sdg1010_analog_ti_tl072c_i_28210.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog Ti Tl072c I 28210</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_cosmo_y214s.jpg" title="Siglent Sdg1010 Analog Cosmo Y214s"><img alt="Siglent Sdg1010 Analog Cosmo Y214s" src="img/Siglent_sdg1010_analog_cosmo_y214s.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog Cosmo Y214s</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_package_contents.jpg" title="Siglent Sdg1010 Package Contents"><img alt="Siglent Sdg1010 Package Contents" src="img/Siglent_sdg1010_package_contents.jpg"></a>
+<span class="caption">Siglent Sdg1010 Package Contents</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_5166isz_5.jpg" title="Siglent Sdg1010 Analog 5166isz 5"><img alt="Siglent Sdg1010 Analog 5166isz 5" src="img/Siglent_sdg1010_analog_5166isz_5.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog 5166isz 5</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_pcb_version.jpg" title="Siglent Sdg1010 Pcb Version"><img alt="Siglent Sdg1010 Pcb Version" src="img/Siglent_sdg1010_pcb_version.jpg"></a>
+<span class="caption">Siglent Sdg1010 Pcb Version</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_backpanel_top.jpg" title="Siglent Sdg1010 Backpanel Top"><img alt="Siglent Sdg1010 Backpanel Top" src="img/Siglent_sdg1010_backpanel_top.jpg"></a>
+<span class="caption">Siglent Sdg1010 Backpanel Top</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_crystal_shx25000.jpg" title="Siglent Sdg1010 Crystal Shx25000"><img alt="Siglent Sdg1010 Crystal Shx25000" src="img/Siglent_sdg1010_crystal_shx25000.jpg"></a>
+<span class="caption">Siglent Sdg1010 Crystal Shx25000</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_display_frontpanel_removed.jpg" title="Siglent Sdg1010 Display Frontpanel Removed"><img alt="Siglent Sdg1010 Display Frontpanel Removed" src="img/Siglent_sdg1010_display_frontpanel_removed.jpg"></a>
+<span class="caption">Siglent Sdg1010 Display Frontpanel Removed</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_display_frontpanel_usb_top.jpg" title="Siglent Sdg1010 Display Frontpanel Usb Top"><img alt="Siglent Sdg1010 Display Frontpanel Usb Top" src="img/Siglent_sdg1010_display_frontpanel_usb_top.jpg"></a>
+<span class="caption">Siglent Sdg1010 Display Frontpanel Usb Top</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_i_28210_1.jpg" title="Siglent Sdg1010 Analog I 28210 1"><img alt="Siglent Sdg1010 Analog I 28210 1" src="img/Siglent_sdg1010_analog_i_28210_1.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog I 28210 1</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_display_frontpanel_hc393.jpg" title="Siglent Sdg1010 Display Frontpanel Hc393"><img alt="Siglent Sdg1010 Display Frontpanel Hc393" src="img/Siglent_sdg1010_display_frontpanel_hc393.jpg"></a>
+<span class="caption">Siglent Sdg1010 Display Frontpanel Hc393</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_5166isz_1.jpg" title="Siglent Sdg1010 Analog 5166isz 1"><img alt="Siglent Sdg1010 Analog 5166isz 1" src="img/Siglent_sdg1010_analog_5166isz_1.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog 5166isz 1</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_powersupply_rubycon_cap1.jpg" title="Siglent Sdg1010 Powersupply Rubycon Cap1"><img alt="Siglent Sdg1010 Powersupply Rubycon Cap1" src="img/Siglent_sdg1010_powersupply_rubycon_cap1.jpg"></a>
+<span class="caption">Siglent Sdg1010 Powersupply Rubycon Cap1</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_dsprun.jpg" title="Siglent Sdg1010 Dsprun"><img alt="Siglent Sdg1010 Dsprun" src="img/Siglent_sdg1010_dsprun.jpg"></a>
+<span class="caption">Siglent Sdg1010 Dsprun</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_device_top.jpg" title="Siglent Sdg1010 Device Top"><img alt="Siglent Sdg1010 Device Top" src="img/Siglent_sdg1010_device_top.jpg"></a>
+<span class="caption">Siglent Sdg1010 Device Top</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_hynix_h57v1262gtr.jpg" title="Siglent Sdg1010 Hynix H57v1262gtr"><img alt="Siglent Sdg1010 Hynix H57v1262gtr" src="img/Siglent_sdg1010_hynix_h57v1262gtr.jpg"></a>
+<span class="caption">Siglent Sdg1010 Hynix H57v1262gtr</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_xilinx_spartan6_xc6slx9.jpg" title="Siglent Sdg1010 Xilinx Spartan6 Xc6slx9"><img alt="Siglent Sdg1010 Xilinx Spartan6 Xc6slx9" src="img/Siglent_sdg1010_xilinx_spartan6_xc6slx9.jpg"></a>
+<span class="caption">Siglent Sdg1010 Xilinx Spartan6 Xc6slx9</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_ti_tl072c_nxp_74hc4051d_i_28210.jpg" title="Siglent Sdg1010 Analog Ti Tl072c Nxp 74hc4051d I 28210"><img alt="Siglent Sdg1010 Analog Ti Tl072c Nxp 74hc4051d I 28210" src="img/Siglent_sdg1010_analog_ti_tl072c_nxp_74hc4051d_i_28210.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog Ti Tl072c Nxp 74hc4051d I 28210</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_powersupply_pcb_version.jpg" title="Siglent Sdg1010 Powersupply Pcb Version"><img alt="Siglent Sdg1010 Powersupply Pcb Version" src="img/Siglent_sdg1010_powersupply_pcb_version.jpg"></a>
+<span class="caption">Siglent Sdg1010 Powersupply Pcb Version</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_display_frontpanel_hc595.jpg" title="Siglent Sdg1010 Display Frontpanel Hc595"><img alt="Siglent Sdg1010 Display Frontpanel Hc595" src="img/Siglent_sdg1010_display_frontpanel_hc595.jpg"></a>
+<span class="caption">Siglent Sdg1010 Display Frontpanel Hc595</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_start_screen.jpg" title="Siglent Sdg1010 Start Screen"><img alt="Siglent Sdg1010 Start Screen" src="img/Siglent_sdg1010_start_screen.jpg"></a>
+<span class="caption">Siglent Sdg1010 Start Screen</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_powersupply_28-8003-00r.jpg" title="Siglent Sdg1010 Powersupply 28 8003 00r"><img alt="Siglent Sdg1010 Powersupply 28 8003 00r" src="img/Siglent_sdg1010_powersupply_28-8003-00r.jpg"></a>
+<span class="caption">Siglent Sdg1010 Powersupply 28 8003 00r</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_powersupply_heatsink.jpg" title="Siglent Sdg1010 Powersupply Heatsink"><img alt="Siglent Sdg1010 Powersupply Heatsink" src="img/Siglent_sdg1010_powersupply_heatsink.jpg"></a>
+<span class="caption">Siglent Sdg1010 Powersupply Heatsink</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_powersupply_powerbutton.jpg" title="Siglent Sdg1010 Powersupply Powerbutton"><img alt="Siglent Sdg1010 Powersupply Powerbutton" src="img/Siglent_sdg1010_powersupply_powerbutton.jpg"></a>
+<span class="caption">Siglent Sdg1010 Powersupply Powerbutton</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_display_back.jpg" title="Siglent Sdg1010 Display Back"><img alt="Siglent Sdg1010 Display Back" src="img/Siglent_sdg1010_display_back.jpg"></a>
+<span class="caption">Siglent Sdg1010 Display Back</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_powersupply_sharp_pc817.jpg" title="Siglent Sdg1010 Powersupply Sharp Pc817"><img alt="Siglent Sdg1010 Powersupply Sharp Pc817" src="img/Siglent_sdg1010_powersupply_sharp_pc817.jpg"></a>
+<span class="caption">Siglent Sdg1010 Powersupply Sharp Pc817</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_powersupply_rubycon_cap2.jpg" title="Siglent Sdg1010 Powersupply Rubycon Cap2"><img alt="Siglent Sdg1010 Powersupply Rubycon Cap2" src="img/Siglent_sdg1010_powersupply_rubycon_cap2.jpg"></a>
+<span class="caption">Siglent Sdg1010 Powersupply Rubycon Cap2</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_i_28210_3.jpg" title="Siglent Sdg1010 Analog I 28210 3"><img alt="Siglent Sdg1010 Analog I 28210 3" src="img/Siglent_sdg1010_analog_i_28210_3.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog I 28210 3</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_backpanel_connectors.jpg" title="Siglent Sdg1010 Backpanel Connectors"><img alt="Siglent Sdg1010 Backpanel Connectors" src="img/Siglent_sdg1010_backpanel_connectors.jpg"></a>
+<span class="caption">Siglent Sdg1010 Backpanel Connectors</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_backpanel_bottom.jpg" title="Siglent Sdg1010 Backpanel Bottom"><img alt="Siglent Sdg1010 Backpanel Bottom" src="img/Siglent_sdg1010_backpanel_bottom.jpg"></a>
+<span class="caption">Siglent Sdg1010 Backpanel Bottom</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_display_frontpanel_pcb1.jpg" title="Siglent Sdg1010 Display Frontpanel Pcb1"><img alt="Siglent Sdg1010 Display Frontpanel Pcb1" src="img/Siglent_sdg1010_display_frontpanel_pcb1.jpg"></a>
+<span class="caption">Siglent Sdg1010 Display Frontpanel Pcb1</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_hc595.jpg" title="Siglent Sdg1010 Analog Hc595"><img alt="Siglent Sdg1010 Analog Hc595" src="img/Siglent_sdg1010_analog_hc595.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog Hc595</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_display_frontpanel_hc595_2.jpg" title="Siglent Sdg1010 Display Frontpanel Hc595 2"><img alt="Siglent Sdg1010 Display Frontpanel Hc595 2" src="img/Siglent_sdg1010_display_frontpanel_hc595_2.jpg"></a>
+<span class="caption">Siglent Sdg1010 Display Frontpanel Hc595 2</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_devices_adsp_bf531.jpg" title="Siglent Sdg1010 Analog Devices Adsp Bf531"><img alt="Siglent Sdg1010 Analog Devices Adsp Bf531" src="img/Siglent_sdg1010_analog_devices_adsp_bf531.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog Devices Adsp Bf531</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_pcb_bottomright.jpg" title="Siglent Sdg1010 Analog Pcb Bottomright"><img alt="Siglent Sdg1010 Analog Pcb Bottomright" src="img/Siglent_sdg1010_analog_pcb_bottomright.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog Pcb Bottomright</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_bb_dac904e.jpg" title="Siglent Sdg1010 Analog Bb Dac904e"><img alt="Siglent Sdg1010 Analog Bb Dac904e" src="img/Siglent_sdg1010_analog_bb_dac904e.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog Bb Dac904e</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_powersupply_various_chips.jpg" title="Siglent Sdg1010 Powersupply Various Chips"><img alt="Siglent Sdg1010 Powersupply Various Chips" src="img/Siglent_sdg1010_powersupply_various_chips.jpg"></a>
+<span class="caption">Siglent Sdg1010 Powersupply Various Chips</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_ti_13eep3k.jpg" title="Siglent Sdg1010 Analog Ti 13eep3k"><img alt="Siglent Sdg1010 Analog Ti 13eep3k" src="img/Siglent_sdg1010_analog_ti_13eep3k.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog Ti 13eep3k</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_display_connector.jpg" title="Siglent Sdg1010 Display Connector"><img alt="Siglent Sdg1010 Display Connector" src="img/Siglent_sdg1010_display_connector.jpg"></a>
+<span class="caption">Siglent Sdg1010 Display Connector</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_device_display_frontpanel_removed.jpg" title="Siglent Sdg1010 Device Display Frontpanel Removed"><img alt="Siglent Sdg1010 Device Display Frontpanel Removed" src="img/Siglent_sdg1010_device_display_frontpanel_removed.jpg"></a>
+<span class="caption">Siglent Sdg1010 Device Display Frontpanel Removed</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_ams1117.jpg" title="Siglent Sdg1010 Ams1117"><img alt="Siglent Sdg1010 Ams1117" src="img/Siglent_sdg1010_ams1117.jpg"></a>
+<span class="caption">Siglent Sdg1010 Ams1117</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_device_front_8116.jpg" title="Siglent Sdg1010 Device Front 8116"><img alt="Siglent Sdg1010 Device Front 8116" src="img/Siglent_sdg1010_device_front_8116.jpg"></a>
+<span class="caption">Siglent Sdg1010 Device Front 8116</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_display_frontpanel_empty.jpg" title="Siglent Sdg1010 Display Frontpanel Empty"><img alt="Siglent Sdg1010 Display Frontpanel Empty" src="img/Siglent_sdg1010_display_frontpanel_empty.jpg"></a>
+<span class="caption">Siglent Sdg1010 Display Frontpanel Empty</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_on_a34_ti_17h.jpg" title="Siglent Sdg1010 Analog On A34 Ti 17h"><img alt="Siglent Sdg1010 Analog On A34 Ti 17h" src="img/Siglent_sdg1010_analog_on_a34_ti_17h.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog On A34 Ti 17h</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_display_frontpanel_74hc4051d.jpg" title="Siglent Sdg1010 Display Frontpanel 74hc4051d"><img alt="Siglent Sdg1010 Display Frontpanel 74hc4051d" src="img/Siglent_sdg1010_display_frontpanel_74hc4051d.jpg"></a>
+<span class="caption">Siglent Sdg1010 Display Frontpanel 74hc4051d</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_lgaa.jpg" title="Siglent Sdg1010 Analog Lgaa"><img alt="Siglent Sdg1010 Analog Lgaa" src="img/Siglent_sdg1010_analog_lgaa.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog Lgaa</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_powersupply_coil.jpg" title="Siglent Sdg1010 Powersupply Coil"><img alt="Siglent Sdg1010 Powersupply Coil" src="img/Siglent_sdg1010_powersupply_coil.jpg"></a>
+<span class="caption">Siglent Sdg1010 Powersupply Coil</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_device_mainpcb_removed.jpg" title="Siglent Sdg1010 Device Mainpcb Removed"><img alt="Siglent Sdg1010 Device Mainpcb Removed" src="img/Siglent_sdg1010_device_mainpcb_removed.jpg"></a>
+<span class="caption">Siglent Sdg1010 Device Mainpcb Removed</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_display_frontpanel_usb_bottom.jpg" title="Siglent Sdg1010 Display Frontpanel Usb Bottom"><img alt="Siglent Sdg1010 Display Frontpanel Usb Bottom" src="img/Siglent_sdg1010_display_frontpanel_usb_bottom.jpg"></a>
+<span class="caption">Siglent Sdg1010 Display Frontpanel Usb Bottom</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_powersupply_nxp_tea1610t.jpg" title="Siglent Sdg1010 Powersupply Nxp Tea1610t"><img alt="Siglent Sdg1010 Powersupply Nxp Tea1610t" src="img/Siglent_sdg1010_powersupply_nxp_tea1610t.jpg"></a>
+<span class="caption">Siglent Sdg1010 Powersupply Nxp Tea1610t</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_isp13628d.jpg" title="Siglent Sdg1010 Isp13628d"><img alt="Siglent Sdg1010 Isp13628d" src="img/Siglent_sdg1010_isp13628d.jpg"></a>
+<span class="caption">Siglent Sdg1010 Isp13628d</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_ahc14.jpg" title="Siglent Sdg1010 Ahc14"><img alt="Siglent Sdg1010 Ahc14" src="img/Siglent_sdg1010_ahc14.jpg"></a>
+<span class="caption">Siglent Sdg1010 Ahc14</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_device_bottom.jpg" title="Siglent Sdg1010 Device Bottom"><img alt="Siglent Sdg1010 Device Bottom" src="img/Siglent_sdg1010_device_bottom.jpg"></a>
+<span class="caption">Siglent Sdg1010 Device Bottom</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_ti_hb125.jpg" title="Siglent Sdg1010 Ti Hb125"><img alt="Siglent Sdg1010 Ti Hb125" src="img/Siglent_sdg1010_ti_hb125.jpg"></a>
+<span class="caption">Siglent Sdg1010 Ti Hb125</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_5166isz_2.jpg" title="Siglent Sdg1010 Analog 5166isz 2"><img alt="Siglent Sdg1010 Analog 5166isz 2" src="img/Siglent_sdg1010_analog_5166isz_2.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog 5166isz 2</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_powersupply_nt1795nl.jpg" title="Siglent Sdg1010 Powersupply Nt1795nl"><img alt="Siglent Sdg1010 Powersupply Nt1795nl" src="img/Siglent_sdg1010_powersupply_nt1795nl.jpg"></a>
+<span class="caption">Siglent Sdg1010 Powersupply Nt1795nl</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_aub_1738.jpg" title="Siglent Sdg1010 Analog Aub 1738"><img alt="Siglent Sdg1010 Analog Aub 1738" src="img/Siglent_sdg1010_analog_aub_1738.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog Aub 1738</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_pcb_bottomleft.jpg" title="Siglent Sdg1010 Analog Pcb Bottomleft"><img alt="Siglent Sdg1010 Analog Pcb Bottomleft" src="img/Siglent_sdg1010_analog_pcb_bottomleft.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog Pcb Bottomleft</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_backpanel_open.jpg" title="Siglent Sdg1010 Backpanel Open"><img alt="Siglent Sdg1010 Backpanel Open" src="img/Siglent_sdg1010_backpanel_open.jpg"></a>
+<span class="caption">Siglent Sdg1010 Backpanel Open</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_lattice_machxo_lcmxo640c.jpg" title="Siglent Sdg1010 Lattice Machxo Lcmxo640c"><img alt="Siglent Sdg1010 Lattice Machxo Lcmxo640c" src="img/Siglent_sdg1010_lattice_machxo_lcmxo640c.jpg"></a>
+<span class="caption">Siglent Sdg1010 Lattice Machxo Lcmxo640c</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_5166isz_4.jpg" title="Siglent Sdg1010 Analog 5166isz 4"><img alt="Siglent Sdg1010 Analog 5166isz 4" src="img/Siglent_sdg1010_analog_5166isz_4.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog 5166isz 4</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_powersupply_pcb_bottom.jpg" title="Siglent Sdg1010 Powersupply Pcb Bottom"><img alt="Siglent Sdg1010 Powersupply Pcb Bottom" src="img/Siglent_sdg1010_powersupply_pcb_bottom.jpg"></a>
+<span class="caption">Siglent Sdg1010 Powersupply Pcb Bottom</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_powersupply_pcb_top.jpg" title="Siglent Sdg1010 Powersupply Pcb Top"><img alt="Siglent Sdg1010 Powersupply Pcb Top" src="img/Siglent_sdg1010_powersupply_pcb_top.jpg"></a>
+<span class="caption">Siglent Sdg1010 Powersupply Pcb Top</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_handle.jpg" title="Siglent Sdg1010 Handle"><img alt="Siglent Sdg1010 Handle" src="img/Siglent_sdg1010_handle.jpg"></a>
+<span class="caption">Siglent Sdg1010 Handle</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_on_7915ct.jpg" title="Siglent Sdg1010 Analog On 7915ct"><img alt="Siglent Sdg1010 Analog On 7915ct" src="img/Siglent_sdg1010_analog_on_7915ct.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog On 7915ct</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_wab_x1c.jpg" title="Siglent Sdg1010 Wab X1c"><img alt="Siglent Sdg1010 Wab X1c" src="img/Siglent_sdg1010_wab_x1c.jpg"></a>
+<span class="caption">Siglent Sdg1010 Wab X1c</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_display_frontpanel_pcb2.jpg" title="Siglent Sdg1010 Display Frontpanel Pcb2"><img alt="Siglent Sdg1010 Display Frontpanel Pcb2" src="img/Siglent_sdg1010_display_frontpanel_pcb2.jpg"></a>
+<span class="caption">Siglent Sdg1010 Display Frontpanel Pcb2</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_analog_mic29302wu.jpg" title="Siglent Sdg1010 Analog Mic29302wu"><img alt="Siglent Sdg1010 Analog Mic29302wu" src="img/Siglent_sdg1010_analog_mic29302wu.jpg"></a>
+<span class="caption">Siglent Sdg1010 Analog Mic29302wu</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_powersupply_fuse.jpg" title="Siglent Sdg1010 Powersupply Fuse"><img alt="Siglent Sdg1010 Powersupply Fuse" src="img/Siglent_sdg1010_powersupply_fuse.jpg"></a>
+<span class="caption">Siglent Sdg1010 Powersupply Fuse</span></p>
+<p><a class="glightbox" data-gallery="siglent-sdg1010" href="img/Siglent_sdg1010_pcb_top.jpg" title="Siglent Sdg1010 Pcb Top"><img alt="Siglent Sdg1010 Pcb Top" src="img/Siglent_sdg1010_pcb_top.jpg"></a>
+<span class="caption">Siglent Sdg1010 Pcb Top</span></p>
+</div>
+<h3 id="device">Device<a class="headerlink" href="#device" title="Permanent link">¶</a></h3>
+<div class="highlight"><pre><span></span><code>    - 
+        [](./img/Siglent_sdg1010_package_contents.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_device_front_8116.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_start_screen.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_screenshot.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_version_info.jpg)
+</code></pre></div>
+<h3 id="teardown">Teardown<a class="headerlink" href="#teardown" title="Permanent link">¶</a></h3>
+<div class="highlight"><pre><span></span><code>    - 
+        [](./img/Siglent_sdg1010_device_top.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_device_bottom.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_device_backplastic_removed.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_handle.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_device_open_top.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_device_open_bottom.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_device_backpanel_removed.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_backpanel_open.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_backpanel_connectors.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_backpanel_pcb.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_backpanel_top.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_backpanel_bottom.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_device_mainpcb_removed.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_device_powersupply_removed.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_device_display_frontpanel_removed.jpg)
+</code></pre></div>
+<h3 id="digital-parts">Digital parts<a class="headerlink" href="#digital-parts" title="Permanent link">¶</a></h3>
+<div class="highlight"><pre><span></span><code>    - 
+        [](./img/Siglent_sdg1010_pcb_top.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_pcb_bottom.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_devices_adsp_bf531.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_xilinx_spartan6_xc6slx9.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_lattice_machxo_lcmxo640c.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_spansion_s29gl064n90tfio4.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_hynix_h57v1262gtr.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_isp13628d.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_dsp_jtag_uart.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_fpga_jtag.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_cpld_conn_fpgarun.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_dsprun.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_ams1117.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_ahc14.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_ao4405.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_ti_ha04.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_ti_hb125.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_ti_lc244a.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_wab_x1c.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_beeper.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_crystal_shx25000.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_pcb_version.jpg)
+</code></pre></div>
+<h3 id="analog-parts">Analog parts<a class="headerlink" href="#analog-parts" title="Permanent link">¶</a></h3>
+<div class="highlight"><pre><span></span><code>    - 
+        [](./img/Siglent_sdg1010_analog_bnc.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_pcb_topleft.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_pcb_topright.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_pcb_bottomleft.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_pcb_bottomright.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_bb_dac904e.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_5166isz_1.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_5166isz_2.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_5166isz_3.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_5166isz_4.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_5166isz_5.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_ad_ocmp_ti_13eep3k_5166isz.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_aub_1738.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_cosmo_y214s.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_ft_b3g4a_5z.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_hc595.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_i_28210_1.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_i_28210_2.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_i_28210_3.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_lgaa.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_mic2941a.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_mic29302wu.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_on_7905ct.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_on_7915ct.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_on_a34_ti_17h.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_ti_13eep3k.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_ti_d85801.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_ti_16z.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_ti_tl072c_i_28210.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_analog_ti_tl072c_nxp_74hc4051d_i_28210.jpg)
+</code></pre></div>
+<h3 id="display-frontpanel">Display / frontpanel<a class="headerlink" href="#display-frontpanel" title="Permanent link">¶</a></h3>
+<div class="highlight"><pre><span></span><code>    - 
+        [](./img/Siglent_sdg1010_display_frontpanel_top.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_display_frontpanel_bottom.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_display_frontpanel_pcb1.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_display_frontpanel_pcb2.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_display_frontpanel_removed.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_display_connector.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_display_back.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_display_frontpanel_keys.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_display_frontpanel_empty.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_display_frontpanel_74hc4051d.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_display_frontpanel_hc393.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_display_frontpanel_hc595.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_display_frontpanel_hc595_2.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_display_frontpanel_usb_top.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_display_frontpanel_usb_bottom.jpg)
+</code></pre></div>
+<h3 id="power-supply">Power supply<a class="headerlink" href="#power-supply" title="Permanent link">¶</a></h3>
+<div class="highlight"><pre><span></span><code>    - 
+        [](./img/Siglent_sdg1010_powersupply_pcb_top.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_powersupply_pcb_bottom.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_powersupply_pcb_version.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_powersupply_nxp_tea1610t.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_powersupply_sharp_pc817.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_powersupply_ti_tl431ac.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_powersupply_various_chips.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_powersupply_powerbutton.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_powersupply_fuse.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_powersupply_rubycon_cap1.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_powersupply_rubycon_cap2.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_powersupply_coil.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_powersupply_heatsink.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_powersupply_28-8003-00r.jpg)
+
+    - 
+        [](./img/Siglent_sdg1010_powersupply_nt1795nl.jpg)
+</code></pre></div>
+<h2 id="protocol">Protocol<a class="headerlink" href="#protocol" title="Permanent link">¶</a></h2>
+<p>There are two possible PC connectivity methods that can be selected in the SDG1010 menu, which have different USB VID/PID pairs:</p>
+<ul>
+<li>"Raw USB" (this is what the vendor PC software uses): <strong>f4ed:ee37</strong></li>
+<li>"USBTMC": <strong>f4ed:ee3a</strong></li>
+</ul>
+<p>Additionally, there are apparently <a href="https://sigrok.org/wiki/GPIB">GPIB</a> and Ethernet options, but those are not available in the "standard" device. It's unclear if/where devices with those options can be bought, maybe only the rebranded LeCroy devices have them (?)</p>
+<p>TODO: Details.
+USBRAW connectivity is not possible on a Windows 8 platform, because of driver signature enforcement (<a href="http://www.eevblog.com/forum/testgear/the-sdg1000-and-sdg800-thread/msg579096/#msg579096">details</a>). Additionally, there are no drivers provided by Siglent for platforms other than Windows. Obviously, USBTMC is the method to use for universal communication with this device.</p>
+<p>See the <a href="https://www.box.com/s/e18ab37cfc290838d50d">SDG1000 programming manual</a> for a protocol description.</p>
+<p>A much better written manual is available for the LeCroy WaveStation series, which are rebadged Siglent generators. This manual is available on LeCroy's website, <a href="http://cdn.teledynelecroy.com/files/manuals/wsta_scpi_manual_reva.pdf">here</a>.</p>
+<h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">¶</a></h2>
+<ul>
+<li><a href="http://www.eevblog.com/forum/product-reviews-photos-and-discussion/siglent-sdg1025-arbitraryfunction-generator-under-some-tests/">EEVblog forums: Siglent SDG1025 Arbitrary/function generator under some tests</a> (also has teardown photos)</li>
+<li><a href="http://www.eevblog.com/forum/product-reviews-photos-and-discussion/new-siglent-sdg1020-vs-used-fluke-281-wavetek-39a/">EEVblog forums: Help choosing an ARB: New Siglent SDG1020 vs Used Fluke 281 / Wavetek 39A</a></li>
+<li><a href="http://www.eevblog.com/forum/testgear/the-sdg1000-and-sdg800-thread/">EEVblog Forums: Siglent SDG1000 series thread, with a collection of resources including documentation, known issues, solutions and specifications</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+
+
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+
+        <small>
+          Portions of this documentation are adapted from the sigrok project (CC-BY-SA 3.0).
+          OpenTraceLab documentation is licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA 4.0).
+        </small>
+      </div>
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.top", "navigation.tabs", "navigation.sections", "navigation.footer", "content.action.edit", "content.action.view", "toc.follow", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+        <script src="../../../overrides/assets/javascripts/report-issue.js"></script>
+      
+        <script src="https://unpkg.com/mermaid@10.6.1/dist/mermaid.min.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
